@@ -1,0 +1,680 @@
+[
+    {
+        "id": "sentence0003",
+        "en": "So, I asked Kenji if he could do it instead of me",
+        "ja": "そこで、私の代わりにそれをやってくれるかケンジに尋ねました",
+        "year": "2006年度センター試験出題"
+    },
+    {
+        "id": "sentence0004",
+        "en": "I want to go to the National Museum",
+        "ja": "国立博物館へ行きたいです",
+        "year": "2006年度センター試験出題"
+    },
+    {
+        "id": "sentence0008",
+        "en": "I found a nice hotel in Paris that I liked very much",
+        "ja": "パリで素敵なホテルを見つけて、とても気に入りました",
+        "year": "2006年度センター試験出題"
+    },
+    {
+        "id": "sentence0009",
+        "en": "Yeah, Saturday looks bad ― cloudy and rainy.",
+        "ja": "あぁ、土曜日は悪そうだ。曇り時々雨だよ。",
+        "year": "2006年度センター試験出題"
+    },
+    {
+        "id": "sentence0010",
+        "en": "Could you have him call me back after four o'clock?",
+        "ja": "四時以降に電話をかけ直すよう彼に言ってくれますか？",
+        "year": "2007年度センター試験出題"
+    },
+    {
+        "id": "sentence0013",
+        "en": "But it's closed because today's a holiday, remember?",
+        "ja": "けど、今日は祝日だから閉まってるよ。覚えてない？",
+        "year": "2007年度センター試験出題"
+    },
+    {
+        "id": "sentence0017",
+        "en": "Why don't you keep a diary in Japanese?\\nBut I don't like writing to myself.",
+        "ja": "日本語で日記を書いてみたらどう？\\nけど、自分に対して書くのは好きじゃないの",
+        "year": "2007年度センター試験出題"
+    },
+    {
+        "id": "sentence0019",
+        "en": "I'm worried about the dog.\\nYeah, she hasn't eaten anything for two days.",
+        "ja": "犬のことが心配だ\\nええ、二日も何も食べてないわ",
+        "year": "2007年度センター試験出題"
+    },
+    {
+        "id": "sentence0022",
+        "en": "Thank you for calling the Southeast Coast Weather Center.",
+        "ja": "サウスイースト沿岸気象センターにお電話いただきありがとうございます。",
+        "year": "2007年度センター試験出題"
+    },
+    {
+        "id": "sentence0024",
+        "en": "That's Sue, who used to live on Pine Street.",
+        "ja": "それは昔パイン・ストリートに住んでいたスーよ。",
+        "year": "2008年度センター試験出題"
+    },
+    {
+        "id": "sentence0027",
+        "en": "You didn't finish your book report yet?\\nWell, it's only Tuesday. I still have three days.",
+        "ja": "まだ書評を書き終えてないの？\\nああ、今日はまだ火曜日だろ。まだ三日あるよ。",
+        "year": "2008年度センター試験出題"
+    },
+    {
+        "id": "sentence0028",
+        "en": "I left the bottle on the kitchen table and went to bed.",
+        "ja": "キッチンのテーブルにそのボトルを置いて寝ました。",
+        "year": "2008年度センター試験出題"
+    },
+    {
+        "id": "sentence0033",
+        "en": "The shrimp were playing around in the bottle.",
+        "ja": "エビはボトルの中で泳いでいました。",
+        "year": "2008年度センター試験出題"
+    },
+    {
+        "id": "sentence0034",
+        "en": "Sorry to bother you, but I've got a problem.",
+        "ja": "厄介で申し訳ないけど、困ったことがあるの。",
+        "year": "2009年度センター試験出題"
+    },
+    {
+        "id": "sentence0036",
+        "en": "your name was the most popular in the 70s.",
+        "ja": "あなたの名前は70年代に最も人気がありました。",
+        "year": "2009年度センター試験出題"
+    },
+    {
+        "id": "sentence0037",
+        "en": "The south entrance has a big picture of a monkey on it.",
+        "ja": "南口には大きな猿の絵があります。",
+        "year": "2009年度センター試験出題"
+    },
+    {
+        "id": "sentence0038",
+        "en": "I don't like the Red Line because it only runs every 30 minutes.",
+        "ja": "レッド線は30分毎にしか来ないから好きじゃないんだ。",
+        "year": "2009年度センター試験出題"
+    },
+    {
+        "id": "sentence0043",
+        "en": "You mean you don't need to replace it so often?",
+        "ja": "そんなに頻繁にそれを交換しなくていいってこと？",
+        "year": "2010年度センター試験出題"
+    },
+    {
+        "id": "sentence0044",
+        "en": "I'm afraid we might be lost.\\nDoesn't Ken live across from a school and a bank?",
+        "ja": "もしかしたら道に迷ったかもしれない。\\nケンは学校と銀行の向かいに住んでなかったっけ？",
+        "year": "2010年度センター試験出題"
+    },
+    {
+        "id": "sentence0047",
+        "en": "Here's some important information.",
+        "ja": "いくつか大事な情報があります。",
+        "year": "2010年度センター試験出題"
+    },
+    {
+        "id": "sentence0049",
+        "en": "Do you know what reflects the pace of life of a country?",
+        "ja": "国の生活ペースを反映してるものが何か知ってる？",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0050",
+        "en": "Now I understand how complex American society is.",
+        "ja": "アメリカ社会がどれほど複雑か理解したよ",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0052",
+        "en": "Moving to a new home with your pet can be difficult.",
+        "ja": "ペットを連れて新居に引っ越すことは難しいこともある。",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0053",
+        "en": "You know, my favorite actor's mother is Irish",
+        "ja": "知っての通り、僕の好きな俳優の母親はアイルランド系なんだ。",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0056",
+        "en": "When you arrive at your new home, it may be a good idea to put your cat in a quiet room, if possible.",
+        "ja": "新しい家に着いたとき、可能であれば猫を静かな部屋に入れてあげるといいかもしれません。",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0057",
+        "en": "I saved something on this computer yesterday, but it's gone.",
+        "ja": "昨日このコンピューターに保存したんだけど、なくなってるんだ。",
+        "year": "2011年度センター試験出題"
+    },
+    {
+        "id": "sentence0058",
+        "en": "What's wrong with wearing glasses?",
+        "ja": "眼鏡をかけるのは何か問題があるの？",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0063",
+        "en": "Do you think you'll get a main role?",
+        "ja": "君が主役に選ばれると思う？",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0065",
+        "en": "How about having some chocolate cake?\\nWell, I really have been trying to cut down.",
+        "ja": "チョコケーキを食べない？\\nえーと、私は頑張って減量してるとこなの",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0066",
+        "en": "Are you training for tomorrow's competition?\\nYeah, I've got to do better. Last time I came in second.",
+        "ja": "明日の競技のために練習してるの？\\nああ、もっと上手くやらないと。前回は二位だった。",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0068",
+        "en": "Winter has its own appeal.",
+        "ja": "冬には冬の魅力がある",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0072",
+        "en": "Our business hours are Monday through Friday, 8 am to 6 pm.",
+        "ja": "営業時間は月曜から金曜の午前8時から午後6時までです。",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0074",
+        "en": "Let me look it up in the database first to see if we have it.",
+        "ja": "それがあるかどうか、まずデータベースで調べてみます。",
+        "year": "2012年度センター試験出題"
+    },
+    {
+        "id": "sentence0075",
+        "en": "One place they became popular was France.",
+        "ja": "人気になった場所の一つがフランスだった。",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0076",
+        "en": "Look! Forty dollars a pair for all kids' shoes.",
+        "ja": "見て！子供用の靴はどれも1足40ドルだ！",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0077",
+        "en": "You heard that Carla is in the hospital, right?\\nYes. I'm thinking of seeing her tomorrow.",
+        "ja": "カーラが入院してるってあなたは聞いたよね？\\nああ、明日彼女のお見舞いに行こうと思ってる。",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0078",
+        "en": "Why do you need another new phone?",
+        "ja": "なんでまた新しい携帯が必要なの？",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0080",
+        "en": "Oh, we have to put some paper in it.",
+        "ja": "ああ、それに紙を入れないといけない。",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0082",
+        "en": "Almost the same number as from the UK and Canada.",
+        "ja": "イギリスやカナダからの数とほとんど同じ。",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0084",
+        "en": "Look how many international students come from China!",
+        "ja": "中国から来ている留学生の多さを見てごらん！",
+        "year": "2013年度センター試験出題"
+    },
+    {
+        "id": "sentence0086",
+        "en": "Young children learn about their family history",
+        "ja": "小さな子供達は家族の歴史を学ぶ",
+        "year": "2014年度センター試験出題"
+    },
+    {
+        "id": "sentence0087",
+        "en": "OK. I'm off to school, Mom. See you later.",
+        "ja": "よし、学校に行くよママ。じゃあね。",
+        "year": "2014年度センター試験出題"
+    },
+    {
+        "id": "sentence0088",
+        "en": "It's already 2:05.\\nOh, ten minutes before the meeting!",
+        "ja": "もう2時5分だ。\\nまぁ、会議まであと10分よ！",
+        "year": "2014年度センター試験出題"
+    },
+    {
+        "id": "sentence0089",
+        "en": "Do you want to go shopping at the mall?\\nThat place is kind of boring, if you ask me.",
+        "ja": "ショッピングモールに買い物に行かない？\\n僕に言わせれば、あそこはちょっと退屈だよ。",
+        "year": "2014年度センター試験出題"
+    },
+    {
+        "id": "sentence0093",
+        "en": "Excuse me. I'm looking for Central Bus Station.",
+        "ja": "すみません、セントラル・バス・ステーションを探しているのですが。",
+        "year": "2014年度センター試験出題"
+    },
+    {
+        "id": "sentence0094",
+        "en": "Where are you going in such a hurry?\\nI'm taking a DVD back to the rental shop.",
+        "ja": "そんなに急いでどこに行くの？\\nレンタルショップにDVDを返しに行くの。",
+        "year": "2015年度センター試験出題"
+    },
+    {
+        "id": "sentence0097",
+        "en": "I'm sorry. What did you order?",
+        "ja": "すみません、何を注文されましたか？",
+        "year": "2015年度センター試験出題"
+    },
+    {
+        "id": "sentence0098",
+        "en": "Where else have you lived in Japan?",
+        "ja": "日本では他にどこに住んだことがありますか？",
+        "year": "2015年度センター試験出題"
+    },
+    {
+        "id": "sentence0100",
+        "en": "I thought it was coming out next week.",
+        "ja": "それは来週発売だと思ってたんだけど。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0101",
+        "en": "Summer vacation will be over soon.",
+        "ja": "夏休みがもうすぐ終わる。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0104",
+        "en": "How are your classes going?\\nWell, I love math, and music is also fun.",
+        "ja": "授業はどんな感じ？\\nえーと、数学は大好きで、音楽も面白いわ。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0105",
+        "en": "Well, those are all great ideas, Reina.\\nI especially like putting a roof over the bicycles.",
+        "ja": "うん、それはどれも良いアイデアだ、レイナ。\\n特に自転車の上に屋根を設置するというのが気に入ったよ。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0106",
+        "en": "You bought one with the same pattern last month.\\nBut this one has long sleeves.",
+        "ja": "先月も同じ模様のものを買ったでしょ。\\nでもこれは長袖だよ。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0108",
+        "en": "I think it'd be better if we had free Wi-Fi everywhere in the school.",
+        "ja": "学校のどこでも無料でWi-Fiが使えたらいいと思うな。",
+        "year": "2016年度センター試験出題"
+    },
+    {
+        "id": "sentence0110",
+        "en": "This program would be a good chance to learn about the local history",
+        "ja": "このプログラムは地域の歴史を学ぶ良い機会になるだろう。",
+        "year": "2017年度センター試験出題"
+    },
+    {
+        "id": "sentence0113",
+        "en": "How many times have I told you not to run there?",
+        "ja": "あそこを走るなって何回言ったと思ってるの？",
+        "year": "2017年度センター試験出題"
+    },
+    {
+        "id": "sentence0120",
+        "en": "It's too hot to stay home. Let's go to the mountains.\\nSounds great, but Jim's called in sick.",
+        "ja": "家にいるには暑すぎるわ。山に行きましょう。\\nいいね、でもジムから病気で休むって電話があったんだ。",
+        "year": "2017年度センター試験出題"
+    },
+    {
+        "id": "sentence0121",
+        "en": "Can I do it online?\\nSure, but only once for online extensions.",
+        "ja": "それはオンラインで出来ますか？\\nはい、ただオンラインでの延長は一度だけです。",
+        "year": "2018年度センター試験出題"
+    },
+    {
+        "id": "sentence0128",
+        "en": "I think many dogs in shelters are well-trained",
+        "ja": "保護施設の犬の多くはちゃんと躾けられていると思う。",
+        "year": "2019年度センター試験出題"
+    },
+    {
+        "id": "sentence0130",
+        "en": "Then, I guess I'll check out the Greek sculptures first.",
+        "ja": "じゃあ、まずギリシャ彫刻を見てみようかな。",
+        "year": "2019年度センター試験出題"
+    },
+    {
+        "id": "sentence0132",
+        "en": "You're walking so slowly! We'll be late for the game!\\nBut the traffic light has started to flash.",
+        "ja": "君は歩くのが遅すぎる！試合に遅れるよ！\\nけど、信号が点滅し始めたわ。",
+        "year": "2019年度センター試験出題"
+    },
+    {
+        "id": "sentence0140",
+        "en": "Where's the salt we took on the picnic?\\nMaybe on the kitchen table, or by the toaster?",
+        "ja": "ピクニックに持って行った塩はどこ？\\nキッチンのテーブルの上か、トースターのそばかな？",
+        "year": "2019年度センター試験出題"
+    },
+    {
+        "id": "sentence0141",
+        "en": "They're really cute when they're young.",
+        "ja": "彼らが小さい時は本当にかわいい。",
+        "year": "2019年度センター試験出題"
+    },
+    {
+        "id": "sentence0149",
+        "en": "Both countries have a tea culture.",
+        "ja": "どちらの国にもお茶の文化がある。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0151",
+        "en": "But even more than that, they're so boring!",
+        "ja": "けどそれ以上に、それらはとてもつまらないんだ！",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0152",
+        "en": "Does it take you long to come to school?\\nYeah, about an hour by train.",
+        "ja": "学校にくるのに時間かかる？\\nええ、電車で大体一時間くらい。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0153",
+        "en": "Thanks for your great ideas! How about lunch?\\nI wish I could, but I've got an important meeting.",
+        "ja": "素晴らしい案をありがとう！昼食でもどう？\\nそうしたいけど、重要な会議があるんです。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0156",
+        "en": "Don't worry, there's a connecting bridge on this floor.",
+        "ja": "ご心配なく、この階には連絡通路があります。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0160",
+        "en": "He's lying on his stomach like he's sleeping.",
+        "ja": "彼はうつ伏せになって、寝ているみたい。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0168",
+        "en": "Hey, take a look at these ads for part-time jobs.",
+        "ja": "ねえ、このバイト広告を見てみて。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0172",
+        "en": "On the other hand, their views of time are quite different.",
+        "ja": "一方で、時間に対する彼らの考え方はかなり違っている。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0179",
+        "en": "That way, I can practice what I learn from my teacher.",
+        "ja": "それなら、僕は先生から学んだことを実践できる。",
+        "year": "2020年度センター試験出題"
+    },
+    {
+        "id": "sentence0189",
+        "en": "I wanted to experience real spoken French.",
+        "ja": "本場のフランス語の会話を経験したかった。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0192",
+        "en": "Titles that were released between 2001 and 2010 are 20% off.",
+        "ja": "2001年から2010年の間に発売された作品は20%割引です。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0201",
+        "en": "I won't give David any more ice cream today. I gave him some after lunch.",
+        "ja": "今日はもうデイビッドにアイスクリームをあげないよ。昼食後にいくらかあげたんだ。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0204",
+        "en": "Do you actually use those? It's so wasteful.",
+        "ja": "あなたは本当にそれを使ってるの？　とっても無駄よ。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0224",
+        "en": "To start working in Hiroshima next week, Yuji moved from Chiba the day after graduation.",
+        "ja": "来週から広島で働き始めるために、ユウジは卒業の翌日に千葉から引っ越した。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0225",
+        "en": "I've decided to visit you next March.",
+        "ja": "来年の3月に君を訪ねることにしたよ。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0234",
+        "en": "In Denmark, for example, leisure time is often spent with others.",
+        "ja": "例えばデンマークでは、余暇の時間は他人と一緒に過ごすことが多い。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0237",
+        "en": "It's a romance with a few comedy scenes.",
+        "ja": "それは、いくつかのコメディシーンがある恋愛ものです。",
+        "year": "2021年度共通テスト出題"
+    },
+    {
+        "id": "sentence0245",
+        "en": "Well, the rain won't last long anyway.",
+        "ja": "まぁ、どうせ雨はそんなに長く降らないでしょう。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0250",
+        "en": "I learned a lot when I read it several years ago.",
+        "ja": "それを数年前に読んだとき、沢山のことを学びました。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0251",
+        "en": "Please help me sort them into the proper boxes.",
+        "ja": "それらを適切な箱に分けるのを手伝ってください。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0255",
+        "en": "So, how are they going to make money?",
+        "ja": "それでは、彼らはどうやってお金を稼ぐんですか？",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0261",
+        "en": "You can't get to the train station before it starts raining.",
+        "ja": "雨が降り出す前に駅に着くのは無理よ。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0262",
+        "en": "Which picture shows what they are looking at?",
+        "ja": "どの絵が、彼らが見ているものを表していますか？",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0278",
+        "en": "These workers are called gig workers, who do individual jobs, or gigs, on short-term contracts.",
+        "ja": "これらの労働者は「ギグワーカー」と呼ばれ、短期契約で個別の仕事、ギグをしています。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0286",
+        "en": "Shoes and bags should be put into Box 4.",
+        "ja": "靴と鞄は4番の箱に入れてください。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0290",
+        "en": "Let's look at some benefits of the gig work model.",
+        "ja": "ギグワークの仕組みの利点をいくつか見てみましょう。",
+        "year": "2022年度共通テスト出題"
+    },
+    {
+        "id": "sentence0311",
+        "en": "Wild elephants have long been killed for ivory.",
+        "ja": "野生の象は象牙のために昔から殺されています。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0313",
+        "en": "People always say you should never go hiking alone.",
+        "ja": "一人でハイキングに行ってはいけないとみんないつも言っている。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0314",
+        "en": "Why not wait until next weekend when you're ready?",
+        "ja": "準備ができる来週末まで待ったら？",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0316",
+        "en": "I can't find my dictionary!\\nWhen did you use it last?",
+        "ja": "僕の辞書が見つからない！\\nあなたが最後に使ったのはいつ？",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0319",
+        "en": "Each group will give its report to the class.",
+        "ja": "各グループはクラスに報告をします。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0324",
+        "en": "You should leave the office early.\\nYes, I think I'll leave now.",
+        "ja": "あなたはオフィスを早めに出た方がいいわよ。\\nああ、もう出ようと思う。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0330",
+        "en": "First, the top team in Stage A will be awarded medals.",
+        "ja": "まず、ステージAで一位のチームにメダルが授与されます。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0340",
+        "en": "We should enjoy the city life while we're young.",
+        "ja": "若い間は都市での生活を僕達は楽しむべき。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0342",
+        "en": "There are so many things to do downtown.",
+        "ja": "繁華街ではやることがたくさんある。",
+        "year": "2023年度共通テスト出題"
+    },
+    {
+        "id": "sentence0345",
+        "en": "I'm putting everything here in the living room into boxes.",
+        "ja": "リビングにあるものを全部箱に入れてます。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0348",
+        "en": "I'd like to buy a jacket this afternoon.",
+        "ja": "今日の午後、ジャケットを買いたい。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0356",
+        "en": "This pasta I made isn't enough for five people.",
+        "ja": "私が作ったこのパスタは五人分には足りない。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0359",
+        "en": "Glass-making began in Mesopotamia roughly 4,500 years ago.",
+        "ja": "ガラス作りは約4,500年前にメソポタミアで始まりました。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0362",
+        "en": "Chris, why don't we walk in the morning together?",
+        "ja": "クリス、一緒に朝、散歩しない？",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0378",
+        "en": "You bought me lunch yesterday, Ken. So, shall I buy our movie tickets tonight?",
+        "ja": "昨日は昼食をごちそうしてくれたね、ケン。だから、今夜の映画のチケットは私が買おうか？",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0386",
+        "en": "The show will be less than 20 minutes.",
+        "ja": "そのショーは20分もかからない。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0391",
+        "en": "I have my notebook, but I forgot my pencil.",
+        "ja": "ノートはあるけど、鉛筆を忘れちゃった。",
+        "year": "2024年度共通テスト出題"
+    },
+    {
+        "id": "sentence0398",
+        "en": "For food like that, I just chew 10 times per bite.",
+        "ja": "そういう食べ物は、一口につき10回しか噛まないんです。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0399",
+        "en": "In a survey of Americans, 76 percent said they thought regifting was all right, but in reality, many are reluctant to regift.",
+        "ja": "アメリカ人への調査では、76％が「リギフティング（他人からのプレゼントを別の人にプレゼントすること）は問題ない」と答えましたが、実際には多くの人がそれをすることをためらっています。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0400",
+        "en": "It's interesting that many Americans think regifting is OK, but still hesitate to do it.",
+        "ja": "多くのアメリカ人が「リギフティング（他人からのプレゼントを別の人にプレゼントすること）」は問題ないと思っているのに、それでもそれをためらうのは興味深い。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0405",
+        "en": "The waves are usually less than 1 meter high, so there are always lots of surfers in the water.",
+        "ja": "波の高さは通常1メートル未満なので、海にはいつも多くのサーファーがいます。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0406",
+        "en": "I'll chew more, eat less, and then I'll feel healthier.",
+        "ja": "もっと噛んで、食べる量を減らせば、もっと健康的に感じられるはず。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0411",
+        "en": "However, no one cleans up the beach, so it's not as beautiful as others.",
+        "ja": "しかし、誰もそのビーチを掃除しないので、他のビーチほどきれいではありません。",
+        "year": "2025年度共通テスト出題"
+    },
+    {
+        "id": "sentence0416",
+        "en": "Do you know that in the US, millions of Christmas gifts are given each year?",
+        "ja": "アメリカでは毎年、何百万ものクリスマスプレゼントが贈られていることを知っていますか？",
+        "year": "2025年度共通テスト出題"
+    }
+]

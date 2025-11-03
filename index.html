@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>共通テスト英語リスニング 単語学習</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* カスタムフォントとして日本語表示に適したInterを設定 */
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        /* 画面全体にフィットし、スクロールを発生させないためのスタイル */
+        .h-screen-no-scroll { height: 100vh; overflow: hidden; }
+        .word-button { transition: all 0.2s; }
+        .word-button:hover { transform: translateY(-2px); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); }
+        .selected { opacity: 0.5; pointer-events: none; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4f46e5',
+                        'secondary': '#10b981',
+                        'danger': '#ef4444',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 h-screen-no-scroll flex items-center justify-center p-4">
+
+    <div id="app" class="w-full max-w-4xl bg-white shadow-2xl rounded-xl flex flex-col h-full md:h-5/6 overflow-hidden">
+
+        <header class="p-6 bg-primary text-white rounded-t-xl shadow-lg flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight">高頻度単語リスニング学習</h1>
+            <div id="mode-selector" class="flex space-x-2 mt-3 md:mt-0">
+                <button onclick="changeMode(1)" id="mode-1" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
+                    ① 英文先行
+                </button>
+                <button onclick="changeMode(2)" id="mode-2" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
+                    ② 音声先行
+                </button>
+                <button onclick="changeMode(3)" id="mode-3" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
+                    ③ 並べ替え
+                </button>
+            </div>
+        </header>
+
+        <main class="flex-grow p-6 flex flex-col space-y-4 overflow-y-auto">
+
+            <div class="text-center text-sm text-gray-500 mb-4">
+                <span id="sentence-id" class="font-mono bg-gray-100 px-2 py-1 rounded-md">ID: -</span>
+                <span id="sentence-year" class="ml-4 px-2 py-1 rounded-md text-primary font-semibold">出題年度: -</span>
+            </div>
+
+            <div id="english-display-card" class="bg-indigo-50 p-6 rounded-xl shadow-inner min-h-[100px] flex items-center justify-center transition-all duration-300">
+                <p id="english-text" class="text-xl md:text-2xl font-bold text-gray-800 text-center select-none">
+                    学習モードを選択してください
+                </p>
+            </div>
+
+            <div id="translation-card" class="bg-white p-4 border border-gray-200 rounded-xl shadow min-h-[60px] transition-all duration-300 hidden">
+                <p class="text-sm font-semibold text-gray-600 mb-1">和訳</p>
+                <p id="japanese-text" class="text-lg text-gray-700">
+                    -
+                </p>
+            </div>
+
+            <div id="scramble-ui" class="space-y-4 hidden">
+                <div class="p-4 bg-yellow-100 rounded-xl border-dashed border-2 border-yellow-300 min-h-[80px]">
+                    <p class="text-sm font-semibold text-yellow-700 mb-1">解答構築エリア</p>
+                    <div id="answer-area" class="flex flex-wrap gap-2">
+                        </div>
+                </div>
+
+                <div class="p-4 bg-white rounded-xl shadow-md border-t border-gray-200">
+                    <p class="text-sm font-semibold text-gray-600 mb-2">単語を選択して正しい英文を完成させよう</p>
+                    <div id="scrambled-words-area" class="flex flex-wrap gap-2">
+                        </div>
+                </div>
+
+                <div class="flex justify-center space-x-4 pt-2">
+                    <button id="check-answer-btn" onclick="checkScrambledAnswer()" class="px-6 py-2 bg-secondary text-white font-bold rounded-lg hover:bg-green-600 transition-colors shadow-md hidden">
+                        解答チェック
+                    </button>
+                    <button id="reset-scramble-btn" onclick="resetScramble()" class="px-6 py-2 bg-gray-500 text-white font-bold rounded-lg hover:bg-gray-600 transition-colors shadow-md hidden">
+                        リセット
+                    </button>
+                </div>
+            </div>
+
+            <div id="message-box" class="text-center py-2 text-lg font-semibold hidden rounded-lg"></div>
+
+        </main>
+
+        <footer class="p-6 bg-gray-100 rounded-b-xl border-t border-gray-200 flex justify-between items-center flex-wrap">
+            <div class="flex space-x-2">
+                <button onclick="navigate(-1)" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400 transition-colors font-medium">
+                    &lt; 前の文
+                </button>
+                <button onclick="navigate(1)" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400 transition-colors font-medium">
+                    次の文 &gt;
+                </button>
+            </div>
+
+            <div class="flex space-x-3 mt-4 md:mt-0">
+                <button id="toggle-translation-btn" onclick="toggleTranslation()" class="px-6 py-2 bg-indigo-500 text-white font-bold rounded-lg hover:bg-indigo-600 transition-colors shadow-md hidden">
+                    和訳を表示
+                </button>
+
+                <button id="play-audio-btn" onclick="playAudio()" class="px-6 py-2 bg-red-500 text-white font-bold rounded-lg hover:bg-red-600 transition-colors shadow-md flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                    </svg>
+                    音声再生
+                </button>
+            </div>
+        </footer>
+
+    </div>
+
+<script>
+    // --- グローバル変数と定数 ---
+    let DB = []; // 外部JSONからデータを読み込むため、letで空の配列として定義
+    
+    let currentMode = 1;
+    let currentSentenceIndex = 0;
+    let isTranslationVisible = false;
+    let correctWords = []; // モード3：正しい単語の配列
+    let scrambledWords = []; // モード3：シャッフルされた単語の配列
+    let answerSequence = []; // モード3：ユーザーが選択した単語の配列
+
+    // --- DOM要素の参照 ---
+    const englishTextEl = document.getElementById('english-text');
+    const japaneseTextEl = document.getElementById('japanese-text');
+    const translationCardEl = document.getElementById('translation-card');
+    const toggleTranslationBtn = document.getElementById('toggle-translation-btn');
+    const englishDisplayCardEl = document.getElementById('english-display-card');
+    const scrambledWordsAreaEl = document.getElementById('scrambled-words-area');
+    const answerAreaEl = document.getElementById('answer-area');
+    const scrambleUiEl = document.getElementById('scramble-ui');
+    const playAudioBtn = document.getElementById('play-audio-btn');
+    const messageBoxEl = document.getElementById('message-box');
+    const checkAnswerBtn = document.getElementById('check-answer-btn');
+    const resetScrambleBtn = document.getElementById('reset-scramble-btn');
+
+    // --- アプリ初期化 (async/awaitで外部JSONを読み込むように修正) ---
+    window.onload = async function() {
+        try {
+            // 【修正箇所】外部JSONファイルを非同期で読み込む
+            // ユーザーの要望に基づき、データは './data/sentences_converted.json' にあると想定
+            const jsonPath = './data/sentences_converted.json';
+            
+            englishTextEl.textContent = 'データを読み込み中です...';
+
+            const response = await fetch(jsonPath); 
+            if (!response.ok) {
+                // HTTPエラーの場合
+                throw new Error(`データの読み込み中にエラーが発生しました。HTTPステータス: ${response.status} - ${jsonPath}`);
+            }
+            
+            // JSONとしてパースし、グローバルDBに格納
+            DB = await response.json(); 
+
+            if (DB.length === 0) {
+                englishTextEl.textContent = 'JSONファイルからデータを読み込めませんでした。ファイルの内容を確認してください。';
+                return;
+            }
+            
+            changeMode(1); // データ読み込み後にモード1を開始
+        } catch (error) {
+            console.error("データの読み込み中にエラーが発生しました:", error);
+            englishTextEl.textContent = `データの読み込みに失敗しました。\nコンソールを確認してください。(${error.message})`;
+        }
+    };
+
+    /**
+     * 単語並べ替えのために英文を整形し、単語配列を生成する
+     * @param {string} sentence - 処理する英文
+     * @returns {string[]} 単語（句読点を含む）の配列
+     */
+    function tokenizeSentence(sentence) {
+        // スペースで分割した後、句読点を分離する処理は複雑になるため、
+        // 今回はシンプルに、スペース区切りで単語を抽出し、句読点は単語に含めたまま扱います。
+        // （例: 'rainy.' は一つの要素として扱う）
+        const words = sentence.trim().replace(/\n/g, ' ').split(/\s+/).filter(w => w.length > 0);
+        return words;
+    }
+
+    /**
+     * モードを切り替える
+     * @param {number} mode - 1, 2, or 3
+     */
+    function changeMode(mode) {
+        // DBがまだロードされていない場合は処理をスキップ
+        if (DB.length === 0) return;
+
+        currentMode = mode;
+        isTranslationVisible = false;
+
+        // 共通要素の表示/非表示リセット
+        translationCardEl.classList.add('hidden');
+        toggleTranslationBtn.classList.add('hidden');
+        scrambleUiEl.classList.add('hidden');
+        checkAnswerBtn.classList.add('hidden');
+        resetScrambleBtn.classList.add('hidden');
+        messageBoxEl.classList.add('hidden');
+        
+        // タブのアクティブ状態を更新
+        document.querySelectorAll('.mode-tab').forEach(btn => {
+            btn.classList.remove('bg-white', 'text-primary');
+            btn.classList.add('bg-primary', 'text-white');
+        });
+        document.getElementById(`mode-${mode}`).classList.remove('bg-primary', 'text-white');
+        document.getElementById(`mode-${mode}`).classList.add('bg-white', 'text-primary');
+
+
+        // モード固有のUI設定
+        if (mode === 1) {
+            // モード1: 英文先行
+            englishTextEl.classList.remove('blur-sm');
+            toggleTranslationBtn.textContent = '和訳を表示';
+            toggleTranslationBtn.classList.remove('hidden');
+        } else if (mode === 2) {
+            // モード2: 音声先行
+            englishTextEl.classList.add('blur-sm'); // 英文をぼかして隠す
+            toggleTranslationBtn.textContent = '英文・和訳を表示';
+            toggleTranslationBtn.classList.remove('hidden');
+        } else if (mode === 3) {
+            // モード3: 並べ替え
+            scrambleUiEl.classList.remove('hidden');
+            checkAnswerBtn.classList.remove('hidden');
+            resetScrambleBtn.classList.remove('hidden');
+            setupScrambleMode();
+        }
+
+        loadSentence(currentSentenceIndex);
+    }
+
+    /**
+     * 現在の文のデータをUIに読み込む
+     * @param {number} index - DB配列のインデックス
+     */
+    function loadSentence(index) {
+        if (DB.length === 0) return; // データがない場合は何もしない
+        
+        currentSentenceIndex = (index + DB.length) % DB.length;
+        const data = DB[currentSentenceIndex];
+
+        document.getElementById('sentence-id').textContent = `ID: ${data.id}`;
+        document.getElementById('sentence-year').textContent = `出題年度: ${data.year}`;
+
+        // 共通表示の更新
+        englishTextEl.innerHTML = data.en.replace(/\n/g, '<br>');
+        japaneseTextEl.innerHTML = data.ja.replace(/\n/g, '<br>');
+
+        // 和訳の表示をリセット (モード1, 2)
+        if (currentMode === 1 || currentMode === 2) {
+            isTranslationVisible = false;
+            updateTranslationVisibility();
+        }
+
+        // モード3のセットアップ
+        if (currentMode === 3) {
+            setupScrambleMode();
+        } else {
+            // モード1と2では英文を初期状態に戻す
+            englishTextEl.classList.remove('italic', 'text-gray-400');
+            if (currentMode === 1) {
+                englishTextEl.classList.remove('blur-sm');
+            } else if (currentMode === 2) {
+                englishTextEl.classList.add('blur-sm');
+            }
+        }
+        
+        hideMessage();
+    }
+
+    /**
+     * 和訳の表示/非表示を切り替える (モード 1, 2)
+     */
+    function toggleTranslation() {
+        isTranslationVisible = !isTranslationVisible;
+        updateTranslationVisibility();
+
+        if (currentMode === 2 && isTranslationVisible) {
+            // モード2で表示されたら、英文のぼかしを解除
+            englishTextEl.classList.remove('blur-sm');
+        }
+    }
+    
+    /**
+     * 和訳の表示状態を更新し、トグルボタンのテキストを変更する
+     */
+    function updateTranslationVisibility() {
+        if (isTranslationVisible) {
+            translationCardEl.classList.remove('hidden');
+            if (currentMode === 2) {
+                 toggleTranslationBtn.textContent = '英文・和訳を非表示';
+            } else {
+                toggleTranslationBtn.textContent = '和訳を非表示';
+            }
+        } else {
+            translationCardEl.classList.add('hidden');
+            if (currentMode === 2) {
+                 toggleTranslationBtn.textContent = '英文・和訳を表示';
+            } else {
+                toggleTranslationBtn.textContent = '和訳を表示';
+            }
+        }
+    }
+
+
+    /**
+     * 音声ファイルを再生する
+     */
+    function playAudio() {
+        if (DB.length === 0) return;
+        const data = DB[currentSentenceIndex];
+        // 音声ファイルは `audio/sentence0003.mp3` の形式で格納されていると仮定します。
+        const audioPath = `./audio/${data.id}.mp3`;
+        
+        const audio = new Audio(audioPath);
+        audio.play().catch(e => {
+            console.error("音声ファイルの再生に失敗しました。ファイルパスを確認してください: ", audioPath, e);
+            showMessage("音声ファイルの読み込みまたは再生に失敗しました。", 'danger');
+        });
+
+        // モード2の場合、音声再生後に英文のぼかしを解除しない（トグルボタンで操作するため）
+        if (currentMode === 2 && !isTranslationVisible) {
+            // 音声が流れたことを示すメッセージを出す（任意）
+             showMessage("音声が再生されました。英文の構成を考えましょう。", 'secondary');
+        } else if (currentMode === 3) {
+            // モード3の場合、音声再生後に単語並べ替えを開始
+             showMessage("音声が再生されました。単語を並べ替えてください。", 'secondary');
+        }
+    }
+
+    /**
+     * 次または前の文へ移動する
+     * @param {number} direction - 1 for next, -1 for previous
+     */
+    function navigate(direction) {
+        if (DB.length === 0) return;
+        let newIndex = currentSentenceIndex + direction;
+        loadSentence(newIndex);
+    }
+    
+    // --- モード 3 (並べ替え) のロジック ---
+
+    /**
+     * モード3の初期設定と単語シャッフルを行う
+     */
+    function setupScrambleMode() {
+        const data = DB[currentSentenceIndex];
+        
+        // 英文表示エリアには初期メッセージ
+        englishTextEl.textContent = '並べ替えモード：以下の単語を正しい順番に組み替えてください。';
+        englishTextEl.classList.remove('blur-sm'); // 英文は常に非表示
+
+        // 正しい単語配列を生成
+        correctWords = tokenizeSentence(data.en);
+        
+        // シャッフルされた単語配列を生成
+        scrambledWords = [...correctWords];
+        shuffleArray(scrambledWords);
+        
+        answerSequence = []; // ユーザー解答をリセット
+        
+        renderScrambledWords();
+        renderAnswerArea();
+        hideMessage();
+    }
+    
+    /**
+     * 配列をシャッフルする（Fisher-Yatesアルゴリズム）
+     * @param {Array} array - シャッフルする配列
+     */
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    /**
+     * シャッフルされた単語ボタンをレンダリングする
+     */
+    function renderScrambledWords() {
+        scrambledWordsAreaEl.innerHTML = '';
+        scrambledWords.forEach((word, index) => {
+            const button = document.createElement('button');
+            button.className = 'word-button bg-primary text-white text-sm md:text-base font-medium px-3 py-1 rounded-full shadow-md hover:bg-indigo-600 transition-colors duration-200';
+            button.textContent = word;
+            button.dataset.index = index;
+            button.onclick = () => selectWord(word, index);
+            scrambledWordsAreaEl.appendChild(button);
+        });
+    }
+
+    /**
+     * ユーザー解答エリアをレンダリングする
+     */
+    function renderAnswerArea() {
+        answerAreaEl.innerHTML = '';
+        answerSequence.forEach((item, index) => {
+            const span = document.createElement('span');
+            // 回答エリアに表示する単語は、クリックで戻せるようにする
+            span.className = 'answer-word bg-white text-gray-800 text-sm md:text-base px-3 py-1 rounded-full shadow border border-gray-300 cursor-pointer';
+            span.textContent = item.word;
+            // どの元のボタンに対応していたかを示すインデックスを保持
+            span.dataset.originalIndex = item.originalIndex; 
+            span.onclick = () => deselectWord(index);
+            answerAreaEl.appendChild(span);
+        });
+        
+        // 正しい順番の英文を表示するEnglish Display Cardは空にしておく
+        englishTextEl.classList.add('italic', 'text-gray-400');
+        if (answerSequence.length === 0) {
+            englishTextEl.textContent = '並べ替えモード：単語を選択してください';
+        } else {
+            englishTextEl.textContent = answerSequence.map(item => item.word).join(' ');
+        }
+    }
+
+    /**
+     * シャッフル単語を選択して解答エリアに追加する
+     * @param {string} word - 選択された単語
+     * @param {number} originalIndex - シャッフル配列内の元のインデックス
+     */
+    function selectWord(word, originalIndex) {
+        const button = scrambledWordsAreaEl.querySelector(`[data-index="${originalIndex}"]`);
+        if (button) {
+            // ボタンを非表示にし、クリック不能にする
+            button.classList.add('selected');
+        }
+
+        answerSequence.push({ word, originalIndex });
+        renderAnswerArea();
+        hideMessage();
+    }
+    
+    /**
+     * 解答エリアの単語を削除し、シャッフルエリアに戻す
+     * @param {number} answerIndex - 解答配列内のインデックス
+     */
+    function deselectWord(answerIndex) {
+        const [removedItem] = answerSequence.splice(answerIndex, 1);
+        
+        // 元のボタンを再有効化
+        const button = scrambledWordsAreaEl.querySelector(`[data-index="${removedItem.originalIndex}"]`);
+        if (button) {
+            button.classList.remove('selected');
+        }
+        
+        renderAnswerArea();
+        hideMessage();
+    }
+    
+    /**
+     * 並べ替えをリセットする
+     */
+    function resetScramble() {
+        setupScrambleMode(); // 再度シャッフルしてリセット
+        showMessage("並べ替えがリセットされました。", 'gray');
+    }
+
+    /**
+     * ユーザーの並べ替え結果をチェックし、フィードバックを表示する
+     */
+    function checkScrambledAnswer() {
+        if (answerSequence.length === 0) {
+            showMessage("単語を選択して英文を構築してください。", 'danger');
+            return;
+        }
+
+        // ユーザーの回答を文字列として結合
+        const userSentence = answerSequence.map(item => item.word).join(' ');
+        const correctSentence = correctWords.join(' ');
+        
+        // 比較のために正規化（スペースを一つにし、前後の空白を削除）
+        const normalizedUser = userSentence.replace(/\s+/g, ' ').trim();
+        const normalizedCorrect = correctSentence.replace(/\s+/g, ' ').trim();
+
+        if (normalizedUser === normalizedCorrect) {
+            showMessage("正解です！よくできました！", 'secondary');
+            
+            // 正解の場合、英文表示エリアに正しい英文をしっかりと表示
+            englishTextEl.textContent = correctSentence;
+            englishTextEl.classList.remove('italic', 'text-gray-400');
+            
+            // 和訳を表示する
+            translationCardEl.classList.remove('hidden');
+
+            // 次の文へ進むボタンを一時的に表示する
+            setTimeout(() => {
+                // 自動で次の文へ進む機能を追加しても良い
+            }, 3000);
+
+        } else {
+            // 不正解の場合、どこが間違っているかを比較してヒントを出すことも可能だが、シンプルに不正解表示
+            showMessage("残念！まだ間違っています。もう一度音声を聴いて考えてみましょう。", 'danger');
+        }
+    }
+
+
+    /**
+     * メッセージボックスを表示する
+     * @param {string} text - 表示するメッセージ
+     * @param {string} type - 'secondary', 'danger', 'primary', 'gray' など
+     */
+    function showMessage(text, type) {
+        messageBoxEl.textContent = text;
+        messageBoxEl.className = `text-center py-2 px-4 text-lg font-semibold rounded-lg shadow-sm mt-4`;
+        
+        // カラークラスの設定
+        let bgColor, textColor;
+        switch (type) {
+            case 'secondary': bgColor = 'bg-green-200'; textColor = 'text-green-800'; break;
+            case 'danger': bgColor = 'bg-red-200'; textColor = 'text-red-800'; break;
+            case 'primary': bgColor = 'bg-blue-200'; textColor = 'text-blue-800'; break;
+            case 'gray': bgColor = 'bg-gray-200'; textColor = 'text-gray-800'; break;
+            default: bgColor = 'bg-yellow-200'; textColor = 'text-yellow-800'; break;
+        }
+        messageBoxEl.classList.add(bgColor, textColor);
+        messageBoxEl.classList.remove('hidden');
+    }
+
+    /**
+     * メッセージボックスを非表示にする
+     */
+    function hideMessage() {
+        messageBoxEl.classList.add('hidden');
+    }
+
+</script>
+</body>
+</html>
