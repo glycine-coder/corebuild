@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2025-main-english-reading",
+  "classificationVersion": "1.0.0",
+  "questions": {
+    "common-2025-r-q001": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2025-r-q002": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2025-r-q003": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2025-r-q004": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2025-r-q005": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2025-r-q006": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2025-r-q007": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2025-r-q008": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q009-012": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q013": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q014": [
+      "english.editing",
+      "english.logical-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q015": [
+      "english.editing",
+      "english.logical-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q016": [
+      "english.editing",
+      "english.logical-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q017": [
+      "english.editing",
+      "english.logical-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q018": [
+      "english.practical-reading",
+      "english.multiple-documents",
+      "english.information-integration"
+    ],
+    "common-2025-r-q019-020": [
+      "english.practical-reading",
+      "english.multiple-documents",
+      "english.information-integration"
+    ],
+    "common-2025-r-q021": [
+      "english.practical-reading",
+      "english.multiple-documents",
+      "english.information-integration"
+    ],
+    "common-2025-r-q022": [
+      "english.practical-reading",
+      "english.multiple-documents",
+      "english.information-integration"
+    ],
+    "common-2025-r-q023": [
+      "english.practical-reading",
+      "english.multiple-documents",
+      "english.information-integration"
+    ],
+    "common-2025-r-q024-027": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q028": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q029": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q030-031": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2025-r-q032": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration",
+      "english.inference"
+    ],
+    "common-2025-r-q033": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration",
+      "english.inference"
+    ],
+    "common-2025-r-q034-035": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration",
+      "english.inference"
+    ],
+    "common-2025-r-q036": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration",
+      "english.inference"
+    ],
+    "common-2025-r-q037": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration",
+      "english.inference"
+    ],
+    "common-2025-r-q038": [
+      "english.argument-reading",
+      "english.multiple-documents",
+      "english.chart-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q039": [
+      "english.argument-reading",
+      "english.multiple-documents",
+      "english.chart-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q040-042": [
+      "english.argument-reading",
+      "english.multiple-documents",
+      "english.chart-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q043": [
+      "english.argument-reading",
+      "english.multiple-documents",
+      "english.chart-reading",
+      "english.information-integration"
+    ],
+    "common-2025-r-q044": [
+      "english.argument-reading",
+      "english.multiple-documents",
+      "english.chart-reading",
+      "english.information-integration"
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogVersion": "1.0.0",
+  "defaultViewer": {
+    "path": "exam.html",
+    "examIdParameter": "examId",
+    "status": "implemented"
+  },
+  "exams": [
+    {
+      "examId": "center-1993-main-english-reading",
+      "examFamilyId": "center-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 1993,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/center/1993/main/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=center-1993-main-english-reading"
+      },
+      "display": {
+        "title": "1993年度 センター試験　英語 本試験",
+        "summary": "全6大問・200点",
+        "sectionCount": 6
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2021-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2021,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2021/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2021-main-english-reading"
+      },
+      "display": {
+        "title": "2021年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全6大問・100点",
+        "sectionCount": 6
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2022-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2022,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2022/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2022-main-english-reading"
+      },
+      "display": {
+        "title": "2022年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全6大問・100点",
+        "sectionCount": 6
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2023-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2023,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2023/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2023-main-english-reading"
+      },
+      "display": {
+        "title": "2023年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全6大問・100点",
+        "sectionCount": 6
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2024-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2024,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2024/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2024-main-english-reading"
+      },
+      "display": {
+        "title": "2024年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全6大問・100点",
+        "sectionCount": 6
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2025-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2025,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2025/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2025-main-english-reading"
+      },
+      "display": {
+        "title": "2025年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全8大問・100点",
+        "sectionCount": 8
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    },
+    {
+      "examId": "common-test-dnc-2026-main-english-reading",
+      "examFamilyId": "common-test",
+      "authorityId": "dnc",
+      "institutionId": null,
+      "regionId": null,
+      "year": 2026,
+      "session": "main",
+      "subjectId": "english",
+      "paperId": "reading",
+      "manifestPath": "exam-data/common-test/2026/main/english/reading/exam-manifest.json",
+      "viewer": {
+        "adapterId": "common-structured-v1",
+        "path": "exam.html?examId=common-test-dnc-2026-main-english-reading"
+      },
+      "display": {
+        "title": "2026年度 大学入学共通テスト　英語（リーディング）本試験",
+        "summary": "全8大問・100点",
+        "sectionCount": 8
+      },
+      "production": {
+        "phaseId": "national-english-main-reading",
+        "state": "complete"
+      },
+      "publication": {
+        "state": "public",
+        "listed": true
+      },
+      "rightsStatus": "cleared"
+    }
+  ]
+}

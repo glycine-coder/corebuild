@@ -1,0 +1,9 @@
+#answerSyncConsent{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:20px;background:rgba(7,25,47,.72)}
+.answer-sync-consent{width:min(620px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:28px;border:1px solid #b8cadc;border-radius:14px;background:#fff;color:#102b50;box-shadow:0 24px 70px rgba(0,0,0,.28);font-family:"Yu Gothic",Meiryo,sans-serif;line-height:1.75}
+.answer-sync-consent h2{margin:.15rem 0 .75rem;font-size:clamp(1.35rem,4vw,1.9rem)}
+.answer-sync-consent-eyebrow{margin:0;color:#8b5a00;font-weight:700;letter-spacing:.08em}
+.answer-sync-consent ul{padding-left:1.4rem}
+.answer-sync-consent-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}
+.answer-sync-consent-actions button{padding:11px 18px;border:1px solid #7895b5;border-radius:7px;background:#fff;color:#173f6b;font:inherit;font-weight:700;cursor:pointer}
+.answer-sync-consent-actions button.primary{background:#1c4776;color:#fff}
+@media(max-width:560px){.answer-sync-consent{padding:21px}.answer-sync-consent-actions{display:grid}.answer-sync-consent-actions button{width:100%}}

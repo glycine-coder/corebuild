@@ -1,0 +1,1241 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2026-main-english-reading",
+  "title": "2026年度 大学入学共通テスト 英語（リーディング）本試験",
+  "metaLine": "大学入学共通テスト　2026年度　本試験",
+  "instruction": "各大問の英文や図表を読み、解答番号1～44にあてはまるものとして最も適当な選択肢を選びなさい。",
+  "sections": [
+    {
+      "sectionId": "common-2026-r-s01",
+      "number": "第1問",
+      "score": 6,
+      "sourcePages": [
+        1,
+        2
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ],
+      "lead": "You belong to an international dance club and are exchanging text messages with your teammates about next month’s dance contest.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "speaker": "You",
+              "text": "Hey, everyone. We still haven’t decided what to wear on stage yet. Any ideas?"
+            },
+            {
+              "speaker": "Pat",
+              "text": "I think our costumes should match the music. It starts with Scottish bagpipes, so a traditional check pattern like the one in this photo could work. What about wearing shirts with a similar pattern?",
+              "image": "assets/exams/common-2026/q01-check-costume.png",
+              "imageAlt": "Traditional Scottish check-pattern costume"
+            },
+            {
+              "speaker": "Jessie",
+              "text": "Good suggestion. Also, when the music changes in the middle to hip-hop, why not change our look, too? We could put on accessories like necklaces."
+            },
+            {
+              "speaker": "Pat",
+              "text": "Our dance has jumping and twisting, so necklaces might be dangerous. How about sunglasses instead?"
+            },
+            {
+              "speaker": "Val",
+              "text": "Mmm, sunglasses might make it hard to see. We might fall off the stage. But Jessie, I do like your idea of switching our look to the music. Right before the hip-hop part starts, we could take off the check shirts to show black tank tops inside. A dark color would match the sound of the bass guitar and drums."
+            },
+            {
+              "speaker": "You",
+              "text": "Nice ideas, everyone. Let’s not forget to talk with our instructor before we make the final decision about what costumes to buy. She said she’s available before rehearsal tomorrow."
+            }
+          ],
+          "blockId": "common-2026-r-s01-stimulus-01",
+          "stimulusId": "common-2026-r-s01-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q001",
+          "number": "問1",
+          "prompt": "Which two people are worried about the safety of the dancers?",
+          "responseKey": "1",
+          "choices": [
+            "Jessie and Val",
+            "Pat and Jessie",
+            "Pat and Val",
+            "Val and the instructor"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s01-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q002",
+          "number": "問2",
+          "prompt": "According to Val’s suggestion, how would the costumes look during the second half of the performance?",
+          "responseKey": "2",
+          "choices": [
+            {
+              "image": "assets/exams/common-2026/q01-costume-1.png",
+              "alt": "Black tank top"
+            },
+            {
+              "image": "assets/exams/common-2026/q01-costume-2.png",
+              "alt": "Check shirt with necklace"
+            },
+            {
+              "image": "assets/exams/common-2026/q01-costume-3.png",
+              "alt": "Open check shirt over black tank top"
+            },
+            {
+              "image": "assets/exams/common-2026/q01-costume-4.png",
+              "alt": "Black tank top with sunglasses"
+            }
+          ],
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "common-2026-r-s01-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q003",
+          "number": "問3",
+          "prompt": "According to the text messages, which of the following will your team probably do first tomorrow?",
+          "responseKey": "3",
+          "choices": [
+            "Buy the dance clothes",
+            "Consult with the instructor",
+            "Decide on the program",
+            "Rehearse the dance routine"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s01-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s02",
+      "number": "第2問",
+      "score": 12,
+      "sourcePages": [
+        3,
+        4,
+        5
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ],
+      "lead": "You are entering a UK university and are thinking about campus accommodation. You find results from a survey of residents reported on the university website, followed by residents’ comments.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "panel",
+          "title": "Campus Accommodation: Satisfaction Survey",
+          "meta": "Posted by the University Administration — 5 January 2026",
+          "paragraphs": [
+            "Keeping students healthy and happy is our mission. We do a survey every two years to improve student services. Last year, 85% of residents responded. Although this response rate is not perfect, we believe it is sufficient for the results to be trusted.",
+            "Of those who responded, a large majority (82%) said that they felt safe in campus accommodation. This was up five percentage points from the previous survey. A majority (73%) also said that meals were delicious. Unfortunately, only 45% of respondents said that the food was healthy. This was a drop of eight percentage points from the previous survey. We are introducing more salads, but popular dishes like fish and chips will remain.",
+            "Most importantly, over 90% of respondents said that, in general, they were satisfied with their stay in campus accommodation."
+          ],
+          "blockId": "common-2026-r-s02-stimulus-01",
+          "stimulusId": "common-2026-r-s02-stimulus-01"
+        },
+        {
+          "type": "cards",
+          "title": "Share your comments below",
+          "cards": [
+            {
+              "title": "Naoki",
+              "text": "Most Japanese students tend to choose a homestay, but not me. I thought it over and finally decided on campus accommodation. It was a good choice because I made lasting friends of my own age. Meals were the weakest point, but deliveries from local restaurants were an excellent alternative."
+            },
+            {
+              "title": "Helga",
+              "text": "I loved the food there. I could eat as much as I liked. The big concern was non-residents could freely come and go on weekends. Also, lively parties and loud voices might put your exam results in danger. One more thing, the chairs in the shared meeting places will hurt your back."
+            }
+          ],
+          "layout": "vertical",
+          "blockId": "common-2026-r-s02-stimulus-02",
+          "stimulusId": "common-2026-r-s02-stimulus-02"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q004",
+          "number": "問1",
+          "prompt": "Which option best describes the administration’s opinion?",
+          "responseKey": "4",
+          "choices": [
+            "The findings are reliable because enough residents responded.",
+            "The results of the survey are being reported in the year 2026.",
+            "The students should make more effort to have a healthier lifestyle.",
+            "The survey is conducted annually to improve student services."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s02-stimulus-01",
+            "common-2026-r-s02-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q005",
+          "number": "問2",
+          "prompt": "Which is true according to the administration’s report?",
+          "responseKey": "5",
+          "choices": [
+            "Most respondents said food at campus accommodation was not tasty.",
+            "Most respondents were dissatisfied with campus accommodation.",
+            "The percentage of respondents saying the food was healthy declined.",
+            "The percentage of respondents who felt security was good decreased."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s02-stimulus-01",
+            "common-2026-r-s02-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q006",
+          "number": "問3",
+          "prompt": "Which option best reflects Naoki’s comment?",
+          "responseKey": "6",
+          "choices": [
+            "He believed most Japanese students avoid choosing a homestay.",
+            "He disliked the option of using deliveries from local restaurants.",
+            "He doubted the strength of the relationship with friends he had made.",
+            "He was satisfied with his decision to stay in campus accommodation."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s02-stimulus-01",
+            "common-2026-r-s02-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q007",
+          "number": "問4",
+          "prompt": "Based on Helga’s comment, what can be said about campus accommodation?",
+          "responseKey": "7",
+          "choices": [
+            "It provides comfortable common areas for residents.",
+            "Noise there might interfere with your studies.",
+            "Servings of food in the dining hall are too small.",
+            "The security there is a strong point for residents."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s02-stimulus-01",
+            "common-2026-r-s02-stimulus-02"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s03",
+      "number": "第3問",
+      "score": 9,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "Your English teacher told you to read this short story for the next class.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "passage",
+          "title": "The Bug Cup",
+          "paragraphs": [
+            "My high school classmate and I were sitting for an hour with our legs crossed and our eyes closed, trying to feel our breath. I had signed up for this special workshop to learn how to control my thoughts and emotions. My father had recommended it to me. He said it might help me focus my mind, lower my stress, and hopefully improve my grades at school. My friend came along to see if it could help him, too.",
+            "Sometime during the session I heard a faint buzzing sound, but little by little I could hear it more clearly. It was a small insect. It flew very close to my right ear and almost went in it! I wanted to hit it with my hand, but we weren’t supposed to move. “What should I do now?” I thought.",
+            "Just as I opened my eyes, the bug flew off toward the instructor. I saw her take a cup and a postcard that were nearby. She stood up and trapped the bug in the cup against the wall. Sliding the card between the cup and the wall, she covered the open end of the cup. Then, she did something that really impressed me. She walked to the window, opened it, and let the insect fly out. The instructor softly closed the window and our eyes met. After the session, she came over to me and said, “The bug cup always works. Having a warm heart for all creatures is one of the keys to a peaceful mind.”",
+            "I don’t know yet if the workshop has helped me concentrate better or if it will improve my grades. However, I did learn something important from that bug cup experience."
+          ],
+          "blockId": "common-2026-r-s03-stimulus-01",
+          "stimulusId": "common-2026-r-s03-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q008",
+          "number": "問1",
+          "prompt": "The author joined the workshop because",
+          "responseKey": "8",
+          "choices": [
+            "a classmate encouraged him to",
+            "a family member suggested it",
+            "his father signed him up",
+            "his friend got good grades"
+          ],
+          "promptRich": "The author joined the workshop because [[8]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s03-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q009-012",
+          "number": "問2",
+          "prompt": "Choose four out of the five options (①～⑤) and put them in the order they appeared in the story.",
+          "responseKey": "9-12",
+          "choices": [
+            "The author learned a valuable lesson.",
+            "The author was aware of an annoying noise.",
+            "The insect flew away from the author.",
+            "The instructor caught the bug in her hand.",
+            "The instructor released the insect."
+          ],
+          "promptRich": "Choose {{u|four}} out of the five options (①～⑤) and put them in the order they appeared in the story.\n[[9]] → [[10]] → [[11]] → [[12]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s03-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q013",
+          "number": "問3",
+          "prompt": "From the instructor, the author most likely understood the importance of being [13] to all living things.",
+          "responseKey": "13",
+          "choices": [
+            "attractive",
+            "cruel",
+            "strict",
+            "tender"
+          ],
+          "promptRich": "From the instructor, the author most likely understood the importance of being [[13]] to all living things.",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s03-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s04",
+      "number": "第4問",
+      "score": 12,
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "categoryIds": [
+        "english.editing",
+        "english.logical-reading",
+        "english.information-integration"
+      ],
+      "lead": "In English Club, you are writing an online newsletter to promote your high school’s Eco Week theme of waste management. This is your most recent draft with comments from the club supervisor.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "annotated",
+          "title": "English Club Times — Join Eco Week Activities",
+          "paragraphs": [
+            "The waste produced around the world is a continuing challenge. We must think of better methods to reduce and manage waste, and we can start at school. To raise awareness of waste management, we want to inform you about three activities for Eco Week 2026.",
+            "One activity is {{mark|(1)}} {{u|a poster contest}}. During Eco Week, we will vote to decide on the top three posters based on the message and design. They will be posted on the school website after Eco Week so that students can keep in mind the importance of waste management.",
+            "Another activity is a garbage collecting race which students from other schools can also join. Here’s what to do. First, make a team of three. {{mark|＜ A ＞}} Then, on the morning of the race, meet at the local seashore, and receive tools and bags. {{mark|＜ B ＞}} Listen to the organizer explain the aim and rules of the race. {{mark|＜ C ＞}} Join the closing ceremony to see if your team has won. {{mark|＜ D ＞}} The winning team will be featured on the local city website. Through this activity, we will enjoy working together to create a clean environment.",
+            "The third activity is an eco-friendly fashion show. Students will make original items using clothing from their closet. {{mark|(3)}} {{u|Making our own clothes is enjoyable.}} The most creative entries will be chosen and the winning ones will be exhibited in our hall.",
+            "Through these Eco Week 2026 activities, we will be able to {{mark|(4)}} {{u|acquire recycling skills for}} waste management. This school campaign will include a poster contest, a garbage collecting race, and an eco-friendly fashion show. We can make a difference to improve our environment. Let’s think globally and act locally!"
+          ],
+          "notes": [
+            "(1) What is the purpose of making the posters? Explain it.",
+            "(2) Readers want to know how the winners will be decided. Add it.",
+            "(3) This sentence doesn’t seem to fit well here. Rewrite it.",
+            "(4) This part does not summarize your main argument. Rewrite it.",
+            "Overall comments: Your draft introduces eco activities well. I hope many students join them!"
+          ],
+          "commentMap": [
+            null,
+            0,
+            1,
+            2,
+            3
+          ],
+          "overallComment": 4,
+          "blockId": "common-2026-r-s04-stimulus-01",
+          "stimulusId": "common-2026-r-s04-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q014",
+          "number": "問1",
+          "prompt": "Based on Comment (1), choose the best phrase to add after the underlined part.",
+          "responseKey": "14",
+          "choices": [
+            "to advertise a new school website",
+            "to discover the best artists in the school",
+            "to promote eco-friendly actions among students",
+            "to recruit more English Club members"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q015",
+          "number": "問2",
+          "prompt": "Based on Comment (2), choose the best place to add the sentence below.",
+          "responseKey": "15",
+          "choices": [
+            "＜ A ＞",
+            "＜ B ＞",
+            "＜ C ＞",
+            "＜ D ＞"
+          ],
+          "supplement": "Pick up more garbage than other teams in an hour.",
+          "stimulusIds": [
+            "common-2026-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q016",
+          "number": "問3",
+          "prompt": "Based on Comment (3), choose the best sentence to replace the underlined sentence.",
+          "responseKey": "16",
+          "choices": [
+            "This activity will help students to appreciate various ways of reusing old clothes.",
+            "This activity will influence more students to ask the fashion industry to lower prices for old clothes.",
+            "This activity will lead to the growth of the market for fast fashion over the one for used clothes.",
+            "This activity will provide students with opportunities for improving their business skills to sell used clothes."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q017",
+          "number": "問4",
+          "prompt": "Based on Comment (4), choose the best phrase to replace the underlined part.",
+          "responseKey": "17",
+          "choices": [
+            "become creative artists who focus on",
+            "cooperate with other high schools on",
+            "get ourselves more involved in",
+            "learn how to collect more garbage for"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s04-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s05",
+      "number": "第5問",
+      "score": 16,
+      "sourcePages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.multiple-documents",
+        "english.information-integration"
+      ],
+      "lead": "You are studying in the UK. In the town library, you found the following leaflet. After reading it, you submitted a form and received an email from the library.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "leaflet",
+          "title": "Readburgh Library — Book Recommendations & Volunteers Wanted",
+          "paragraphs": [
+            "Our library will hold a book fair from 1 to 8 February 2026, to introduce picture books from various countries to Readburgh children. The fair will exhibit books all week in the entrance hall. We are also planning to have ‘Story Time’ reading sessions in The Children’s Centre in the library on the final day.",
+            "To help improve our selection of books, we are calling for picture book recommendations for preschool children. Additionally, the library is recruiting volunteers to read stories to children during the reading sessions. If you volunteer, you will receive a book coupon."
+          ],
+          "noticeTitle": "Please note:",
+          "noticeItems": [
+            "Books in the original language or translations are welcome.",
+            "No book should cost more than £20.",
+            "The submission period is from 15 December 2025 to 19 January 2026."
+          ],
+          "footerLines": [
+            "Nominate your book(s) and/or register as a volunteer via {{u|the online form}}.",
+            "For questions, contact: internationalbookfair@***.lib.uk"
+          ],
+          "blockId": "common-2026-r-s05-stimulus-01",
+          "stimulusId": "common-2026-r-s05-stimulus-01"
+        },
+        {
+          "type": "form",
+          "title": "Library Book Fair Online Form",
+          "volunteer": false,
+          "books": [
+            {
+              "title": "Green Demon Blue Demon",
+              "writtenBy": "Shinichiro Ishida",
+              "year": 1990,
+              "price": "£16",
+              "picturesBy": "Author",
+              "comment": "This book contains short stories about demons and various animals they encounter. Most stories are heart-warming, but some are not. My favourite is ‘Breakfast Battle.’ Two demons fight over what to feed their pet dog for breakfast. Illustrations are another attractive feature, making it suitable for children between three and five years old."
+            },
+            {
+              "title": "Paint! Paint! Paint!",
+              "writtenBy": "Kaori Ando",
+              "year": 2022,
+              "price": "£8",
+              "picturesBy": "Author",
+              "comment": "This is a popular picture book for parents to read to their children before they enter primary school. The main character wants to paint the whole world. She paints ceilings in orange, kitchens in purple, and streets and buildings in green. By chance, her cat steps in some paint and leaves paw prints wherever it goes. The world looks more colourful after reading the story."
+            },
+            {
+              "title": "Panda Adventures",
+              "writtenBy": "Maruo Maru",
+              "year": 2021,
+              "price": "£10",
+              "picturesBy": "Kanako Maru",
+              "comment": "In this story, a young male panda escapes from a zoo. He meets a schoolboy and they visit places in town together. However, the poor panda is caught and taken back to the zoo. The boy’s final words to the panda had me in tears. The story is long, so it is suitable for kids aged over ten."
+            },
+            {
+              "title": "The Cloud Prince",
+              "writtenBy": "Kamiko Narita",
+              "year": 1981,
+              "price": "£19",
+              "picturesBy": "Author",
+              "comment": "A boy who lives on a thunder cloud plays tricks on children. The tricks include snow in summer and a rainstorm in the park when they are playing. The children are afraid of him at first, but he rescues an injured goat and they all become friends. This book is read to preschool children all over the world."
+            }
+          ],
+          "name": "**** ******",
+          "email": "********@******",
+          "volunteerLabel": "Will you be a ‘Story Time’ reader?",
+          "blockId": "common-2026-r-s05-stimulus-02",
+          "stimulusId": "common-2026-r-s05-stimulus-02"
+        },
+        {
+          "type": "email",
+          "title": "Book Recommendations",
+          "meta": "From: internationalbookfair@***.lib.uk — 17 January 2026",
+          "paragraphs": [
+            "Thank you for your recommendations. In fact, we found that the titles have been translated into multiple languages, which will make the fair truly international.",
+            "Although one of your entries did not fit the target age range, your other titles are gratefully accepted (refer to the attachment). If you have an additional book recommendation, please email it to us.",
+            "As we are still short of volunteers for the last day, would you kindly reconsider?"
+          ],
+          "attachment": "List of accepted books",
+          "from": "internationalbookfair@***.lib.uk",
+          "date": "17 January 2026",
+          "greeting": "Hello,",
+          "closing": "Thanks again,",
+          "signature": "Library Staff",
+          "blockId": "common-2026-r-s05-stimulus-03",
+          "stimulusId": "common-2026-r-s05-stimulus-03"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q018",
+          "number": "問1",
+          "prompt": "What is the main purpose of the library book fair?",
+          "responseKey": "18",
+          "choices": [
+            "To display picture books by Readburgh authors",
+            "To encourage international students to use the library",
+            "To familiarise children with stories from around the world",
+            "To promote foreign book collections in preschools"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s05-stimulus-01",
+            "common-2026-r-s05-stimulus-02",
+            "common-2026-r-s05-stimulus-03"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q019",
+          "number": "問2",
+          "prompt": "Which is true about the library event?",
+          "responseKey": "19",
+          "choices": [
+            "Books will be on show in the children’s area.",
+            "Reading sessions will be held daily.",
+            "The book fair will run for one month.",
+            "Volunteers will be given a thank-you gift."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s05-stimulus-01",
+            "common-2026-r-s05-stimulus-02",
+            "common-2026-r-s05-stimulus-03"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q020",
+          "number": "問3",
+          "prompt": "Which combination best describes the four books you recommended?",
+          "responseKey": "20",
+          "choices": [
+            "A and B",
+            "A and C",
+            "A and D",
+            "B and C",
+            "B and D",
+            "C and D"
+          ],
+          "contextLines": [
+            "A: All the books include drawings by the writers.",
+            "B: All the books meet the budget criterion.",
+            "C: All the stories have happy endings.",
+            "D: All the stories mention animals."
+          ],
+          "stimulusIds": [
+            "common-2026-r-s05-stimulus-01",
+            "common-2026-r-s05-stimulus-02",
+            "common-2026-r-s05-stimulus-03"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q021",
+          "number": "問4",
+          "prompt": "Which of your book recommendations will not be included in the fair?",
+          "responseKey": "21",
+          "choices": [
+            "Green Demon Blue Demon",
+            "Paint! Paint! Paint!",
+            "Panda Adventures",
+            "The Cloud Prince"
+          ],
+          "promptRich": "Which of your book recommendations will {{u|not}} be included in the fair?",
+          "stimulusIds": [
+            "common-2026-r-s05-stimulus-01",
+            "common-2026-r-s05-stimulus-02",
+            "common-2026-r-s05-stimulus-03"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q022-023",
+          "number": "問5",
+          "prompt": "In the email, what are the two things that the library would like you to do? (The order does not matter.)",
+          "responseKey": "22-23",
+          "choices": [
+            "Ask your friends to volunteer",
+            "Buy a new picture book",
+            "Participate in ‘Story Time’",
+            "Resubmit your online form",
+            "Suggest another book title",
+            "Translate one of the books"
+          ],
+          "stimulusIds": [
+            "common-2026-r-s05-stimulus-01",
+            "common-2026-r-s05-stimulus-02",
+            "common-2026-r-s05-stimulus-03"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s06",
+      "number": "第6問",
+      "score": 12,
+      "sourcePages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "In English class, your teacher has asked you to create an outline of the following story for a class presentation.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "passage",
+          "title": "The Onigiri Shop",
+          "paragraphs": [
+            "Mitsuki walked to the park near her office and sat on the bench. She was feeling nervous about her presentation in the afternoon. She quickly unwrapped her onigiri, or rice ball, and bit into the salmon filling. She was immediately taken back to a comforting time in her life so many years ago.",
+            "An old man sold traditional onigiri in a small, one-window shop in an old shopping arcade. Mitsuki, a junior high school kendo club member, often bought onigiri on her way home after practice. This shop was popular because it sold the best homemade tuna-filled onigiri in town. Mitsuki always bought one. The old man never said much and neither did Mitsuki.",
+            "One day, Mitsuki noticed an old black-and-white photo of a young man in kendo gear on the wall of the shop. She thought the old man might be a kendo fan. She wanted to talk to him about kendo but could not work up the courage to do so.",
+            "On a Friday afternoon, after a long practice, she had to carry home not only her kendo shinai, or bamboo sword, but also the rest of the equipment needed for the tournament the next day. She was starving, so she went to buy her regular onigiri. When she got home, she realized that she did not have her shinai. “Oh no! Where did I leave it? At the onigiri shop?” In a panic, Mitsuki ran out of her house and retraced her steps back to the onigiri shop. It was closed! She banged on the window shutter. “Excuse me, could you please open up?”",
+            "The old man opened the side door of the shop. He held out her shinai. “I found it outside the shop,” he said. “Thank you so much. I need it for the tournament tomorrow,” Mitsuki said. The old man murmured under his breath, “Never lose sight of yours. I never lost sight of mine.” He shut the door before Mitsuki could utter another word.",
+            "The next morning, Mitsuki stopped by the onigiri shop. “I’ll need to keep up my energy today,” she thought. She bought her regular onigiri and said, “Thank you for keeping my shinai yesterday.” The old man just nodded.",
+            "At the tournament, Mitsuki sat down for her mid-morning break. She opened the bag, and to her surprise, she discovered two onigiri inside. One was her regular tuna-filled onigiri and the other was salmon-filled. She eagerly ate both. Later in the afternoon, she won her match. Although her team did not win, it was the best she had ever done.",
+            "Mitsuki rushed toward home. She wanted to tell the onigiri man about her performance at the tournament. The shop window was shuttered. She banged on it. “Hello, hello? Is anyone there?” A young man looked out of the side door. “Can I help you?” he asked. This man looked vaguely familiar. She thought she had seen him somewhere before. Then Mitsuki asked, “Where is the onigiri man?” The young man said, “Oh, my father didn’t feel well this afternoon and is in the hospital, just for a few days.” Feeling sad, Mitsuki walked slowly home.",
+            "Mitsuki sat in the kitchen and thought about the old man. Then it hit her. “He’s the man in the photo! That’s why the young man looked familiar!” Mitsuki began writing a note.",
+            {
+              "type": "letter",
+              "lines": [
+                "Thank you for the bonus onigiri. It helped me win my match!",
+                "I know you love kendo. I’ll get your winning onigiri before my next tournament with my teammates. We’ll smash the tournament, so please get well soon!",
+                "-Mitsuki"
+              ]
+            },
+            "“Could you please give this to your father?” she asked the young man the next day.",
+            "Mitsuki continued practicing kendo throughout junior high school and kept buying her favorite tuna onigiri after practice. On tournament days, the old man gave her a salmon one as well. And as always, the old man just nodded. “Good luck,” he murmured.",
+            "Salmon onigiri always gave Mitsuki renewed energy. She walked back to her office with a spring in her step, ready to smash her presentation."
+          ],
+          "blockId": "common-2026-r-s06-stimulus-01",
+          "stimulusId": "common-2026-r-s06-stimulus-01"
+        },
+        {
+          "type": "outline",
+          "title": "Story Outline",
+          "groups": [
+            {
+              "title": "Setting and characters — Mitsuki",
+              "items": [
+                "was active in her junior high school kendo club",
+                "bought onigiri on her way home from school",
+                "was curious, but shy about talking to the old man"
+              ]
+            },
+            {
+              "title": "Old man",
+              "items": [
+                "owned an onigiri shop in a shopping arcade",
+                "[[24]]",
+                "[[25]]"
+              ]
+            },
+            {
+              "title": "Important incidents",
+              "items": [
+                "[[26]] → [[27]] → [[28]] → [[29]]"
+              ]
+            },
+            {
+              "title": "What does the story tell us?",
+              "items": [
+                "The old man [[30]].",
+                "Mitsuki’s [[31]]."
+              ]
+            }
+          ],
+          "blockId": "common-2026-r-s06-stimulus-02",
+          "stimulusId": "common-2026-r-s06-stimulus-02"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q024-025",
+          "number": "問1",
+          "prompt": "Choose the best options for 24 and 25. (The order does not matter.)",
+          "responseKey": "24-25",
+          "choices": [
+            "appeared unfriendly and sometimes seemed rude",
+            "gifted two tuna-filled onigiri to Mitsuki on tournament day",
+            "kept the shop open although he had few customers",
+            "practiced kendo when he was in his youth",
+            "ran his business with his son in a disorganized way"
+          ],
+          "promptRich": "Choose the best options for [[24]] and [[25]]. (The order does not matter.)",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s06-stimulus-01",
+            "common-2026-r-s06-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q026-029",
+          "number": "問2",
+          "prompt": "Choose four out of the five options (①～⑤) and put them in the order they happened in Mitsuki’s life.",
+          "responseKey": "26-29",
+          "choices": [
+            "Mitsuki did well at her match on the tournament day.",
+            "Mitsuki wrote a message to the son of the old man.",
+            "The old man found Mitsuki’s shinai left outside of his shop.",
+            "The old man secretly gave Mitsuki an extra onigiri.",
+            "The salmon-filled onigiri reminded Mitsuki of her youth."
+          ],
+          "promptRich": "Choose {{u|four}} out of the five options (①～⑤) and put them in the order they happened in Mitsuki’s life.\n[[26]] → [[27]] → [[28]] → [[29]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s06-stimulus-01",
+            "common-2026-r-s06-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q030",
+          "number": "問3",
+          "prompt": "Choose the best option for 30.",
+          "responseKey": "30",
+          "choices": [
+            "began a weekly routine of making onigiri for the team",
+            "built a friendship with Mitsuki by exchanging notes",
+            "chatted with Mitsuki whenever she visited his shop",
+            "showed kindness not with words but with his actions"
+          ],
+          "promptRich": "Choose the best option for [[30]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s06-stimulus-01",
+            "common-2026-r-s06-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q031",
+          "number": "問4",
+          "prompt": "Choose the best option for 31.",
+          "responseKey": "31",
+          "choices": [
+            "kendo career ended because of the advice of the old man",
+            "memories about onigiri influenced her later in life",
+            "performance at the kendo tournament led to a team victory",
+            "presentation went well because she ate a tuna-filled onigiri"
+          ],
+          "promptRich": "Choose the best option for [[31]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s06-stimulus-01",
+            "common-2026-r-s06-stimulus-02"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s07",
+      "number": "第7問",
+      "score": 16,
+      "sourcePages": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration",
+        "english.inference"
+      ],
+      "lead": "You prepared a presentation with a discussion question for your science class using the following passage.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "passage",
+          "title": "Mind-Wandering: Lost in Thought",
+          "paragraphs": [
+            "Rodin’s sculpture {{i|The Thinker}} represents a man absorbed in thought. People may wonder if he is thinking about life’s deep questions. Likewise, teachers may wonder what students sitting at their desks are thinking about — are they focusing on their schoolwork, or are they just daydreaming?",
+            "It is natural for the mind to switch between periods of focus and periods of rest. Even when we are supposed to be concentrating, we may not be paying attention to the task at hand. Scientists have found that we engage in daydreaming, also known as “mind-wandering,” approximately 50% of the time we are awake. While our minds are wandering, we are not thinking about anything special but our brains naturally come up with ideas, images, and emotions. In short, mind-wandering is a shift away from thoughts on the current task to other unrelated thoughts.",
+            "Our understanding about mind-wandering has grown over time. Past studies argued that mind-wandering was not merely a waste of time but actually quite harmful. Mind-wandering was found to negatively influence our mood, leading to work-related mistakes, traffic accidents, and even mental conditions such as depression. New research, however, shows that mind-wandering also has positive effects which can enrich our lives in various ways.",
+            "One such effect is that mind-wandering helps us generate creative ideas. In fact, some of our best ideas become apparent when our minds are wandering. To access these ideas, however, our brains sometimes require a period of time, just like eggs need time to hatch. This is called the “incubation period.” This interval away from the problem is critical because during that time our brains are unconsciously sorting through pieces of information and associating them with the problem. This enables us to come up with a fresh solution, which appears when we least expect it, for example, when we are on a walk or taking a shower.",
+            "What is really going on in the brain when the mind wanders? Previously, the brain was thought to be in a passive state at this time. However, through neuroimaging research conducted in 2001 in the US, more than a dozen regions of the brain were found to be active during mind-wandering. These regions, as a whole, were named the Default Mode Network (DMN). Moreover, according to a study conducted in 2022 by researchers based in Norway and the Netherlands, the DMN was more active when participants were performing a low-effort task compared to a high-effort task.",
+            "How can we make use of new discoveries in brain science and increase the number of unique benefits that mind-wandering has to offer? Here are four tips to help expand your mind. First, make time for simple activities such as doing the dishes or taking a warm bath. When involved with these undemanding tasks, our mind is free to wander around. Next, we can just go outside. For example, when we are in a forest, we are able to relax in nature and our mind can more easily spread out in all directions. Another suggestion is to get enough quality sleep each night. This will not only improve our mood, but enable the brain to be more receptive to new ideas. Finally, when we wake up in the morning, we should try to notice any thoughts that occur before we get out of bed. In this half-sleep state, our mind tends to wander and our ideas can flow more freely.",
+            "We will not always be able to control all of our thoughts. However, if we are aware of when and how mind-wandering happens, we may be able to take advantage of its seemingly random nature."
+          ],
+          "blockId": "common-2026-r-s07-stimulus-01",
+          "stimulusId": "common-2026-r-s07-stimulus-01"
+        },
+        {
+          "type": "slides",
+          "title": "Slide drafts",
+          "slides": [
+            "Mind-Wandering (The Thinker)",
+            "The Occurrence of Mind-Wandering\nIt happens [[32]].",
+            "Possible Effects of Mind-Wandering\n• It [[33]].\n• It [[34]].",
+            "What Happens During the Incubation Period?\n[[35]]",
+            "A Finding From Neuroimaging Research\n[[36]]",
+            "Discussion\nTalk about your lifestyle. How likely are you to benefit from mind-wandering?"
+          ],
+          "blockId": "common-2026-r-s07-stimulus-02",
+          "stimulusId": "common-2026-r-s07-stimulus-02"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q032",
+          "number": "問1",
+          "prompt": "Choose the best option for 32.",
+          "responseKey": "32",
+          "choices": [
+            "in about half of the time we are daydreaming",
+            "in the nightmares we experience during sleep",
+            "when our focus is away from the ongoing activity",
+            "while we are concentrating on the present task"
+          ],
+          "promptRich": "Choose the best option for [[32]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s07-stimulus-01",
+            "common-2026-r-s07-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q033-034",
+          "number": "問2",
+          "prompt": "Choose the best options for 33 and 34. (The order does not matter.)",
+          "responseKey": "33-34",
+          "choices": [
+            "affects our mental health",
+            "decreases errors at work",
+            "enhances our memory",
+            "gives us novel ideas",
+            "improves our driving skill"
+          ],
+          "promptRich": "Choose the best options for [[33]] and [[34]]. (The order does not matter.)",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s07-stimulus-01",
+            "common-2026-r-s07-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q035",
+          "number": "問3",
+          "prompt": "Choose the best option for 35.",
+          "responseKey": "35",
+          "choices": [
+            "Complicated problems enter our consciousness.",
+            "Our brains organize information in new ways.",
+            "Our moods are altered from negative to positive.",
+            "The mind moves from an active to a passive state."
+          ],
+          "promptRich": "Choose the best option for [[35]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s07-stimulus-01",
+            "common-2026-r-s07-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q036",
+          "number": "問4",
+          "prompt": "Choose the best option for 36.",
+          "responseKey": "36",
+          "choices": [
+            "The brain has multiple areas working while the mind is wandering.",
+            "The brain’s DMN is only activated when we perform high-effort tasks.",
+            "The entire brain is inactive when we are working on low-effort tasks.",
+            "The state of the brain remains passive during mind-wandering."
+          ],
+          "promptRich": "Choose the best option for [[36]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2026-r-s07-stimulus-01",
+            "common-2026-r-s07-stimulus-02"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q037",
+          "number": "問5",
+          "prompt": "In the discussion session about lifestyles, some students’ habits and routines were shared on the screen. Choose the two students who are most likely to gain the benefits of mind-wandering based on the tips mentioned in the passage.",
+          "responseKey": "37",
+          "contextCards": [
+            {
+              "title": "Ami",
+              "text": "I’m a book lover. I’ll read anything to expand my mind. I often stay up late to finish another chapter. I drink a lot of green tea to help me stay awake."
+            },
+            {
+              "title": "Barry",
+              "text": "I like to keep active and do some sort of exercise. I usually go cycling along the riverbank before school. I also like hiking around the countryside on holidays."
+            },
+            {
+              "title": "Chihiro",
+              "text": "I’m extremely focused on my schoolwork during the week. So busy! On the weekends I need a break, so I visit my local hot springs to forget about everything."
+            },
+            {
+              "title": "Dean",
+              "text": "I want to be a cooking influencer. I post new recipes to my account almost daily. I check my phone to respond to my followers right after waking up in the morning."
+            }
+          ],
+          "choices": [
+            "Ami and Barry",
+            "Ami and Chihiro",
+            "Ami and Dean",
+            "Barry and Chihiro",
+            "Barry and Dean",
+            "Chihiro and Dean"
+          ],
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "common-2026-r-s07-stimulus-01",
+            "common-2026-r-s07-stimulus-02"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2026-r-s08",
+      "number": "第8問",
+      "score": 17,
+      "sourcePages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "categoryIds": [
+        "english.argument-reading",
+        "english.multiple-documents",
+        "english.chart-reading",
+        "english.information-integration"
+      ],
+      "lead": "You are working on an essay about sports and technology, following the steps below:",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s8-steps",
+          "type": "steps",
+          "items": [
+            "Read a range of opinions gathered from the Internet about sports and technology.",
+            "Take a position on sports and technology.",
+            "Create an outline for your essay using additional sources."
+          ],
+          "stimulusId": "s8-steps"
+        },
+        {
+          "type": "cards",
+          "title": "[Step 1] Read a range of opinions",
+          "cards": [
+            {
+              "title": "Akane (social worker)",
+              "text": "There is a strong relationship between the number of Olympic medals a country has and its wealth. If the cost of doing a sport is high, then only those with money can participate in it. Sports should be for all of us, as it benefits our physical and mental health. I am concerned that the continuing development of high-tech, expensive equipment may discourage ordinary people from taking up certain sports."
+            },
+            {
+              "title": "Fiona (physical trainer)",
+              "text": "‘Performance’ should be seen as the sum of the athlete’s own abilities plus the equipment available to them. All athletes want to use equipment that will maximize their performance. I understand this, but I can also think of some problematic cases. Suppose that two teams with the same ability are in a rowing race. The team with a newer boat model completes the race a fraction of a second faster. This might not be considered fair."
+            },
+            {
+              "title": "Jack (journalist)",
+              "text": "Technology makes sports more thrilling for fans. We are fascinated by new achievements, so sports receive a high level of attention when records are broken. Sports fans, say of the Olympics, want to see their favorite skiers and skaters race faster. Our world is rapidly changing, and society expects to see those changes in sports as well. If records are never broken, then sports become dull for fans."
+            },
+            {
+              "title": "Michael (retired swimmer)",
+              "text": "From elementary school, I practiced swimming seven days a week all year round. Swimming did not require expensive equipment and I used our community pool, which cost little. Through intense training over a period of years, I was able to win my state championship. To me, the spirit of sport is putting in the work to maximize your physical ability. New equipment giving advantages to one athlete over a harder-working one is an injustice."
+            },
+            {
+              "title": "Tamara (tennis coach)",
+              "text": "I am old enough to remember the transition from wooden tennis rackets to so-called ‘oversized’ graphite ones. Players now hit the ball harder; the new rackets also enable us to control the ball better. Is this a problem? No one complains about the new rackets anymore. Sports equipment is continually changing. Innovation in sports technology has improved the quality of games."
+            }
+          ],
+          "blockId": "s8-step1",
+          "layout": "vertical",
+          "stimulusId": "s8-step1"
+        },
+        {
+          "blockId": "s8-step2",
+          "type": "stepHeading",
+          "title": "[Step 2] Take a position",
+          "stimulusId": "s8-step2"
+        },
+        {
+          "type": "essayOutline",
+          "title": "[Step 3] Create an outline for your essay — Technology in Sports",
+          "blockId": "s8-step3",
+          "parts": [
+            {
+              "title": "Introduction",
+              "text": "There are some issues with sports technology, but because of its current and potential contributions, we should accept it."
+            },
+            {
+              "title": "Body",
+              "items": [
+                "REASON 1: [the common idea in Step 2]",
+                "REASON 2: [[43]] [based on Source A]",
+                "REASON 3: Advanced technology in sports equipment can contribute to injury prevention. [based on support from Source B: [[44]]]"
+              ]
+            },
+            {
+              "title": "Conclusion",
+              "text": "Upon considering the aspects above, advancements in sports technology should be accepted."
+            }
+          ],
+          "stimulusId": "s8-step3"
+        },
+        {
+          "type": "panel",
+          "title": "Source A",
+          "paragraphs": [
+            "Sports technology makes sports better for everyone. On the other hand, it is sometimes argued that technology can threaten the integrity or value of a sport. This threat comes when new technology enables athletes to do their sport too easily or is only accessible to certain athletes, giving them an advantage. Wise regulation can ensure that this does not happen. For example, in 2016, a new running shoe was developed that improved runners’ times by up to 4%. People in the running world became concerned that it could damage the sport’s integrity. In 2020, World Athletics set concrete specifications for running shoes and regulations on their materials. It also created a rule that any shoe used in a race had to be available on the market for at least four months beforehand. As a result of these measures, no running shoe could be constructed in a way that made running too easy and every runner could benefit from new technology."
+          ],
+          "blockId": "s8-source-a",
+          "indentParagraphs": false,
+          "stimulusId": "s8-source-a"
+        },
+        {
+          "type": "chart",
+          "title": "Source B",
+          "paragraphs": [
+            "A sporting company released a new type of running shoe that uses advanced technology. To investigate user experience, they conducted surveys on three groups of runners each consisting of 100 people: recreational runners, student-athletes, and professional athletes. Some of the data from this survey is given below. The graph shows the number of people who responded positively to some of the shoe features."
+          ],
+          "categories": [
+            "shoe comfort",
+            "design of the shoes",
+            "reduced burden on legs"
+          ],
+          "series": [
+            {
+              "name": "recreational runners",
+              "values": [
+                72,
+                42,
+                51
+              ]
+            },
+            {
+              "name": "student-athletes",
+              "values": [
+                74,
+                57,
+                57
+              ]
+            },
+            {
+              "name": "professional athletes",
+              "values": [
+                82,
+                55,
+                69
+              ]
+            }
+          ],
+          "blockId": "s8-source-b",
+          "stimulusId": "s8-source-b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2026-r-q038",
+          "number": "問1",
+          "prompt": "Which of the following best summarizes Akane’s opinion?",
+          "responseKey": "38",
+          "choices": [
+            "Athletic ability cannot be developed using advanced technology.",
+            "Olympic games will be less exciting with the latest equipment.",
+            "Technology can benefit the physical health of elite athletes.",
+            "The cost of sports might be a barrier for people’s participation."
+          ],
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q039",
+          "number": "問2",
+          "prompt": "Both Fiona and Michael mention that",
+          "responseKey": "39",
+          "choices": [
+            "advanced technology can give unfair advantages to some athletes",
+            "equipment should be considered a part of an athlete’s performance",
+            "the spirit of sport is based on hard work and physical ability",
+            "water sports should require training without technology"
+          ],
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q040-042",
+          "number": "問3",
+          "prompt": "POSITION: We should accept advancements in sports equipment technology. Choose two people who support this position the most, and the idea shared by these two people. You must have all of 40–42 correct to get points.",
+          "components": [
+            {
+              "responseKey": "40-41",
+              "label": "Options for [[40]] and [[41]] (the order does not matter):",
+              "choices": [
+                "Akane",
+                "Fiona",
+                "Jack",
+                "Michael",
+                "Tamara"
+              ]
+            },
+            {
+              "responseKey": "42",
+              "label": "Options for [[42]]:",
+              "choices": [
+                "advancements in technology promote the evolution of sports",
+                "athletes play a role in the enhancement of sports equipment",
+                "technology contributes to the breaking of sporting records",
+                "technology helps improve the experience of playing sports"
+              ]
+            }
+          ],
+          "promptRich": "With the above opinions in mind, you have taken a position on sports and technology and written some notes below. Choose the best options to complete [[40]] – [[42]]. (You must have all of [[40]] – [[42]] correct to get points.)",
+          "answerBoxPlacement": "none",
+          "positionBox": {
+            "position": "We should accept advancements in sports equipment technology.",
+            "items": [
+              "[[40]] and [[41]] support this position the most.",
+              "An idea shared by these two people is that [[42]]."
+            ]
+          },
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1",
+            "s8-step2"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q043",
+          "number": "問4",
+          "prompt": "Based on Source A, which is the most appropriate for REASON 2 in the essay outline?",
+          "responseKey": "43",
+          "choices": [
+            "New technology will make a sport more accessible and thus motivate more people to start it.",
+            "New technology with regulation improves the sporting experience while maintaining a sport’s value.",
+            "The introduction of new technology can enhance the integrity of a sport by making it easier.",
+            "The regulation of new technology may lower the integrity of a sport by discouraging innovation."
+          ],
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step3",
+            "s8-source-a"
+          ]
+        },
+        {
+          "questionId": "common-2026-r-q044",
+          "number": "問5",
+          "prompt": "Based on Source B, which of the following best supports REASON 3 in the essay outline?",
+          "responseKey": "44",
+          "choices": [
+            "Advanced technology in shoes may encourage more students to run regularly. This is supported by the data; student-athletes rated the running shoes higher than the other groups in two of three features.",
+            "In addition to preventing injury, the running shoes are pleasant to wear. This can be concluded by the fact that more than three quarters of the respondents in each group felt the shoes were comfortable.",
+            "More than half of the runners in each group felt the burden on their legs was reduced. This implies that people may maintain better physical condition thanks to the technology.",
+            "The effectiveness of the new shoe was most evident for recreational runners with more than half feeling less burden on their legs. Advanced equipment can contribute to enjoying running for a longer period of time."
+          ],
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step3",
+            "s8-source-b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s8-steps"
+        },
+        {
+          "block": "s8-step1"
+        },
+        {
+          "question": "common-2026-r-q038"
+        },
+        {
+          "question": "common-2026-r-q039"
+        },
+        {
+          "block": "s8-step2"
+        },
+        {
+          "question": "common-2026-r-q040-042"
+        },
+        {
+          "block": "s8-step3"
+        },
+        {
+          "block": "s8-source-a"
+        },
+        {
+          "block": "s8-source-b"
+        },
+        {
+          "question": "common-2026-r-q043"
+        },
+        {
+          "question": "common-2026-r-q044"
+        }
+      ]
+    }
+  ]
+}

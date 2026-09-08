@@ -1,0 +1,461 @@
+{
+  "releaseCandidate": "public-release-candidate-20260907-final7",
+  "generatedAtUtc": "2026-09-07T02:59:36.0335973Z",
+  "publicCollectionEnabled": false,
+  "publishedExamIds": [
+    "center-1993-main-english-reading",
+    "common-test-dnc-2021-main-english-reading",
+    "common-test-dnc-2022-main-english-reading",
+    "common-test-dnc-2023-main-english-reading",
+    "common-test-dnc-2024-main-english-reading",
+    "common-test-dnc-2025-main-english-reading",
+    "common-test-dnc-2026-main-english-reading"
+  ],
+  "files": [
+    {
+      "path": "assets/exam-platform/answer-collection-config.js",
+      "bytes": 1035,
+      "sha256": "c8dbca2fffe80b16d626dbfbf39ccd9d552bd809698f7874339ea53176e6280d"
+    },
+    {
+      "path": "assets/exam-platform/answer-sync-client.js",
+      "bytes": 8463,
+      "sha256": "2ee1ad7b90e4e80f3909e9153eb08cf61b096df0202e0b2857976ca6da9e75fe"
+    },
+    {
+      "path": "assets/exam-platform/answer-sync-consent.css",
+      "bytes": 1112,
+      "sha256": "cd51bfdb0eda0c797a75ae84ad74494793e8a255f05a0b9036f82ad6025467c7"
+    },
+    {
+      "path": "assets/exam-platform/exam-platform.js",
+      "bytes": 7471,
+      "sha256": "aac3b335ec78912c828a6d2b95780c7b15d4e356a832dfbedf56c6370c854a0b"
+    },
+    {
+      "path": "assets/exam-platform/exam-shell.css",
+      "bytes": 11554,
+      "sha256": "eca64d61310eef90b551f0b7d24811d9ea6df6b7112719363492e7138ea0df2c"
+    },
+    {
+      "path": "assets/exam-platform/rights.css",
+      "bytes": 2191,
+      "sha256": "9f9a7d984604360ac68788fe85338cf82c0d02b35d456a39477de5e751f1488e"
+    },
+    {
+      "path": "assets/exam-platform/scoring-engine.js",
+      "bytes": 7503,
+      "sha256": "8f8b4b6190000f7739914a6637a860c1701f91744f678cadcd4dd237e19d07fb"
+    },
+    {
+      "path": "assets/exam-viewer/exam-viewer-revisions.css",
+      "bytes": 23068,
+      "sha256": "17201b9942abaa78aa1ab7414a50df675ab20e82591fb71d0d19a54bdacf5a94"
+    },
+    {
+      "path": "assets/exam-viewer/exam-viewer.css",
+      "bytes": 20168,
+      "sha256": "4c981b2ccf497e15ecb084fe3eb9711b9cb73d15bbcfae7967258b3cea414a43"
+    },
+    {
+      "path": "assets/exam-viewer/exam-viewer.js",
+      "bytes": 68205,
+      "sha256": "021394debb8b480d544cccc37affc7f2337db3bd5966c81eab9a8a23c2cbb502"
+    },
+    {
+      "path": "assets/exams/common-2022/s03-three-peaks-original.svg",
+      "bytes": 38019,
+      "sha256": "972fba5cef7a032c5867caf8196c2e46aabb1a4e87c1a8035fe5ac7c27ba1040"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-1.png",
+      "bytes": 2542,
+      "sha256": "102da6387c94bd80d5829c7b5441b1b8753db9a24aa1354433bcbce114ad5c31"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-2.png",
+      "bytes": 2712,
+      "sha256": "15b9649fc589d33db545e3603e893f6c7b69a94ce5de9871d81997993329f16a"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-3.png",
+      "bytes": 2810,
+      "sha256": "d3946e6932b171a9620d3b3bef8f854dfb62abeba9c5ce29c8a96b04cef5d1be"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-4.png",
+      "bytes": 2632,
+      "sha256": "8ec91f389384e99e4755cacd011cddd51957c561c7923f84f52dc603d734abe5"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-5.png",
+      "bytes": 2696,
+      "sha256": "f7e9d7f2c2db3f181567d572a2ba33ac23cc56e8703361b8b97a8558aff12dba"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-6.png",
+      "bytes": 2863,
+      "sha256": "afd81e7e5c7b691346d91764217aafe6c82c5d4e64000e74689f6535dd2e40eb"
+    },
+    {
+      "path": "assets/exams/common-2022/s06-recycle-symbol-7.png",
+      "bytes": 2579,
+      "sha256": "caafe9bd1d24e5987ba5ee1e38e4fdd4e667de98a38e662bf866a20e76a2653b"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-adventure-steps.png",
+      "bytes": 85261,
+      "sha256": "1e6795340c6ced6f0a185cb648a58dbcc7688299043e3f4b4c9c964d2597e1ca"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-backpack-parts.png",
+      "bytes": 23141,
+      "sha256": "8aeba812a2369773dce40570ad65a0f8d5b6b45fe8656bd7e12f5d012a0eeac1"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-q16-1.png",
+      "bytes": 43108,
+      "sha256": "709e48a80977d3f5604d2354749ee1a075847c843b3f0a230b0427514db2cb0e"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-q16-2.png",
+      "bytes": 42492,
+      "sha256": "7a9e4feaf575960e7d922e5f34794c07aedfee5af298089592ad44e5d6f2aa7b"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-q16-3.png",
+      "bytes": 43301,
+      "sha256": "0a01659d18bfbbddd5cc3967694e1fe241d849af9323483a9ce610ad65d79369"
+    },
+    {
+      "path": "assets/exams/common-2023/s03-q16-4.png",
+      "bytes": 43370,
+      "sha256": "0d7727756352f4a9c828694bdd2d29b4fa5f56da188799487312ac6a0310c796"
+    },
+    {
+      "path": "assets/exams/common-2023/s04-recalled-names-chart.png",
+      "bytes": 35029,
+      "sha256": "1347d61e262bd4452c22a213049ed766c535b211defe5a2ec8b9658df4a67292"
+    },
+    {
+      "path": "assets/exams/common-2023/s04-rock-workbook.png",
+      "bytes": 40888,
+      "sha256": "feb28b6255018c746c9857e8cca9c18f3d12cdc12b1c1383193ab7b130580306"
+    },
+    {
+      "path": "assets/exams/common-2023/s06-digestive-system.png",
+      "bytes": 44272,
+      "sha256": "eb6005b699da11faeef6483ed887c6432ec1b4694f115c857f37c297cf551f6c"
+    },
+    {
+      "path": "assets/exams/common-2024/s03-q16-1.png",
+      "bytes": 36964,
+      "sha256": "9c10364adfe8132af907317c239b0cbb3dfa37fb152438780223b17ba97359f2"
+    },
+    {
+      "path": "assets/exams/common-2024/s03-q16-2.png",
+      "bytes": 45819,
+      "sha256": "8e4113ab3e7b5b8a68a704bdec307a484ff647a8746a031c05571bed957b906d"
+    },
+    {
+      "path": "assets/exams/common-2024/s03-q16-3.png",
+      "bytes": 48617,
+      "sha256": "d9578a1452eddf5bfc5b4204763bc170be13f38430954913a6e0c52b2cfd5802"
+    },
+    {
+      "path": "assets/exams/common-2024/s03-q16-4.png",
+      "bytes": 33171,
+      "sha256": "8fcce87390bbfb6cc31a51deba6d322f79e80b645b28abf0df23c04f1dab7b49"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-q3-1.png",
+      "bytes": 34304,
+      "sha256": "a5999be2a7b1b8a184c39e1c187cdd7848a4bb118b57db6b662ef87f5e2bd6c7"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-q3-2.png",
+      "bytes": 27015,
+      "sha256": "78cb67d5697251ae05587af80bf48eb9c4f95996a7e990b58b6dc72d18b1ac05"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-q3-3.png",
+      "bytes": 45695,
+      "sha256": "e0520d0da1581b9141338244d6b632b79212ba6f46c678d521a6f16979686ec8"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-q3-4.png",
+      "bytes": 31595,
+      "sha256": "a7e0c9d8319779037f5e75cbd6bcf7296a151a0aacb8b99764c7c7ed5c4f6332"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-step1.png",
+      "bytes": 14505,
+      "sha256": "ca9a6624adb3c16a097cba5bdb3517de50771cfdee20dd0088027d1566ae3b0d"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-step2.png",
+      "bytes": 18550,
+      "sha256": "38f54afc59928bbbbbc0daf97d52741eab9ad6ff4f224f6707e5c776619a36dd"
+    },
+    {
+      "path": "assets/exams/common-2025/s01-step3.png",
+      "bytes": 12063,
+      "sha256": "79c8d3ab9df7868198b822706425931038d567204f45c2e2db7299a472cf4643"
+    },
+    {
+      "path": "assets/exams/common-2025/s05-q4-1.png",
+      "bytes": 11019,
+      "sha256": "3998e2d74c06b9ff58042d02be8056c752c2ec87a38dd2324aba168cd1f2df7e"
+    },
+    {
+      "path": "assets/exams/common-2025/s05-q4-2.png",
+      "bytes": 13751,
+      "sha256": "6ea13177faf241678e0f849821612c6ff8d87d5f8d6ed5d0fbb5af800eb0810a"
+    },
+    {
+      "path": "assets/exams/common-2025/s05-q4-3.png",
+      "bytes": 13911,
+      "sha256": "7975bffe2c05fbf186ce9d174ee126c808749ef51f39e1bb2e6b95a77ac5b3ce"
+    },
+    {
+      "path": "assets/exams/common-2025/s05-q4-4.png",
+      "bytes": 14964,
+      "sha256": "d5c93b5dd92db23d55040a8a71408ee2dd345a5065b8a1b32e0fee16db821a55"
+    },
+    {
+      "path": "assets/exams/common-2025/s05-q4-5.png",
+      "bytes": 11603,
+      "sha256": "619f0b13edcc28afa861333b9208ab8759e0869c4dc9332c7a2918fb38e20229"
+    },
+    {
+      "path": "assets/exams/common-2025/s07-q2-1.png",
+      "bytes": 5834,
+      "sha256": "bdabc1c57bfc0ba6ce196b76b0596724f99ad2d1e61a64e3284680d6ec761530"
+    },
+    {
+      "path": "assets/exams/common-2025/s07-q2-2.png",
+      "bytes": 5901,
+      "sha256": "c974f8c81c8086af11d11f9abd24c83613c9185d25fcb8ac9f2d3705fb9e01d8"
+    },
+    {
+      "path": "assets/exams/common-2025/s07-q2-3.png",
+      "bytes": 6716,
+      "sha256": "c6fa8ca00e5413ce11fffd57cc459e40a1f7ec811d2f5ebc67879b7c608b78bc"
+    },
+    {
+      "path": "assets/exams/common-2025/s07-q2-4.png",
+      "bytes": 6585,
+      "sha256": "94838368652265e83360192416e26fb66bf9cf19b0f9665859e89af80a95d9cb"
+    },
+    {
+      "path": "assets/exams/common-2026/q01-check-costume.png",
+      "bytes": 21685,
+      "sha256": "760b5850212195e6c4c5d472d80ec5beab930905083c31d9df79b29a2aed0d97"
+    },
+    {
+      "path": "assets/exams/common-2026/q01-costume-1.png",
+      "bytes": 17549,
+      "sha256": "89538cc75dfd0eef5d56046be6916ad3b7bf38de5c6e71b9f3608662ab77a1f1"
+    },
+    {
+      "path": "assets/exams/common-2026/q01-costume-2.png",
+      "bytes": 30112,
+      "sha256": "08b2300f21a890a54459c4bea18eafd59ce68fdd2f91f5d6be62dbac3790972e"
+    },
+    {
+      "path": "assets/exams/common-2026/q01-costume-3.png",
+      "bytes": 24146,
+      "sha256": "71ea879da64ff11a4f0d4e98c787872e8861af88fb6b387a2c155b443a83c064"
+    },
+    {
+      "path": "assets/exams/common-2026/q01-costume-4.png",
+      "bytes": 19199,
+      "sha256": "fe2c70bedbd4eaa52e4d4f5ae28787a7c75d560e0c3855e411350c666842e879"
+    },
+    {
+      "path": "CNAME",
+      "bytes": 19,
+      "sha256": "3abccf21bef3e3426639db0b0b487b2e8e2eb743618901fb2f9a29da123cf473"
+    },
+    {
+      "path": "exam-data/catalog/english-study-fields.json",
+      "bytes": 2188,
+      "sha256": "ab15a2ef75d3703089656ee99a05e0607136c22ba51706a1558686510b5bf3bb"
+    },
+    {
+      "path": "exam-data/catalog/exams.json",
+      "bytes": 7053,
+      "sha256": "90265a37d5e90acf503fc34fdaa28b45463b97e4955448d52b0994ddd282d382"
+    },
+    {
+      "path": "exam-data/catalog/subjects.json",
+      "bytes": 1186,
+      "sha256": "1edad12f066d0144a75a92a260666e623d60e35acfd925c0a674c3079c5fb171"
+    },
+    {
+      "path": "exam-data/center/1993/main/reading/answers-common.json",
+      "bytes": 25076,
+      "sha256": "e740577321c19e0f944636c0b7fc6e62d89b31aad4f1791819dd78981416e03f"
+    },
+    {
+      "path": "exam-data/center/1993/main/reading/classifications.json",
+      "bytes": 3500,
+      "sha256": "388be2c8d8b9122f8e1c3fbb2dd6fc1f334850519e35e0ed4516314023363d85"
+    },
+    {
+      "path": "exam-data/center/1993/main/reading/exam-manifest.json",
+      "bytes": 5150,
+      "sha256": "f70570b1a07ebe9e324ab32045dfcd3ffe9f7c276f4e55f6d03a80f16f9dd7ff"
+    },
+    {
+      "path": "exam-data/center/1993/main/reading/exam.json",
+      "bytes": 60082,
+      "sha256": "2cf5b18dec3c56591963a923d02ecc8db4b1d224010b5da23c164bf7009f03b7"
+    },
+    {
+      "path": "exam-data/common-test/2021/main/english/reading/answers.json",
+      "bytes": 13285,
+      "sha256": "87d1a8cfd01882b35f79027671d15d3577108b8da53773ac8984b11fa4ab28b4"
+    },
+    {
+      "path": "exam-data/common-test/2021/main/english/reading/classifications.json",
+      "bytes": 7890,
+      "sha256": "f179862fbabee385c528556735d572d0696bc4907f89532222118ca3f9c80709"
+    },
+    {
+      "path": "exam-data/common-test/2021/main/english/reading/exam-manifest.json",
+      "bytes": 5601,
+      "sha256": "f3f575c34a922f24b3c9ba6777e1843872cc3d193ea784de334d25d4a4a825c7"
+    },
+    {
+      "path": "exam-data/common-test/2021/main/english/reading/exam.json",
+      "bytes": 79724,
+      "sha256": "369964137fb223afa91608746e3b5a11880182bf026fa3a22a858160d1f18e49"
+    },
+    {
+      "path": "exam-data/common-test/2022/main/english/reading/answers.json",
+      "bytes": 14050,
+      "sha256": "c620fba7f05753a2ad44d423de774a2fd05a7f1e2be21e3e672766b2385a54bb"
+    },
+    {
+      "path": "exam-data/common-test/2022/main/english/reading/classifications.json",
+      "bytes": 8060,
+      "sha256": "8ec1720b4a9aed3e15d14e4122c67dcc3d15a4abdf7273e9311355b99deb1bd3"
+    },
+    {
+      "path": "exam-data/common-test/2022/main/english/reading/exam-manifest.json",
+      "bytes": 6007,
+      "sha256": "ca12208983d3742f8ce5d80de442f872a52384958c4c23c96b8cad29a1695694"
+    },
+    {
+      "path": "exam-data/common-test/2022/main/english/reading/exam.json",
+      "bytes": 76164,
+      "sha256": "7a14f07715087450a43c6f094d5203869b8ea6e3068d71e6ac08216d40ff4b33"
+    },
+    {
+      "path": "exam-data/common-test/2023/main/english/reading/answers.json",
+      "bytes": 12138,
+      "sha256": "974dbb04335497fad943b5d32e6623c85fbc82975442bcd50d259e442a801f2b"
+    },
+    {
+      "path": "exam-data/common-test/2023/main/english/reading/classifications.json",
+      "bytes": 8355,
+      "sha256": "998e31ee8000f38956eaf0be3841e573c8f1928a489d41eefc3b516aa6aaaf66"
+    },
+    {
+      "path": "exam-data/common-test/2023/main/english/reading/exam-manifest.json",
+      "bytes": 5749,
+      "sha256": "7e48eb492a5d245147dc4ba2c4c25887fd41ef16e1840eaffd01477003c50931"
+    },
+    {
+      "path": "exam-data/common-test/2023/main/english/reading/exam.json",
+      "bytes": 74613,
+      "sha256": "39be7b98d35b0ff83832b2181fc24b5b4412a680f756d1fd48e8621f50d8e3e7"
+    },
+    {
+      "path": "exam-data/common-test/2024/main/english/reading/answers.json",
+      "bytes": 12110,
+      "sha256": "69ef4b7906dc764315a5dd6b3f5c528234165cfb0a67b92f3dd20af64eb1f96a"
+    },
+    {
+      "path": "exam-data/common-test/2024/main/english/reading/classifications.json",
+      "bytes": 7069,
+      "sha256": "44ba47017e66c0ebe041a3544c7d76f1f2ce397feda176bd0e9de34adb155087"
+    },
+    {
+      "path": "exam-data/common-test/2024/main/english/reading/exam-manifest.json",
+      "bytes": 5749,
+      "sha256": "24986faefb8f73953a3e3a44ecd2935e7deacb75712103c63ef3839151612697"
+    },
+    {
+      "path": "exam-data/common-test/2024/main/english/reading/exam.json",
+      "bytes": 73800,
+      "sha256": "4b493b14975ab61bc4fb3a10ff90be3bf1d6a2221a655090fa704e07c633f72d"
+    },
+    {
+      "path": "exam-data/common-test/2025/main/english/reading/answers.json",
+      "bytes": 10496,
+      "sha256": "d92fe4d83e8587851769c011dbb8422041a1a79db0f283945a7c30a350a9ba94"
+    },
+    {
+      "path": "exam-data/common-test/2025/main/english/reading/classifications.json",
+      "bytes": 5110,
+      "sha256": "44e36a511ce596e88f798b9f9fa9bc273f9d2368f3c37a367be8c971aee0de56"
+    },
+    {
+      "path": "exam-data/common-test/2025/main/english/reading/exam-manifest.json",
+      "bytes": 5774,
+      "sha256": "c5654bffdad54093a0caf1616c427b15c9d64f98d74f380876f82da2e84b4a3e"
+    },
+    {
+      "path": "exam-data/common-test/2025/main/english/reading/exam.json",
+      "bytes": 70391,
+      "sha256": "342b929752dc10bc2d355a6a1531756fe3631ff5052cb16c2f8edd0cf3a14ac1"
+    },
+    {
+      "path": "exam-data/common-test/2026/main/english/reading/answers.json",
+      "bytes": 5183,
+      "sha256": "85d9ec6431886f56faf449705373f4d7e7cb477d296861932472e53c7fd0e8f7"
+    },
+    {
+      "path": "exam-data/common-test/2026/main/english/reading/classifications.json",
+      "bytes": 2947,
+      "sha256": "245dd6004b86201e74a8f02bd39d985f097c2617e8b9efcc99c652784784e857"
+    },
+    {
+      "path": "exam-data/common-test/2026/main/english/reading/exam-manifest.json",
+      "bytes": 5105,
+      "sha256": "171b69abaa3781b9c19bec5aa1d4031a983018afdd9089349fa9344619dedff9"
+    },
+    {
+      "path": "exam-data/common-test/2026/main/english/reading/exam.json",
+      "bytes": 62041,
+      "sha256": "79121140150408705785c3a31bbdc5cfd1f728b33819f36318311b5b67b137fa"
+    },
+    {
+      "path": "exam-index.html",
+      "bytes": 21902,
+      "sha256": "59e2dd30103480e9741b34ce3b15702d2ea4f287e8b93fcdf107d9bb77ba189d"
+    },
+    {
+      "path": "exam.html",
+      "bytes": 3709,
+      "sha256": "05ff0bc434da0fa42885d13916476be76f3534ac3b89a0791dd7358b2384f045"
+    },
+    {
+      "path": "index.html",
+      "bytes": 53776,
+      "sha256": "5757e809dab9be899b2b605c8cb241cea705873a5c7c3ca89f826eb99a1ad46d"
+    },
+    {
+      "path": "output/images/common-2022-reading/common-2022-r-p12.png",
+      "bytes": 624898,
+      "sha256": "e5fdb8972bd0d975969fda092fd4058fe10752c4a039477d16ae642e101d6bb9"
+    },
+    {
+      "path": "rights.html",
+      "bytes": 4085,
+      "sha256": "707d16949a00ac8f8e01b3628657887f7288d0310232f9de76248e7f95cc9a88"
+    }
+  ]
+}

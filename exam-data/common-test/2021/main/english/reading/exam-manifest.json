@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2021-main-english-reading",
+  "contentVersion": "1.0.0",
+  "assetVersion": "1.0.0",
+  "classificationVersion": "1.0.0",
+  "examSystem": "common-test",
+  "year": 2021,
+  "session": "main",
+  "identity": {
+    "examFamilyId": "common-test",
+    "authorityId": "dnc",
+    "authorityType": "national-exam-body",
+    "institutionId": null,
+    "regionId": null,
+    "facultyId": null,
+    "scheduleId": "main"
+  },
+  "subject": {
+    "id": "english",
+    "name": "英語",
+    "paper": "reading"
+  },
+  "status": "published",
+  "rendering": {
+    "subjectProfileId": "english",
+    "rendererId": "english.reading",
+    "viewerAdapterId": "common-structured-v1",
+    "responseTypeIds": [
+      "single-choice",
+      "multi-select-unordered",
+      "ordering"
+    ],
+    "mediaTypeIds": [
+      "image",
+      "document",
+      "text"
+    ]
+  },
+  "dataFiles": {
+    "sections": [
+      "exam-data/common-test/2021/main/english/reading/exam.json"
+    ],
+    "answers": [
+      "exam-data/common-test/2021/main/english/reading/answers.json"
+    ],
+    "classification": [
+      "exam-data/common-test/2021/main/english/reading/classifications.json"
+    ],
+    "fullText": "exam-data/common-test/2021/main/english/reading/2021年度共通テスト英語本試リーディング全文.txt",
+    "rightsReview": "exam-data/common-test/2021/main/english/reading/rights-review.json",
+    "textComparison": "exam-data/common-test/2021/main/english/reading/verification/text-comparison.json",
+    "sectionTextComparison": "exam-data/common-test/2021/main/english/reading/verification/section-text-results.json",
+    "formattingComparison": "exam-data/common-test/2021/main/english/reading/verification/formatting-candidates.json"
+  },
+  "assets": {
+    "manifestPath": "exam-data/common-test/2021/main/english/reading/assets.json",
+    "audioRequired": false
+  },
+  "provenance": {
+    "sourceType": "official-exam-pdf",
+    "sourceRegister": "AI参照用原本",
+    "sourceProblemSha256": "ED3D923E07C59F97D8558EA2C5828B4AF74F1C7D24D48B29A4872CEBC2BEE5C3",
+    "sourceAnswerSha256": "3B50FFFDCDA9AD46E305782DA2C13C2F45E1D9817972B802F9227D0CC12A920D",
+    "rightsStatus": "cleared",
+    "rightsNote": "大学入試センター作成範囲は利用許諾取得済み。利用者による事前確認で第三者権利候補なし。"
+  },
+  "publication": {
+    "state": "public",
+    "listed": true,
+    "correctionLogRequired": true
+  },
+  "publicRights": {
+    "rightsProfileId": "dnc-permitted-exam",
+    "permissionStatus": "confirmed",
+    "attribution": "出典：独立行政法人大学入試センター",
+    "thirdPartyRightsStatus": "not-applicable",
+    "transformationType": "re-typeset",
+    "transformationNotice": "ウェブ表示用に文字組み・配置を再構成しています。大学入試センター公表原本そのものではありません。",
+    "policyPath": "rights.html#permissions"
+  },
+  "expected": {
+    "responseCount": 47,
+    "maxScore": 100
+  },
+  "timing": {
+    "timeLimitMinutes": 80,
+    "timerEnabled": true
+  },
+  "features": {
+    "timer": true,
+    "forcedSubmission": true,
+    "attemptHistory": false,
+    "serverSync": false,
+    "analytics": false,
+    "accounts": false,
+    "personalVocabulary": false,
+    "advertising": false,
+    "reviewFlags": false,
+    "explanations": false,
+    "prototypeAnswerKey": true,
+    "localPersistence": true,
+    "requireCompleteBeforeScoring": true
+  },
+  "scoring": {
+    "model": "scoring-units",
+    "answersFile": "exam-data/common-test/2021/main/english/reading/answers.json",
+    "groupRule": "各scoringUnitのresponseKeysをすべて正解した場合のみ、そのunitの点数を加算"
+  },
+  "categories": [
+    {
+      "categoryId": "english.academic-reading",
+      "label": "english.academic-reading"
+    },
+    {
+      "categoryId": "english.comparison",
+      "label": "english.comparison"
+    },
+    {
+      "categoryId": "english.inference",
+      "label": "english.inference"
+    },
+    {
+      "categoryId": "english.information-integration",
+      "label": "english.information-integration"
+    },
+    {
+      "categoryId": "english.information-location",
+      "label": "english.information-location"
+    },
+    {
+      "categoryId": "english.narrative-reading",
+      "label": "english.narrative-reading"
+    },
+    {
+      "categoryId": "english.practical-reading",
+      "label": "english.practical-reading"
+    },
+    {
+      "categoryId": "english.sequence",
+      "label": "english.sequence"
+    },
+    {
+      "categoryId": "english.summary",
+      "label": "english.summary"
+    }
+  ],
+  "groupProfiles": {
+    "common-2021-r-s01": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2021-r-s02": [
+      "english.practical-reading",
+      "english.inference",
+      "english.comparison"
+    ],
+    "common-2021-r-s03": [
+      "english.practical-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2021-r-s04": [
+      "english.information-integration",
+      "english.comparison",
+      "english.practical-reading"
+    ],
+    "common-2021-r-s05": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence"
+    ],
+    "common-2021-r-s06": [
+      "english.academic-reading",
+      "english.summary",
+      "english.information-integration"
+    ]
+  }
+}

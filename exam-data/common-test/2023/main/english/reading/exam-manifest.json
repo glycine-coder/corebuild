@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2023-main-english-reading",
+  "contentVersion": "1.0.0",
+  "assetVersion": "1.0.0",
+  "classificationVersion": "1.0.0",
+  "examSystem": "common-test",
+  "year": 2023,
+  "session": "main",
+  "identity": {
+    "examFamilyId": "common-test",
+    "authorityId": "dnc",
+    "authorityType": "national-exam-body",
+    "institutionId": null,
+    "regionId": null,
+    "facultyId": null,
+    "scheduleId": "main"
+  },
+  "subject": {
+    "id": "english",
+    "name": "英語",
+    "paper": "reading"
+  },
+  "status": "published",
+  "rendering": {
+    "subjectProfileId": "english",
+    "rendererId": "english.reading",
+    "viewerAdapterId": "common-structured-v1",
+    "responseTypeIds": [
+      "single-choice",
+      "multi-select-unordered",
+      "ordering"
+    ],
+    "mediaTypeIds": [
+      "image",
+      "document",
+      "text"
+    ]
+  },
+  "dataFiles": {
+    "sections": [
+      "exam-data/common-test/2023/main/english/reading/exam.json"
+    ],
+    "answers": [
+      "exam-data/common-test/2023/main/english/reading/answers.json"
+    ],
+    "classification": [
+      "exam-data/common-test/2023/main/english/reading/classifications.json"
+    ],
+    "fullText": "exam-data/common-test/2023/main/english/reading/2023年度共通テスト英語本試リーディング全文.txt",
+    "rightsReview": "exam-data/common-test/2023/main/english/reading/rights-review.json",
+    "textComparison": "exam-data/common-test/2023/main/english/reading/verification/text-comparison.json",
+    "formattingComparison": "exam-data/common-test/2023/main/english/reading/verification/formatting-candidates.json"
+  },
+  "assets": {
+    "manifestPath": "exam-data/common-test/2023/main/english/reading/assets.json",
+    "audioRequired": false
+  },
+  "provenance": {
+    "sourceType": "official-exam-pdf",
+    "sourceRegister": "AI参照用原本",
+    "sourceProblemSha256": "B9876A2F17FF5BEB05A2AC936FA3C5D698A2C98EC85D0C7DD2AF21862631C90B",
+    "sourceAnswerSha256": "69A08AE6F66DF5B30F1F72B5CACA75EA08C87513FFB44647EA30BD6C3862DA78",
+    "rightsStatus": "cleared",
+    "rightsNote": "大学入試センター作成範囲は利用許諾取得済み。第三者権利候補はなく別途許諾不要と利用者が事前確認済み。"
+  },
+  "publication": {
+    "state": "public",
+    "listed": true,
+    "correctionLogRequired": true
+  },
+  "publicRights": {
+    "rightsProfileId": "dnc-permitted-exam",
+    "permissionStatus": "confirmed",
+    "attribution": "出典：独立行政法人大学入試センター",
+    "thirdPartyRightsStatus": "not-applicable",
+    "transformationType": "original-preserving-formatting",
+    "transformationNotice": "ウェブ上での閲覧・回答に適するよう、ページ構成、余白、表示サイズ等を整えています。大学入試センター公表原本そのものではありません。",
+    "policyPath": "rights.html#permissions"
+  },
+  "expected": {
+    "responseCount": 49,
+    "maxScore": 100
+  },
+  "timing": {
+    "timeLimitMinutes": 80,
+    "timerEnabled": true
+  },
+  "features": {
+    "timer": true,
+    "forcedSubmission": true,
+    "attemptHistory": false,
+    "serverSync": false,
+    "analytics": false,
+    "accounts": false,
+    "personalVocabulary": false,
+    "advertising": false,
+    "reviewFlags": false,
+    "explanations": false,
+    "prototypeAnswerKey": true,
+    "localPersistence": true,
+    "requireCompleteBeforeScoring": true
+  },
+  "scoring": {
+    "model": "scoring-units",
+    "answersFile": "exam-data/common-test/2023/main/english/reading/answers.json",
+    "groupRule": "各scoringUnitのresponseKeysをすべて正解した場合のみ、そのunitの点数を加算"
+  },
+  "categories": [
+    {
+      "categoryId": "english.academic-reading",
+      "label": "english.academic-reading"
+    },
+    {
+      "categoryId": "english.chart-reading",
+      "label": "english.chart-reading"
+    },
+    {
+      "categoryId": "english.inference",
+      "label": "english.inference"
+    },
+    {
+      "categoryId": "english.information-integration",
+      "label": "english.information-integration"
+    },
+    {
+      "categoryId": "english.information-location",
+      "label": "english.information-location"
+    },
+    {
+      "categoryId": "english.logical-reading",
+      "label": "english.logical-reading"
+    },
+    {
+      "categoryId": "english.narrative-reading",
+      "label": "english.narrative-reading"
+    },
+    {
+      "categoryId": "english.practical-reading",
+      "label": "english.practical-reading"
+    },
+    {
+      "categoryId": "english.sequence",
+      "label": "english.sequence"
+    },
+    {
+      "categoryId": "english.summary",
+      "label": "english.summary"
+    }
+  ],
+  "groupProfiles": {
+    "common-2023-r-s01": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2023-r-s02": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2023-r-s03": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2023-r-s04": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2023-r-s05": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2023-r-s06": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ]
+  }
+}

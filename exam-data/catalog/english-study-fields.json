@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "subjectId": "english",
+  "modeId": "field-study",
+  "fields": [
+    {
+      "fieldId": "pronunciation-accent",
+      "label": "発音・アクセント",
+      "description": "発音、語のアクセント、文中の強勢を扱う設問です。",
+      "categoryIds": [
+        "english.pronunciation",
+        "english.accent",
+        "english.sentence-stress"
+      ]
+    },
+    {
+      "fieldId": "vocabulary-grammar",
+      "label": "語彙・文法・語法",
+      "description": "語彙、文法、語法、語句整序を扱う設問です。",
+      "categoryIds": [
+        "english.grammar-vocabulary",
+        "english.vocabulary",
+        "english.grammar",
+        "english.usage",
+        "english.word-order"
+      ]
+    },
+    {
+      "fieldId": "conversation-context",
+      "label": "会話・文脈把握",
+      "description": "会話の流れ、応答、前後関係、文のつながりを扱う設問です。",
+      "categoryIds": [
+        "english.dialogue",
+        "english.conversation",
+        "english.context",
+        "english.sentence-order"
+      ]
+    },
+    {
+      "fieldId": "materials-reading",
+      "label": "資料読解",
+      "description": "案内、メール、表、グラフ、地図、複数資料などから情報を読み取る設問です。",
+      "exerciseUnit": "stimulus-group",
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.information-integration",
+        "english.multiple-documents",
+        "english.chart-reading",
+        "english.graph-reading",
+        "english.comparison"
+      ]
+    },
+    {
+      "fieldId": "long-reading",
+      "label": "長文読解",
+      "description": "物語文、説明文、論説文などの内容・要旨・論理を読み取る設問です。",
+      "exerciseUnit": "stimulus-group",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension",
+        "english.narrative-reading",
+        "english.academic-reading",
+        "english.argument-reading",
+        "english.editing",
+        "english.logical-reading"
+      ]
+    }
+  ]
+}

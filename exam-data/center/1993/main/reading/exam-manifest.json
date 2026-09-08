@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "center-1993-main-english-reading",
+  "contentVersion": "2.0.0",
+  "classificationVersion": "1.1.0",
+  "examSystem": "center-test",
+  "year": 1993,
+  "session": "main",
+  "identity": {
+    "examFamilyId": "center-test",
+    "authorityId": "dnc",
+    "authorityType": "national-exam-body",
+    "institutionId": null,
+    "regionId": null,
+    "facultyId": null,
+    "scheduleId": "main"
+  },
+  "subject": {
+    "id": "english",
+    "name": "英語",
+    "paper": "reading"
+  },
+  "status": "published",
+  "rendering": {
+    "subjectProfileId": "english",
+    "rendererId": "english.reading",
+    "viewerAdapterId": "common-structured-v1",
+    "responseTypeIds": ["single-choice", "shared-choice", "multi-select-unordered"],
+    "mediaTypeIds": ["image", "document", "text"]
+  },
+  "dataFiles": {
+    "sections": ["exam-data/center/1993/main/reading/exam.json"],
+    "answers": ["exam-data/center/1993/main/reading/answers-common.json"],
+    "classification": ["exam-data/center/1993/main/reading/classifications.json"],
+    "fullText": "exam-data/center/1993/main/reading/1993年度センター試験英語本試リーディング全文.txt",
+    "rightsReview": "exam-data/center/1993/main/reading/rights-review.json"
+  },
+  "assets": {
+    "manifestPath": "exam-data/center/1993/main/reading/assets.json",
+    "audioRequired": false
+  },
+  "provenance": {
+    "sourceType": "official-exam-scan",
+    "sourceRegister": "AI参照用原本",
+    "rightsStatus": "cleared",
+    "rightsNote": "利用者による掲載・加工許可取得済み"
+  },
+  "publication": {
+    "state": "public",
+    "listed": true,
+    "correctionLogRequired": true
+  },
+  "publicRights": {
+    "rightsProfileId": "dnc-permitted-exam",
+    "permissionStatus": "confirmed",
+    "permissionDate": "2026-08-10",
+    "attribution": "出典：独立行政法人大学入試センター",
+    "thirdPartyRightsStatus": "confirmed-separately",
+    "transformationType": "re-typeset",
+    "transformationNotice": "ウェブ上での閲覧・回答に適するよう、文字組み、改行、配置、解答欄、図表等を再構成しています。大学入試センター公表原本そのものではありません。",
+    "policyPath": "rights.html#permissions"
+  },
+  "expected": {
+    "responseCount": 59,
+    "maxScore": 200
+  },
+  "timing": {
+    "timeLimitMinutes": 80,
+    "timerEnabled": true
+  },
+  "persistence": {
+    "adapterId": "exam-attempt-store-v1",
+    "legacyStorageKeys": ["center-1993-reading-responses-v2"]
+  },
+  "features": {
+    "timer": true,
+    "forcedSubmission": true,
+    "attemptHistory": false,
+    "serverSync": false,
+    "analytics": false,
+    "accounts": false,
+    "personalVocabulary": false,
+    "advertising": false,
+    "reviewFlags": false,
+    "explanations": false,
+    "prototypeAnswerKey": true,
+    "localPersistence": true,
+    "requireCompleteBeforeScoring": true
+  },
+  "scoring": {
+    "bands": [
+      {"from": 1, "to": 27, "points": 2},
+      {"from": 28, "to": 33, "points": 4},
+      {"from": 34, "to": 39, "points": 3},
+      {"from": 40, "to": 41, "points": 6},
+      {"from": 42, "to": 45, "points": 4},
+      {"from": 46, "to": 49, "points": 6},
+      {"from": 50, "to": 55, "points": 6},
+      {"from": 56, "to": 59, "points": 4}
+    ],
+    "multiSelect": {
+      "responseKey": "56-59",
+      "answerNumbers": [56, 57, 58, 59],
+      "correctChoices": [3, 5, 9, 10],
+      "pointsPerCorrectChoice": 4,
+      "orderMatters": false
+    }
+  },
+  "categories": [
+    {"categoryId": "english.pronunciation", "label": "発音"},
+    {"categoryId": "english.accent", "label": "アクセント"},
+    {"categoryId": "english.sentence-stress", "label": "文強勢"},
+    {"categoryId": "english.grammar-vocabulary", "label": "語句・文法・語法"},
+    {"categoryId": "english.dialogue", "label": "会話"},
+    {"categoryId": "english.word-order", "label": "語句整序"},
+    {"categoryId": "english.sentence-order", "label": "文整序"},
+    {"categoryId": "english.graph-reading", "label": "図表読解"},
+    {"categoryId": "english.long-reading", "label": "長文読解"},
+    {"categoryId": "english.content-comprehension", "label": "内容理解"},
+    {"categoryId": "english.multiple-select", "label": "順不同複数選択"}
+  ],
+  "groupProfiles": {
+    "center-1993-r-s01-a": ["english.pronunciation"],
+    "center-1993-r-s01-b": ["english.accent"],
+    "center-1993-r-s01-c": ["english.sentence-stress"],
+    "center-1993-r-s02-a": ["english.grammar-vocabulary"],
+    "center-1993-r-s02-b": ["english.dialogue"],
+    "center-1993-r-s03-a": ["english.word-order"],
+    "center-1993-r-s03-b": ["english.sentence-order"],
+    "center-1993-r-s04-a": ["english.graph-reading"],
+    "center-1993-r-s04-b": ["english.graph-reading", "english.content-comprehension"],
+    "center-1993-r-s05-main": ["english.long-reading", "english.content-comprehension"],
+    "center-1993-r-s06-a": ["english.long-reading", "english.content-comprehension"],
+    "center-1993-r-s06-b": ["english.long-reading", "english.content-comprehension", "english.multiple-select"]
+  }
+}

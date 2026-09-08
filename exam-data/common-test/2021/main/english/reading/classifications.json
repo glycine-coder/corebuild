@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2021-main-english-reading",
+  "classificationVersion": "1.0.0",
+  "groups": {
+    "common-2021-r-s01": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-s02": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-s03": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-s04": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-s05": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-s06": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    }
+  },
+  "questions": {
+    "common-2021-r-q-s1a-request": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-q-s1a-reply": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-q-s1b-pack": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-q-s1b-pacer": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-q-s1b-renew": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2021-r-q-s2a-best-singing": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2a-balanced-judge": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2a-fact": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2a-opinion": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2a-ranking": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2b-policy-effect": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2b-fact": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2b-energy": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2b-basis": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s2b-research": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ]
+    },
+    "common-2021-r-q-s3a-value": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-q-s3a-route": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-q-s3b-order": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-q-s3b-centre": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-q-s3b-action": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2021-r-q-s4-trains": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-q-s4-schedule": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-q-s4-lunch": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-q-s4-transport": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-q-s4-third-option": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2021-r-q-s5-title": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-q-s5-who": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-q-s5-order": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-q-s5-abilities": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-q-s5-now": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2021-r-q-s6a-short": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6a-long": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6a-spotters": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6a-summary": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6b-science": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6b-ranking": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6b-true": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2021-r-q-s6b-position": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    }
+  }
+}

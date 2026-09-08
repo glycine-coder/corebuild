@@ -1,0 +1,1587 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2024-main-english-reading",
+  "title": "2024年度 大学入学共通テスト 英語（リーディング）本試験",
+  "metaLine": "大学入学共通テスト　2024年度　本試験",
+  "instruction": "各大問の英文や図表を読み、解答番号1～49にあてはまるものとして最も適当な選択肢を選びなさい。",
+  "sections": [
+    {
+      "sectionId": "common-2024-r-s01",
+      "number": "第1問",
+      "score": 10,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ],
+      "blocks": [
+        {
+          "blockId": "s1a",
+          "type": "leaflet",
+          "title": "The Thorpe English Language School",
+          "paragraphs": [
+            "The Thorpe English Language School (TELS) is organizing an international exchange event. TELS students don’t need to pay the entrance fee. Please present your student ID at the reception desk in the Student Lobby."
+          ],
+          "noticeTitle": "",
+          "noticeItems": [
+            "{{b|Enjoy foods from various parts of the world}}\nHave you ever tasted hummus from the Middle East? How about tacos from Mexico? Couscous from North Africa? Try them all!",
+            "{{b|Experience different languages and new ways to communicate}}\nWrite basic expressions such as “hello” and “thank you” in Arabic, Italian, Japanese, and Spanish. Learn how people from these cultures use facial expressions and their hands to communicate.",
+            "{{b|Watch dance performances}}\nFrom 7 p.m. watch flamenco, hula, and samba dance shows on the stage! After each dance, performers will teach some basic steps. Please join in."
+          ],
+          "footerLines": [
+            "Lots of pictures, flags, maps, textiles, crafts, and games will be displayed in the hall. If you have some pictures or items from your home country which can be displayed at the event, let a school staff member know by May 17!"
+          ],
+          "subtitle": "International Night",
+          "metaLines": [
+            "Friday, May 24, 5 p.m.-8 p.m.",
+            "Entrance Fee: $5"
+          ],
+          "stimulusId": "s1a"
+        },
+        {
+          "blockId": "s1introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are an exchange student in the US and next week your class will go on a day trip. The teacher has provided some information.",
+          "stimulusId": "s1introb"
+        },
+        {
+          "blockId": "s1b",
+          "type": "cards",
+          "title": "Tours of Yentonville",
+          "layout": "vertical",
+          "cards": [
+            {
+              "title": "The History Tour",
+              "text": "The day will begin with a visit to St. Patrick’s Church, which was built when the city was established in the mid-1800s. Opposite the church is the early-20th-century Mayor’s House. There will be a tour of the house and its beautiful garden. Finally, cross the city by public bus and visit the Peace Park. Opened soon after World War Ⅱ, it was the site of many demonstrations in the 1960s."
+            },
+            {
+              "title": "The Arts Tour",
+              "text": "The morning will be spent in the Yentonville Arts District. We will begin in the Art Gallery where there are many paintings from Europe and the US. After lunch, enjoy a concert across the street at the Bruton Concert Hall before walking a short distance to the Artists’ Avenue. This part of the district was developed several years ago when new artists’ studios and the nearby Sculpture Park were created. Watch artists at work in their studios and afterwards wander around the park, finding sculptures among the trees."
+            },
+            {
+              "title": "The Sports Tour",
+              "text": "First thing in the morning, you can watch the Yentonville Lions football team training at their open-air facility in the suburbs. In the afternoon, travel by subway to the Yentonville Hockey Arena, completed last fall. Spend some time in its exhibition hall to learn about the arena’s unique design. Finally, enjoy a professional hockey game in the arena."
+            }
+          ],
+          "subtitle": "The Yentonville Tourist Office offers three city tours.",
+          "attribution": "Yentonville Tourist Office, January, 2024",
+          "stimulusId": "s1b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q001",
+          "number": "問1",
+          "prompt": "To join the event free of charge, you must [[1]].",
+          "promptRich": "To join the event free of charge, you must [[1]].",
+          "responseKey": "1",
+          "choices": [
+            "bring pictures from your home country",
+            "consult a staff member about the display",
+            "fill out a form in the Student Lobby",
+            "show proof that you are a TELS student"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q002",
+          "number": "問2",
+          "prompt": "At the event, you can [[2]].",
+          "promptRich": "At the event, you can [[2]].",
+          "responseKey": "2",
+          "choices": [
+            "learn about gestures in various cultures",
+            "participate in a dance competition",
+            "read short stories in foreign languages",
+            "try cooking international dishes"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q003",
+          "number": "問1",
+          "prompt": "Yentonville has [[3]].",
+          "promptRich": "Yentonville has [[3]].",
+          "responseKey": "3",
+          "choices": [
+            "a church built 250 years ago when the city was constructed",
+            "a unique football training facility in the center of the town",
+            "an art studio where visitors can create original works of art",
+            "an arts area with both an art gallery and a concert hall"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q004",
+          "number": "問2",
+          "prompt": "On all three tours, you will [[4]].",
+          "promptRich": "On all three tours, you will [[4]].",
+          "responseKey": "4",
+          "choices": [
+            "learn about historic events in the city",
+            "see people demonstrate their skills",
+            "spend time both indoors and outdoors",
+            "use public transportation to get around"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q005",
+          "number": "問3",
+          "prompt": "Which is the newest place in Yentonville you can visit on the tours? [[5]]",
+          "promptRich": "Which is the newest place in Yentonville you can visit on the tours? [[5]]",
+          "responseKey": "5",
+          "choices": [
+            "The Hockey Arena",
+            "The Mayor’s House",
+            "The Peace Park",
+            "The Sculpture Park"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s1a"
+        },
+        {
+          "question": "common-2024-r-q001"
+        },
+        {
+          "question": "common-2024-r-q002"
+        },
+        {
+          "block": "s1introb"
+        },
+        {
+          "block": "s1b"
+        },
+        {
+          "question": "common-2024-r-q003"
+        },
+        {
+          "question": "common-2024-r-q004"
+        },
+        {
+          "question": "common-2024-r-q005"
+        }
+      ],
+      "lead": "You are studying English at a language school in the US. The school is planning an event. You want to attend, so you are reading the flyer.",
+      "leadLabel": "A",
+      "leadPlacement": "body"
+    },
+    {
+      "sectionId": "common-2024-r-s02",
+      "number": "第2問",
+      "score": 20,
+      "sourcePages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ],
+      "blocks": [
+        {
+          "blockId": "s2a",
+          "type": "leaflet",
+          "title": "Invitation to the Strategy Game Club",
+          "paragraphs": [
+            "Have you ever wanted to learn strategy games like chess, {{i|shogi}}, or {{i|go}}? They are actually more than just games. You can learn skills such as thinking logically and deeply without distractions. Plus, these games are really fun! This club is open to all students of our school. Regardless of skill level, you are welcome to join."
+          ],
+          "noticeTitle": "We play strategy games together and...",
+          "noticeItems": [
+            "learn basic moves from demonstrations by club members",
+            "play online against club friends",
+            "share tips on our club webpage",
+            "learn the history and etiquette of each game",
+            "analyse games using computer software",
+            "participate in local and national tournaments"
+          ],
+          "footerLines": [
+            "My mind is clearer, calmer, and more focused in class.",
+            "It’s cool to learn how some games have certain similarities.",
+            "At tournaments, I like discussing strategies with other participants.",
+            "Members share Internet videos that explain practical strategies for chess.",
+            "It’s nice to have friends who give good advice about {{i|go}}.",
+            "I was a complete beginner when I joined, and I had no problem!"
+          ],
+          "meetingLine": "Regular meetings: Wednesday afternoons in Room 301, Student Centre",
+          "footerHeading": "Member Comments",
+          "stimulusId": "s2a"
+        },
+        {
+          "blockId": "s2introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are a college student going to study in the US and need travel insurance. You find this review of an insurance plan written by a female international student who studied in the US for six months.",
+          "stimulusId": "s2introb"
+        },
+        {
+          "blockId": "s2b",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            "There are many things to consider before traveling abroad: pack appropriate clothes, prepare your travel expenses, and don’t forget medication (if necessary). Also, you should purchase travel insurance.",
+            "When I studied at Fairville University in California, I bought travel insurance from TravSafer International. I signed up online in less than 15 minutes and was immediately covered. They accept any form of payment, usually on a monthly basis. There were three plans. All plans include a one-time health check-up.",
+            "The Premium Plan is $100/month. The plan provides 24-hour medical support through a smartphone app and telephone service. Immediate financial support will be authorized if you need to stay in a hospital.",
+            "The Standard Plan worked best for me. It had the 24-hour telephone assistance and included a weekly email with tips for staying healthy in a foreign country. It wasn’t cheap: $75/month. However, it was nice to get the optional 15% discount because I paid for six months of coverage in advance.",
+            "If your budget is limited, you can choose the Economy Plan, which is $25/month. It has the 24-hour telephone support like the other plans but only covers emergency care. Also, they can arrange a taxi to a hospital at a reduced cost if considered necessary by the support center.",
+            "I never got sick or hurt, so I thought it was a waste of money to get insurance. Then my friend from Brazil broke his leg while playing soccer and had to spend a few days in a hospital. He had chosen the Premium Plan and it covered everything! I realized how important insurance is―you know that you will be supported when you are in trouble."
+          ],
+          "stimulusId": "s2b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q006",
+          "number": "問1",
+          "prompt": "According to the flyer, which is true about the club? [[6]]",
+          "promptRich": "According to the flyer, which is true about the club? [[6]]",
+          "responseKey": "6",
+          "choices": [
+            "Absolute beginners are welcome.",
+            "Members edit computer programs.",
+            "Professional players give formal demonstrations.",
+            "Students from other schools can join."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q007",
+          "number": "問2",
+          "prompt": "Which of the following is {{u|not}} mentioned as a club activity? [[7]]",
+          "promptRich": "Which of the following is {{u|not}} mentioned as a club activity? [[7]]",
+          "responseKey": "7",
+          "choices": [
+            "Having games with non-club members",
+            "Playing matches against computers",
+            "Sharing game-playing ideas on the Internet",
+            "Studying the backgrounds of strategy games"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q008",
+          "number": "問3",
+          "prompt": "One opinion stated by a member is that [[8]].",
+          "promptRich": "One {{u|opinion}} stated by a member is that [[8]].",
+          "responseKey": "8",
+          "choices": [
+            "comparing different games is interesting",
+            "many videos about {{i|go}} are useful",
+            "members learn tips at competitions",
+            "regular meetings are held off campus"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q009",
+          "number": "問4",
+          "prompt": "The club invitation and a member’s comment both mention that [[9]].",
+          "promptRich": "The club invitation and a member’s comment both mention that [[9]].",
+          "responseKey": "9",
+          "choices": [
+            "new members must demonstrate experience",
+            "online support is necessary to be a good player",
+            "{{i|shogi}} is a logical and stimulating game",
+            "strategy games help improve one’s concentration"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q010",
+          "number": "問5",
+          "prompt": "This club is most likely suitable for students who want to [[10]].",
+          "promptRich": "This club is most likely suitable for students who want to [[10]].",
+          "responseKey": "10",
+          "choices": [
+            "create their own computer strategy games",
+            "improve their skill level of playing strategy games",
+            "learn proper British etiquette through playing strategy games",
+            "spend weekends playing strategy games in the club room"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q011",
+          "number": "問1",
+          "prompt": "According to the review, which of the following is true? [[11]]",
+          "promptRich": "According to the review, which of the following is true? [[11]]",
+          "responseKey": "11",
+          "choices": [
+            "Day and night medical assistance is available with the most expensive plan.",
+            "The cheapest plan includes free hospitalization for any reason.",
+            "The mid-level plan does not include the one-time health check-up.",
+            "The writer’s plan cost her over $100 every month."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q012",
+          "number": "問2",
+          "prompt": "Which is {{u|not}} included in the cheapest option? [[12]]",
+          "promptRich": "Which is {{u|not}} included in the cheapest option? [[12]]",
+          "responseKey": "12",
+          "choices": [
+            "Email support",
+            "Emergency treatment",
+            "Telephone help desk",
+            "Transport assistance"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q013",
+          "number": "問3",
+          "prompt": "Which is the best combination that describes TravSafer International? [[13]]",
+          "promptRich": "Which is the best combination that describes TravSafer International? [[13]]",
+          "responseKey": "13",
+          "choices": [
+            "A and D",
+            "A and E",
+            "B and D",
+            "B and E",
+            "C and D"
+          ],
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A: They allow monthly payments.",
+            "B: They design scholarship plans for students.",
+            "C: They help you remember your medication.",
+            "D: They offer an Internet-based registration system.",
+            "E: They require a few days to process the application form."
+          ],
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q014",
+          "number": "問4",
+          "prompt": "The writer’s opinion of her chosen plan is that [[14]].",
+          "promptRich": "The writer’s {{u|opinion}} of her chosen plan is that [[14]].",
+          "responseKey": "14",
+          "choices": [
+            "it prevented her from being health conscious",
+            "she was not satisfied with the telephone assistance",
+            "the option for cost reduction was attractive",
+            "the treatment for her broken leg was covered"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q015",
+          "number": "問5",
+          "prompt": "Which of the following best describes the writer’s attitude? [[15]]",
+          "promptRich": "Which of the following best describes the writer’s attitude? [[15]]",
+          "responseKey": "15",
+          "choices": [
+            "She believes the smartphone app is useful.",
+            "She considers travel preparation to be important.",
+            "She feels the US medical system is unique in the world.",
+            "She thinks a different hospital would have been better for her friend."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s2a"
+        },
+        {
+          "question": "common-2024-r-q006"
+        },
+        {
+          "question": "common-2024-r-q007"
+        },
+        {
+          "question": "common-2024-r-q008"
+        },
+        {
+          "question": "common-2024-r-q009"
+        },
+        {
+          "question": "common-2024-r-q010"
+        },
+        {
+          "block": "s2introb"
+        },
+        {
+          "block": "s2b"
+        },
+        {
+          "question": "common-2024-r-q011"
+        },
+        {
+          "question": "common-2024-r-q012"
+        },
+        {
+          "question": "common-2024-r-q013"
+        },
+        {
+          "question": "common-2024-r-q014"
+        },
+        {
+          "question": "common-2024-r-q015"
+        }
+      ],
+      "lead": "You are an exchange student at a high school in the UK and find this flyer.",
+      "leadLabel": "A",
+      "leadPlacement": "body"
+    },
+    {
+      "sectionId": "common-2024-r-s03",
+      "number": "第3問",
+      "score": 15,
+      "sourcePages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ],
+      "blocks": [
+        {
+          "blockId": "s3a",
+          "type": "blog",
+          "title": "",
+          "paragraphs": [
+            {
+              "text": "Hi!",
+              "className": "no-indent"
+            },
+            "I participated in a photo rally for foreign tourists with my friends: See the rules on the right. As photo rally beginners, we decided to aim for only five of the checkpoints. In three minutes, we arrived at our first target, the city museum. In quick succession, we made the second, third, and fourth targets. Things were going smoothly! But, on the way to the last target, the statue of a famous samurai from the city, we got lost. Time was running out and my feet were hurting from walking for over two hours. We stopped a man with a pet monkey for help, but neither our Japanese nor his English were good enough. After he’d explained the way using gestures, we realised we wouldn’t have enough time to get there and would have to give up. We took a photo with him and said goodbye. When we got back to Sakura City Hall, we were surprised to hear that the winning team had completed 19 checkpoints. One of our photos was selected to be on the event website (click {{u|here}}). It reminds me of the man’s warmth and kindness: our own “gold medal.”"
+          ],
+          "aside": {
+            "title": "Sakura City Photo Rally Rules",
+            "items": [
+              "Each group can only use the {{b|camera}} and {{b|paper map}}, both provided by us",
+              "Take as many photos of {{b|25 checkpoints}} (designated sightseeing spots) as possible",
+              "{{b|3-hour}} time limit",
+              "Photos must include {{b|all 3 team members}}",
+              "All members must move {{b|together}}",
+              "{{b|No}} mobile phones",
+              "{{b|No}} transport"
+            ]
+          },
+          "stimulusId": "s3a"
+        },
+        {
+          "blockId": "s3introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are going to participate in an English Day. As preparation, you are reading an article in the school newspaper written by Yuzu, who took part in it last year.",
+          "stimulusId": "s3introb"
+        },
+        {
+          "blockId": "s3b",
+          "type": "passage",
+          "title": "Virtual Field Trip to a South Sea Island",
+          "paragraphs": [
+            "This year, for our English Day, we participated in a virtual science tour. The winter weather had been terrible, so we were excited to see the tropical scenery of the volcanic island projected on the screen.",
+            "First, we “took a road trip” to learn about the geography of the island, using navigation software to view the route. We “got into the car,” which our teacher, Mr Leach, sometimes stopped so we could look out of the window and get a better sense of the rainforest. Afterwards, we asked Mr Leach about what we’d seen.",
+            "Later, we “dived into the ocean” and learnt about the diversity of marine creatures. We observed a coral reef via a live camera. Mr Leach asked us if we could count the number of creatures, but there were too many! Then he showed us an image of the ocean 10 years ago. The reef we’d seen on camera was dynamic, but in the photo it was even more full of life. It looked so different after only 10 years! Mr Leach told us human activity was affecting the ocean and it could be totally ruined if we didn’t act now.",
+            "In the evening, we studied astronomy under a “perfect starry sky.” We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a projector. We were fascinated by the sky full of constellations, shooting stars, and the Milky Way. Someone pointed out one of the brightest lights and asked Mr Leach if it was Venus, a planet close to Earth. He nodded and explained that humans have created so much artificial light that hardly anything is visible in our city’s night sky.",
+            "On my way home after school, the weather had improved and the sky was now cloudless. I looked up at the moonless sky and realised what Mr Leach had told us was true."
+          ],
+          "stimulusId": "s3b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q016",
+          "number": "問1",
+          "prompt": "You click the link in the blog. Which picture appears? [[16]]",
+          "promptRich": "You click the link in the blog. Which picture appears? [[16]]",
+          "responseKey": "16",
+          "choices": [
+            {
+              "image": "assets/exams/common-2024/s03-q16-1.png",
+              "alt": "Photo rally picture 1",
+              "displayWidth": 430
+            },
+            {
+              "image": "assets/exams/common-2024/s03-q16-2.png",
+              "alt": "Photo rally picture 2",
+              "displayWidth": 430
+            },
+            {
+              "image": "assets/exams/common-2024/s03-q16-3.png",
+              "alt": "Photo rally picture 3",
+              "displayWidth": 430
+            },
+            {
+              "image": "assets/exams/common-2024/s03-q16-4.png",
+              "alt": "Photo rally picture 4",
+              "displayWidth": 430
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "s3a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q017",
+          "number": "問2",
+          "prompt": "You are asked to comment on Susan’s blog. Which would be an appropriate comment to her? [[17]]",
+          "promptRich": "You are asked to comment on Susan’s blog. Which would be an appropriate comment to her? [[17]]",
+          "responseKey": "17",
+          "choices": [
+            "I want to see a picture of you wearing the gold medal!",
+            "You did your best. Come back to Japan and try again!",
+            "You reached 19 checkpoints in three hours? Really? Wow!!",
+            "Your photo is great! Did you upgrade your phone?"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3a"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q018-021",
+          "number": "問1",
+          "prompt": "Yuzu’s article also included student comments (①～④) describing the events in the virtual tour. Put the comments in the order in which the events happened.\n[[18]] → [[19]] → [[20]] → [[21]]",
+          "promptRich": "Yuzu’s article also included student comments (①～④) describing the events in the virtual tour. Put the comments in the order in which the events happened.\n[[18]] → [[19]] → [[20]] → [[21]]",
+          "responseKey": "18-21",
+          "choices": [
+            "I was wondering how dangerous the island was. I saw beautiful birds and a huge snake in the jungle.",
+            "It was really shocking that there had been many more creatures before. We should protect our beautiful oceans!",
+            "Setting up a camping site in the gymnasium was kind of weird, but great fun! Better than outside, because we weren’t bitten by bugs!",
+            "We were lost for words during the space show and realised we often don’t notice things even though they’re there."
+          ],
+          "answerBoxPlacement": "none",
+          "promptNewLine": true,
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q022",
+          "number": "問2",
+          "prompt": "From the tour, Yuzu did {{u|not}} learn about the [[22]] of the south sea island.",
+          "promptRich": "From the tour, Yuzu did {{u|not}} learn about the [[22]] of the south sea island.",
+          "responseKey": "22",
+          "choices": [
+            "marine ecosystem",
+            "night-time sky",
+            "seasonal weather",
+            "trees and plants"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q023",
+          "number": "問3",
+          "prompt": "On the way home, Yuzu looked up and most likely saw [[23]] in the night sky.",
+          "promptRich": "On the way home, Yuzu looked up and most likely saw [[23]] in the night sky.",
+          "responseKey": "23",
+          "choices": [
+            "a shooting star",
+            "just a few stars",
+            "the full moon",
+            "the Milky Way"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s3a"
+        },
+        {
+          "question": "common-2024-r-q016"
+        },
+        {
+          "question": "common-2024-r-q017"
+        },
+        {
+          "block": "s3introb"
+        },
+        {
+          "block": "s3b"
+        },
+        {
+          "question": "common-2024-r-q018-021"
+        },
+        {
+          "question": "common-2024-r-q022"
+        },
+        {
+          "question": "common-2024-r-q023"
+        }
+      ],
+      "lead": "Susan, your English ALT’s sister, visited your class last month. Now back in the UK, she wrote on her blog about an event she took part in.",
+      "leadLabel": "A",
+      "leadPlacement": "body"
+    },
+    {
+      "sectionId": "common-2024-r-s04",
+      "number": "第4問",
+      "score": 16,
+      "sourcePages": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ],
+      "lead": "Your college English club’s room has several problems and you want to redesign it. Based on the following article and questionnaire, you make a handout for a group discussion.",
+      "blocks": [
+        {
+          "blockId": "s4article",
+          "type": "passage",
+          "title": "What Makes a Good Classroom?",
+          "subtitle": "Diana Bashworth, writer at {{i|Trends in Education}}",
+          "paragraphs": [
+            "As many schools work to improve their classrooms, it is important to have some ideas for making design decisions. SIN, which stands for {{i|Stimulation}}, {{i|Individualization}}, and {{i|Naturalness}}, is a framework that might be helpful to consider when designing classrooms.",
+            "The first, Stimulation, has two aspects: color and complexity. This has to do with the ceiling, floor, walls, and interior furnishings. For example, a classroom that lacks colors might be uninteresting. On the other hand, a classroom should not be too colorful. A bright color could be used on one wall, on the floor, window coverings, or furniture. In addition, it can be visually distracting to have too many things displayed on walls. It is suggested that 20 to 30 percent of wall space remain free.",
+            "The next item in the framework is Individualization, which includes two considerations: ownership and flexibility. Ownership refers to whether the classroom feels personalized. Examples of this include having chairs and desks that are suitable for student sizes and ages, and providing storage space and areas for displaying student works or projects. Flexibility is about having a classroom that allows for different kinds of activities.",
+            "Naturalness relates to the quality and quantity of light, both natural and artificial, and the temperature of the classroom. Too much natural light may make screens and boards difficult to see; students may have difficulty reading or writing if there is a lack of light. In addition, hot summer classrooms do not promote effective study. Schools should install systems allowing for the adjustment of both light and temperature.",
+            "While Naturalness is more familiar to us, and therefore often considered the priority, the other components are equally important. Hopefully, these ideas can guide your project to a successful end."
+          ],
+          "stimulusId": "s4article"
+        },
+        {
+          "blockId": "s4chart",
+          "type": "surveyChart",
+          "title": "Results of the Questionnaire",
+          "yLabel": "Respondents",
+          "scaleMax": 40,
+          "categories": [
+            "Chatting in English",
+            "Chatting in Japanese",
+            "Checking out English books",
+            "Doing English homework",
+            "Playing smartphone games",
+            "Sleeping",
+            "Other"
+          ],
+          "series": [
+            {
+              "name": "Number of club members = 38",
+              "values": [
+                4,
+                30,
+                8,
+                10,
+                18,
+                32,
+                12
+              ]
+            }
+          ],
+          "paragraphs": [
+            "Q1: Choose any items that match your use of the English club’s room."
+          ],
+          "stimulusId": "s4chart"
+        },
+        {
+          "blockId": "s4comments",
+          "type": "cards",
+          "title": "Q2: What do you think about the current English club’s room?",
+          "layout": "vertical",
+          "cards": [
+            {
+              "title": "Student 1 (S1):",
+              "text": "I can’t see the projector screen and whiteboard well on a sunny day. Also, there’s no way to control the temperature."
+            },
+            {
+              "title": "S2:",
+              "text": "By the windows, the sunlight makes it hard to read. The other side of the room doesn’t get enough light. Also, the books are disorganized and the walls are covered with posters. It makes me feel uncomfortable."
+            },
+            {
+              "title": "S3:",
+              "text": "The chairs don’t really fit me and the desks are hard to move when we work in small groups. Also, lots of members speak Japanese, even though it’s an English club."
+            },
+            {
+              "title": "S4:",
+              "text": "The pictures of foreign countries on the walls make me want to speak English. Everyone likes the sofas—they are so comfortable that we often use the room for sleeping!"
+            },
+            {
+              "title": "S5:",
+              "text": "The room is so far away, so I hardly ever go there! Aren’t there other rooms available?"
+            },
+            {
+              "title": "S6:",
+              "text": "There’s so much gray in the room. I don’t like it. But it’s good that there are plenty of everyday English phrases on the walls!"
+            }
+          ],
+          "subtitle": "Main comments:",
+          "stimulusId": "s4comments"
+        },
+        {
+          "blockId": "s4handout",
+          "type": "outline",
+          "title": "Room Improvement Project",
+          "groups": [
+            {
+              "title": "SIN Framework",
+              "items": [
+                "What it is: [[24]]",
+                "SIN = Stimulation, Individualization, Naturalness"
+              ]
+            },
+            {
+              "title": "Design Recommendations Based on SIN and Questionnaire Results",
+              "items": [
+                "Stimulation: Cover the floor with a colorful rug and [[25]].",
+                "Individualization: Replace room furniture. (tables with wheels → easy to move around)",
+                "Naturalness: [[26]]",
+                "A. Install blinds on windows.",
+                "B. Make temperature control possible.",
+                "C. Move projector screen away from windows.",
+                "D. Place sofas near walls.",
+                "E. Put floor lamp in darker corner."
+              ]
+            },
+            {
+              "title": "Other Issues to Discuss",
+              "items": [
+                "The majority of members [[27]] the room as [[28]]’s comment mentioned. How can we solve this?",
+                "Based on both the graph and [[29]]’s comment, should we set a language rule in the room to motivate members to speak English more?",
+                "S5 doesn’t like the location, but we can’t change the room, so let’s think about how to encourage members to visit more often."
+              ]
+            }
+          ],
+          "label": "Your discussion handout:",
+          "stimulusId": "s4handout"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q024",
+          "number": "問1",
+          "prompt": "Choose the best option for [[24]].",
+          "promptRich": "Choose the best option for [[24]].",
+          "responseKey": "24",
+          "choices": [
+            "A guide to show which colors are appropriate to use in classrooms",
+            "A method to prioritize the needs of students and teachers in classrooms",
+            "A model to follow when planning classroom environments",
+            "A system to understand how classrooms influence students’ performance"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4article",
+            "s4chart",
+            "s4comments",
+            "s4handout"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q025",
+          "number": "問2",
+          "prompt": "Choose the best option for [[25]].",
+          "promptRich": "Choose the best option for [[25]].",
+          "responseKey": "25",
+          "choices": [
+            "move the screen to a better place",
+            "paint each wall a different color",
+            "put books on shelves",
+            "reduce displayed items"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4article",
+            "s4chart",
+            "s4comments",
+            "s4handout"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q026",
+          "number": "問3",
+          "prompt": "You are checking the handout. You notice an error in the recommendations under Naturalness. Which of the following should you remove? [[26]]",
+          "promptRich": "You are checking the handout. You notice an error in the recommendations under Naturalness. Which of the following should you {{u|remove}}? [[26]]",
+          "responseKey": "26",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4article",
+            "s4chart",
+            "s4comments",
+            "s4handout"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q027",
+          "number": "問4",
+          "prompt": "Choose the best options for [[27]] and [[28]].",
+          "promptRich": "Choose the best options for [[27]] and [[28]].",
+          "answerBoxPlacement": "none",
+          "components": [
+            {
+              "responseKey": "27",
+              "label": "[[27]]",
+              "choices": [
+                "borrow books from",
+                "can’t easily get to",
+                "don’t use Japanese in",
+                "feel anxious in",
+                "take naps in"
+              ]
+            },
+            {
+              "responseKey": "28",
+              "label": "[[28]]",
+              "choices": [
+                "S1",
+                "S2",
+                "S3",
+                "S4",
+                "S5",
+                "S6"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s4article",
+            "s4chart",
+            "s4comments",
+            "s4handout"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q029",
+          "number": "問5",
+          "prompt": "Choose the best option for [[29]].",
+          "promptRich": "Choose the best option for [[29]].",
+          "responseKey": "29",
+          "choices": [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4article",
+            "s4chart",
+            "s4comments",
+            "s4handout"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s4article"
+        },
+        {
+          "block": "s4chart"
+        },
+        {
+          "block": "s4comments"
+        },
+        {
+          "block": "s4handout"
+        },
+        {
+          "question": "common-2024-r-q024"
+        },
+        {
+          "question": "common-2024-r-q025"
+        },
+        {
+          "question": "common-2024-r-q026"
+        },
+        {
+          "question": "common-2024-r-q027"
+        },
+        {
+          "question": "common-2024-r-q029"
+        }
+      ],
+      "leadPlacement": "body"
+    },
+    {
+      "sectionId": "common-2024-r-s05",
+      "number": "第5問",
+      "score": 15,
+      "sourcePages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "You are in an English discussion group, and it is your turn to introduce a story. You have found a story in an English language magazine in Japan. You are preparing notes for your presentation.",
+      "blocks": [
+        {
+          "blockId": "s5story",
+          "type": "passage",
+          "title": "Maki’s Kitchen",
+          "paragraphs": [
+            "“{{i|Irasshai-mase}},” said Maki as two customers entered her restaurant, Maki’s Kitchen. Maki had joined her family business at the age of 19 when her father became ill. After he recovered, Maki decided to continue. Eventually, Maki’s parents retired and she became the owner. Maki had many regular customers who came not only for the delicious food, but also to sit at the counter and talk to her. Although her business was doing very well, Maki occasionally daydreamed about doing something different.",
+            "“Can we sit at the counter?” she heard. It was her old friends, Takuya and Kasumi. A phone call a few weeks earlier from Kasumi to Takuya had given them the idea to visit Maki and surprise her.",
+            {
+              "type": "divider"
+            },
+            "Takuya’s phone vibrated, and he saw a familiar name, Kasumi.",
+            "“Kasumi!”",
+            "“Hi Takuya, I saw you in the newspaper. Congratulations!” “Thanks. Hey, you weren’t at our 20th high school reunion last month.” “No, I couldn’t make it. I can’t believe it’s been 20 years since we graduated. Actually, I was calling to ask if you’ve seen Maki recently.”",
+            {
+              "type": "divider"
+            },
+            "Takuya’s family had moved to Kawanaka Town shortly before he started high school. He joined the drama club, where he met Maki and Kasumi. The three became inseparable. After graduation, Takuya left Kawanaka to become an actor, while Maki and Kasumi remained. Maki had decided she wanted to study at university and enrolled in a preparatory school. Kasumi, on the other hand, started her career. Takuya tried out for various acting roles but was constantly rejected; eventually, he quit.",
+            "Exactly one year after graduation, Takuya returned to Kawanaka with his dreams destroyed. He called Maki, who offered her sympathy. He was surprised to learn that Maki had abandoned her plan to attend university because she had to manage her family’s restaurant. Her first day of work had been the day he called. For some reason, Takuya could not resist giving Maki some advice.",
+            "“Maki, I’ve always thought your family’s restaurant should change the coffee it serves. I think people in Kawanaka want a bolder flavor. I’d be happy to recommend a different brand,” he said.",
+            "“Takuya, you really know your coffee. Hey, I was walking by Café Kawanaka and saw a help-wanted sign. You should apply!” Maki replied.",
+            "Takuya was hired by Café Kawanaka and became fascinated by the science of coffee making. On the one-year anniversary of his employment, Takuya was talking to Maki at her restaurant.",
+            "“Maki,” he said, “do you know what my dream is?”",
+            "“It must have something to do with coffee.”",
+            "“That’s right! It’s to have my own coffee business.”",
+            "“I can’t imagine a better person for it. What are you waiting for?”",
+            "Maki’s encouragement inspired Takuya. He quit his job, purchased a coffee bean roaster, and began roasting beans. Maki had a sign in her restaurant saying, “We proudly serve Takuya’s Coffee,” and this publicity helped the coffee gain popularity in Kawanaka. Takuya started making good money selling his beans. Eventually, he opened his own café and became a successful business owner.",
+            {
+              "type": "divider"
+            },
+            "Kasumi was reading the newspaper when she saw the headline: {{i|TAKUYA’S CAFÉ ATTRACTING TOURISTS TO KAWANAKA TOWN}}. “Who would have thought that Takuya would be so successful?” Kasumi thought to herself as she reflected on her past.",
+            "In the high school drama club, Kasumi’s duty was to put make-up on the actors. No one could do it better than her. Maki noticed this and saw that a cosmetics company called Beautella was advertising for salespeople. She encouraged Kasumi to apply, and, after graduation, she became an employee of Beautella.",
+            "The work was tough; Kasumi went door to door selling cosmetics. On bad days, she would call Maki, who would lift her spirits. One day, Maki had an idea, “Doesn’t Beautella do make-up workshops? I think you are more suited for that. You can show people how to use the make-up. They’ll love the way they look and buy lots of cosmetics!”",
+            "Kasumi’s company agreed to let her do workshops, and they were a hit! Kasumi’s sales were so good that eight months out of high school, she had been promoted, moving to the big city of Ishijima. Since then, she had steadily climbed her way up the company ladder until she had been named vice-president of Beautella this year.",
+            "“I wouldn’t be vice-president now without Maki,” she thought, “she helped me when I was struggling, but I was too absorbed with my work in Ishijima to give her support when she had to quit her preparatory school.” Glancing back to the article, she decided to call Takuya.",
+            {
+              "type": "divider"
+            },
+            "“Maki wasn’t at the reunion. I haven’t seen her in ages,” said Takuya.",
+            "“Same here. It’s a pity. Where would we be without her?” asked Kasumi.",
+            "The conversation became silent, as they wordlessly communicated their guilt. Then, Kasumi had an idea.",
+            {
+              "type": "divider"
+            },
+            "The three friends were talking and laughing when Maki asked, “By the way, I’m really happy to see you two, but what brings you here?”",
+            "“Payback,” said Takuya.",
+            "“Have I done something wrong?” asked Maki.",
+            "“No. The opposite. You understand people incredibly well. You can identify others’ strengths and show them how to make use of them. We’re proof of this. You made us aware of our gifts,” said Takuya.",
+            "“The irony is that you couldn’t do the same for yourself,” added Kasumi.",
+            "“I think Ishijima University would be ideal for you. It offers a degree program in counseling that’s designed for people with jobs,” said Takuya.",
+            "“You’d have to go there a few times a month, but you could stay with me. Also, Takuya can help you find staff for your restaurant,” said Kasumi.",
+            "Maki closed her eyes and imagined Kawanaka having both “Maki’s Kitchen” and “Maki’s Counseling.” She liked that idea."
+          ],
+          "stimulusId": "s5story"
+        },
+        {
+          "blockId": "s5notes",
+          "type": "outline",
+          "title": "Maki’s Kitchen",
+          "groups": [
+            {
+              "title": "Story outline",
+              "items": [
+                "Maki, Takuya, and Kasumi graduate from high school.",
+                "[[30]] → [[31]] → [[32]] → [[33]]",
+                "Maki begins to think about a second career."
+              ]
+            },
+            {
+              "title": "About Maki",
+              "items": [
+                "Age: [[34]]",
+                "Occupation: restaurant owner",
+                "How she supported her friends:",
+                "Provided Takuya with encouragement and [[35]].",
+                "Kasumi [[36]]."
+              ]
+            },
+            {
+              "title": "Interpretation of key moments",
+              "items": [
+                "Kasumi and Takuya experience an uncomfortable silence on the phone because they [[37]].",
+                "In the final scene, Kasumi uses the word “irony” with Maki. The {{u|irony}} is that Maki does not [[38]]."
+              ]
+            }
+          ],
+          "label": "Your notes:",
+          "stimulusId": "s5notes"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q030-033",
+          "number": "問1",
+          "prompt": "Choose four out of the five events (①～⑤) and rearrange them in the order they happened.\n[[30]] → [[31]] → [[32]] → [[33]]",
+          "promptRich": "Choose {{u|four}} out of the five events (①～⑤) and rearrange them in the order they happened.\n[[30]] → [[31]] → [[32]] → [[33]]",
+          "responseKey": "30-33",
+          "choices": [
+            "Kasumi becomes vice-president of her company.",
+            "Kasumi gets in touch with Takuya.",
+            "Maki gets her university degree.",
+            "Maki starts working in her family business.",
+            "Takuya is inspired to start his own business."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q034",
+          "number": "問2",
+          "prompt": "Choose the best option for [[34]].",
+          "promptRich": "Choose the best option for [[34]].",
+          "responseKey": "34",
+          "choices": [
+            "early 30s",
+            "late 30s",
+            "early 40s",
+            "late 40s"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q035-036",
+          "number": "問3",
+          "prompt": "Choose the best options for [[35]] and [[36]].",
+          "promptRich": "Choose the best options for [[35]] and [[36]].",
+          "responseKey": "35-36",
+          "choices": [
+            "made the product known to people",
+            "proposed a successful business idea",
+            "purchased equipment for the business",
+            "suggested moving to a bigger city",
+            "taught the necessary skills for success"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q037",
+          "number": "問4",
+          "prompt": "Choose the best option for [[37]].",
+          "promptRich": "Choose the best option for [[37]].",
+          "responseKey": "37",
+          "choices": [
+            "do not want to discuss their success",
+            "have not spoken in a long time",
+            "regret not appreciating their friend more",
+            "think Maki was envious of their achievements"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q038",
+          "number": "問5",
+          "prompt": "Choose the best option for [[38]].",
+          "promptRich": "Choose the best option for [[38]].",
+          "responseKey": "38",
+          "choices": [
+            "like to try different things",
+            "recognize her own talent",
+            "understand the ability she lacks",
+            "want to pursue her dreams"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s5story"
+        },
+        {
+          "block": "s5notes"
+        },
+        {
+          "question": "common-2024-r-q030-033"
+        },
+        {
+          "question": "common-2024-r-q034"
+        },
+        {
+          "question": "common-2024-r-q035-036"
+        },
+        {
+          "question": "common-2024-r-q037"
+        },
+        {
+          "question": "common-2024-r-q038"
+        }
+      ],
+      "leadPlacement": "body"
+    },
+    {
+      "sectionId": "common-2024-r-s06",
+      "number": "第6問",
+      "score": 24,
+      "sourcePages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ],
+      "blocks": [
+        {
+          "blockId": "s6a",
+          "type": "passage",
+          "title": "Perceptions of Time",
+          "paragraphs": [
+            "When you hear the word “time,” it is probably hours, minutes, and seconds that immediately come to mind. In the late 19th century, however, philosopher Henri Bergson described how people usually do not experience time as it is measured by clocks (clock time). Humans do not have a known biological mechanism to measure clock time, so they use mental processes instead. This is called psychological time, which everyone perceives differently.",
+            "If you were asked how long it had taken to finish your homework, you probably would not know exactly. You would think back and make an estimate. In a 1975 experiment, participants were shown either simple or complex shapes for a fixed amount of time and asked to memorize them. Afterwards, they were asked how long they had looked at the shapes. To answer, they used a mental process called retrospective timing, which is estimating time based on the information retrieved from memory. Participants who were shown the complex shapes felt the time was longer, while the people who saw the simple shapes experienced the opposite.",
+            "Another process to measure psychological time is called prospective timing. It is used when you are actively keeping track of time while doing something. Instead of using the amount of information recalled, the level of attention given to time while doing the activity is used. In several studies, the participants performed tasks while estimating the time needed to complete them. Time seemed shorter for the people doing more challenging mental activities which required them to place more focus on the task than on time. Time felt longer for the participants who did simpler tasks and the longest for those who were waiting or doing nothing.",
+            "Your emotional state can influence your awareness of time, too. For example, you can be enjoying a concert so much that you forget about time. Afterwards, you are shocked that hours have passed by in what seemed to be the blink of an eye. To explain this, we often say, “Time flies when you’re having fun.” The opposite occurs when you are bored. Instead of being focused on an activity, you notice the time. It seems to go very slowly as you cannot wait for your boredom to end. Fear also affects our perception of time. In a 2006 study, more than 60 people experienced skydiving for the first time. Participants with high levels of unpleasant emotions perceived the time spent skydiving to be much longer than it was in reality.",
+            "Psychological time also seems to move differently during life stages. Children constantly encounter new information and have new experiences, which makes each day memorable and seem longer when recalled. Also, time creeps by for them as they anticipate upcoming events such as birthdays and trips. For most adults, unknown information is rarely encountered and new experiences become less frequent, so less mental focus is required and each day becomes less memorable. However, this is not always the case. Daily routines are shaken up when drastic changes occur, such as changing jobs or relocating to a new city. In such cases, the passage of time for those people is similar to that for children. But generally speaking, time seems to accelerate as we mature.",
+            "Knowledge of psychological time can be helpful in our daily lives, as it may help us deal with boredom. Because time passes slowly when we are not mentally focused and thinking about time, changing to a more engaging activity, such as reading a book, will help ease our boredom and speed up the time. The next occasion that you hear “Time flies when you’re having fun,” you will be reminded of this."
+          ],
+          "stimulusId": "s6a"
+        },
+        {
+          "blockId": "s6notes",
+          "type": "outline",
+          "label": "Your notes:",
+          "title": "Perceptions of Time",
+          "groups": [
+            {
+              "title": "Outline by paragraph",
+              "items": [
+                "1. [[39]]",
+                "2. Retrospective timing",
+                "3. Prospective timing",
+                "4. [[40]] — Skydiving",
+                "5. Effects of age — Time speeds up as we mature, but a [[41]].",
+                "6. Practical tips"
+              ]
+            },
+            {
+              "title": "My original examples to help the audience",
+              "items": [
+                "A. Retrospective timing — Example: [[42]]",
+                "B. Prospective timing — Example: [[43]]"
+              ]
+            }
+          ],
+          "stimulusId": "s6notes"
+        },
+        {
+          "blockId": "s6introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are preparing a presentation for your science club, using the following passage from a science website.",
+          "stimulusId": "s6introb"
+        },
+        {
+          "blockId": "s6b",
+          "type": "passage",
+          "title": "Chili Peppers: The Spice of Life",
+          "paragraphs": [
+            "Tiny pieces of red spice in chili chicken add a nice touch of color, but biting into even a small piece can make a person’s mouth burn as if it were on fire. While some people love this, others want to avoid the painful sensation. At the same time, though, they can eat sashimi with wasabi. This might lead one to wonder what spiciness actually is and to ask where the difference between chili and wasabi comes from.",
+            "Unlike sweetness, saltiness, and sourness, spiciness is not a taste. In fact, we do not actually taste heat, or spiciness, when we eat spicy foods. The bite we feel from eating chili peppers and wasabi is derived from different types of compounds. Chili peppers get their heat from a heavier, oil-like element called capsaicin. Capsaicin leaves a lingering, fire-like sensation in our mouths because it triggers a receptor called TRPV1. TRPV1 induces stress and tells us when something is burning our mouths. Interestingly, there is a wide range of heat across the different varieties of chili peppers, and the level depends on the amount of capsaicin they contain. This is measured using the Scoville Scale, which is also called Scoville Heat Units (SHU). SHUs range from the sweet and mild {{i|shishito}} pepper at 50-200 SHUs to the Carolina Reaper pepper, which can reach up to 2,2 million.",
+            "Wasabi is considered a root, not a pepper, and does not contain capsaicin. Thus, wasabi is not ranked on the Scoville Scale. However, people have compared the level of spice in it to chilis with around 1.000 SHUs, which is on the lower end of the scale. The reason some people cannot tolerate chili spice but can eat foods flavored with wasabi is that the spice compounds in it are low in density. The compounds in wasabi vaporize easily, delivering a blast of spiciness to our nose when we eat it.",
+            "Consuming chili peppers can have positive effects on our health, and much research has been conducted into the benefits of capsaicin. When capsaicin activates the TRPV1 receptor in a person’s body, it is similar to what happens when they experience stress or pain from an injury. Strangely, capsaicin can also make pain go away. Scientists found that TRPV1 ceases to be turned on after long-term exposure to chili peppers, temporarily easing painful sensations. Thus, skin creams containing capsaicin might be useful for people who experience muscle aches.",
+            "Another benefit of eating chili peppers is that they accelerate the metabolism. A group of researchers analyzed 90 studies on capsaicin and body weight and found that people had a reduced appetite when they ate spicy foods. This is because spicy foods increase the heart rate, send more energy to the muscles, and convert fat into energy. Recently, scientists at the University of Wyoming have created a weight-loss drug with capsaicin as a main ingredient.",
+            "It is also believed that chili peppers are connected with food safety, which might lead to a healthier life. When food is left outside of a refrigerated environment, microorganisms multiply on it, which may cause sickness if eaten. Studies have shown that capsaicin and other chemicals found in chili peppers have antibacterial properties that can slow down or even stop microorganism growth. As a result, food lasts longer and there are fewer food-borne illnesses. This may explain why people in hot climates have a tendency to use more chili peppers, and therefore, be more tolerant of spicier foods due to repeated exposure. Also, in the past, before there were refrigerators, they were less likely to have food poisoning than people in cooler climates.",
+            "Chili peppers seem to have health benefits, but can they also be bad for our health? Peppers that are high on the Scoville Scale can cause physical discomfort when eaten in large quantities. People who have eaten several of the world’s hottest chilis in a short time have reported experiencing upset stomachs, diarrhea, numb hands, and symptoms similar to a heart attack. Ghost peppers, which contain one million SHUs, can even burn a person’s skin if they are touched.",
+            "Luckily the discomfort some people feel after eating spicy foods tends to go away soon―usually within a few hours. Despite some negative side effects, spicy foods remain popular around the world and add a flavorful touch to the table. Remember, it is safe to consume spicy foods, but you might want to be careful about the amount of peppers you put in your dishes."
+          ],
+          "stimulusId": "s6b"
+        },
+        {
+          "blockId": "s6slides",
+          "type": "slides",
+          "title": "Presentation slides:",
+          "slides": [
+            {
+              "title": "Chili Peppers:",
+              "subtitle": "The Spice of Life"
+            },
+            {
+              "title": "Characteristics",
+              "columns": [
+                {
+                  "title": "chili peppers",
+                  "items": [
+                    "oil-like elements",
+                    "triggering TRPV1",
+                    "persistent feeling"
+                  ]
+                },
+                {
+                  "title": "wasabi",
+                  "items": [
+                    "[[44]]",
+                    "changing to vapor",
+                    "spicy rush"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Positive Effects",
+              "lead": "Capsaicin can...",
+              "answer": "[[45]]",
+              "items": [
+                "A. reduce pain.",
+                "B. give you more energy.",
+                "C. speed up your metabolism.",
+                "D. make you feel less stress.",
+                "E. decrease food poisoning."
+              ]
+            },
+            {
+              "title": "Negative Effects",
+              "lead": "When eating too many strong chili peppers in a short time,",
+              "items": [
+                "[[46]]",
+                "[[47]]"
+              ]
+            },
+            {
+              "title": "Spice Tolerance",
+              "answer": "[[48]]"
+            },
+            {
+              "title": "Closing Remark",
+              "answer": "[[49]]"
+            }
+          ],
+          "stimulusId": "s6slides"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2024-r-q039-040",
+          "number": "問1",
+          "prompt": "Choose the best options for [[39]] and [[40]].",
+          "promptRich": "Choose the best options for [[39]] and [[40]].",
+          "responseKey": "39-40",
+          "choices": [
+            "Biological mechanisms",
+            "Effects of our feelings",
+            "Kinds of memory",
+            "Life stages",
+            "Ongoing research",
+            "Types of time"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q041",
+          "number": "問2",
+          "prompt": "Choose the best option for [[41]].",
+          "promptRich": "Choose the best option for [[41]].",
+          "responseKey": "41",
+          "choices": [
+            "major lifestyle change at any age will likely make time slow down",
+            "major lifestyle change regardless of age will likely make time speed up",
+            "minor lifestyle change for adults will likely make time slow down",
+            "minor lifestyle change for children will likely make time speed up"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q042",
+          "number": "問3",
+          "prompt": "Choose the best option for [[42]].",
+          "promptRich": "Choose the best option for [[42]].",
+          "responseKey": "42",
+          "choices": [
+            "anticipating a message from a classmate",
+            "memorizing your mother’s cellphone number",
+            "reflecting on how many hours you worked today",
+            "remembering that you have a meeting tomorrow"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q043",
+          "number": "問4",
+          "prompt": "Choose the best option for [[43]].",
+          "promptRich": "Choose the best option for [[43]].",
+          "responseKey": "43",
+          "choices": [
+            "guessing how long you’ve been jogging so far",
+            "making a schedule for the basketball team summer camp",
+            "running into your tennis coach at the railway station",
+            "thinking about your last family vacation to a hot spring"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q044",
+          "number": "問1",
+          "prompt": "What is the first characteristic of wasabi on Slide 2? [[44]]",
+          "promptRich": "What is the first characteristic of wasabi on Slide 2? [[44]]",
+          "responseKey": "44",
+          "choices": [
+            "burning taste",
+            "fire-like sensation",
+            "lasting feeling",
+            "light compounds"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q045",
+          "number": "問2",
+          "prompt": "Which is an error you found on Slide 3? [[45]]",
+          "promptRich": "Which is an {{u|error}} you found on Slide 3? [[45]]",
+          "responseKey": "45",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q046-047",
+          "number": "問3",
+          "prompt": "Choose two options for Slide 4. (The order does not matter.) [[46]]・[[47]]",
+          "promptRich": "Choose two options for Slide 4. (The order does not matter.) [[46]]・[[47]]",
+          "responseKey": "46-47",
+          "choices": [
+            "you might activate harmful bacteria.",
+            "you might experience stomach pain.",
+            "you might lose feeling in your hands.",
+            "your fingers might feel like they are on fire.",
+            "your nose might start hurting."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q048",
+          "number": "問4",
+          "prompt": "What can be inferred about tolerance for spices for Slide 5? [[48]]",
+          "promptRich": "What can be inferred about tolerance for spices for Slide 5? [[48]]",
+          "responseKey": "48",
+          "choices": [
+            "People with a high tolerance to chili peppers pay attention to the spices used in their food.",
+            "People with a high tolerance to wasabi are scared of chili peppers’ negative effects.",
+            "People with a low tolerance to chili peppers can get used to their heat.",
+            "People with a low tolerance to wasabi cannot endure high SHU levels."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2024-r-q049",
+          "number": "問5",
+          "prompt": "Choose the most appropriate remark for Slide 6. [[49]]",
+          "promptRich": "Choose the most appropriate remark for Slide 6. [[49]]",
+          "responseKey": "49",
+          "choices": [
+            "Don’t be afraid. Eating spicy foods will boost your confidence.",
+            "Next time you eat chili chicken, remember its punch only stays for a second.",
+            "Personality plays a big role in our spice preference, so don’t worry.",
+            "Unfortunately, there are no cures for a low wasabi tolerance.",
+            "When someone offers you some spicy food, remember it has some benefits."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s6a"
+        },
+        {
+          "block": "s6notes"
+        },
+        {
+          "question": "common-2024-r-q039-040"
+        },
+        {
+          "question": "common-2024-r-q041"
+        },
+        {
+          "question": "common-2024-r-q042"
+        },
+        {
+          "question": "common-2024-r-q043"
+        },
+        {
+          "block": "s6introb"
+        },
+        {
+          "block": "s6b"
+        },
+        {
+          "block": "s6slides"
+        },
+        {
+          "question": "common-2024-r-q044"
+        },
+        {
+          "question": "common-2024-r-q045"
+        },
+        {
+          "question": "common-2024-r-q046-047"
+        },
+        {
+          "question": "common-2024-r-q048"
+        },
+        {
+          "question": "common-2024-r-q049"
+        }
+      ],
+      "lead": "Your English teacher has assigned this article to you. You need to prepare notes to give a short talk.",
+      "leadLabel": "A",
+      "leadPlacement": "body"
+    }
+  ]
+}

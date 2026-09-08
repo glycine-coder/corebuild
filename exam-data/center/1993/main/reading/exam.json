@@ -1,0 +1,1608 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "center-1993-main-english-reading",
+  "title": "1993年度 センター試験 英語 本試験",
+  "choiceNumberStyle": "circled-glyphs-zero-ten",
+  "metaLine": "センター試験　1993年度　本試験",
+  "instruction": "各大問の指示に従い、解答番号1～59にあてはまるものとして最も適当な選択肢を選びなさい。",
+  "sections": [
+    {
+      "sectionId": "center-1993-r-s01",
+      "number": "第1問",
+      "score": 20,
+      "categoryIds": [
+        "english.pronunciation",
+        "english.accent",
+        "english.sentence-stress"
+      ],
+      "lead": "次の問い（A～C）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s01-intro-1",
+          "stimulusId": "center-1993-r-s01-intro-1",
+          "type": "sourceIntro",
+          "label": "A",
+          "text": "次の問い（問1～5）のそれぞれの単語①～④のうちから、下線部の発音が、最初の単語の下線部の発音と同じであるものを一つずつ選べ。"
+        },
+        {
+          "blockId": "center-1993-r-s01-intro-2",
+          "stimulusId": "center-1993-r-s01-intro-2",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "次の問い（問1～3）のそれぞれの単語①～④のうちから、最も強いアクセント（第一強勢）の位置が、ほかの三つの場合と異なるものを一つずつ選べ。"
+        },
+        {
+          "blockId": "center-1993-r-s01-intro-3",
+          "stimulusId": "center-1993-r-s01-intro-3",
+          "type": "sourceIntro",
+          "label": "C",
+          "text": "次の問い（問1・問2）の対話において、①～④のうちから、ふつう、ほかの三つと異なり、強く発音されないものを一つずつ選べ。"
+        },
+        {
+          "blockId": "center-1993-r-s01-dialogue-3-1",
+          "stimulusId": "center-1993-r-s01-dialogue-3-1",
+          "type": "dialogue",
+          "lines": [
+            "A：Say, Janet, would you like to go to the beach tomorrow?",
+            "B：I wish I could, but I've got to {{u|work}} ①.",
+            "A：That's too bad. Is it for the {{u|whole}} ② summer?",
+            "B：No, it's just a temporary {{u|job}} ③, only for a week. Let's go some {{u|other}} ④ time."
+          ]
+        },
+        {
+          "blockId": "center-1993-r-s01-dialogue-3-2",
+          "stimulusId": "center-1993-r-s01-dialogue-3-2",
+          "type": "dialogue",
+          "lines": [
+            "A：When's the {{u|next}} ① bus to the station?",
+            "B：There's one in five minutes.",
+            "A：I can't catch that one. What about the {{u|next}} ② {{u|one}} ③ after that?",
+            "B：There's none until {{u|one}} ④ o'clock."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q001",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-1"
+          ],
+          "number": "問1",
+          "prompt": "[[1]] m{{u|oo}}d",
+          "promptRich": "[[1]] m{{u|oo}}d",
+          "answerBoxPlacement": "none",
+          "responseKey": "1",
+          "choices": [
+            "fl{{u|oo}}d",
+            "fl{{u|oo}}r",
+            "sh{{u|oo}}t",
+            "w{{u|oo}}l"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q002",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-1"
+          ],
+          "number": "問2",
+          "prompt": "[[2]] d{{u|ear}}",
+          "promptRich": "[[2]] d{{u|ear}}",
+          "answerBoxPlacement": "none",
+          "responseKey": "2",
+          "choices": [
+            "b{{u|ear}}d",
+            "h{{u|ear}}t",
+            "p{{u|ear}}l",
+            "w{{u|ear}}"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q003",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-1"
+          ],
+          "number": "問3",
+          "prompt": "[[3]] c{{u|ou}}ntry",
+          "promptRich": "[[3]] c{{u|ou}}ntry",
+          "answerBoxPlacement": "none",
+          "responseKey": "3",
+          "choices": [
+            "alth{{u|ou}}gh",
+            "d{{u|ou}}bt",
+            "s{{u|ou}}thern",
+            "th{{u|ou}}ght"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q004",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-1"
+          ],
+          "number": "問4",
+          "prompt": "[[4]] re{{u|c}}ent",
+          "promptRich": "[[4]] re{{u|c}}ent",
+          "answerBoxPlacement": "none",
+          "responseKey": "4",
+          "choices": [
+            "an{{u|c}}ient",
+            "de{{u|c}}orate",
+            "finan{{u|c}}ial",
+            "so{{u|c}}iety"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q005",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-1"
+          ],
+          "number": "問5",
+          "prompt": "[[5]] lan{{u|gu}}age",
+          "promptRich": "[[5]] lan{{u|gu}}age",
+          "answerBoxPlacement": "none",
+          "responseKey": "5",
+          "choices": [
+            "ar{{u|gu}}ment",
+            "distin{{u|gu}}ish",
+            "{{u|gu}}ess",
+            "re{{u|gu}}lar"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q006",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-2"
+          ],
+          "number": "問1",
+          "prompt": "[[6]]",
+          "promptRich": "[[6]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "6",
+          "choices": [
+            "im・age",
+            "ma・chine",
+            "mes・sage",
+            "vol・ume"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q007",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-2"
+          ],
+          "number": "問2",
+          "prompt": "[[7]]",
+          "promptRich": "[[7]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "7",
+          "choices": [
+            "con・sid・er",
+            "en・ter・tain",
+            "in・ter・pret",
+            "re・mem・ber"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q008",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-2"
+          ],
+          "number": "問3",
+          "prompt": "[[8]]",
+          "promptRich": "[[8]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "8",
+          "choices": [
+            "ac・cu・ra・cy",
+            "com・mu・ni・ty",
+            "de・moc・ra・cy",
+            "e・con・o・my"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q009",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-3",
+            "center-1993-r-s01-dialogue-3-1"
+          ],
+          "number": "問1",
+          "prompt": "[[9]]",
+          "promptRich": "[[9]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "9",
+          "choices": [
+            "work",
+            "whole",
+            "job",
+            "other"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q010",
+          "stimulusIds": [
+            "center-1993-r-s01-intro-3",
+            "center-1993-r-s01-dialogue-3-2"
+          ],
+          "number": "問2",
+          "prompt": "[[10]]",
+          "promptRich": "[[10]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "10",
+          "choices": [
+            "next",
+            "next",
+            "one",
+            "one"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s01-intro-1"
+        },
+        {
+          "question": "center-1993-r-q001"
+        },
+        {
+          "question": "center-1993-r-q002"
+        },
+        {
+          "question": "center-1993-r-q003"
+        },
+        {
+          "question": "center-1993-r-q004"
+        },
+        {
+          "question": "center-1993-r-q005"
+        },
+        {
+          "block": "center-1993-r-s01-intro-2"
+        },
+        {
+          "question": "center-1993-r-q006"
+        },
+        {
+          "question": "center-1993-r-q007"
+        },
+        {
+          "question": "center-1993-r-q008"
+        },
+        {
+          "block": "center-1993-r-s01-intro-3"
+        },
+        {
+          "block": "center-1993-r-s01-dialogue-3-1"
+        },
+        {
+          "question": "center-1993-r-q009"
+        },
+        {
+          "block": "center-1993-r-s01-dialogue-3-2"
+        },
+        {
+          "question": "center-1993-r-q010"
+        }
+      ]
+    },
+    {
+      "sectionId": "center-1993-r-s02",
+      "number": "第2問",
+      "score": 58,
+      "categoryIds": [
+        "english.grammar-vocabulary",
+        "english.dialogue"
+      ],
+      "lead": "次の問い（A、B）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s02-intro-1",
+          "type": "sourceIntro",
+          "label": "A",
+          "text": "次の問い（問1～17）の空欄（[[11]]～[[27]]）に入れるのに最も適当なものを、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s02-intro-1"
+        },
+        {
+          "blockId": "center-1993-r-s02-intro-2",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "次の問い（問1～6）の対話の空欄（[[28]]～[[33]]）に入れるのに最も適当なものを、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s02-intro-2"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-1",
+          "type": "dialogue",
+          "lines": [
+            "A: We’ve been driving in circles for an hour. Where are we?",
+            "B: I don’t know. Let’s stop at the next gas station.",
+            "A: Yeah. At least [[28]].",
+            "B: Why didn’t you get one before we left?"
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-1"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-2",
+          "type": "dialogue",
+          "lines": [
+            "A: Hey! That’s my blouse! Put it back.",
+            "B: But you never wear it.",
+            "A: That doesn’t matter. [[29]]",
+            "B: So what? It matches my skirt!"
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-2"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-3",
+          "type": "dialogue",
+          "lines": [
+            "A: Let’s stop here for a cup of coffee.",
+            "B: Sounds great, but to tell the truth, I didn’t bring any money.",
+            "A: [[30]]",
+            "B: Thanks. Next time it’s my turn."
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-3"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-4",
+          "type": "dialogue",
+          "lines": [
+            "A: Hi! How was your day?",
+            "B: It was unbelievably busy. I’m exhausted.",
+            "A: Well, [[31]].",
+            "B: I hope it’ll be ready soon. I’m really hungry."
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-4"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-5",
+          "type": "dialogue",
+          "lines": [
+            "A: Well, doctor, what’s wrong with me?",
+            "B: I’m not sure. We need to take some more tests.",
+            "A: [[32]]",
+            "B: I don’t think it’s very serious, but we should be certain."
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-5"
+        },
+        {
+          "blockId": "center-1993-r-s02-dialogue-2-6",
+          "type": "dialogue",
+          "lines": [
+            "A: I need to go downtown. Do you want to come?",
+            "B: [[33]]",
+            "A: But it won’t take very long. We’ll only go to two stores.",
+            "B: All right. As long as we’re back before three."
+          ],
+          "stimulusId": "center-1993-r-s02-dialogue-2-6"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q011",
+          "number": "問1",
+          "prompt": "Do you know how [[11]] in the evening the show will begin?",
+          "promptRich": "Do you know how [[11]] in the evening the show will begin?",
+          "answerBoxPlacement": "none",
+          "responseKey": "11",
+          "choices": [
+            "early",
+            "fast",
+            "quickly",
+            "rapidly"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q012",
+          "number": "問2",
+          "prompt": "A book is not always a good book just [[12]] it is written by a famous writer.",
+          "promptRich": "A book is not always a good book just [[12]] it is written by a famous writer.",
+          "answerBoxPlacement": "none",
+          "responseKey": "12",
+          "choices": [
+            "because",
+            "for",
+            "since",
+            "though"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q013",
+          "number": "問3",
+          "prompt": "I feel [[13]] and sleepy in Mr. Brown’s lessons, since he is always using the same material.",
+          "promptRich": "I feel [[13]] and sleepy in Mr. Brown’s lessons, since he is always using the same material.",
+          "answerBoxPlacement": "none",
+          "responseKey": "13",
+          "choices": [
+            "bored",
+            "boring",
+            "interested",
+            "interesting"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q014",
+          "number": "問4",
+          "prompt": "I went back to my hometown for the first time [[14]] ten years.",
+          "promptRich": "I went back to my hometown for the first time [[14]] ten years.",
+          "answerBoxPlacement": "none",
+          "responseKey": "14",
+          "choices": [
+            "before",
+            "during",
+            "in",
+            "of"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q015",
+          "number": "問5",
+          "prompt": "Although her parents had said ‘no’ for a long time, they finally [[15]] her go to Europe alone.",
+          "promptRich": "Although her parents had said ‘no’ for a long time, they finally [[15]] her go to Europe alone.",
+          "answerBoxPlacement": "none",
+          "responseKey": "15",
+          "choices": [
+            "allowed",
+            "got",
+            "let",
+            "made"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q016",
+          "number": "問6",
+          "prompt": "I can’t [[16]] that noise. It’s driving me crazy.",
+          "promptRich": "I can’t [[16]] that noise. It’s driving me crazy.",
+          "answerBoxPlacement": "none",
+          "responseKey": "16",
+          "choices": [
+            "keep",
+            "put up",
+            "stand",
+            "stay away"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q017",
+          "number": "問7",
+          "prompt": "I suggested to Mary [[17]] with me to collect empty cans on the street, but she said she was too busy.",
+          "promptRich": "I suggested to Mary [[17]] with me to collect empty cans on the street, but she said she was too busy.",
+          "answerBoxPlacement": "none",
+          "responseKey": "17",
+          "choices": [
+            "come",
+            "that she come",
+            "that she had come",
+            "to have come"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q018",
+          "number": "問8",
+          "prompt": "Heavy industry is moving in the direction of more automated machines and [[18]] manpower.",
+          "promptRich": "Heavy industry is moving in the direction of more automated machines and [[18]] manpower.",
+          "answerBoxPlacement": "none",
+          "responseKey": "18",
+          "choices": [
+            "bigger",
+            "few",
+            "less",
+            "many"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q019",
+          "number": "問9",
+          "prompt": "You can use a large plastic bottle, [[19]] cut off, as a pot to grow young plants in.",
+          "promptRich": "You can use a large plastic bottle, [[19]] cut off, as a pot to grow young plants in.",
+          "answerBoxPlacement": "none",
+          "responseKey": "19",
+          "choices": [
+            "the top is",
+            "the top of which",
+            "whose top",
+            "with its top"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q020",
+          "number": "問10",
+          "prompt": "A large proportion of [[20]] English-speaking people watch on TV is of American origin.",
+          "promptRich": "A large proportion of [[20]] English-speaking people watch on TV is of American origin.",
+          "answerBoxPlacement": "none",
+          "responseKey": "20",
+          "choices": [
+            "that",
+            "what",
+            "where",
+            "which"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q021",
+          "number": "問11",
+          "prompt": "The heavy rainfall has caused vegetable prices to rise daily [[21]] the last two months.",
+          "promptRich": "The heavy rainfall has caused vegetable prices to rise daily [[21]] the last two months.",
+          "answerBoxPlacement": "none",
+          "responseKey": "21",
+          "choices": [
+            "by",
+            "for",
+            "since",
+            "with"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q022",
+          "number": "問12",
+          "prompt": "You are [[22]] to gain weight in summer than in winter because you tend to lose your appetite when it is hot.",
+          "promptRich": "You are [[22]] to gain weight in summer than in winter because you tend to lose your appetite when it is hot.",
+          "answerBoxPlacement": "none",
+          "responseKey": "22",
+          "choices": [
+            "less likely",
+            "less unlikely",
+            "very likely",
+            "very unlikely"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q023",
+          "number": "問13",
+          "prompt": "[[23]] children the way she does, Sue should become a teacher.",
+          "promptRich": "[[23]] children the way she does, Sue should become a teacher.",
+          "answerBoxPlacement": "none",
+          "responseKey": "23",
+          "choices": [
+            "Like",
+            "Liked",
+            "Liking",
+            "To like"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q024",
+          "number": "問14",
+          "prompt": "I’ll be surprised [[24]] an accident. He drives too fast.",
+          "promptRich": "I’ll be surprised [[24]] an accident. He drives too fast.",
+          "answerBoxPlacement": "none",
+          "responseKey": "24",
+          "choices": [
+            "if Tom doesn’t have",
+            "if Tom has",
+            "unless Tom doesn’t have",
+            "unless Tom has"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q025",
+          "number": "問15",
+          "prompt": "You live near us, don’t you? Would you like to [[25]] our taxi?",
+          "promptRich": "You live near us, don’t you? Would you like to [[25]] our taxi?",
+          "answerBoxPlacement": "none",
+          "responseKey": "25",
+          "choices": [
+            "enter",
+            "leave",
+            "ride",
+            "share"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q026",
+          "number": "問16",
+          "prompt": "More and more videos were being rented in Britain, yet the number of movie tickets sold [[26]] 81 percent from 53 to 96 million.",
+          "promptRich": "More and more videos were being rented in Britain, yet the number of movie tickets sold [[26]] 81 percent from 53 to 96 million.",
+          "answerBoxPlacement": "none",
+          "responseKey": "26",
+          "choices": [
+            "decreased less than",
+            "decreased to",
+            "increased by",
+            "increased up to"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q027",
+          "number": "問17",
+          "prompt": "After six hours’ climbing, we finally [[27]] the top of the mountain.",
+          "promptRich": "After six hours’ climbing, we finally [[27]] the top of the mountain.",
+          "answerBoxPlacement": "none",
+          "responseKey": "27",
+          "choices": [
+            "could be reached",
+            "could have reached",
+            "succeeded in reaching",
+            "succeeded to reach"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q028",
+          "number": "問1",
+          "prompt": "[[28]]",
+          "promptRich": "[[28]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "28",
+          "choices": [
+            "they should have a map",
+            "they should know",
+            "we can ask",
+            "you can get something"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q029",
+          "number": "問2",
+          "prompt": "[[29]]",
+          "promptRich": "[[29]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "29",
+          "choices": [
+            "I can borrow it.",
+            "Mother gave it to me.",
+            "You bought it.",
+            "You can’t wear it."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-2"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q030",
+          "number": "問3",
+          "prompt": "[[30]]",
+          "promptRich": "[[30]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "30",
+          "choices": [
+            "No problem. I did.",
+            "That’s OK. It’s yours.",
+            "That’s too bad. How about tea?",
+            "Well, let’s have something else."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-3"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q031",
+          "number": "問4",
+          "prompt": "[[31]]",
+          "promptRich": "[[31]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "31",
+          "choices": [
+            "have some dinner and watch TV",
+            "just finish your dinner",
+            "just sit down and eat your dinner",
+            "sit down and rest while I cook dinner"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-4"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q032",
+          "number": "問5",
+          "prompt": "[[32]]",
+          "promptRich": "[[32]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "32",
+          "choices": [
+            "Do you think I should exercise again?",
+            "I don’t need to sit for the exam, do I?",
+            "Is it really so bad?",
+            "Why don’t you take the test?"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-5"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q033",
+          "number": "問6",
+          "prompt": "[[33]]",
+          "promptRich": "[[33]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "33",
+          "choices": [
+            "I don’t think you should stay.",
+            "I should finish my work.",
+            "We won’t be too long.",
+            "Yes, I’d be happy to."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s02-intro-2",
+            "center-1993-r-s02-dialogue-2-6"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s02-intro-1"
+        },
+        {
+          "question": "center-1993-r-q011"
+        },
+        {
+          "question": "center-1993-r-q012"
+        },
+        {
+          "question": "center-1993-r-q013"
+        },
+        {
+          "question": "center-1993-r-q014"
+        },
+        {
+          "question": "center-1993-r-q015"
+        },
+        {
+          "question": "center-1993-r-q016"
+        },
+        {
+          "question": "center-1993-r-q017"
+        },
+        {
+          "question": "center-1993-r-q018"
+        },
+        {
+          "question": "center-1993-r-q019"
+        },
+        {
+          "question": "center-1993-r-q020"
+        },
+        {
+          "question": "center-1993-r-q021"
+        },
+        {
+          "question": "center-1993-r-q022"
+        },
+        {
+          "question": "center-1993-r-q023"
+        },
+        {
+          "question": "center-1993-r-q024"
+        },
+        {
+          "question": "center-1993-r-q025"
+        },
+        {
+          "question": "center-1993-r-q026"
+        },
+        {
+          "question": "center-1993-r-q027"
+        },
+        {
+          "block": "center-1993-r-s02-intro-2"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-1"
+        },
+        {
+          "question": "center-1993-r-q028"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-2"
+        },
+        {
+          "question": "center-1993-r-q029"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-3"
+        },
+        {
+          "question": "center-1993-r-q030"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-4"
+        },
+        {
+          "question": "center-1993-r-q031"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-5"
+        },
+        {
+          "question": "center-1993-r-q032"
+        },
+        {
+          "block": "center-1993-r-s02-dialogue-2-6"
+        },
+        {
+          "question": "center-1993-r-q033"
+        }
+      ]
+    },
+    {
+      "sectionId": "center-1993-r-s03",
+      "number": "第3問",
+      "score": 30,
+      "categoryIds": [
+        "english.word-order",
+        "english.sentence-order"
+      ],
+      "lead": "次の問い（A、B）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s03-intro-1",
+          "type": "sourceIntro",
+          "label": "A",
+          "text": "次の問い（問1～3）において、それぞれ下の①～⑤の語や語句を並べかえて空所を補い、文を完成せよ。ただし、解答は[[34]]～[[39]]に入るものの番号のみをマークせよ。",
+          "stimulusId": "center-1993-r-s03-intro-1"
+        },
+        {
+          "blockId": "center-1993-r-s03-intro-2",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "次の問い（問1・問2）では、空欄（[[40]]・[[41]]）に入れるべき四つの文が、順不同で、下のA～Dに示されている。意味の通る文章にするのに最も適した配列を、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s03-intro-2"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q034",
+          "number": "問1",
+          "prompt": "Before you rent an apartment, find out as much about it _____ [[34]] _____ [[35]] _____ misunderstanding.",
+          "promptRich": "Before you rent an apartment, find out as much about it _____ [[34]] _____ [[35]] _____ misunderstanding.",
+          "answerBoxPlacement": "none",
+          "components": [
+            {
+              "responseKey": "34",
+              "label": "解答欄 [34]",
+              "choices": [
+                "as possible",
+                "in order that",
+                "no",
+                "there",
+                "will be"
+              ]
+            },
+            {
+              "responseKey": "35",
+              "label": "解答欄 [35]",
+              "choices": [
+                "as possible",
+                "in order that",
+                "no",
+                "there",
+                "will be"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "center-1993-r-s03-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q036",
+          "number": "問2",
+          "prompt": "There is no good reason for _____ [[36]] _____ [[37]] _____ job.",
+          "promptRich": "There is no good reason for _____ [[36]] _____ [[37]] _____ job.",
+          "answerBoxPlacement": "none",
+          "components": [
+            {
+              "responseKey": "36",
+              "label": "解答欄 [36]",
+              "choices": [
+                "if",
+                "less than men",
+                "paying women",
+                "the same",
+                "they do"
+              ]
+            },
+            {
+              "responseKey": "37",
+              "label": "解答欄 [37]",
+              "choices": [
+                "if",
+                "less than men",
+                "paying women",
+                "the same",
+                "they do"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "center-1993-r-s03-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q038",
+          "number": "問3",
+          "prompt": "In recent years, people have become more health-conscious and consequently _____ [[38]] _____ [[39]] _____ eat.",
+          "promptRich": "In recent years, people have become more health-conscious and consequently _____ [[38]] _____ [[39]] _____ eat.",
+          "answerBoxPlacement": "none",
+          "components": [
+            {
+              "responseKey": "38",
+              "label": "解答欄 [38]",
+              "choices": [
+                "fat",
+                "have",
+                "reduced",
+                "the amount of",
+                "they"
+              ]
+            },
+            {
+              "responseKey": "39",
+              "label": "解答欄 [39]",
+              "choices": [
+                "fat",
+                "have",
+                "reduced",
+                "the amount of",
+                "they"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "center-1993-r-s03-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q040",
+          "number": "問1",
+          "prompt": "The population density of France had a rise of four persons per square kilometer (km²), from 95 to 99, during the period from 1972 to 1981. [[40]] Two areas usually affected by such an increase are housing and transportation.",
+          "promptRich": "The population density of France had a rise of four persons per square kilometer (km²), from 95 to 99, during the period from 1972 to 1981. [[40]] Two areas usually affected by such an increase are housing and transportation.",
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A. They had rises in density of nine and seven respectively.",
+            "B. Its density went up from 281 to 311 in the same period.",
+            "C. A country with an even larger figure, though, was Japan.",
+            "D. Italy and Spain experienced larger increases."
+          ],
+          "responseKey": "40",
+          "choices": [
+            "A - D - B - C",
+            "B - A - D - C",
+            "C - D - A - B",
+            "D - A - C - B"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s03-intro-2"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q041",
+          "number": "問2",
+          "prompt": "In manufacturing, energy is usually saved when recycled materials are used. [[41]] As we develop better recycling systems, we will be able to recover more materials and make even greater savings in energy.",
+          "promptRich": "In manufacturing, energy is usually saved when recycled materials are used. [[41]] As we develop better recycling systems, we will be able to recover more materials and make even greater savings in energy.",
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A. Take glass, for example. While collection has increased in recent years, we still only manage to recycle about 9% of this product.",
+            "B. One of the major barriers to increased recycling for this and other household products, however, is a lack of good collection systems.",
+            "C. Although more materials are being reused, there is still a lot of progress to be made.",
+            "D. Recycling paper, for instance, cuts the energy required to make this product by 75%."
+          ],
+          "responseKey": "41",
+          "choices": [
+            "A - C - B - D",
+            "B - C - D - A",
+            "C - D - A - B",
+            "D - B - A - C"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s03-intro-2"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s03-intro-1"
+        },
+        {
+          "question": "center-1993-r-q034"
+        },
+        {
+          "question": "center-1993-r-q036"
+        },
+        {
+          "question": "center-1993-r-q038"
+        },
+        {
+          "block": "center-1993-r-s03-intro-2"
+        },
+        {
+          "question": "center-1993-r-q040"
+        },
+        {
+          "question": "center-1993-r-q041"
+        }
+      ]
+    },
+    {
+      "sectionId": "center-1993-r-s04",
+      "number": "第4問",
+      "score": 16,
+      "categoryIds": [
+        "english.graph-reading",
+        "english.content-comprehension"
+      ],
+      "lead": "次の文章とグラフを読み、下の問い（A、B）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s04-passage",
+          "type": "passage",
+          "paragraphs": [
+            "The graph shows the various food self-sufficiency rates in 1990 of four countries (A, B, C and D) in the six kinds of foods listed. Japan was only able to be self-supporting in the fish category. Denmark, on the other hand, was self-sufficient in all of the food groups except for vegetables and fruit. Britain had a problem similar to Japan’s in that it was only supporting itself in one area. The U.S.A. produced much more than it needed in one food and had a high rate of food self-sufficiency in every other type of food in this survey."
+          ],
+          "stimulusId": "center-1993-r-s04-passage"
+        },
+        {
+          "blockId": "center-1993-r-s04-figure",
+          "type": "brokenGroupedChart",
+          "title": "1990 Rates of Food Self-Sufficiency",
+          "unit": "%",
+          "categories": [
+            "Grain",
+            "Vegetables",
+            "Fruit",
+            "Meat",
+            "Milk Products",
+            "Fish"
+          ],
+          "series": [
+            {
+              "name": "Country A",
+              "values": [
+                68,
+                95,
+                78,
+                76,
+                86,
+                104
+              ]
+            },
+            {
+              "name": "Country B",
+              "values": [
+                109,
+                66,
+                18,
+                78,
+                96,
+                73
+              ]
+            },
+            {
+              "name": "Country C",
+              "values": [
+                140,
+                70,
+                40,
+                350,
+                163,
+                114
+              ]
+            },
+            {
+              "name": "Country D",
+              "values": [
+                178,
+                104,
+                90,
+                95,
+                95,
+                72
+              ]
+            }
+          ],
+          "breakFrom": 180,
+          "breakTo": 340,
+          "referenceValue": 100,
+          "stimulusId": "center-1993-r-s04-figure"
+        },
+        {
+          "blockId": "center-1993-r-s04-intro-1",
+          "type": "sourceIntro",
+          "label": "A",
+          "text": "次の問い（問1～3）の空欄（[[42]]～[[44]]）に入れるのに最も適当なものを、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s04-intro-1"
+        },
+        {
+          "blockId": "center-1993-r-s04-intro-2",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "グラフと本文の内容に一致するものを、次の①～④のうちから一つ選べ。",
+          "stimulusId": "center-1993-r-s04-intro-2"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q042",
+          "number": "問1",
+          "prompt": "Japan was [[42]] in its ability to produce its own vegetables.",
+          "promptRich": "Japan was [[42]] in its ability to produce its own vegetables.",
+          "answerBoxPlacement": "none",
+          "responseKey": "42",
+          "choices": [
+            "one of the lowest two countries",
+            "one of the top two countries",
+            "the best country",
+            "the worst country"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s04-passage",
+            "center-1993-r-s04-figure",
+            "center-1993-r-s04-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q043",
+          "number": "問2",
+          "prompt": "Denmark produced [[43]] of its needs in fruit, yet was producing more than 100% in four other categories.",
+          "promptRich": "Denmark produced [[43]] of its needs in fruit, yet was producing more than 100% in four other categories.",
+          "answerBoxPlacement": "none",
+          "responseKey": "43",
+          "choices": [
+            "about 40%",
+            "about 70%",
+            "less than 20%",
+            "more than 50%"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s04-passage",
+            "center-1993-r-s04-figure",
+            "center-1993-r-s04-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q044",
+          "number": "問3",
+          "prompt": "[[44]] was able to provide for itself in only one food group, though it almost did in milk products, and it had one of the lowest self-sufficiency rates for fruit.",
+          "promptRich": "[[44]] was able to provide for itself in only one food group, though it almost did in milk products, and it had one of the lowest self-sufficiency rates for fruit.",
+          "answerBoxPlacement": "none",
+          "responseKey": "44",
+          "choices": [
+            "Britain",
+            "Denmark",
+            "Japan",
+            "The U.S.A."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s04-passage",
+            "center-1993-r-s04-figure",
+            "center-1993-r-s04-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q045",
+          "number": "",
+          "prompt": "[[45]]",
+          "promptRich": "[[45]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "45",
+          "choices": [
+            "All four countries were self-sufficient at least in either grain or fish.",
+            "Britain grew more vegetables than it needed, but did not produce enough meat.",
+            "Japan was able to support itself in more food groups than all but one other country.",
+            "Like Denmark, the U.S.A. produced twice as much grain as it needed."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s04-passage",
+            "center-1993-r-s04-intro-2"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s04-passage"
+        },
+        {
+          "block": "center-1993-r-s04-figure"
+        },
+        {
+          "block": "center-1993-r-s04-intro-1"
+        },
+        {
+          "question": "center-1993-r-q042"
+        },
+        {
+          "question": "center-1993-r-q043"
+        },
+        {
+          "question": "center-1993-r-q044"
+        },
+        {
+          "block": "center-1993-r-s04-intro-2"
+        },
+        {
+          "question": "center-1993-r-q045"
+        }
+      ]
+    },
+    {
+      "sectionId": "center-1993-r-s05",
+      "number": "第5問",
+      "score": 24,
+      "categoryIds": [],
+      "lead": "次の文章を読み、下の問い（問1～4）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s05-passage",
+          "type": "passage",
+          "paragraphs": [
+            "In many parts of the world, the influence of television is a matter of increasing concern. For years, critics of television have concentrated on the issue of the program content — particularly violence — as it affects viewers. The problem seems especially serious with regard to younger children. There is evidence that TV does in fact lead people to accept more violence in everyday life. How could this not happen when it presents violent acts, often with guns and knives, as normal and common occurrences?",
+            "In the last few years criticism of television has moved to a new stage by shifting the focus from the subject matter to the experience of the medium itself. The problem now with TV is not just what is seen but how it is seen. The way children watch it causes them to be passive, and some evidence suggests that such viewing might even affect the development of the brain in small children.",
+            "However, the worst aspect of television is the way it can interfere with family life. The “box” has too often become a substitute parent, taking over most of the work of introducing social and moral values to the child and developing them in him. Parents allow this to happen by using television like a drug for the purpose of keeping children quiet. Eventually the child comes to depend on the box and it becomes a necessary, lifelong habit.",
+            "While many children go through the “television experience” and survive, many others are deeply affected by it. Much of the discussion of TV during the next few years will center on how to reduce the dangers which it presents, particularly to younger people. Already there are movements to try to ban TV advertising which is directed at children under a certain age. Perhaps this is just the beginning. In the end, some people may even go to the extreme of demanding the removal of such a powerful medium from the lives of young people. This might not be a practical solution, but we should not ignore the dangers of television."
+          ],
+          "stimulusId": "center-1993-r-s05-passage"
+        },
+        {
+          "blockId": "center-1993-r-s05-intro-1",
+          "type": "sourceIntro",
+          "label": "",
+          "text": "空欄（[[46]]～[[49]]）に入れるのに最も適当なものを、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s05-intro-1"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q046",
+          "number": "問1",
+          "prompt": "Television has long been criticized mainly because [[46]].",
+          "promptRich": "Television has long been criticized mainly because [[46]].",
+          "answerBoxPlacement": "none",
+          "responseKey": "46",
+          "choices": [
+            "it causes younger children to waste time in front of it",
+            "it encourages people, through advertisements, to want guns and knives",
+            "it makes people less willing to put up with violence",
+            "it shows violence, which influences, above all, younger people"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s05-passage",
+            "center-1993-r-s05-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q047",
+          "number": "問2",
+          "prompt": "Recent criticism against TV has focused on [[47]].",
+          "promptRich": "Recent criticism against TV has focused on [[47]].",
+          "answerBoxPlacement": "none",
+          "responseKey": "47",
+          "choices": [
+            "the active way of living that it promotes",
+            "the influence of the content of programs on children’s brains",
+            "the medium itself in relation to the development of children",
+            "the subject matter it shows to children"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s05-passage",
+            "center-1993-r-s05-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q048",
+          "number": "問3",
+          "prompt": "The presence of TV may weaken the family by [[48]].",
+          "promptRich": "The presence of TV may weaken the family by [[48]].",
+          "answerBoxPlacement": "none",
+          "responseKey": "48",
+          "choices": [
+            "encouraging children to rely on their parents",
+            "giving children a greater sense of moral values",
+            "providing more time for the family to share together",
+            "taking over an essential part of parents’ work"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s05-passage",
+            "center-1993-r-s05-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q049",
+          "number": "問4",
+          "prompt": "The author states that certain people in society might finally attempt [[49]].",
+          "promptRich": "The author states that certain people in society might finally attempt [[49]].",
+          "answerBoxPlacement": "none",
+          "responseKey": "49",
+          "choices": [
+            "to ban TV advertising aimed at young people",
+            "to have children survive the “television experience”",
+            "to prohibit children from watching TV",
+            "to recognize the educational merits of the medium"
+          ],
+          "stimulusIds": [
+            "center-1993-r-s05-passage",
+            "center-1993-r-s05-intro-1"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s05-passage"
+        },
+        {
+          "block": "center-1993-r-s05-intro-1"
+        },
+        {
+          "question": "center-1993-r-q046"
+        },
+        {
+          "question": "center-1993-r-q047"
+        },
+        {
+          "question": "center-1993-r-q048"
+        },
+        {
+          "question": "center-1993-r-q049"
+        }
+      ]
+    },
+    {
+      "sectionId": "center-1993-r-s06",
+      "number": "第6問",
+      "score": 52,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension",
+        "english.multiple-select"
+      ],
+      "lead": "次の文章を読み、下の問い（A、B）に答えよ。",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "center-1993-r-s06-passage",
+          "type": "passage",
+          "paragraphs": [
+            "When I was a child, our dining room had two kinds of chairs — two large ones with arm rests and four small ones without. The larger ones stood at the ends of the table, the small ones on the sides. Mom and Dad sat in the big chairs, except when one of us was away; then Mom would sit in one of the smaller chairs. I always remained in the same place, at my father’s right. He always sat at the end, at the “head” of the table. I couldn’t imagine either of us sitting in any other position.",
+            "In the years when I went away to school and came home only during the holidays, the arrangement at the table remained the same. Sitting where he did, Dad was framed by the window through which the yard could be seen with its carefully cultivated trees and grass. His chair was not just a place for him at the table; it was a place in which he was situated against the yard and trees, the fences and barbecue, the bikes, and cars. It was the holy and protected place that was his, and ours through him.",
+            "Years later, in my mid-20s and uncertain about my future, I returned home. I remember my feeling at the moment I sat down: “There is still a place for me at this table; things seem understandable here even if I can’t yet make sense of my failed attempts in work and love. I’m glad I can come home to this table.”",
+            "After Dad retired, he and Mom moved out into a small apartment. When they came to visit me at their old house, Dad still sat at the head of the table though the table was no longer his but mine. Only with my marriage to Barbara, did I hear a voice question the arrangement. She requested, gently but firmly, that I sit at the head of the table in our home. I realized then that I was head of the family, but I also felt unwilling to introduce such a change. How would I feel sitting in that “head” place in my Dad’s presence? And how would he handle it? I was to find out on the occasion of our youngest child’s first birthday.",
+            "Mom and Dad arrived for lunch, and went into the dining room. Dad moved toward his usual seat in front of the window that opened to the backyard. Before he could get around the side of the table, I took a deep breath and said, “Dad, this is going to be your place, next to Mom, on the side.” He stopped and looked at me. Then he sat where I had indicated. I felt awkward, sad, and angry at Barbara for pushing me to do this. It would have been easy to say, “My mistake, Dad. Sit where you always sit.” But I didn’t.",
+            "When he and Mom were seated, Barbara and I took our places. I don’t know how Dad felt. I do know that, though removed from his usual place, he continued to share his best self with us, telling stories of his childhood and youth to the delight of his grandchildren. As I served the food with my window and yard as background, our lives experienced a change, which we continue to live with.",
+            "It wasn’t easy, but I sense that there is also something good in the change which has occurred. I am beginning to learn that “honoring one’s father” is more than the question of which place to occupy at the dining table. It also means listening, wherever we sit and whatever our own positions, to the stories Dad longs to tell. We may then, during these magical moments, even be able to forget about whose chair is whose."
+          ],
+          "stimulusId": "center-1993-r-s06-passage"
+        },
+        {
+          "blockId": "center-1993-r-s06-intro-1",
+          "type": "sourceIntro",
+          "label": "A",
+          "text": "次の問い（問1～6）に対する答え（[[50]]～[[55]]）として最も適当なものを、それぞれ①～④のうちから一つずつ選べ。",
+          "stimulusId": "center-1993-r-s06-intro-1"
+        },
+        {
+          "blockId": "center-1993-r-s06-intro-2",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "次の①～⓪のうちから本文の内容とあっているものを四つ選べ。ただし、解答の順序は問わない。",
+          "stimulusId": "center-1993-r-s06-intro-2"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "center-1993-r-q050",
+          "number": "問1",
+          "prompt": "Where did the author’s mother sit when one of her children was away? [[50]]",
+          "promptRich": "Where did the author’s mother sit when one of her children was away? [[50]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "50",
+          "choices": [
+            "She didn’t change her chair.",
+            "She moved her own chair next to Dad’s.",
+            "She moved to an empty chair on the side.",
+            "She sat opposite to Dad."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q051",
+          "number": "問2",
+          "prompt": "What did the father’s chair represent to the author in his school days? [[51]]",
+          "promptRich": "What did the father’s chair represent to the author in his school days? [[51]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "51",
+          "choices": [
+            "It represented a secure family life he could rely on.",
+            "It represented his father’s changing position within the family.",
+            "It represented the religious beliefs which his father shared with the family.",
+            "It represented the world which could be seen outside the window."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q052",
+          "number": "問3",
+          "prompt": "How did the author respond to his wife’s request when he heard it for the first time? [[52]]",
+          "promptRich": "How did the author respond to his wife’s request when he heard it for the first time? [[52]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "52",
+          "choices": [
+            "He agreed, but was worried about the consequences.",
+            "He decided that his father would have to live apart.",
+            "He disagreed because he knew exactly how his father would react.",
+            "He refused, gently but firmly, to follow it."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q053",
+          "number": "問4",
+          "prompt": "How did the author feel when he told his father to sit on the side? [[53]]",
+          "promptRich": "How did the author feel when he told his father to sit on the side? [[53]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "53",
+          "choices": [
+            "He didn’t feel bad because his father was going to sit there anyway.",
+            "He felt relieved at having carried out the difficult task.",
+            "He regretted what he had done and wanted to blame his wife.",
+            "He was thoroughly satisfied with the new seating arrangement."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q054",
+          "number": "問5",
+          "prompt": "What happened during the meal after the family had all taken their new seats? [[54]]",
+          "promptRich": "What happened during the meal after the family had all taken their new seats? [[54]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "54",
+          "choices": [
+            "The author’s children removed their grandfather from his usual place.",
+            "The author’s father didn’t appear to mind where he sat.",
+            "The author’s father shared his favorite dishes with the grandchildren.",
+            "They became tense and nervous about their future as a family."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q055",
+          "number": "問6",
+          "prompt": "What did the author learn about “honoring one’s father”? [[55]]",
+          "promptRich": "What did the author learn about “honoring one’s father”? [[55]]",
+          "answerBoxPlacement": "none",
+          "responseKey": "55",
+          "choices": [
+            "Fathers always long to tell stories about their early years.",
+            "Providing the right chair is the only way to honor one’s father.",
+            "Respect for one’s father doesn’t depend only on where he sits.",
+            "The family should dine together at the same table as often as possible."
+          ],
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-1"
+          ]
+        },
+        {
+          "questionId": "center-1993-r-q056",
+          "number": "",
+          "prompt": "",
+          "promptRich": "",
+          "answerBoxPlacement": "none",
+          "responseKey": "56-59",
+          "choices": [
+            "The dining table had big chairs placed opposite to the small ones.",
+            "The author dreamed of someday sitting at the head of the table.",
+            "At a time when he was losing confidence in himself, the author was happy to find his old place at the table.",
+            "The author decided to change the seating arrangement as soon as his parents moved out of the house.",
+            "The author and his wife lived in the same house as his parents used to live in.",
+            "The author’s parents came to lunch because his wife had just had a baby.",
+            "When he came for lunch, the author’s father went straight to his chair and sat down.",
+            "The author took a deep breath because he had a lot to tell his father about his children.",
+            "The author and his wife sat down at the lunch table after his parents did.",
+            "When the author’s father changed his position at the table, his character was not affected."
+          ],
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "center-1993-r-s06-passage",
+            "center-1993-r-s06-intro-2"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "center-1993-r-s06-passage"
+        },
+        {
+          "block": "center-1993-r-s06-intro-1"
+        },
+        {
+          "question": "center-1993-r-q050"
+        },
+        {
+          "question": "center-1993-r-q051"
+        },
+        {
+          "question": "center-1993-r-q052"
+        },
+        {
+          "question": "center-1993-r-q053"
+        },
+        {
+          "question": "center-1993-r-q054"
+        },
+        {
+          "question": "center-1993-r-q055"
+        },
+        {
+          "block": "center-1993-r-s06-intro-2"
+        },
+        {
+          "question": "center-1993-r-q056"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2025-main-english-reading",
+  "answerSlotCount": 44,
+  "maxScore": 100,
+  "responses": {
+    "1": {
+      "responseKey": "1",
+      "type": "single-choice",
+      "answerNumbers": [
+        1
+      ],
+      "correct": 4
+    },
+    "2": {
+      "responseKey": "2",
+      "type": "single-choice",
+      "answerNumbers": [
+        2
+      ],
+      "correct": 2
+    },
+    "3": {
+      "responseKey": "3",
+      "type": "single-choice",
+      "answerNumbers": [
+        3
+      ],
+      "correct": 4
+    },
+    "4": {
+      "responseKey": "4",
+      "type": "single-choice",
+      "answerNumbers": [
+        4
+      ],
+      "correct": 2
+    },
+    "5": {
+      "responseKey": "5",
+      "type": "single-choice",
+      "answerNumbers": [
+        5
+      ],
+      "correct": 4
+    },
+    "6": {
+      "responseKey": "6",
+      "type": "single-choice",
+      "answerNumbers": [
+        6
+      ],
+      "correct": 4
+    },
+    "7": {
+      "responseKey": "7",
+      "type": "single-choice",
+      "answerNumbers": [
+        7
+      ],
+      "correct": 4
+    },
+    "8": {
+      "responseKey": "8",
+      "type": "single-choice",
+      "answerNumbers": [
+        8
+      ],
+      "correct": 3
+    },
+    "9-12": {
+      "responseKey": "9-12",
+      "type": "ordering",
+      "answerNumbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "correct": [
+        5,
+        4,
+        3,
+        1
+      ]
+    },
+    "13": {
+      "responseKey": "13",
+      "type": "single-choice",
+      "answerNumbers": [
+        13
+      ],
+      "correct": 4
+    },
+    "14": {
+      "responseKey": "14",
+      "type": "single-choice",
+      "answerNumbers": [
+        14
+      ],
+      "correct": 1
+    },
+    "15": {
+      "responseKey": "15",
+      "type": "single-choice",
+      "answerNumbers": [
+        15
+      ],
+      "correct": 3
+    },
+    "16": {
+      "responseKey": "16",
+      "type": "single-choice",
+      "answerNumbers": [
+        16
+      ],
+      "correct": 1
+    },
+    "17": {
+      "responseKey": "17",
+      "type": "single-choice",
+      "answerNumbers": [
+        17
+      ],
+      "correct": 3
+    },
+    "18": {
+      "responseKey": "18",
+      "type": "single-choice",
+      "answerNumbers": [
+        18
+      ],
+      "correct": 1
+    },
+    "19": {
+      "responseKey": "19",
+      "type": "single-choice",
+      "answerNumbers": [
+        19
+      ],
+      "correct": 6
+    },
+    "20": {
+      "responseKey": "20",
+      "type": "single-choice",
+      "answerNumbers": [
+        20
+      ],
+      "correct": 4
+    },
+    "21": {
+      "responseKey": "21",
+      "type": "single-choice",
+      "answerNumbers": [
+        21
+      ],
+      "correct": 1
+    },
+    "22": {
+      "responseKey": "22",
+      "type": "single-choice",
+      "answerNumbers": [
+        22
+      ],
+      "correct": 3
+    },
+    "23": {
+      "responseKey": "23",
+      "type": "single-choice",
+      "answerNumbers": [
+        23
+      ],
+      "correct": 4
+    },
+    "24-27": {
+      "responseKey": "24-27",
+      "type": "ordering",
+      "answerNumbers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "correct": [
+        5,
+        4,
+        2,
+        1
+      ]
+    },
+    "28": {
+      "responseKey": "28",
+      "type": "single-choice",
+      "answerNumbers": [
+        28
+      ],
+      "correct": 4
+    },
+    "29": {
+      "responseKey": "29",
+      "type": "single-choice",
+      "answerNumbers": [
+        29
+      ],
+      "correct": 3
+    },
+    "30-31": {
+      "responseKey": "30-31",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        30,
+        31
+      ],
+      "correct": [
+        3,
+        4
+      ]
+    },
+    "32": {
+      "responseKey": "32",
+      "type": "single-choice",
+      "answerNumbers": [
+        32
+      ],
+      "correct": 1
+    },
+    "33": {
+      "responseKey": "33",
+      "type": "single-choice",
+      "answerNumbers": [
+        33
+      ],
+      "correct": 4
+    },
+    "34-35": {
+      "responseKey": "34-35",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        34,
+        35
+      ],
+      "correct": [
+        1,
+        4
+      ]
+    },
+    "36": {
+      "responseKey": "36",
+      "type": "single-choice",
+      "answerNumbers": [
+        36
+      ],
+      "correct": 1
+    },
+    "37": {
+      "responseKey": "37",
+      "type": "single-choice",
+      "answerNumbers": [
+        37
+      ],
+      "correct": 4
+    },
+    "38": {
+      "responseKey": "38",
+      "type": "single-choice",
+      "answerNumbers": [
+        38
+      ],
+      "correct": 1
+    },
+    "39": {
+      "responseKey": "39",
+      "type": "single-choice",
+      "answerNumbers": [
+        39
+      ],
+      "correct": 1
+    },
+    "40-41": {
+      "responseKey": "40-41",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        40,
+        41
+      ],
+      "correct": [
+        3,
+        4
+      ]
+    },
+    "42": {
+      "responseKey": "42",
+      "type": "single-choice",
+      "answerNumbers": [
+        42
+      ],
+      "correct": 2
+    },
+    "43": {
+      "responseKey": "43",
+      "type": "single-choice",
+      "answerNumbers": [
+        43
+      ],
+      "correct": 4
+    },
+    "44": {
+      "responseKey": "44",
+      "type": "single-choice",
+      "answerNumbers": [
+        44
+      ],
+      "correct": 1
+    }
+  },
+  "scoringUnits": [
+    {
+      "unitId": "s1-q1",
+      "responseKeys": [
+        "1"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s1-q2",
+      "responseKeys": [
+        "2"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s1-q3",
+      "responseKeys": [
+        "3"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s2-q1",
+      "responseKeys": [
+        "4"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s2-q2",
+      "responseKeys": [
+        "5"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s2-q3",
+      "responseKeys": [
+        "6"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s2-q4",
+      "responseKeys": [
+        "7"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s3-q1",
+      "responseKeys": [
+        "8"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s3-q2",
+      "responseKeys": [
+        "9-12"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s3-q3",
+      "responseKeys": [
+        "13"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s4-q1",
+      "responseKeys": [
+        "14"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s4-q2",
+      "responseKeys": [
+        "15"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s4-q3",
+      "responseKeys": [
+        "16"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s4-q4",
+      "responseKeys": [
+        "17"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q1",
+      "responseKeys": [
+        "18"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q2a",
+      "responseKeys": [
+        "19"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q2b",
+      "responseKeys": [
+        "20"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q3",
+      "responseKeys": [
+        "21"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q4",
+      "responseKeys": [
+        "22"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s5-q5",
+      "responseKeys": [
+        "23"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s6-q1",
+      "responseKeys": [
+        "24-27"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s6-q2",
+      "responseKeys": [
+        "28"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s6-q3",
+      "responseKeys": [
+        "29"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s6-q4",
+      "responseKeys": [
+        "30-31"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s7-q1",
+      "responseKeys": [
+        "32"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s7-q2",
+      "responseKeys": [
+        "33"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s7-q3",
+      "responseKeys": [
+        "34-35"
+      ],
+      "points": 4,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s7-q4",
+      "responseKeys": [
+        "36"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s7-q5",
+      "responseKeys": [
+        "37"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s8-q1",
+      "responseKeys": [
+        "38"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s8-q2",
+      "responseKeys": [
+        "39"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s8-q3",
+      "responseKeys": [
+        "40-41",
+        "42"
+      ],
+      "points": 4,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s8-q4",
+      "responseKeys": [
+        "43"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "s8-q5",
+      "responseKeys": [
+        "44"
+      ],
+      "points": 4,
+      "rule": "all-correct"
+    }
+  ]
+}

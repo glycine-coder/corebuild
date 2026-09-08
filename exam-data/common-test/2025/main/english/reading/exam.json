@@ -1,0 +1,1477 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2025-main-english-reading",
+  "title": "2025年度 大学入学共通テスト 英語（リーディング）本試験",
+  "metaLine": "大学入学共通テスト　2025年度　本試験",
+  "instruction": "各大問の英文や図表を読み、解答番号1～44にあてはまるものとして最も適当な選択肢を選びなさい。",
+  "sections": [
+    {
+      "sectionId": "common-2025-r-s01",
+      "number": "第1問",
+      "score": 6,
+      "sourcePages": [
+        1,
+        2,
+        3
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ],
+      "lead": "Your host family in the US is planning to buy a small aquarium. You found this helpful pamphlet.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "pamphlet",
+          "title": "Beginners!",
+          "subtitle": "Decorate Your Freshwater Aquarium",
+          "intro": "Start your wonderful hobby of keeping fish by following these three easy steps!",
+          "steps": [
+            {
+              "title": "Consider what kind of fish you want",
+              "text": "Some fish need open spaces for swimming, while others want places to hide. Also, some fish need sand to cover themselves in. For other non-hiding fish, small stones can be used.",
+              "image": "assets/exams/common-2025/s01-step1.png",
+              "imageAlt": "Fish, sand, and small stones"
+            },
+            {
+              "title": "Select decorations",
+              "text": "Natural and artificial decorations are necessary to keep fish in good health and should cover 50-70% of the area. Fish from fast-moving or deep water need solid objects such as small rocks and logs. Those from slow-moving or shallow water prefer soft objects like plants. Avoid any plastic or rubber items not intended for aquariums. Clean all decorations carefully to make sure there is nothing harmful on them.",
+              "image": "assets/exams/common-2025/s01-step2.png",
+              "imageAlt": "Natural and artificial aquarium decorations"
+            },
+            {
+              "title": "Position decorations",
+              "text": "Fish need room to move. Leave space around the edges of the tank. Place tall decorations and plants at the back, and put short ones at the front.",
+              "image": "assets/exams/common-2025/s01-step3.png",
+              "imageAlt": "Correct positioning of tall and short aquarium decorations"
+            }
+          ],
+          "blockId": "common-2025-r-s01-stimulus-01",
+          "stimulusId": "common-2025-r-s01-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q001",
+          "number": "問1",
+          "prompt": "The customers most likely to benefit from this pamphlet are [[1]].",
+          "responseKey": "1",
+          "choices": [
+            "aquarium lovers who are looking for discount prices",
+            "experienced fish lovers who need specialized advice",
+            "fish fans who want different methods of feeding their fish",
+            "newcomers who need to be informed about their aquarium"
+          ],
+          "promptRich": "The customers most likely to benefit from this pamphlet are [[1]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s01-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q002",
+          "number": "問2",
+          "prompt": "When arranging decorations to keep your fish in good health, it is a good idea to [[2]].",
+          "responseKey": "2",
+          "choices": [
+            "avoid using solid and soft objects",
+            "provide the right amount of open space",
+            "reuse your old toothbrush as a decoration",
+            "wash decorations briefly and roughly"
+          ],
+          "promptRich": "When arranging decorations to keep your fish in good health, it is a good idea to [[2]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s01-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q003",
+          "number": "問3",
+          "prompt": "According to the pamphlet, which picture best shows how to decorate for fish from slow-moving water? [[3]]",
+          "responseKey": "3",
+          "choices": [
+            {
+              "image": "assets/exams/common-2025/s01-q3-1.png",
+              "alt": "Aquarium arrangement 1",
+              "cropTop": 30,
+              "displayWidth": 330
+            },
+            {
+              "image": "assets/exams/common-2025/s01-q3-2.png",
+              "alt": "Aquarium arrangement 2",
+              "cropTop": 30,
+              "displayWidth": 330
+            },
+            {
+              "image": "assets/exams/common-2025/s01-q3-3.png",
+              "alt": "Aquarium arrangement 3",
+              "cropTop": 55,
+              "displayWidth": 330
+            },
+            {
+              "image": "assets/exams/common-2025/s01-q3-4.png",
+              "alt": "Aquarium arrangement 4",
+              "cropTop": 55,
+              "displayWidth": 330
+            }
+          ],
+          "promptRich": "According to the pamphlet, which picture best shows how to decorate for fish from slow-moving water? [[3]]",
+          "answerBoxPlacement": "none",
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "common-2025-r-s01-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s02",
+      "number": "第2問",
+      "score": 12,
+      "sourcePages": [
+        4,
+        5,
+        6
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ],
+      "lead": "Your teacher asks you to write a report about the future of transportation. To prepare, you read a blog written by a British author about the topic.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "blog",
+          "title": "{{i|Flying Vehicles}}",
+          "date": "{{i|10 December 2024}}",
+          "author": "{{i|Jonah Markowski}}",
+          "location": "{{i|Bristol, UK}}",
+          "paragraphs": [
+            "Yesterday, I attended a forum in northern Japan called {{i|Flying Vehicles: Today and Tomorrow}}. Modern transportation problems and solutions were discussed by three guest speakers.",
+            "All the speakers agreed on three points. First, flying vehicles should be electrically powered in general. Air pollution can be reduced by increasing the use of zero-emission technologies. Second, emergency services would be improved. Flying ambulances would be faster in large cities with heavy traffic. Also, they would be better for servicing small towns far from hospitals. Finally, from a safety point of view, they said that flying technology would need to be well tested and controlled to avoid accidents in the air.",
+            "At the end of the forum, the speakers discussed flying taxis. According to one of the speakers, recent reports show that some countries are already developing this technology. A few of them are even testing flying taxi services in the middle of their major cities. Then, someone in the audience asked if flying taxis would soon be available around the world. Two of the speakers answered, “Yes,” but they disagreed about the timing. One of them said, “In 5 years,” and the other said, “In 15 years.” The third speaker answered, “No, because the operating costs of flying taxis are too high.” I look forward to seeing which guest speaker’s prediction turns out to be correct.",
+            "Next week’s blog is about self-driving cars. It’s going to be a fantastic post!"
+          ],
+          "blockId": "common-2025-r-s02-stimulus-01",
+          "stimulusId": "common-2025-r-s02-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q004",
+          "number": "問1",
+          "prompt": "Which of the following did all the guest speakers agree on? [[4]]",
+          "responseKey": "4",
+          "choices": [
+            "Flying vehicles are widely accepted as being safe.",
+            "Flying vehicles will improve responses to emergencies.",
+            "Modern transportation problems are difficult to solve.",
+            "Zero-emission technologies cannot be applied to flying vehicles."
+          ],
+          "promptRich": "Which of the following did all the guest speakers agree on? [[4]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s02-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q005",
+          "number": "問2",
+          "prompt": "Flying vehicles will most likely [[5]].",
+          "responseKey": "5",
+          "choices": [
+            "be used in small towns rather than large cities",
+            "increase the number of traffic jams near hospitals",
+            "prevent solutions to environmental problems",
+            "require proper assessment and regulation"
+          ],
+          "promptRich": "Flying vehicles will most likely [[5]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s02-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q006",
+          "number": "問3",
+          "prompt": "One guest speaker’s opinion is that [[6]].",
+          "responseKey": "6",
+          "choices": [
+            "flying taxi centres will be based in rural areas",
+            "flying taxi technology has already been tested",
+            "flying taxis are already widespread",
+            "flying taxis are too expensive to run"
+          ],
+          "promptRich": "One guest speaker’s {{u|opinion}} is that [[6]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s02-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q007",
+          "number": "問4",
+          "prompt": "Which of the following is mentioned in the blog? [[7]]",
+          "responseKey": "7",
+          "choices": [
+            "Costs of flying ambulance services",
+            "Flying transport using solar-power",
+            "Parking areas for flying taxis",
+            "Urban trials of flying taxi services"
+          ],
+          "promptRich": "Which of the following is mentioned in the blog? [[7]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s02-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s03",
+      "number": "第3問",
+      "score": 9,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "You are an exchange student at a UK high school, and your teacher asked you to find an interesting story. You found this story to share in class next week.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "passage",
+          "title": "THE CONTEST",
+          "paragraphs": [
+            "“One more time, with feeling!” I encouraged my band.",
+            "We are capable musicians. In fact, our keyboardist, Yuki, is a classically-trained pianist who regularly performs in front of audiences. Kei, our bassist, has a huge number of followers because of the popular videos she uploads. However, the Ultimate Music Contest was only a few weeks away and I was kind of regretting that we had entered it. I was worried that my band {{i|Cat’s Curry}} wouldn’t be ready. Something felt wrong, but I couldn’t figure it out.",
+            "We continued to practise until our rehearsal time was up. As band leader, I felt additional pressure about the contest. “Tomo, you’re too worried. Everything will be OK,” Ren, our drummer, said as she smiled at me and waved goodbye. “I hope so,” I thought to myself.",
+            "Back at home, I watched the video I had taken of our rehearsal. As I listened to {{i|Sayonara, and Thanks for Everything}}, I thought my ears were playing tricks on me. I carefully listened a few more times. Although it was hard to notice, we were slightly out of rhythm. “How could that be?” I wondered. As I continued to listen, I paid extra attention to each instrument. “I’ve got it!” I thought excitedly.",
+            "At the next practice, I played back the recording and waited for everyone’s reaction.",
+            {
+              "type": "quoteLines",
+              "lines": [
+                "“I’ve been practising every day!”",
+                "“These songs aren’t even difficult...”",
+                "“What’s the matter?”"
+              ]
+            },
+            "They didn’t understand the problem, so I explained my discovery, “Each of us is showing off. We’re playing for ourselves, not for the band!” From that day on, our focus shifted and the band took a step forward on its musical journey. Like the saying goes, “The whole is greater than the sum of the parts.”",
+            "Although {{i|Cat’s Curry}} did not win the contest, we all felt it was the best performance of our lives."
+          ],
+          "blockId": "common-2025-r-s03-stimulus-01",
+          "stimulusId": "common-2025-r-s03-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q008",
+          "number": "問1",
+          "prompt": "Which person is telling the story? [[8]]",
+          "responseKey": "8",
+          "choices": [
+            "Kei",
+            "Ren",
+            "Tomo",
+            "Yuki"
+          ],
+          "promptRich": "Which person is telling the story? [[8]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s03-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q009-012",
+          "number": "問2",
+          "prompt": "Choose four out of the five options (①～⑤) and put them in the order they happened.",
+          "responseKey": "9-12",
+          "choices": [
+            "The band changed its attitude.",
+            "The band decided to practise more often.",
+            "The band leader identified the problem.",
+            "The band leader was concerned about the band.",
+            "The band registered for a contest."
+          ],
+          "promptRich": "Choose {{u|four}} out of the five options (①～⑤) and put them in the order they happened.\n[[9]] → [[10]] → [[11]] → [[12]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s03-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q013",
+          "number": "問3",
+          "prompt": "How did the band most likely feel after the competition? [[13]]",
+          "responseKey": "13",
+          "choices": [
+            "Awful",
+            "Embarrassed",
+            "Independent",
+            "Satisfied"
+          ],
+          "promptRich": "How did the band most likely feel after the competition? [[13]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s03-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s04",
+      "number": "第4問",
+      "score": 12,
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "categoryIds": [
+        "english.editing",
+        "english.logical-reading",
+        "english.information-integration"
+      ],
+      "lead": "In English class, you are writing an essay on a topic related to lifestyle in modern society. This is your most recent draft. You are now working on improvements based on comments from your teacher.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "type": "annotated",
+          "title": "Try a Slow Life",
+          "paragraphs": [
+            "In modern society, people are always busy and this fast pace of living can be stressful. The movement toward a slow life has shown us that you don’t have to be busy all the time. Instead, you can slow down and notice things that are truly meaningful to you. By taking your time and being completely focused on these things, you can improve the quality of your work and life. This essay will describe some ways to do this.",
+            "One key point of the slow life is to own fewer belongings. This makes it easier to concentrate on everyday activities. {{mark|(1)}} ______ Many people today tend to buy more than they can consume. Do you {{i|really}} need five pairs of the latest sneakers? Slow-lifers would recommend reducing possessions and buying only necessary items.",
+            "Another recommendation is to think about your communication style and manner in your public and private life. Sadly, one study has found that around 90% of people check smartphones during face-to-face conversations, which may appear impolite and affect relationships negatively. {{mark|(2)}} ______",
+            "The final aspect of slow living is to take 10 to 15 minutes to reflect on your day. Try to recollect people and events that were significant. By mentally highlighting them, you can find fulfillment in daily tasks.",
+            "In summary, through a slow life, {{mark|(3)}} {{u|you can relax}}. Even small changes can improve your life. Avoid having non-essential items, spend quality time with people around you, and {{mark|(4)}} {{u|remember what you talked about with your friends}}. By doing these things, you will have a chance to live a better and more rewarding life."
+          ],
+          "notes": [
+            "(1) {{i|Add an appropriate connecting word.}}",
+            "(2) {{i|Add a concluding sentence to improve this paragraph.}}",
+            "(3) {{i|The underlined part isn’t your main argument. Rewrite it.}}",
+            "(4) {{i|The underlined part doesn’t describe your essay content well. Change it.}}",
+            "Overall Comments: {{i|You have really improved your essay. Keep working on it. I’m going to follow your suggestions to slow down and hopefully improve the quality of my life.}}"
+          ],
+          "commentMap": [
+            null,
+            0,
+            1,
+            null,
+            2
+          ],
+          "additionalCommentMap": {
+            "4": 3
+          },
+          "overallComment": 4,
+          "blockId": "common-2025-r-s04-stimulus-01",
+          "stimulusId": "common-2025-r-s04-stimulus-01"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q014",
+          "number": "問1",
+          "prompt": "Based on Comment (1), which is the best word to add? [[14]]",
+          "responseKey": "14",
+          "choices": [
+            "However",
+            "Moreover",
+            "Otherwise",
+            "Therefore"
+          ],
+          "promptRich": "Based on Comment (1), which is the best word to add? [[14]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q015",
+          "number": "問2",
+          "prompt": "Based on Comment (2), which is the best sentence to add? [[15]]",
+          "responseKey": "15",
+          "choices": [
+            "Limit the time you spend having conversations with people.",
+            "Send messages with your phone just once or twice a day.",
+            "Try to focus your attention on the person you are talking with.",
+            "Use your phone to find real friends through social media."
+          ],
+          "promptRich": "Based on Comment (2), which is the best sentence to add? [[15]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q016",
+          "number": "問3",
+          "prompt": "Based on Comment (3), which is the best phrase to replace the underlined part? [[16]]",
+          "responseKey": "16",
+          "choices": [
+            "you can be satisfied at work and in your personal life",
+            "you can complete tasks in a short period of time",
+            "you can decrease stress by sharing work with others",
+            "you can focus on the outcome rather than the process"
+          ],
+          "promptRich": "Based on Comment (3), which is the best phrase to replace the underlined part? [[16]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s04-stimulus-01"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q017",
+          "number": "問4",
+          "prompt": "Based on Comment (4), which is the best phrase to replace the underlined part? [[17]]",
+          "responseKey": "17",
+          "choices": [
+            "plan your daily activities as soon as you wake up",
+            "recall the bad things that happened in your life",
+            "think back to the memorable parts of your day",
+            "throw away unwanted items before sleeping"
+          ],
+          "promptRich": "Based on Comment (4), which is the best phrase to replace the underlined part? [[17]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "common-2025-r-s04-stimulus-01"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s05",
+      "number": "第5問",
+      "score": 16,
+      "sourcePages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.multiple-documents",
+        "english.information-integration"
+      ],
+      "lead": "You are an exchange student in the US. As part of your university’s community volunteer program, you will help organize a special conference for local businesses. You wrote this email to the professor in charge and received a reply.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s5-email-first",
+          "type": "email",
+          "title": "Event Plan",
+          "date": "October 15, 2024",
+          "headerStyle": "values-only",
+          "greeting": "Dear Professor Ryan,",
+          "paragraphs": [
+            "I am very happy to be the representative for the volunteer program. You mentioned that this event is to promote the local economy. I hope to work as a civil servant in the local development division after graduation, so this experience is very valuable for me. The conference schedule you requested is below."
+          ],
+          "schedule": {
+            "title": "Saturday, February 15, 2025",
+            "rows": [
+              [
+                "9:45 a.m.",
+                "Opening address: Professor Henry Ryan"
+              ],
+              [
+                "theme",
+                "Morning theme: “Changing local traditions”"
+              ],
+              [
+                "10:00 a.m.",
+                "Presentation 1: Martin Faulkner\nTitle: Starting an online business"
+              ],
+              [
+                "11:00 a.m.",
+                "Break"
+              ],
+              [
+                "11:15 a.m.",
+                "Presentation 2: Jane Brown\nTitle: (undecided)"
+              ],
+              [
+                "12:15 p.m.",
+                "Lunch"
+              ],
+              [
+                "theme",
+                "Afternoon theme: “Preserving local traditions”"
+              ],
+              [
+                "1:00 p.m.",
+                "Presentation 3: Sarine Schmidt\nTitle: Handing down craftsmanship to younger generations"
+              ],
+              [
+                "2:00 p.m.",
+                "Break"
+              ],
+              [
+                "2:15 p.m.",
+                "Presentation 4: Dianne Moran\nTitle: (undecided)"
+              ],
+              [
+                "3:15 p.m.",
+                "Break"
+              ],
+              [
+                "3:30 p.m.",
+                "Debate moderator: Tim McGregor\nTitle: Change vs. conservation"
+              ],
+              [
+                "4:30 p.m.",
+                "Closing address: Mayor Lesley Baker\nTitle: (undecided)"
+              ],
+              [
+                "4:45 p.m.",
+                "End"
+              ]
+            ]
+          },
+          "paragraphsAfterSchedule": [
+            "I would like you to confirm the following points:",
+            {
+              "type": "bulletList",
+              "items": [
+                "The conference will start at 9:45 a.m. and end at 4:45 p.m.",
+                "The registration will close seven days before the event.",
+                "The conference will be held in the Main Hall.",
+                "Participants will park in the university parking area."
+              ]
+            },
+            "Below is a list of things that still need to be decided:",
+            {
+              "type": "bulletList",
+              "items": [
+                "Can we use the cafeteria for the lunch time reception?",
+                "Have you received the speech titles for the mayor and the two remaining presenters?",
+                "How will we arrange the tables and chairs for the debate?"
+              ]
+            },
+            "The number of volunteers that can help with the conference isn’t set yet. I’ll send you the list as soon as possible.",
+            "This is my first time being on a committee like this, and I am rather anxious, so I would appreciate any advice you have.",
+            "I’m looking forward to assisting and attending the presentations."
+          ],
+          "closing": "With regards,",
+          "signature": "Student group representative\n(University Volunteer Program)",
+          "stimulusId": "s5-email-first"
+        },
+        {
+          "blockId": "s5-email-reply",
+          "type": "email",
+          "title": "Re: Event Plan",
+          "date": "October 17, 2024",
+          "headerStyle": "values-only",
+          "greeting": "Dear representative and group members,",
+          "paragraphs": [
+            "Thank you for making the draft. You’ve done a really good job.",
+            "The time schedule and order of events look good to me. The Main Hall worked really well as a venue last time. It has a good capacity for this type of event. As a university staff member, I can reserve it for free. Closing the registration seven days before the conference is too short. It doesn’t give us time to prepare materials and send out information. You also mentioned parking. The university parking lot will be open for the event, so participants can use it without having a permit.",
+            "With regard to the information you requested, I have received the remaining two presentation titles. One presenter is a local businessperson, who will talk about changes she has made in her company. The other presenter is a local chef. She will introduce recipes using locally grown mushrooms. I will update their presentation details on the schedule and send it back to you. Also, the mayor has provided a title for his closing speech, “Our town, our future.” As for lunch, the cafeteria staff don’t work on weekends, so we need to rethink it. Do you have any suggestions?",
+            "I have attached a diagram for the debate seating arrangements. You will notice that there needs to be a small desk for the moderator in the center. There should be one table on each side of the moderator, and these tables should face slightly inward. As we have two debaters on each team, use the long tables. There isn’t a lot of time to set up the stage for the debate, so you will need a few people to help carry the tables and chairs."
+          ],
+          "closing": "Thank you for your assistance.",
+          "signature": "Henry Ryan",
+          "attachment": "Debate set up diagram",
+          "stimulusId": "s5-email-reply"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q018",
+          "number": "問1",
+          "prompt": "Based on your email, what is your overall worry about being on the volunteer program? [[18]]",
+          "responseKey": "18",
+          "choices": [
+            "A lack of event organizing experience",
+            "Concerns about your presentation skills",
+            "The possibility of future employment",
+            "Your ability in writing English emails"
+          ],
+          "promptRich": "Based on your email, what is your overall worry about being on the volunteer program? [[18]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5-email-first",
+            "s5-email-reply"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q019-020",
+          "number": "問2",
+          "prompt": "Which of these titles best match Professor Ryan’s descriptions for Presentation 2 ([[19]]) and Presentation 4 ([[20]]) based on the morning and afternoon themes?",
+          "components": [
+            {
+              "responseKey": "19",
+              "label": "Presentation 2 [[19]]",
+              "choices": [
+                "Building a memorial statue of our town hero",
+                "Dealing with local volunteers",
+                "Organizing cross-cultural events",
+                "Rediscovering the benefits of local food",
+                "Renovating the village church",
+                "Updating a traditional business model"
+              ]
+            },
+            {
+              "responseKey": "20",
+              "label": "Presentation 4 [[20]]",
+              "choices": [
+                "Building a memorial statue of our town hero",
+                "Dealing with local volunteers",
+                "Organizing cross-cultural events",
+                "Rediscovering the benefits of local food",
+                "Renovating the village church",
+                "Updating a traditional business model"
+              ]
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5-email-first",
+            "s5-email-reply"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q021",
+          "number": "問3",
+          "prompt": "Referring to Professor Ryan’s reply, which of the following needs to be reconsidered? [[21]]",
+          "responseKey": "21",
+          "choices": [
+            "Conference registration",
+            "Main Hall as the venue",
+            "Mayor’s speech title",
+            "Opening and closing times"
+          ],
+          "promptRich": "Referring to Professor Ryan’s reply, which of the following needs to be reconsidered? [[21]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5-email-first",
+            "s5-email-reply"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q022",
+          "number": "問4",
+          "prompt": "Which diagram best represents Professor Ryan’s seating plan for the debate? [[22]]",
+          "responseKey": "22",
+          "choices": [
+            {
+              "image": "assets/exams/common-2025/s05-q4-1.png",
+              "alt": "Debate seating plan 1",
+              "cropTop": 30,
+              "displayWidth": 380,
+              "maskPatches": [
+                {
+                  "left": 42,
+                  "top": 0,
+                  "width": 16,
+                  "height": 30
+                }
+              ],
+              "maskRight": 10,
+              "maskBottom": 8,
+              "maskLeft": 16
+            },
+            {
+              "image": "assets/exams/common-2025/s05-q4-2.png",
+              "alt": "Debate seating plan 2",
+              "cropTop": 30,
+              "displayWidth": 380,
+              "maskPatches": [
+                {
+                  "left": 42,
+                  "top": 0,
+                  "width": 16,
+                  "height": 30
+                }
+              ],
+              "maskRight": 12,
+              "maskBottom": 8,
+              "maskLeft": 38
+            },
+            {
+              "image": "assets/exams/common-2025/s05-q4-3.png",
+              "alt": "Debate seating plan 3",
+              "cropTop": 30,
+              "displayWidth": 380,
+              "maskPatches": [
+                {
+                  "left": 42,
+                  "top": 0,
+                  "width": 16,
+                  "height": 30
+                }
+              ],
+              "maskRight": 10,
+              "maskBottom": 8,
+              "maskLeft": 16
+            },
+            {
+              "image": "assets/exams/common-2025/s05-q4-4.png",
+              "alt": "Debate seating plan 4",
+              "cropTop": 30,
+              "displayWidth": 380,
+              "maskPatches": [
+                {
+                  "left": 42,
+                  "top": 0,
+                  "width": 16,
+                  "height": 30
+                }
+              ],
+              "maskRight": 12,
+              "maskBottom": 8,
+              "maskLeft": 38
+            },
+            {
+              "image": "assets/exams/common-2025/s05-q4-5.png",
+              "alt": "Debate seating plan 5",
+              "cropTop": 30,
+              "displayWidth": 380,
+              "maskPatches": [
+                {
+                  "left": 42,
+                  "top": 0,
+                  "width": 16,
+                  "height": 30
+                }
+              ],
+              "maskRight": 16,
+              "maskBottom": 18,
+              "maskLeft": 16
+            }
+          ],
+          "promptRich": "Which diagram best represents Professor Ryan’s seating plan for the debate? [[22]]",
+          "answerBoxPlacement": "none",
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "s5-email-first",
+            "s5-email-reply"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q023",
+          "number": "問5",
+          "prompt": "You will email Professor Ryan again. In your reply, which two pieces of information are you most likely to include? [[23]]",
+          "responseKey": "23",
+          "choices": [
+            "A and B",
+            "A and C",
+            "A and D",
+            "B and C",
+            "B and D",
+            "C and D"
+          ],
+          "promptRich": "You will email Professor Ryan again. In your reply, which two pieces of information are you most likely to include? [[23]]",
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A: The cost of renting the conference venue",
+            "B: The local restaurants that can serve food",
+            "C: The names of the volunteers available",
+            "D: The number of parking permits needed"
+          ],
+          "stimulusIds": [
+            "s5-email-first",
+            "s5-email-reply"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s06",
+      "number": "第6問",
+      "score": 12,
+      "sourcePages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "Your friend, Harry, wants to be a professional writer. He has written a story about two new heroes for a writing contest. You read it and then give him feedback.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s6-story",
+          "type": "passage",
+          "title": "Bluebird & Melody: Real Heroes",
+          "subtitle": "By Harry Okazaki",
+          "paragraphs": [
+            "Everyone knows me as Bluebird, the world-famous superhero. Before, I was only a superhero in name, but now, I deserve my title. Let me tell you my story.",
+            "I served as one of six members of the incredibly popular superhero group, Team Hero. Our slogan was “Heroes for Humanity!” Rather than serving humanity, though, we starred in silly television shows. Being so caught up in my own fame, I was unaware that I was a fake superhero.",
+            {
+              "type": "divider"
+            },
+            "One day, we were filming {{i|The Lives of Heroes}}, a reality show about our everyday good deeds. The reality, however, was that we were actors; we pretended that we were helping the world. In one episode, I was supposed to rescue a cat that had wandered into a street drain. I was flying through the air, when I heard a girl crying. In an instant, I flew down to her. In tears, she told me that her cat, Whiskers, had gotten into the drain. The truth was, a member of the television crew was waiting in the underground drain with the cat.",
+            "“Have no fear! I’ll save Whiskers!” I said, as I threw open the cover of the drain and went underground. To my surprise, the crew member told me that she had lost Whiskers and asked me to find the cat. I walked around calling for Whiskers but he did not come.",
+            "Suddenly, the newest Team Hero member, Melody, appeared out of nowhere. Melody was mysterious; she wore a mask around her eyes and her real identity was unknown. She could teleport to any place on earth in less than a second, so her unexpected appearances were always a surprise. She said, “Whiskers thinks that you can’t be trusted. I’ll try to convince him to come out.” Melody, who could recreate any sound, produced a cat’s meow and Whiskers appeared.",
+            "After picking up the cat, I returned to the street and was cheered by onlookers. When I was posing for a photo with Whiskers and the girl, I was thinking about how foolish I looked. Suddenly, a voice popped into my head, {{i|“You do look foolish trying to be a celebrity.”}} I realized it was Melody, who had already vanished.",
+            {
+              "type": "divider"
+            },
+            "I grew up in Allegany State Park in New York State. My parents were both park rangers; they patrolled the park and helped hikers in trouble. When I was 12, I discovered my superpowers. I was climbing a tree when a branch broke. Instead of falling, I floated. When I told my parents, my mother only said, “So, you are the flyer in the family.” She then said something shocking, “You have an older sister with superpowers.” I learned my parents had been told to send her to a special facility for extraordinary children, because her powers could help humanity. “Someday, when the time is right, you’ll meet her. I know now that we should never have let her go. We won’t let that happen to you,” said my mother.",
+            "I decided to put my powers to use by rescuing hikers. I could fly and see for miles; I could locate or aid a troubled hiker faster than any park ranger. I became known as the Amazing Park Ranger Boy. Because of my achievements, Team Hero eventually recruited me. Upon joining, I was given the name Bluebird and told that I would be doing bigger and better things.",
+            {
+              "type": "divider"
+            },
+            "After the Whiskers incident, I flew back home. My phone buzzed with a notification. It said, “Melody has decided to leave Team Hero.” In my home office, I heard someone moving around. When I opened the door, I briefly saw a person’s shape before it disappeared. On my desk was a note:",
+            {
+              "type": "letter",
+              "lines": [
+                "{{i|Bluebird,}}",
+                "{{i|Let’s start a family business. Join me}}",
+                "{{i|as a co-founder of REAL HEROES.}}"
+              ]
+            },
+            "After reading the note, I understood who Melody was. Since then, working together, Melody and I have made our parents proud."
+          ],
+          "stimulusId": "s6-story"
+        },
+        {
+          "blockId": "s6-feedback",
+          "type": "email",
+          "title": "Your email feedback to Harry",
+          "headerStyle": "none",
+          "greeting": "Hey Harry,",
+          "paragraphs": [
+            "I loved your story! I really liked how Bluebird passes through various stages in his personal growth (see below).",
+            "[[24]] → [[25]] → [[26]] → [[27]]",
+            "I found Melody really fascinating with her unique superpowers. She can [[28]].",
+            "Also, I was moved when Bluebird’s mother said, “We won’t let that happen to you.” She meant, “We are going to [[29]].”",
+            "On the other hand, I think you can still make the story a little better by adding a few details. You could write about [[30]] and [[31]], which are not mentioned or suggested. These details would give your characters depth and make your story more interesting."
+          ],
+          "closing": "Good luck!",
+          "stimulusId": "s6-feedback"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q024-027",
+          "number": "問1",
+          "prompt": "Choose four out of the five descriptions (①～⑤) and put them in the order they occurred.",
+          "responseKey": "24-27",
+          "choices": [
+            "He is a hero again.",
+            "He is a performer.",
+            "He is a professional writer.",
+            "He is a super park ranger.",
+            "He is an ordinary boy."
+          ],
+          "promptRich": "Choose {{u|four}} out of the five descriptions (①～⑤) and put them in the order they occurred.\n[[24]] → [[25]] → [[26]] → [[27]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6-story",
+            "s6-feedback"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q028",
+          "number": "問2",
+          "prompt": "Choose the correct combination of Melody’s superpowers. [[28]]",
+          "responseKey": "28",
+          "choices": [
+            "A, B, D, and F",
+            "A, C, D, and E",
+            "B, C, D, and E",
+            "B, C, E, and F"
+          ],
+          "promptRich": "Choose the correct combination of Melody’s superpowers. [[28]]",
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A: fly at very high altitudes",
+            "B: imitate sounds perfectly",
+            "C: read the minds of animals and people",
+            "D: see extremely long distances",
+            "E: speak to people using telepathy",
+            "F: transport herself to different places instantly"
+          ],
+          "stimulusIds": [
+            "s6-story",
+            "s6-feedback"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q029",
+          "number": "問3",
+          "prompt": "Choose the best option for [[29]].",
+          "responseKey": "29",
+          "choices": [
+            "control your powers",
+            "hire you as a superhero",
+            "keep you together with us",
+            "make sure you don’t commit crimes"
+          ],
+          "promptRich": "Choose the best option for [[29]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6-story",
+            "s6-feedback"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q030-031",
+          "number": "問4",
+          "prompt": "Choose the best options for [[30]] and [[31]]. (The order does not matter.)",
+          "responseKey": "30-31",
+          "choices": [
+            "Bluebird’s childhood experiences",
+            "Bluebird’s view on the reality show",
+            "how Melody learned she had superpowers",
+            "the reason why Melody joined Team Hero",
+            "the relationship between Bluebird and Melody"
+          ],
+          "promptRich": "Choose the best options for [[30]] and [[31]]. (The order does not matter.)",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6-story",
+            "s6-feedback"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s6-story"
+        },
+        {
+          "block": "s6-feedback"
+        },
+        {
+          "question": "common-2025-r-q024-027"
+        },
+        {
+          "question": "common-2025-r-q028"
+        },
+        {
+          "question": "common-2025-r-q029"
+        },
+        {
+          "question": "common-2025-r-q030-031"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s07",
+      "number": "第7問",
+      "score": 16,
+      "sourcePages": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration",
+        "english.inference"
+      ],
+      "lead": "You are preparing a presentation for a science project on animal habits. You found some interesting information in the article below and are now making your outline.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s7-passage",
+          "type": "passage",
+          "title": "Animal Sleep Patterns",
+          "paragraphs": [
+            "If you ever spend all day at home, you might notice that your pet cat sleeps a lot during the day and is quite active in the evening and early morning. Humans, on the other hand, are awake during most of the daylight and evening hours and then sleep for a long time at night.",
+            "Sleep is essential for animals’ physical and mental health, and for their bodies to function efficiently. For animals with brains and central nervous systems, sleep is generally defined as an altered state of consciousness characterized by specific body positions, closed eyes, a general decrease in physical activity, and slower response rates. Sleep also gives the brain neurons a chance to reset, and the body becomes energized. Most creatures experience states of sleep, but the types and patterns differ from species to species.",
+            "Different sleep patterns over a 24-hour cycle have been identified in various types of animals. Three common patterns are called {{i|monophasic}}, {{i|biphasic}}, and {{i|polyphasic}}. Monophasic sleep, experienced by humans and many larger animals, happens when one is awake and active for many hours, and then one sleeps for an extended period. Some birds, insects, and mammals utilize a kind of biphasic sleep, where the animal has two waking and sleeping times, with one sleep being long and the other like a nap. Dogs and cats are polyphasic, meaning they have four to six sleeping and waking periods throughout the day.",
+            "There are variations in sleep patterns depending on the animal’s size, physical needs, and diet. Smaller animals such as squirrels or mice tend to use up their energy by moving quickly and frequently. This results in the need to sleep more often but for shorter periods of time. Lions are carnivorous animals and have longer sleeping times because their food sources satisfy their hunger for longer periods. Large herbivores like wild horses, on the other hand, sleep less than meat-eating animals because their plant-based diet has relatively few calories, resulting in the need to spend most of their time searching for food.",
+            "Safety is another variable in sleep patterns. Animals that can create safe spaces tend to enjoy longer periods of sleep, but those that might need to stay alert sleep less. Apes sleep on platforms, high above the jungle floor, which keep them away from attackers. Some smaller animals such as rabbits create shelters by digging into the ground where it is difficult for predators to find them. As a result, they feel safer and sleep longer. In contrast, elephants often travel long distances and may feel exposed to danger from hunters or other animals, contributing to their short sleeping times.",
+            "The animal sleep patterns discussed so far tend to be typical. A pattern that may be less easily noticed in our daily lives is called {{i|unihemispheric}} sleep. In this type of sleep, some animals traveling in a group keep one eye open. While one side of the animal’s brain sleeps, the other side stays awake and alert to its surroundings. In this way, the animal can experience the reviving effects of sleep while also watching out for threats. This unihemispheric sleep occurs in some bird species when they are flying long distances in groups. Birds flying at the outer edge of the group use this type of sleep to help protect the other members that sleep with both eyes closed.",
+            "Besides the types of sleep explained above, there are patterns that can be considered to be sleep-like activities. {{i|Hibernation}}, which can be observed in black bears, is a long, inactive period when food is scarce or the weather is severe. During this time, the animal’s body temperature drops, its heart rate and breathing slow down, and it may appear dead. Creatures such as jellyfish that have no central nervous system also experience times of extreme relaxation where they remain in a less responsive state.",
+            "As shown above, sleep plays an important role in the lives of animals and it is much more complex than simply closing the eyes."
+          ],
+          "stimulusId": "s7-passage"
+        },
+        {
+          "blockId": "s7-outline",
+          "type": "outline",
+          "label": "Your presentation outline",
+          "title": "How Animals Sleep",
+          "groups": [
+            {
+              "title": "Importance of Sleep [[32]]",
+              "items": [
+                "A. To alter body temperature",
+                "B. To maintain overall health",
+                "C. To refresh the animal’s body",
+                "D. To reset the brain neurons"
+              ]
+            },
+            {
+              "title": "Biphasic Sleep Pattern (in each 24-hour cycle)",
+              "items": [
+                "[[33]]"
+              ]
+            },
+            {
+              "title": "Some Conditions Affecting Sleep Patterns",
+              "items": [
+                "Animals [[34]].",
+                "Animals [[35]]."
+              ]
+            },
+            {
+              "title": "Unihemispheric Sleep",
+              "items": [
+                "Some birds [[36]]."
+              ]
+            },
+            {
+              "title": "[[37]]",
+              "items": [
+                "Black bear hibernation",
+                "Jellyfish relaxation"
+              ]
+            }
+          ],
+          "stimulusId": "s7-outline"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q032",
+          "number": "問1",
+          "prompt": "Under the heading, “Importance of Sleep,” you spotted an error in your presentation outline. Which of the following should you {{u|remove}}? [[32]]",
+          "responseKey": "32",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "promptRich": "Under the heading, “Importance of Sleep,” you spotted an error in your presentation outline. Which of the following should you {{u|remove}}? [[32]]",
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s7-passage",
+            "s7-outline"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q033",
+          "number": "問2",
+          "prompt": "You want to use a figure for the biphasic sleep pattern mentioned in the article. Choose the best option for [[33]].",
+          "responseKey": "33",
+          "choices": [
+            {
+              "image": "assets/exams/common-2025/s07-q2-1.png",
+              "alt": "Biphasic sleep pattern 1",
+              "displayWidth": 285
+            },
+            {
+              "image": "assets/exams/common-2025/s07-q2-2.png",
+              "alt": "Biphasic sleep pattern 2",
+              "displayWidth": 285
+            },
+            {
+              "image": "assets/exams/common-2025/s07-q2-3.png",
+              "alt": "Biphasic sleep pattern 3",
+              "displayWidth": 285
+            },
+            {
+              "image": "assets/exams/common-2025/s07-q2-4.png",
+              "alt": "Biphasic sleep pattern 4",
+              "displayWidth": 285
+            }
+          ],
+          "promptRich": "You want to use a figure for the biphasic sleep pattern mentioned in the article. Choose the best option for [[33]].",
+          "answerBoxPlacement": "none",
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "s7-passage",
+            "s7-outline"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q034-035",
+          "number": "問3",
+          "prompt": "Choose the best options for [[34]] and [[35]]. (The order does not matter.)",
+          "responseKey": "34-35",
+          "choices": [
+            "which burn up energy rapidly tend to sleep more often",
+            "which continually search for food need longer sleep",
+            "whose diet has fewer calories can sleep more easily",
+            "whose food keeps their stomachs full usually sleep longer",
+            "whose homes are difficult to get to typically sleep less"
+          ],
+          "promptRich": "Choose the best options for [[34]] and [[35]]. (The order does not matter.)",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s7-passage",
+            "s7-outline"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q036",
+          "number": "問4",
+          "prompt": "Choose the best option for [[36]].",
+          "responseKey": "36",
+          "choices": [
+            "can be partially asleep and partially awake while in flight",
+            "can have half of their brain sleep, leading to increased heart rate",
+            "can keep both eyes open constantly to watch out for enemies",
+            "can protect the outside members from inside the group"
+          ],
+          "promptRich": "Choose the best option for [[36]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s7-passage",
+            "s7-outline"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q037",
+          "number": "問5",
+          "prompt": "Choose the best heading for [[37]].",
+          "responseKey": "37",
+          "choices": [
+            "Common Patterns of Sleep",
+            "Natural Sleep Methods",
+            "Reasons for Sleep",
+            "States Similar to Sleep"
+          ],
+          "promptRich": "Choose the best heading for [[37]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s7-passage",
+            "s7-outline"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s7-passage"
+        },
+        {
+          "block": "s7-outline"
+        },
+        {
+          "question": "common-2025-r-q032"
+        },
+        {
+          "question": "common-2025-r-q033"
+        },
+        {
+          "question": "common-2025-r-q034-035"
+        },
+        {
+          "question": "common-2025-r-q036"
+        },
+        {
+          "question": "common-2025-r-q037"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2025-r-s08",
+      "number": "第8問",
+      "score": 17,
+      "sourcePages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "categoryIds": [
+        "english.argument-reading",
+        "english.multiple-documents",
+        "english.chart-reading",
+        "english.information-integration"
+      ],
+      "lead": "You are working on an essay about space exploration. You will follow the steps below:",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s8-steps",
+          "type": "steps",
+          "items": [
+            "Read a range of opinions gathered from the Internet about exploring outer space.",
+            "Take a position on space exploration.",
+            "Create an outline of your essay using additional sources."
+          ],
+          "stimulusId": "s8-steps"
+        },
+        {
+          "blockId": "s8-step1",
+          "type": "cards",
+          "title": "[Step 1] Read a range of opinions",
+          "layout": "vertical",
+          "cards": [
+            {
+              "title": "Apu (university professor)",
+              "text": "The exploration of space requires a lot of research time and money. All this research has led to many new inventions and boosted humanity’s scientific and technical knowledge. While laser eye surgery, solar cells, freeze-dried food, and wireless headsets are just a few examples that have come out of space research, perhaps the invention that has proven the most useful in modern life is the computer mouse. This was developed in the 1960s on a NASA research project."
+            },
+            {
+              "title": "Christine (company CEO)",
+              "text": "Much space exploration relies on international cooperation, a good example being the International Space Station, launched in 1998. The main reasons for this cooperation are to share the huge costs involved and to improve national prestige. More recently, private companies have begun exploring space, though mostly for commercial reasons. In the future, it is possible that countries or corporations will try to colonize parts of the moon or Mars. While financial cooperation and raising prestige are welcome, improper commercial or military use of outer space is not."
+            },
+            {
+              "title": "Meilin (journalist)",
+              "text": "As the famous physicist, Stephen Hawking, once said, it is probably dangerous to broadcast into deep space evidence of the existence of humans here on Earth. If our nearest intelligent aliens are anything like us, then they will seek to conquer Earth and humanity. For me, this is the greatest threat associated with space exploration. The deeper into space we travel, the greater the likelihood Earth will be discovered by an aggressive alien civilization."
+            },
+            {
+              "title": "Naomi (lawyer)",
+              "text": "Historically, jobs working at sea were likely the least safe, with the highest rates of death in the workplace. In modern times, space is no different, if not worse. Once we are just 10,000 meters or so above the surface of the Earth, there is little oxygen and the temperature is too low for human survival. Since the first person went into space in 1961, 19 of 652 astronauts have died on the job: a fatality rate of 2.9%. No other business or industry would tolerate such a high level of danger. Why should the space industry?"
+            },
+            {
+              "title": "Victor (financial analyst)",
+              "text": "Space exploration has contributed hugely to economic growth. In the USA, NASA provided work for nearly 340,000 people in 2021, mostly at above-average salaries, and it is estimated that it has contributed $7.7 billion in taxes to the US government. Space is also being explored by other countries, such as China, India, Japan, and Russia. In the future, further economic growth will be ensured by more private firms entering the space race and by the rise of space tourism, space mining, space colonization, and space militarization."
+            }
+          ],
+          "stimulusId": "s8-step1"
+        },
+        {
+          "blockId": "s8-step2",
+          "type": "stepHeading",
+          "title": "[Step 2] Take a position",
+          "stimulusId": "s8-step2"
+        },
+        {
+          "blockId": "s8-step3",
+          "type": "stepHeading",
+          "title": "[Step 3] Create an outline of your essay",
+          "stimulusId": "s8-step3"
+        },
+        {
+          "blockId": "s8-essay-outline",
+          "type": "essayOutline",
+          "label": "Essay outline",
+          "title": "A Reconsideration of Space Exploration",
+          "parts": [
+            {
+              "title": "Introduction",
+              "text": "Space exploration is without doubt on the frontline of science, but it should not be a priority for the following three reasons."
+            },
+            {
+              "title": "Body",
+              "items": [
+                "REASON 1 from Step 2, based on evidence from the opinions in Step 1",
+                "REASON 2 ([[43]]), based on evidence from Source A",
+                "REASON 3, based on evidence ([[44]]) from Source B"
+              ]
+            },
+            {
+              "title": "Conclusion",
+              "text": "Upon consideration of all its aspects, we should perhaps prioritize other things over exploring space."
+            }
+          ],
+          "stimulusId": "s8-essay-outline"
+        },
+        {
+          "blockId": "s8-source-a",
+          "type": "panel",
+          "title": "Source A",
+          "indentParagraphs": false,
+          "paragraphs": [
+            "Although you may not make a direct connection between space exploration and environmental problems, a connection does exist. First, the CO₂ emissions of spacecraft are not insignificant. It is estimated that one spacecraft launch emits 200-300 tons of CO₂ and other harmful gases into the Earth’s atmosphere. More and more spacecraft are being sent into space, which is damaging for the Earth. The contribution to the greenhouse effect of these craft’s CO₂ emissions is causing the Earth’s temperature to rise. Second, space exploration is damaging the thermosphere (the space environment close to the Earth). The quantity of space debris, the junked parts of spacecraft or artificial satellites, is on the rise. NASA estimates that, in the thermosphere, there are currently around 23,000 pieces of space debris which are larger than a softball and travel at speeds of up to 28,000 km/h. This poses a risk to future spaceflight, and may even be a potential obstacle to astronomical observation."
+          ],
+          "stimulusId": "s8-source-a"
+        },
+        {
+          "blockId": "s8-source-b",
+          "type": "horizontalChart",
+          "title": "Source B",
+          "paragraphs": [
+            "Space exploration is getting more and more costly; in 2022 it was reported that the total amount of money spent by all the governments around the world was more than US$100 billion. The graph below compares this cost with the annual budgets, estimated by international institutions, that would be required to address some of the world’s most important issues."
+          ],
+          "scaleMax": 160,
+          "unit": "US$ billion",
+          "primary": {
+            "label": "Government investment worldwide in space exploration",
+            "value": 103
+          },
+          "subtitle": "{{i|Potential annual budgets in developing countries needed for...}}",
+          "items": [
+            {
+              "label": "providing clean water",
+              "value": 150
+            },
+            {
+              "label": "supplying basic education",
+              "value": 54
+            },
+            {
+              "label": "relieving hunger",
+              "value": 40
+            }
+          ],
+          "stimulusId": "s8-source-b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2025-r-q038",
+          "number": "問1",
+          "prompt": "Which of the following best expresses Meilin’s opinion? [[38]]",
+          "responseKey": "38",
+          "choices": [
+            "Caution is critical.",
+            "Invention is invaluable.",
+            "Science is superior.",
+            "Trust is treasure."
+          ],
+          "promptRich": "Which of the following best expresses Meilin’s opinion? [[38]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q039",
+          "number": "問2",
+          "prompt": "Both Christine and Victor mention that space exploration [[39]].",
+          "responseKey": "39",
+          "choices": [
+            "has economic impacts and provides opportunities for private corporations to make money",
+            "is gaining popularity and that salaries for people working in the industry are above average",
+            "is politically challenging as it requires coordination among countries with different policies",
+            "needs global cooperation, especially to operate the International Space Station successfully"
+          ],
+          "promptRich": "Both Christine and Victor mention that space exploration [[39]].",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q040-042",
+          "number": "問3",
+          "prompt": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below. Choose the best options to complete [[40]]–[[42]]. (You must have all of [[40]]–[[42]] correct to get points.)",
+          "components": [
+            {
+              "responseKey": "40-41",
+              "label": "Options for [[40]] and [[41]] (the order does not matter):",
+              "choices": [
+                "Apu’s",
+                "Christine’s",
+                "Meilin’s",
+                "Naomi’s",
+                "Victor’s"
+              ]
+            },
+            {
+              "responseKey": "42",
+              "label": "Options for [[42]]:",
+              "choices": [
+                "military conflict in outer space is something we should try hard to avoid",
+                "space exploration exposes people to a lot of danger and is too risky",
+                "the possibility of alien invasion is too great to be ignored and must be addressed",
+                "the risk of death for people in the industry is extremely high compared with other jobs"
+              ]
+            }
+          ],
+          "promptRich": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below. Choose the best options to complete [[40]]–[[42]]. (You must have {{u|all}} of [[40]]–[[42]] correct to get points.)",
+          "answerBoxPlacement": "none",
+          "positionBox": {
+            "position": "Space exploration is not a good idea.",
+            "items": [
+              "[[40]] and [[41]] opinions support this the most.",
+              "An argument common to these two people is that [[42]]."
+            ]
+          },
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step1",
+            "s8-step2"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q043",
+          "number": "問4",
+          "prompt": "Based on Source A, which of the following is the most appropriate for REASON 2? [[43]]",
+          "responseKey": "43",
+          "choices": [
+            "CO₂ emissions produced by spacecraft are huge and are damaging outer space.",
+            "It is difficult to update spacecraft with new engines that emit fewer harmful gases.",
+            "Space debris poses risks to humans due to potential collision with airplanes.",
+            "Space exploration is polluting the environment of both the Earth and the thermosphere."
+          ],
+          "promptRich": "Based on Source A, which of the following is the most appropriate for REASON 2? [[43]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step3",
+            "s8-essay-outline",
+            "s8-source-a"
+          ]
+        },
+        {
+          "questionId": "common-2025-r-q044",
+          "number": "問5",
+          "prompt": "For REASON 3, you have decided to write {{i|The cost of space exploration is high and the money could be used instead to solve major world problems}}. Based on Source B, which option best supports this statement? [[44]]",
+          "responseKey": "44",
+          "choices": [
+            "The amount of money that governments around the world spend on space exploration could not only reduce hunger but also make primary education available in developing countries.",
+            "The data show that it costs less to ensure clean water for people in developing countries than for governments around the world to explore space.",
+            "With less than half the money that governments spend on space exploration, it would be possible to address the problem of educational inequality in the developing world.",
+            "With the money currently invested in space exploration, we could provide sufficient food, basic education, and enough clean water in developing countries."
+          ],
+          "promptRich": "For REASON 3, you have decided to write {{i|The cost of space exploration is high and the money could be used instead to solve major world problems}}. Based on Source B, which option best supports this statement? [[44]]",
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s8-steps",
+            "s8-step3",
+            "s8-essay-outline",
+            "s8-source-b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s8-steps"
+        },
+        {
+          "block": "s8-step1"
+        },
+        {
+          "question": "common-2025-r-q038"
+        },
+        {
+          "question": "common-2025-r-q039"
+        },
+        {
+          "block": "s8-step2"
+        },
+        {
+          "question": "common-2025-r-q040-042"
+        },
+        {
+          "block": "s8-step3"
+        },
+        {
+          "block": "s8-essay-outline"
+        },
+        {
+          "block": "s8-source-a"
+        },
+        {
+          "block": "s8-source-b"
+        },
+        {
+          "question": "common-2025-r-q043"
+        },
+        {
+          "question": "common-2025-r-q044"
+        }
+      ]
+    }
+  ]
+}

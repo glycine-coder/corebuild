@@ -1,0 +1,2010 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2021-main-english-reading",
+  "title": "2021年度 大学入学共通テスト 英語（リーディング）本試験",
+  "year": 2021,
+  "examSystem": "大学入学共通テスト",
+  "session": "本試験",
+  "subject": "英語（リーディング）",
+  "maxScore": 100,
+  "timeLimitMinutes": 80,
+  "answerSlotCount": 47,
+  "sections": [
+    {
+      "sectionId": "common-2021-r-s01",
+      "number": "第1問",
+      "score": 10,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ],
+      "lead": "Your dormitory roommate Julie has sent a text message to your mobile phone with a request.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s1a-messages",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            {
+              "type": "speakerLines",
+              "lines": [
+                {
+                  "speaker": "Julie",
+                  "paragraphs": [
+                    "Help!!!",
+                    "Last night I saved my history homework on a USB memory stick. I was going to print it in the university library this afternoon, but I forgot to bring the USB with me. I need to give a copy to my teacher by 4 p.m. today. Can you bring my USB to the library? I think it’s on top of my history book on my desk. I don’t need the book, just the USB.♡"
+                  ]
+                },
+                {
+                  "speaker": "You",
+                  "text": "Sorry Julie, I couldn’t find it. The history book was there, but there was no USB memory stick. I looked for it everywhere, even under your desk. Are you sure you don’t have it with you? I’ll bring your laptop computer with me, just in case."
+                },
+                {
+                  "speaker": "Julie",
+                  "paragraphs": [
+                    "You were right! I did have it. It was at the bottom of my bag. What a relief!",
+                    "Thanks anyway."
+                  ]
+                }
+              ]
+            }
+          ],
+          "stimulusId": "s1a-messages"
+        },
+        {
+          "blockId": "s1-intro-b",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "Your favorite musician will have a concert tour in Japan, and you are thinking of joining the fan club. You visit the official fan club website.",
+          "stimulusId": "s1-intro-b"
+        },
+        {
+          "blockId": "s1b-fanclub",
+          "type": "passage",
+          "title": "TYLER QUICK FAN CLUB",
+          "paragraphs": [
+            "Being a member of the TYLER QUICK (TQ) fan club is so much fun! You can keep up with the latest news, and take part in many exciting fan club member events. All new members will receive our New Member’s Pack. It contains a membership card, a free signed poster, and a copy of TQ’s third album {{i|Speeding Up}}. The New Member’s Pack will be delivered to your home, and will arrive a week or so after you join the fan club.",
+            "TQ is loved all around the world. You can join from any country, and you can use the membership card for one year. The TQ fan club has three types of membership: Pacer, Speeder, and Zoomer.",
+            "Please choose from the membership options below.",
+            {
+              "type": "table",
+              "headerRows": [
+                [
+                  {
+                    "text": "What you get (♫)",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "Membership Options",
+                    "colspan": 3,
+                    "className": "membership-options-heading"
+                  }
+                ],
+                [
+                  "Pacer ($20)",
+                  "Speeder ($40)",
+                  "Zoomer ($60)"
+                ]
+              ],
+              "rows": [
+                [
+                  "Regular emails and online magazine password",
+                  "✓",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "Early information on concert tour dates",
+                  "✓",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "TQ’s weekly video messages",
+                  "✓",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "Monthly picture postcards",
+                  "",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "TQ fan club calendar",
+                  "",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "Invitations to special signing events",
+                  "",
+                  "",
+                  "✓"
+                ],
+                [
+                  "20% off concert tickets",
+                  "",
+                  "",
+                  "✓"
+                ]
+              ]
+            },
+            {
+              "type": "bulletList",
+              "items": [
+                "Join before May 10 and receive a $10 discount on your membership fee!",
+                "There is a $4 delivery fee for every New Member’s Pack.",
+                "At the end of your 1st year, you can either renew or upgrade at a 50% discount."
+              ]
+            },
+            "Whether you are a Pacer, a Speeder, or a Zoomer, you will love being a member of the TQ fan club. For more information, or to join, click {{u|here}}."
+          ],
+          "stimulusId": "s1b-fanclub"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s1a-request",
+          "number": "問1",
+          "prompt": "What was Julie’s request? [[1]]",
+          "promptRich": "What was Julie’s request? [[1]]",
+          "responseKey": "s1a-request",
+          "choices": [
+            "To bring her USB memory stick",
+            "To hand in her history homework",
+            "To lend her a USB memory stick",
+            "To print out her history homework"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a-messages"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s1a-reply",
+          "number": "問2",
+          "prompt": "How will you reply to Julie’s second text message? [[2]]",
+          "promptRich": "How will you reply to Julie’s second text message? [[2]]",
+          "responseKey": "s1a-reply",
+          "choices": [
+            "Don’t worry. You’ll find it.",
+            "I’m really glad to hear that.",
+            "Look in your bag again.",
+            "You must be disappointed."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a-messages"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s1b-pack",
+          "number": "問1",
+          "prompt": "A New Member’s Pack [[3]].",
+          "promptRich": "A New Member’s Pack [[3]].",
+          "responseKey": "s1b-pack",
+          "choices": [
+            "includes TQ’s first album",
+            "is delivered on May 10",
+            "requires a $10 delivery fee",
+            "takes about seven days to arrive"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1-intro-b",
+            "s1b-fanclub"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s1b-pacer",
+          "number": "問2",
+          "prompt": "What will you get if you become a new Pacer member? [[4]]",
+          "promptRich": "What will you get if you become a new Pacer member? [[4]]",
+          "responseKey": "s1b-pacer",
+          "choices": [
+            "Discount concert tickets and a calendar",
+            "Regular emails and signing event invitations",
+            "Tour information and postcards every month",
+            "Video messages and access to online magazines"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1-intro-b",
+            "s1b-fanclub"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s1b-renew",
+          "number": "問3",
+          "prompt": "After being a fan club member for one year, you can [[5]].",
+          "promptRich": "After being a fan club member for one year, you can [[5]].",
+          "responseKey": "s1b-renew",
+          "choices": [
+            "become a Zoomer for a $50 fee",
+            "get a New Member’s Pack for $4",
+            "renew your membership at half price",
+            "upgrade your membership for free"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1-intro-b",
+            "s1b-fanclub"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s1a-messages"
+        },
+        {
+          "question": "common-2021-r-q-s1a-request"
+        },
+        {
+          "question": "common-2021-r-q-s1a-reply"
+        },
+        {
+          "block": "s1-intro-b"
+        },
+        {
+          "block": "s1b-fanclub"
+        },
+        {
+          "question": "common-2021-r-q-s1b-pack"
+        },
+        {
+          "question": "common-2021-r-q-s1b-pacer"
+        },
+        {
+          "question": "common-2021-r-q-s1b-renew"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2021-r-s02",
+      "number": "第2問",
+      "score": 20,
+      "sourcePages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.inference",
+        "english.comparison"
+      ],
+      "lead": "As the student in charge of a UK school festival band competition, you are examining all of the scores and the comments from three judges to understand and explain the rankings.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s2a-scores",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            {
+              "className": "document-label",
+              "text": "{{b|Judges’ final average scores}}"
+            },
+            {
+              "type": "table",
+              "headerRows": [
+                [
+                  {
+                    "type": "diagonalHeader",
+                    "upper": "Qualities",
+                    "lower": "Band names",
+                    "className": "table-corner-qualities"
+                  },
+                  "Performance\n(5.0)",
+                  "Singing\n(5.0)",
+                  "Song originality\n(5.0)",
+                  "Total\n(15.0)"
+                ]
+              ],
+              "rows": [
+                [
+                  "Green Forest",
+                  "3.9",
+                  "4.6",
+                  "5.0",
+                  "13.5"
+                ],
+                [
+                  "Silent Hill",
+                  "4.9",
+                  "4.4",
+                  "4.2",
+                  "13.5"
+                ],
+                [
+                  "Mountain Pear",
+                  "3.9",
+                  "4.9",
+                  "4.7",
+                  "13.5"
+                ],
+                [
+                  "Thousand Ants",
+                  {
+                    "text": "(did not perform)",
+                    "colspan": 4,
+                    "className": "table-row-span-note"
+                  }
+                ]
+              ],
+              "firstColumnHeader": true
+            },
+            {
+              "className": "document-label",
+              "text": "{{b|Judges’ individual comments}}"
+            },
+            {
+              "type": "speakerLines",
+              "lines": [
+                {
+                  "speaker": "Mr Hobbs",
+                  "text": "Silent Hill are great performers and they really seemed connected with the audience. Mountain Pear’s singing was great. I loved Green Forest’s original song. It was amazing!"
+                },
+                {
+                  "speaker": "Ms Leigh",
+                  "text": "Silent Hill gave a great performance. It was incredible how the audience responded to their music. I really think that Silent Hill will become popular! Mountain Pear have great voices, but they were not exciting on stage. Green Forest performed a fantastic new song, but I think they need to practice more."
+                },
+                {
+                  "speaker": "Ms Wells",
+                  "text": "Green Forest have a new song. I loved it! I think it could be a big hit!"
+                }
+              ]
+            },
+            {
+              "className": "document-label",
+              "text": "{{b|Judges’ shared evaluation (summarised by Mr Hobbs)}}"
+            },
+            "Each band’s total score is the same, but each band is very different. Ms Leigh and I agreed that performance is the most important quality for a band. Ms Wells also agreed. Therefore, first place is easily determined.",
+            "To decide between second and third places, Ms Wells suggested that song originality should be more important than good singing. Ms Leigh and I agreed on this opinion."
+          ],
+          "stimulusId": "s2a-scores"
+        },
+        {
+          "blockId": "s2-intro-b",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You’ve heard about a change in school policy at the school in the UK where you are now studying as an exchange student. You are reading the discussions about the policy in an online forum.",
+          "stimulusId": "s2-intro-b"
+        },
+        {
+          "blockId": "s2b-forum",
+          "type": "forum",
+          "posts": [
+            {
+              "title": "New School Policy",
+              "posted": "Posted on 21 September 2020",
+              "to": "P. E. Berger",
+              "from": "K. Roberts",
+              "greeting": "Dear Dr Berger,",
+              "paragraphs": [
+                "On behalf of all students, welcome to St Mark’s School. We heard that you are the first Head Teacher with a business background, so we hope your experience will help our school.",
+                "I would like to express one concern about the change you are proposing to the after-school activity schedule. I realise that saving energy is important and from now it will be getting darker earlier. Is this why you have made the schedule an hour and a half shorter? Students at St Mark’s School take both their studies and their after-school activities very seriously. A number of students have told me that they want to stay at school until 6.00 pm as they have always done. Therefore, I would like to ask you to think again about this sudden change in policy."
+              ],
+              "closing": "Regards,",
+              "signature": "Ken Roberts",
+              "role": "Head Student"
+            },
+            {
+              "title": "Re: New School Policy",
+              "posted": "Posted on 22 September 2020",
+              "to": "K. Roberts",
+              "from": "P. E. Berger",
+              "greeting": "Dear Ken,",
+              "paragraphs": [
+                "Many thanks for your kind post. You’ve expressed some important concerns, especially about the energy costs and student opinions on school activities.",
+                "The new policy has nothing to do with saving energy. The decision was made based on a 2019 police report. The report showed that our city has become less safe due to a 5% increase in serious crimes. I would like to protect our students, so I would like them to return home before it gets dark."
+              ],
+              "closing": "Yours,",
+              "signature": "Dr P. E. Berger",
+              "role": "Head Teacher"
+            }
+          ],
+          "stimulusId": "s2b-forum"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s2a-best-singing",
+          "number": "問1",
+          "prompt": "Based on the judges’ final average scores, which band sang the best? [[6]]",
+          "promptRich": "Based on the judges’ final average scores, which band sang the best? [[6]]",
+          "responseKey": "s2a-best-singing",
+          "choices": [
+            "Green Forest",
+            "Mountain Pear",
+            "Silent Hill",
+            "Thousand Ants"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a-scores"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2a-balanced-judge",
+          "number": "問2",
+          "prompt": "Which judge gave both positive and critical comments? [[7]]",
+          "promptRich": "Which judge gave both positive and critical comments? [[7]]",
+          "responseKey": "s2a-balanced-judge",
+          "choices": [
+            "Mr Hobbs",
+            "Ms Leigh",
+            "Ms Wells",
+            "None of them"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a-scores"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2a-fact",
+          "number": "問3",
+          "prompt": "One {{u|fact}} from the judges’ individual comments is that [[8]].",
+          "promptRich": "One {{u|fact}} from the judges’ individual comments is that [[8]].",
+          "responseKey": "s2a-fact",
+          "choices": [
+            "all the judges praised Green Forest’s song",
+            "Green Forest need to practice more",
+            "Mountain Pear can sing very well",
+            "Silent Hill have a promising future"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a-scores"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2a-opinion",
+          "number": "問4",
+          "prompt": "One {{u|opinion}} from the judges’ comments and shared evaluation is that [[9]].",
+          "promptRich": "One {{u|opinion}} from the judges’ comments and shared evaluation is that [[9]].",
+          "responseKey": "s2a-opinion",
+          "choices": [
+            "each evaluated band received the same total score",
+            "Ms Wells’ suggestion about originality was agreed on",
+            "Silent Hill really connected with the audience",
+            "the judges’ comments determined the rankings"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a-scores"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2a-ranking",
+          "number": "問5",
+          "prompt": "Which of the following is the final ranking based on the judges’ shared evaluation? [[10]]",
+          "promptRich": "Which of the following is the final ranking based on the judges’ shared evaluation? [[10]]",
+          "responseKey": "s2a-ranking",
+          "choices": [
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Green Forest"
+                ],
+                [
+                  "2nd",
+                  "Mountain Pear"
+                ],
+                [
+                  "3rd",
+                  "Silent Hill"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Green Forest"
+                ],
+                [
+                  "2nd",
+                  "Silent Hill"
+                ],
+                [
+                  "3rd",
+                  "Mountain Pear"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Mountain Pear"
+                ],
+                [
+                  "2nd",
+                  "Green Forest"
+                ],
+                [
+                  "3rd",
+                  "Silent Hill"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Mountain Pear"
+                ],
+                [
+                  "2nd",
+                  "Silent Hill"
+                ],
+                [
+                  "3rd",
+                  "Green Forest"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Silent Hill"
+                ],
+                [
+                  "2nd",
+                  "Green Forest"
+                ],
+                [
+                  "3rd",
+                  "Mountain Pear"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "1st",
+                  "Silent Hill"
+                ],
+                [
+                  "2nd",
+                  "Mountain Pear"
+                ],
+                [
+                  "3rd",
+                  "Green Forest"
+                ]
+              ]
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s2a-scores"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2b-policy-effect",
+          "number": "問1",
+          "prompt": "Ken thinks the new policy [[11]].",
+          "promptRich": "Ken thinks the new policy [[11]].",
+          "responseKey": "s2b-policy-effect",
+          "choices": [
+            "can make students study more",
+            "may improve school safety",
+            "should be introduced immediately",
+            "will reduce after-school activity time"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2-intro-b",
+            "s2b-forum"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2b-fact",
+          "number": "問2",
+          "prompt": "One {{u|fact}} stated in Ken’s forum post is that [[12]].",
+          "promptRich": "One {{u|fact}} stated in Ken’s forum post is that [[12]].",
+          "responseKey": "s2b-fact",
+          "choices": [
+            "more discussion is needed about the policy",
+            "the Head Teacher’s experience is improving the school",
+            "the school should think about students’ activities",
+            "there are students who do not welcome the new policy"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2-intro-b",
+            "s2b-forum"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2b-energy",
+          "number": "問3",
+          "prompt": "Who thinks the aim of the policy is to save energy? [[13]]",
+          "promptRich": "Who thinks the aim of the policy is to save energy? [[13]]",
+          "responseKey": "s2b-energy",
+          "choices": [
+            "Dr Berger",
+            "Ken",
+            "The city",
+            "The police"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2-intro-b",
+            "s2b-forum"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2b-basis",
+          "number": "問4",
+          "prompt": "Dr Berger is basing his new policy on the {{u|fact}} that [[14]].",
+          "promptRich": "Dr Berger is basing his new policy on the {{u|fact}} that [[14]].",
+          "responseKey": "s2b-basis",
+          "choices": [
+            "going home early is important",
+            "safety in the city has decreased",
+            "the school has to save electricity",
+            "the students need protection"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2-intro-b",
+            "s2b-forum"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s2b-research",
+          "number": "問5",
+          "prompt": "What would you research to help Ken oppose the new policy? [[15]]",
+          "promptRich": "What would you research to help Ken oppose the new policy? [[15]]",
+          "responseKey": "s2b-research",
+          "choices": [
+            "The crime rate and its relation to the local area",
+            "The energy budget and electricity costs of the school",
+            "The length of school activity time versus the budget",
+            "The study hours for students who do after-school activities"
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s2-intro-b",
+            "s2b-forum"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s2a-scores"
+        },
+        {
+          "question": "common-2021-r-q-s2a-best-singing"
+        },
+        {
+          "question": "common-2021-r-q-s2a-balanced-judge"
+        },
+        {
+          "question": "common-2021-r-q-s2a-fact"
+        },
+        {
+          "question": "common-2021-r-q-s2a-opinion"
+        },
+        {
+          "question": "common-2021-r-q-s2a-ranking"
+        },
+        {
+          "block": "s2-intro-b"
+        },
+        {
+          "block": "s2b-forum"
+        },
+        {
+          "question": "common-2021-r-q-s2b-policy-effect"
+        },
+        {
+          "question": "common-2021-r-q-s2b-fact"
+        },
+        {
+          "question": "common-2021-r-q-s2b-energy"
+        },
+        {
+          "question": "common-2021-r-q-s2b-basis"
+        },
+        {
+          "question": "common-2021-r-q-s2b-research"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2021-r-s03",
+      "number": "第3問",
+      "score": 15,
+      "sourcePages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "You are planning to stay at a hotel in the UK. You found useful information in the Q&A section of a travel advice website.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s3a-hotel",
+          "type": "qa",
+          "questioner": "Liz",
+          "answerLabel": "Answer",
+          "answerer": "Alex",
+          "question": [
+            "I’m considering staying at the Hollytree Hotel in Castleton in March 2021. Would you recommend this hotel, and is it easy to get there from Buxton Airport?"
+          ],
+          "answer": [
+            "Yes, I strongly recommend the Hollytree. I’ve stayed there twice. It’s inexpensive, and the service is brilliant! There’s also a wonderful free breakfast. (Click {{u|here}} for access information.)",
+            "Let me tell you my own experience of getting there.",
+            "On my first visit, I used the underground, which is cheap and convenient. Trains run every five minutes. From the airport, I took the Red Line to Mossfield. Transferring to the Orange Line for Victoria should normally take about seven minutes, but the directions weren’t clear and I needed an extra five minutes. From Victoria, it was a ten-minute bus ride to the hotel.",
+            "The second time, I took the express bus to Victoria, so I didn’t have to worry about transferring. At Victoria, I found a notice saying there would be roadworks until summer 2021. Now it takes three times as long as usual to get to the hotel by city bus, although buses run every ten minutes. It’s possible to walk, but I took the bus as the weather was bad.",
+            "Enjoy your stay!"
+          ],
+          "stimulusId": "s3a-hotel"
+        },
+        {
+          "blockId": "s3a-map",
+          "type": "routeDiagram",
+          "layout": "official-flow",
+          "title": "Access to the Hollytree Hotel",
+          "start": "Buxton Airport",
+          "routes": [
+            {
+              "label": "Red Line",
+              "icon": "🚇",
+              "duration": "25 min",
+              "nodes": [
+                "Mossfield Station"
+              ],
+              "secondaryLabel": "Orange Line",
+              "secondaryIcon": "🚇",
+              "secondaryDuration": "10 min"
+            },
+            {
+              "label": "Express Bus",
+              "icon": "🚌",
+              "duration": "40 min",
+              "nodes": [],
+              "note": [
+                "{{u|Schedule}}",
+                "Every 30 minutes",
+                "First bus 10.00 am",
+                "Last bus 6.30 pm"
+              ]
+            }
+          ],
+          "merge": "Victoria Station",
+          "finalRoutes": [
+            {
+              "label": "City Bus",
+              "icon": "🚌",
+              "duration": "10 min"
+            },
+            {
+              "label": "On foot",
+              "icon": "👟",
+              "duration": "20 min"
+            }
+          ],
+          "end": "Hollytree Hotel",
+          "stimulusId": "s3a-map"
+        },
+        {
+          "blockId": "s3-intro-b",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "Your classmate showed you the following message in your school’s newsletter, written by an exchange student from the UK.",
+          "stimulusId": "s3-intro-b"
+        },
+        {
+          "blockId": "s3b-volunteers",
+          "type": "passage",
+          "title": "Volunteers Wanted!",
+          "paragraphs": [
+            "Hello, everyone. I’m Sarah King, an exchange student from London. I’d like to share something important with you today.",
+            "You may have heard of the Sakura International Centre. It provides valuable opportunities for Japanese and foreign residents to get to know each other. Popular events such as cooking classes and karaoke contests are held every month. However, there is a serious problem. The building is getting old, and requires expensive repairs. To help raise funds to maintain the centre, many volunteers are needed.",
+            "I learnt about the problem a few months ago. While shopping in town, I saw some people taking part in a fund-raising campaign. I spoke to the leader of the campaign, Katy, who explained the situation. She thanked me when I donated some money. She told me that they had asked the town mayor for financial assistance, but their request had been rejected. They had no choice but to start fund-raising.",
+            "Last month, I attended a lecture on art at the centre. Again, I saw people trying to raise money, and I decided to help. They were happy when I joined them in asking passers-by for donations. We tried hard, but there were too few of us to collect much money. With a tearful face, Katy told me that they wouldn’t be able to use the building much longer. I felt the need to do something more. Then, the idea came to me that other students might be willing to help. Katy was delighted to hear this.",
+            "Now, I’m asking you to join me in the fund-raising campaign to help the Sakura International Centre. Please email me today! As an exchange student, my time in Japan is limited, but I want to make the most of it. By working together, we can really make a difference.",
+            {
+              "type": "alignedLines",
+              "lines": [
+                "Class 3A",
+                "Sarah King (sarahk@sakura-h.ed.jp)"
+              ]
+            }
+          ],
+          "stimulusId": "s3b-volunteers"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s3a-value",
+          "number": "問1",
+          "prompt": "From Alex’s answer, you learn that Alex [[16]].",
+          "promptRich": "From Alex’s answer, you learn that Alex [[16]].",
+          "responseKey": "s3a-value",
+          "choices": [
+            "appreciates the convenient location of the hotel",
+            "got lost in Victoria Station on his first visit to Castleton",
+            "thinks that the hotel is good value for money",
+            "used the same route from the airport both times"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3a-hotel",
+            "s3a-map"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s3a-route",
+          "number": "問2",
+          "prompt": "You are departing on public transport from the airport at 2.00 pm on 15 March 2021. What is the fastest way to get to the hotel? [[17]]",
+          "promptRich": "You are departing on public transport from the airport at 2.00 pm on 15 March 2021. What is the fastest way to get to the hotel? [[17]]",
+          "responseKey": "s3a-route",
+          "choices": [
+            "By express bus and city bus",
+            "By express bus and on foot",
+            "By underground and city bus",
+            "By underground and on foot"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3a-hotel",
+            "s3a-map"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s3b-order",
+          "number": "問1",
+          "prompt": "Put the following events (①～④) into the order in which they happened.",
+          "promptRich": "Put the following events (①～④) into the order in which they happened.",
+          "components": [
+            {
+              "responseKey": "s3b-order",
+              "label": "",
+              "choices": [
+                "Sarah attended a centre event.",
+                "Sarah donated money to the centre.",
+                "Sarah made a suggestion to Katy.",
+                "The campaigners asked the mayor for help."
+              ]
+            }
+          ],
+          "supplement": "[[18]] → [[19]] → [[20]] → [[21]]",
+          "supplementStyle": "answer-sequence",
+          "stimulusIds": [
+            "s3-intro-b",
+            "s3b-volunteers"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s3b-centre",
+          "number": "問2",
+          "prompt": "From Sarah’s message, you learn that the Sakura International Centre [[22]].",
+          "promptRich": "From Sarah’s message, you learn that the Sakura International Centre [[22]].",
+          "responseKey": "s3b-centre",
+          "choices": [
+            "gives financial aid to international residents",
+            "offers opportunities to develop friendships",
+            "publishes newsletters for the community",
+            "sends exchange students to the UK"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3-intro-b",
+            "s3b-volunteers"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s3b-action",
+          "number": "問3",
+          "prompt": "You have decided to help with the campaign after reading Sarah’s message. What should you do first? [[23]]",
+          "promptRich": "You have decided to help with the campaign after reading Sarah’s message. What should you do first? [[23]]",
+          "responseKey": "s3b-action",
+          "choices": [
+            "Advertise the events at the centre.",
+            "Contact Sarah for further information.",
+            "Organise volunteer activities at school.",
+            "Start a new fund-raising campaign."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3-intro-b",
+            "s3b-volunteers"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s3a-hotel"
+        },
+        {
+          "block": "s3a-map"
+        },
+        {
+          "question": "common-2021-r-q-s3a-value"
+        },
+        {
+          "question": "common-2021-r-q-s3a-route"
+        },
+        {
+          "block": "s3-intro-b"
+        },
+        {
+          "block": "s3b-volunteers"
+        },
+        {
+          "question": "common-2021-r-q-s3b-order"
+        },
+        {
+          "question": "common-2021-r-q-s3b-centre"
+        },
+        {
+          "question": "common-2021-r-q-s3b-action"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2021-r-s04",
+      "number": "第4問",
+      "score": 16,
+      "sourcePages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ],
+      "lead": "Your English teacher, Emma, has asked you and your classmate, Natsuki, to help her plan the day’s schedule for hosting students from your sister school. You’re reading the email exchanges between Natsuki and Emma so that you can draft the schedule.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s4-natsuki",
+          "type": "email",
+          "headerStyle": "none",
+          "greeting": "Hi Emma,",
+          "paragraphs": [
+            "We have some ideas and questions about the schedule for the day out with our 12 guests next month. As you told us, the students from both schools are supposed to give presentations in our assembly hall from 10:00 a.m. So, I’ve been looking at the attached timetable. Will they arrive at Azuma Station at 9:39 a.m. and then take a taxi to the school?",
+            "We have also been discussing the afternoon activities. How about seeing something related to science? We have two ideas, but if you need a third, please let me know.",
+            "Have you heard about the special exhibition that is on at Westside Aquarium next month? It’s about a new food supplement made from sea plankton. We think it would be a good choice. Since it’s popular, the best time to visit will be when it is least busy. I’m attaching the graph I found on the aquarium’s homepage.",
+            "Eastside Botanical Garden, together with our local university, has been developing an interesting way of producing electricity from plants. Luckily, the professor in charge will give a short talk about it on that day in the early afternoon! Why don’t we go?",
+            "Everyone will want to get some souvenirs, won’t they? I think West Mall, next to Hibari Station, would be best, but we don’t want to carry them around with us all day.",
+            "Finally, every visitor to Azuma should see the town’s symbol, the statue in Azuma Memorial Park next to our school, but we can’t work out a good schedule. Also, could you tell us what the plan is for lunch?"
+          ],
+          "closing": "Yours,",
+          "signature": "Natsuki",
+          "stimulusId": "s4-natsuki"
+        },
+        {
+          "blockId": "s4-emma",
+          "type": "email",
+          "headerStyle": "none",
+          "greeting": "Hi Natsuki,",
+          "paragraphs": [
+            "Thank you for your email! You’ve been working hard. In answer to your question, they’ll arrive at the station at 9:20 a.m. and then catch the school bus.",
+            "The two main afternoon locations, the aquarium and botanical garden, are good ideas because both schools place emphasis on science education, and the purpose of this program is to improve the scientific knowledge of the students. However, it would be wise to have a third suggestion just in case.",
+            "Let’s get souvenirs at the end of the day. We can take the bus to the mall arriving there at 5:00 p.m. This will allow almost an hour for shopping and our guests can still be back at the hotel by 6:30 p.m. for dinner, as the hotel is only a few minutes’ walk from Kaede Station.",
+            "About lunch, the school cafeteria will provide boxed lunches. We can eat under the statue you mentioned. If it rains, let’s eat inside.",
+            "Thank you so much for your suggestions. Could you two make a draft for the schedule?"
+          ],
+          "closing": "Best,",
+          "signature": "Emma",
+          "stimulusId": "s4-emma"
+        },
+        {
+          "blockId": "s4-timetable",
+          "type": "passage",
+          "title": "Train Timetable",
+          "paragraphs": [
+            {
+              "className": "timetable-route",
+              "text": "Kaede – Hibari – Azuma"
+            },
+            {
+              "type": "table",
+              "tableClass": "train-timetable",
+              "headerRows": [
+                [
+                  {
+                    "text": "Stations",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "Train No.",
+                    "colspan": 4
+                  }
+                ],
+                [
+                  "108",
+                  "109",
+                  "110",
+                  "111"
+                ]
+              ],
+              "rows": [
+                [
+                  "Kaede",
+                  "8:28",
+                  "8:43",
+                  "9:02",
+                  "9:16"
+                ],
+                [
+                  "Hibari",
+                  "8:50",
+                  "9:05",
+                  "9:24",
+                  "9:38"
+                ],
+                [
+                  "Azuma",
+                  "9:05",
+                  "9:20",
+                  "9:39",
+                  "9:53"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "tableClass": "train-timetable",
+              "headerRows": [
+                [
+                  {
+                    "text": "Stations",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "Train No.",
+                    "colspan": 4
+                  }
+                ],
+                [
+                  "238",
+                  "239",
+                  "240",
+                  "241"
+                ]
+              ],
+              "rows": [
+                [
+                  "Azuma",
+                  "17:25",
+                  "17:45",
+                  "18:00",
+                  "18:15"
+                ],
+                [
+                  "Hibari",
+                  "17:40",
+                  "18:00",
+                  "18:15",
+                  "18:30"
+                ],
+                [
+                  "Kaede",
+                  "18:02",
+                  "18:22",
+                  "18:37",
+                  "18:52"
+                ]
+              ]
+            }
+          ],
+          "label": "Attached timetable:",
+          "stimulusId": "s4-timetable"
+        },
+        {
+          "blockId": "s4-graph",
+          "type": "chart",
+          "style": "histogram",
+          "label": "Attached graph:",
+          "title": "Number of Visitors to Westside Aquarium",
+          "yLabel": "Number of People",
+          "scaleMax": 800,
+          "tickStep": 100,
+          "showValues": false,
+          "showLegend": false,
+          "categories": [
+            "11:00–12:00",
+            "12:00–13:00",
+            "13:00–14:00",
+            "14:00–15:00",
+            "15:00–16:00",
+            "16:00–17:00",
+            "17:00–18:00",
+            "18:00–19:00",
+            "19:00–20:00"
+          ],
+          "series": [
+            {
+              "name": "Visitors",
+              "values": [
+                600,
+                650,
+                750,
+                540,
+                310,
+                400,
+                610,
+                570,
+                460
+              ]
+            }
+          ],
+          "note": "Time of Day",
+          "stimulusId": "s4-graph"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s4-trains",
+          "number": "問1",
+          "prompt": "The guests from the sister school will arrive on the number [[24]] train and catch the number [[25]] train back to their hotel.",
+          "promptRich": "The guests from the sister school will arrive on the number [[24]] train and catch the number [[25]] train back to their hotel.",
+          "components": [
+            {
+              "responseKey": "s4-arrival-train",
+              "label": "[[24]]",
+              "choices": [
+                "109",
+                "110",
+                "111"
+              ]
+            },
+            {
+              "responseKey": "s4-return-train",
+              "label": "[[25]]",
+              "choices": [
+                "238",
+                "239",
+                "240"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s4-natsuki",
+            "s4-emma",
+            "s4-timetable",
+            "s4-graph"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s4-schedule",
+          "number": "問2",
+          "prompt": "Which best completes the draft schedule? [[26]]",
+          "promptRich": "Which best completes the draft schedule? [[26]]",
+          "responseKey": "s4-schedule",
+          "choices": [
+            "D → A → B → C",
+            "D → B → A → C",
+            "D → B → C → A",
+            "D → C → A → B"
+          ],
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A: The aquarium",
+            "B: The botanical garden",
+            "C: The mall",
+            "D: The school"
+          ],
+          "scheduleDiagram": {
+            "title": "Draft schedule for visit from sister school",
+            "times": [
+              "9:30",
+              "13:30",
+              "15:30",
+              "17:00"
+            ],
+            "timePlacement": "below"
+          },
+          "stimulusIds": [
+            "s4-natsuki",
+            "s4-emma",
+            "s4-timetable",
+            "s4-graph"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s4-lunch",
+          "number": "問3",
+          "prompt": "Unless it rains, the guests will eat lunch in the [[27]].",
+          "promptRich": "Unless it rains, the guests will eat lunch in the [[27]].",
+          "responseKey": "s4-lunch",
+          "choices": [
+            "botanical garden",
+            "park next to the school",
+            "park next to the station",
+            "school garden"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4-natsuki",
+            "s4-emma",
+            "s4-timetable",
+            "s4-graph"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s4-transport",
+          "number": "問4",
+          "prompt": "The guests will {{u|not}} get around [[28]] on that day.",
+          "promptRich": "The guests will {{u|not}} get around [[28]] on that day.",
+          "responseKey": "s4-transport",
+          "choices": [
+            "by bus",
+            "by taxi",
+            "by train",
+            "on foot"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4-natsuki",
+            "s4-emma",
+            "s4-timetable",
+            "s4-graph"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s4-third-option",
+          "number": "問5",
+          "prompt": "As a third option, which would be the most suitable for your program? [[29]]",
+          "promptRich": "As a third option, which would be the most suitable for your program? [[29]]",
+          "responseKey": "s4-third-option",
+          "choices": [
+            "Hibari Amusement Park",
+            "Hibari Art Museum",
+            "Hibari Castle",
+            "Hibari Space Center"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4-natsuki",
+            "s4-emma",
+            "s4-timetable",
+            "s4-graph"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s4-natsuki"
+        },
+        {
+          "block": "s4-emma"
+        },
+        {
+          "block": "s4-timetable"
+        },
+        {
+          "block": "s4-graph"
+        },
+        {
+          "question": "common-2021-r-q-s4-trains"
+        },
+        {
+          "question": "common-2021-r-q-s4-schedule"
+        },
+        {
+          "question": "common-2021-r-q-s4-lunch"
+        },
+        {
+          "question": "common-2021-r-q-s4-transport"
+        },
+        {
+          "question": "common-2021-r-q-s4-third-option"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2021-r-s05",
+      "number": "第5問",
+      "score": 15,
+      "sourcePages": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence"
+      ],
+      "lead": "Using an international news report, you are going to take part in an English oral presentation contest. Read the following news story from France in preparation for your talk.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s5-story",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            "Five years ago, Mrs. Sabine Rouas lost her horse. She had spent 20 years with the horse before he died of old age. At that time, she felt that she could never own another horse. Out of loneliness, she spent hours watching cows on a nearby milk farm. Then, one day, she asked the farmer if she could help look after them.",
+            "The farmer agreed, and Sabine started work. She quickly developed a friendship with one of the cows. As the cow was pregnant, she spent more time with it than with the others. After the cow’s baby was born, the baby started following Sabine around. Unfortunately, the farmer wasn’t interested in keeping a bull—a male cow—on a milk farm. The farmer planned to sell the baby bull, which he called Three-oh-nine (309), to a meat market. Sabine decided she wasn’t going to let that happen, so she asked the farmer if she could buy him and his mother. The farmer agreed, and she bought them. Sabine then started taking 309 for walks to town. About nine months later, when at last she had permission to move the animals, they moved to Sabine’s farm.",
+            "Soon after, Sabine was offered a pony. At first, she wasn’t sure if she wanted to have him, but the memory of her horse was no longer painful, so she accepted the pony and named him Leon. She then decided to return to her old hobby and started training him for show jumping. Three-oh-nine, who she had renamed Aston, spent most of his time with Leon, and the two became really close friends. However, Sabine had not expected Aston to pay close attention to her training routine with Leon, nor had she expected Aston to pick up some tricks. The young bull quickly mastered walking, galloping, stopping, going backwards, and turning around on command. He responded to Sabine’s voice just like a horse. And despite weighing 1,300 kg, it took him just 18 months to learn how to leap over one-meter-high horse jumps with Sabine on his back. Aston might never have learned those things without having watched Leon. Moreover, Aston understood distance and could adjust his steps before a jump. He also noticed his faults and corrected them without any help from Sabine. That’s something only the very best Olympic-standard horses can do.",
+            "Now Sabine and Aston go to weekend fairs and horse shows around Europe to show off his skills. Sabine says, “We get a good reaction. Mostly, people are really surprised, and at first, they can be a bit scared because he’s big—much bigger than a horse. Most people don’t like to get too close to bulls with horns. But once they see his real nature, and see him performing, they often say, ‘Oh he’s really quite beautiful.’”",
+            "“Look!” And Sabine shows a photo of Aston on her smartphone. She then continues, “When Aston was very young, I used to take him out for walks on a lead, like a dog, so that he would get used to humans. Maybe that’s why he doesn’t mind people. Because he is so calm, children, in particular, really like watching him and getting a chance to be close to him.”",
+            "Over the last few years, news of the massive show-jumping bull has spread rapidly; now, Aston is a major attraction with a growing number of online followers. Aston and Sabine sometimes need to travel 200 or 300 kilometers away from home, which means they have to stay overnight. Aston has to sleep in a horse box, which isn’t really big enough for him.",
+            "“He doesn’t like it. I have to sleep with him in the box,” says Sabine. “But you know, when he wakes up and changes position, he is very careful not to crush me. He really is very gentle. He sometimes gets lonely, and he doesn’t like being away from Leon for too long; but other than that, he’s very happy.”"
+          ],
+          "stimulusId": "s5-story"
+        },
+        {
+          "blockId": "s5-slides",
+          "type": "slides",
+          "title": "Your Presentation Slides",
+          "slides": [
+            {
+              "number": 1,
+              "title": "[[30]]",
+              "subtitle": "Central High School English Presentation Contest"
+            },
+            {
+              "number": 2,
+              "title": "Who’s Who?",
+              "items": [
+                "Main figures: ______, ______, ______",
+                "Minor figures: ______, ______"
+              ],
+              "answer": "[[31]]"
+            },
+            {
+              "number": 3,
+              "title": "Pre-fame Storyline",
+              "sequence": true,
+              "items": [
+                "Sabine’s horse dies.",
+                "[[32]]",
+                "[[33]]",
+                "[[34]]",
+                "[[35]]",
+                "Aston and Sabine start going to shows."
+              ]
+            },
+            {
+              "number": 4,
+              "title": "Aston’s Abilities",
+              "lead": "Aston can:",
+              "items": [
+                "learn by simply watching Leon’s training.",
+                "walk, gallop, and stop when Sabine tells him to.",
+                "understand distance and adjust his steps.",
+                "[[36]].",
+                "[[37]]."
+              ]
+            },
+            {
+              "number": 5,
+              "title": "Aston Now",
+              "lead": "Aston today:",
+              "alignLead": true,
+              "items": [
+                "is a show-jumping bull.",
+                "travels to fairs and events with Sabine.",
+                "[[38]]."
+              ]
+            }
+          ],
+          "stimulusId": "s5-slides"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s5-title",
+          "number": "問1",
+          "prompt": "Which is the best title for your presentation? [[30]]",
+          "promptRich": "Which is the best title for your presentation? [[30]]",
+          "responseKey": "s5-title",
+          "choices": [
+            "Animal-lover Saves the Life of a Pony",
+            "Aston’s Summer Show-jumping Tour",
+            "Meet Aston, the Bull who Behaves Like a Horse",
+            "The Relationship Between a Farmer and a Cow"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5-story",
+            "s5-slides"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s5-who",
+          "number": "問2",
+          "prompt": "Which is the best combination for the Who’s Who? slide? [[31]]",
+          "promptRich": "Which is the best combination for the Who’s Who? slide? [[31]]",
+          "responseKey": "s5-who",
+          "choices": [
+            {
+              "mappings": [
+                [
+                  "Main figures",
+                  "309, Aston, the farmer"
+                ],
+                [
+                  "Minor figures",
+                  "Sabine, the pony"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "Main figures",
+                  "Aston, Aston’s mother, Sabine"
+                ],
+                [
+                  "Minor figures",
+                  "309, the farmer"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "Main figures",
+                  "Aston, Leon, the farmer"
+                ],
+                [
+                  "Minor figures",
+                  "Aston’s mother, Sabine"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "Main figures",
+                  "Aston, Sabine, the pony"
+                ],
+                [
+                  "Minor figures",
+                  "Aston’s mother, the farmer"
+                ]
+              ]
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s5-story",
+            "s5-slides"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s5-order",
+          "number": "問3",
+          "prompt": "Choose the four events in the order they happened to complete the Pre-fame Storyline slide.",
+          "promptRich": "Choose the four events in the order they happened to complete the Pre-fame Storyline slide.",
+          "components": [
+            {
+              "responseKey": "s5-order",
+              "label": "",
+              "choices": [
+                "Aston learns to jump.",
+                "Sabine and Aston travel hundreds of kilometers together.",
+                "Sabine buys 309 and his mother.",
+                "Sabine goes to work on her neighbor’s farm.",
+                "Sabine takes 309 for walks."
+              ]
+            }
+          ],
+          "supplement": "[[32]] → [[33]] → [[34]] → [[35]]",
+          "supplementStyle": "answer-sequence",
+          "stimulusIds": [
+            "s5-story",
+            "s5-slides"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s5-abilities",
+          "number": "問4",
+          "prompt": "Choose the two best items for the Aston’s Abilities slide. (The order does not matter.)",
+          "promptRich": "Choose the two best items for the Aston’s Abilities slide. (The order does not matter.)",
+          "components": [
+            {
+              "responseKey": "s5-abilities",
+              "label": "[[36]]・[[37]]",
+              "choices": [
+                "correct his mistakes by himself",
+                "jump side-by-side with the pony",
+                "jump with a rider on his back",
+                "pick up tricks faster than a horse",
+                "pose for photographs"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s5-story",
+            "s5-slides"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s5-now",
+          "number": "問5",
+          "prompt": "Complete the Aston Now slide with the most appropriate item. [[38]]",
+          "promptRich": "Complete the Aston Now slide with the most appropriate item. [[38]]",
+          "responseKey": "s5-now",
+          "choices": [
+            "has an increasing number of fans",
+            "has made Sabine very wealthy",
+            "is so famous that he no longer frightens people",
+            "spends most nights of the year in a horse trailer"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5-story",
+            "s5-slides"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s5-story"
+        },
+        {
+          "block": "s5-slides"
+        },
+        {
+          "question": "common-2021-r-q-s5-title"
+        },
+        {
+          "question": "common-2021-r-q-s5-who"
+        },
+        {
+          "question": "common-2021-r-q-s5-order"
+        },
+        {
+          "question": "common-2021-r-q-s5-abilities"
+        },
+        {
+          "question": "common-2021-r-q-s5-now"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2021-r-s06",
+      "number": "第6問",
+      "score": 24,
+      "sourcePages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ],
+      "lead": "You are working on a class project about safety in sports and found the following article. You are reading it and making a poster to present your findings to your classmates.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s6a-hockey",
+          "type": "passage",
+          "title": "Making Ice Hockey Safer",
+          "paragraphs": [
+            "Ice hockey is a team sport enjoyed by a wide variety of people around the world. The object of the sport is to move a hard rubber disk called a ‘puck’ into the other team’s net with a hockey stick. Two teams with six players on each team engage in this fast-paced sport on a hard and slippery ice rink. Players may reach a speed of 30 kilometers per hour sending the puck into the air. At this pace, both the players and the puck can be a cause of serious danger.",
+            "The speed of the sport and the slippery surface of the ice rink make it easy for players to fall down or bump into each other resulting in a variety of injuries. In an attempt to protect players, equipment such as helmets, gloves, and pads for the shoulders, elbows, and legs, has been introduced over the years. Despite these efforts, ice hockey has a high rate of concussions.",
+            "A concussion is an injury to the brain that affects the way it functions; it is caused by either direct or indirect impact to the head, face, neck, or elsewhere and can sometimes cause temporary loss of consciousness. In less serious cases, for a short time, players may be unable to walk straight or see clearly, or they may experience ringing in the ears. Some believe they just have a slight headache and do not realize they have injured their brains.",
+            "In addition to not realizing the seriousness of the injury, players tend to worry about what their coach will think. In the past, coaches preferred tough players who played in spite of the pain. In other words, while it would seem logical for an injured player to stop playing after getting hurt, many did not. Recently, however, it has been found that concussions can have serious effects that last a lifetime. People with a history of concussion may have trouble concentrating or sleeping. Moreover, they may suffer from psychological problems such as depression and mood changes. In some cases, players may develop smell and taste disorders.",
+            "The National Hockey League (NHL), consisting of teams in Canada and the United States, has been making stricter rules and guidelines to deal with concussions. For example, in 2001, the NHL introduced the wearing of visors—pieces of clear plastic attached to the helmet that protect the face. At first, it was optional and many players chose not to wear them. Since 2013, however, it has been required. In addition, in 2004, the NHL began to give more severe penalties, such as suspensions and fines, to players who hit another player in the head deliberately.",
+            "The NHL also introduced a concussion spotters system in 2015. In this system, NHL officials with access to live streaming and video replay watch for visible indications of concussion during each game. At first, two concussion spotters, who had no medical training, monitored the game in the arena. The following year, one to four concussion spotters with medical training were added. They monitored each game from the League’s head office in New York. If a spotter thinks that a player has suffered a concussion, the player is removed from the game and is taken to a ‘quiet room’ for an examination by a medical doctor. The player is not allowed to return to the game until the doctor gives permission.",
+            "The NHL has made much progress in making ice hockey a safer sport. As more is learned about the causes and effects of concussions, the NHL will surely take further measures to ensure player safety. Better safety might lead to an increase in the number of ice hockey players and fans."
+          ],
+          "stimulusId": "s6a-hockey"
+        },
+        {
+          "blockId": "s6a-poster",
+          "type": "poster",
+          "title": "Making Ice Hockey Safer",
+          "sections": [
+            {
+              "title": "What is ice hockey?",
+              "items": [
+                "Players score by putting a “puck” in the other team’s net",
+                "Six players on each team",
+                "Sport played on ice at a high speed"
+              ]
+            },
+            {
+              "title": "Main Problem: A High Rate of Concussions"
+            },
+            {
+              "title": "Definition of a concussion",
+              "text": "An injury to the brain that affects the way it functions"
+            },
+            {
+              "title": "Effects",
+              "columns": [
+                {
+                  "title": "Short-term",
+                  "items": [
+                    "Loss of consciousness",
+                    "Difficulty walking straight",
+                    "[[39]]",
+                    "Ringing in the ears"
+                  ]
+                },
+                {
+                  "title": "Long-term",
+                  "items": [
+                    "Problems with concentration",
+                    "[[40]]",
+                    "Psychological problems",
+                    "Smell and taste disorders"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Solutions",
+              "text": "National Hockey League (NHL)",
+              "items": [
+                "Requires helmets with visors",
+                "Gives severe penalties to dangerous players",
+                "Has introduced concussion spotters to [[41]]"
+              ]
+            },
+            {
+              "title": "Summary",
+              "paragraphs": [
+                "Ice hockey players have a high risk of suffering from concussions.",
+                "Therefore, the NHL has [[42]]."
+              ]
+            }
+          ],
+          "stimulusId": "s6a-poster"
+        },
+        {
+          "blockId": "s6-intro-b",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are studying nutrition in health class. You are going to read the following passage from a textbook to learn more about various sweeteners.",
+          "stimulusId": "s6-intro-b"
+        },
+        {
+          "blockId": "s6b-sweeteners",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            "Cake, candy, soft drinks—most of us love sweet things. In fact, young people say ‘Sweet!’ to mean something is ‘good’ in English. When we think of sweetness, we imagine ordinary white sugar from sugar cane or sugar beet plants. Scientific discoveries, however, have changed the world of sweeteners. We can now extract sugars from many other plants. The most obvious example is corn. Corn is abundant, inexpensive, and easy to process. High fructose corn syrup (HFCS) is about 1.2 times sweeter than regular sugar, but quite high in calories. Taking science one step further, over the past 70 years scientists have developed a wide variety of artificial sweeteners.",
+            "A recent US National Health and Nutrition Examination Survey concluded that 14.6% of the average American’s energy intake is from ‘added sugar,’ which refers to sugar that is not derived from whole foods. A banana, for example, is a whole food, while a cookie contains added sugar. More than half of added sugar calories are from sweetened drinks and desserts. Lots of added sugar can have negative effects on our bodies, including excessive weight gain and other health problems. For this reason, many choose low-calorie substitutes for drinks, snacks, and desserts.",
+            "Natural alternatives to white sugar include brown sugar, honey, and maple syrup, but they also tend to be high in calories. Consequently, alternative ‘low-calorie sweeteners’ (LCSs), mostly artificial chemical combinations, have become popular. The most common LCSs today are aspartame, Ace-K, stevia, and sucralose. Not all LCSs are artificial—stevia comes from plant leaves.",
+            "Alternative sweeteners can be hard to use in cooking because some cannot be heated and most are far sweeter than white sugar. Aspartame and Ace-K are 200 times sweeter than sugar. Stevia is 300 times sweeter, and sucralose has twice the sweetness of stevia. Some new sweeteners are even more intense. A Japanese company recently developed ‘Advantame,’ which is 20,000 times sweeter than sugar. Only a tiny amount of this substance is required to sweeten something.",
+            "When choosing sweeteners, it is important to consider health issues. Making desserts with lots of white sugar, for example, results in high-calorie dishes that could lead to weight gain. There are those who prefer LCSs for this very reason. Apart from calories, however, some research links consuming artificial LCSs with various other health concerns. Some LCSs contain strong chemicals suspected of causing cancer, while others have been shown to affect memory and brain development, so they can be dangerous, especially for young children, pregnant women, and the elderly. There are a few relatively natural alternative sweeteners, like xylitol and sorbitol, which are low in calories. Unfortunately, these move through the body extremely slowly, so consuming large amounts can cause stomach trouble.",
+            "When people want something sweet, even with all the information, it is difficult for them to decide whether to stick to common higher-calorie sweeteners like sugar or to use LCSs. Many varieties of gum and candy today contain one or more artificial sweeteners; nonetheless, some people who would not put artificial sweeteners in hot drinks may still buy such items. Individuals need to weigh the options and then choose the sweeteners that best suit their needs and circumstances."
+          ],
+          "stimulusId": "s6b-sweeteners"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2021-r-q-s6a-short",
+          "number": "問1",
+          "prompt": "Choose the best option for [[39]] on your poster.",
+          "promptRich": "Choose the best option for [[39]] on your poster.",
+          "responseKey": "s6a-short",
+          "choices": [
+            "Aggressive behavior",
+            "Difficulty thinking",
+            "Personality changes",
+            "Unclear vision"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a-hockey",
+            "s6a-poster"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6a-long",
+          "number": "問2",
+          "prompt": "Choose the best option for [[40]] on your poster.",
+          "promptRich": "Choose the best option for [[40]] on your poster.",
+          "responseKey": "s6a-long",
+          "choices": [
+            "Loss of eyesight",
+            "Memory problems",
+            "Sleep disorders",
+            "Unsteady walking"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a-hockey",
+            "s6a-poster"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6a-spotters",
+          "number": "問3",
+          "prompt": "Choose the best option for [[41]] on your poster.",
+          "promptRich": "Choose the best option for [[41]] on your poster.",
+          "responseKey": "s6a-spotters",
+          "choices": [
+            "allow players to return to the game",
+            "examine players who have a concussion",
+            "fine players who cause concussions",
+            "identify players showing signs of a concussion"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a-hockey",
+            "s6a-poster"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6a-summary",
+          "number": "問4",
+          "prompt": "Choose the best option for [[42]] on your poster.",
+          "promptRich": "Choose the best option for [[42]] on your poster.",
+          "responseKey": "s6a-summary",
+          "choices": [
+            "been expecting the players to become tougher",
+            "been implementing new rules and guidelines",
+            "given medical training to coaches",
+            "made wearing of visors optional"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6a-hockey",
+            "s6a-poster"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6b-science",
+          "number": "問1",
+          "prompt": "You learn that modern science has changed the world of sweeteners by [[43]].",
+          "promptRich": "You learn that modern science has changed the world of sweeteners by [[43]].",
+          "responseKey": "s6b-science",
+          "choices": [
+            "discovering new, sweeter white sugar types",
+            "measuring the energy intake of Americans",
+            "providing a variety of new options",
+            "using many newly-developed plants from the environment"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6-intro-b",
+            "s6b-sweeteners"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6b-ranking",
+          "number": "問2",
+          "prompt": "You are summarizing the information you have just studied. How should the table be finished? [[44]]",
+          "promptRich": "You are summarizing the information you have just studied. How should the table be finished? [[44]]",
+          "responseKey": "s6b-ranking",
+          "choices": [
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Stevia"
+                ],
+                [
+                  "B",
+                  "Sucralose"
+                ],
+                [
+                  "C",
+                  "Ace-K / Aspartame"
+                ],
+                [
+                  "D",
+                  "HFCS"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Stevia"
+                ],
+                [
+                  "B",
+                  "Sucralose"
+                ],
+                [
+                  "C",
+                  "HFCS"
+                ],
+                [
+                  "D",
+                  "Ace-K / Aspartame"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Sucralose"
+                ],
+                [
+                  "B",
+                  "Stevia"
+                ],
+                [
+                  "C",
+                  "Ace-K / Aspartame"
+                ],
+                [
+                  "D",
+                  "HFCS"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Sucralose"
+                ],
+                [
+                  "B",
+                  "Stevia"
+                ],
+                [
+                  "C",
+                  "HFCS"
+                ],
+                [
+                  "D",
+                  "Ace-K / Aspartame"
+                ]
+              ]
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "contextTable": {
+            "tableClass": "sweetness-ranking-table",
+            "headers": [
+              "Sweetness",
+              "Sweetener"
+            ],
+            "rows": [
+              [
+                {
+                  "text": "high\n▼\nlow",
+                  "className": "sweetness-scale"
+                },
+                {
+                  "text": "Advantame\n(A)\n(B)\n(C)\n(D)",
+                  "className": "sweetener-options"
+                }
+              ]
+            ]
+          },
+          "stimulusIds": [
+            "s6-intro-b",
+            "s6b-sweeteners"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6b-true",
+          "number": "問3",
+          "prompt": "According to the article you read, which of the following are true? (Choose two options. The order does not matter.)",
+          "promptRich": "According to the article you read, which of the following are true? (Choose two options. The order does not matter.)",
+          "components": [
+            {
+              "responseKey": "s6b-true",
+              "label": "[[45]]・[[46]]",
+              "choices": [
+                "Alternative sweeteners have been proven to cause weight gain.",
+                "Americans get 14.6% of their energy from alternative sweeteners.",
+                "It is possible to get alternative sweeteners from plants.",
+                "Most artificial sweeteners are easy to cook with.",
+                "Sweeteners like xylitol and sorbitol are not digested quickly."
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s6-intro-b",
+            "s6b-sweeteners"
+          ]
+        },
+        {
+          "questionId": "common-2021-r-q-s6b-position",
+          "number": "問4",
+          "prompt": "To describe the author’s position, which of the following is most appropriate? [[47]]",
+          "promptRich": "To describe the author’s position, which of the following is most appropriate? [[47]]",
+          "responseKey": "s6b-position",
+          "choices": [
+            "The author argues against the use of artificial sweeteners in drinks and desserts.",
+            "The author believes artificial sweeteners have successfully replaced traditional ones.",
+            "The author states that it is important to invent much sweeter products for future use.",
+            "The author suggests people focus on choosing sweeteners that make sense for them."
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6-intro-b",
+            "s6b-sweeteners"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s6a-hockey"
+        },
+        {
+          "block": "s6a-poster"
+        },
+        {
+          "question": "common-2021-r-q-s6a-short"
+        },
+        {
+          "question": "common-2021-r-q-s6a-long"
+        },
+        {
+          "question": "common-2021-r-q-s6a-spotters"
+        },
+        {
+          "question": "common-2021-r-q-s6a-summary"
+        },
+        {
+          "block": "s6-intro-b"
+        },
+        {
+          "block": "s6b-sweeteners"
+        },
+        {
+          "question": "common-2021-r-q-s6b-science"
+        },
+        {
+          "question": "common-2021-r-q-s6b-ranking"
+        },
+        {
+          "question": "common-2021-r-q-s6b-true"
+        },
+        {
+          "question": "common-2021-r-q-s6b-position"
+        }
+      ]
+    }
+  ]
+}

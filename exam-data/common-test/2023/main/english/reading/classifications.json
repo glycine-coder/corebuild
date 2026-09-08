@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2023-main-english-reading",
+  "classificationVersion": "1.0.0",
+  "groups": {
+    "common-2023-r-s01": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-s02": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-s03": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-s04": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-s05": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-s06": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    }
+  },
+  "questions": {
+    "common-2023-r-q001": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-q002": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-q003": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-q004": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-q005": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2023-r-q006": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q007": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q008": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q009": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q010": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q011": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q012": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q013": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q014": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q015": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q016": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q017": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q1821": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q022": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q023": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q024": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-q025": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-q026": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-q028": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-q029": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    "common-2023-r-q030": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q031": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q3235": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q036": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q3738": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2023-r-q039": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q040": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q4142": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q043": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q044": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q4546": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q047": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q048": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    },
+    "common-2023-r-q049": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    }
+  }
+}

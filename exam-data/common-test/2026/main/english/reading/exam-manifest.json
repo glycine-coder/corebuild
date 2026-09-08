@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2026-main-english-reading",
+  "contentVersion": "1.0.0",
+  "assetVersion": "1.1.0",
+  "classificationVersion": "1.0.0",
+  "examSystem": "common-test",
+  "year": 2026,
+  "session": "main",
+  "identity": {
+    "examFamilyId": "common-test",
+    "authorityId": "dnc",
+    "authorityType": "national-exam-body",
+    "institutionId": null,
+    "regionId": null,
+    "facultyId": null,
+    "scheduleId": "main"
+  },
+  "subject": {"id": "english", "name": "英語", "paper": "reading"},
+  "status": "published",
+  "rendering": {
+    "subjectProfileId": "english",
+    "rendererId": "english.reading",
+    "viewerAdapterId": "common-structured-v1",
+    "responseTypeIds": ["single-choice", "multi-select-unordered", "ordering"],
+    "mediaTypeIds": ["image", "document", "text"]
+  },
+  "dataFiles": {
+    "sections": ["exam-data/common-test/2026/main/english/reading/exam.json"],
+    "answers": ["exam-data/common-test/2026/main/english/reading/answers.json"],
+    "classification": ["exam-data/common-test/2026/main/english/reading/classifications.json"],
+    "fullText": "exam-data/common-test/2026/main/english/reading/2026年度共通テスト英語本試リーディング全文.txt",
+    "rightsReview": "exam-data/common-test/2026/main/english/reading/rights-review.json"
+  },
+  "assets": {"manifestPath": "exam-data/common-test/2026/main/english/reading/assets.json", "audioRequired": false},
+  "provenance": {
+    "sourceType": "official-exam-pdf",
+    "sourceRegister": "AI参照用原本",
+    "sourceProblemSha256": "20F6C99410E20B03B53C61AA5A21916496C61ED064169BA50CD85E8E7380C10A",
+    "sourceAnswerSha256": "A9A1609F4EE77FE830193FD41A842104EEB26A26F17255DC5502297516914AC6",
+    "rightsStatus": "cleared",
+    "rightsNote": "利用者による掲載・加工許可取得済み"
+  },
+  "publication": {"state": "public", "listed": true, "correctionLogRequired": true},
+  "publicRights": {
+    "rightsProfileId": "dnc-permitted-exam",
+    "permissionStatus": "confirmed",
+    "permissionDate": "2026-08-10",
+    "attribution": "出典：独立行政法人大学入試センター",
+    "thirdPartyRightsStatus": "confirmed-separately",
+    "transformationType": "original-preserving-formatting",
+    "transformationNotice": "ウェブ上での閲覧・回答に適するよう、ページ構成、余白、表示サイズ等を整えています。大学入試センター公表原本そのものではありません。",
+    "policyPath": "rights.html#permissions"
+  },
+  "expected": {"responseCount": 44, "maxScore": 100},
+  "timing": {"timeLimitMinutes": 80, "timerEnabled": true},
+  "features": {
+    "timer": true, "forcedSubmission": true, "attemptHistory": false,
+    "serverSync": false, "analytics": false, "accounts": false,
+    "personalVocabulary": false, "advertising": false,
+    "reviewFlags": false, "explanations": false,
+    "prototypeAnswerKey": true, "localPersistence": true,
+    "requireCompleteBeforeScoring": true
+  },
+  "scoring": {
+    "model": "scoring-units",
+    "answersFile": "exam-data/common-test/2026/main/english/reading/answers.json",
+    "groupRule": "各scoringUnitのresponseKeysをすべて正解した場合のみ、そのunitの点数を加算"
+  },
+  "categories": [
+    {"categoryId":"english.practical-reading","label":"実用的文章読解"},
+    {"categoryId":"english.information-location","label":"情報検索"},
+    {"categoryId":"english.inference","label":"推論"},
+    {"categoryId":"english.narrative-reading","label":"物語文読解"},
+    {"categoryId":"english.sequence","label":"時系列整序"},
+    {"categoryId":"english.editing","label":"推敲・編集"},
+    {"categoryId":"english.logical-reading","label":"論理構成"},
+    {"categoryId":"english.information-integration","label":"情報統合"},
+    {"categoryId":"english.multiple-documents","label":"複数資料読解"},
+    {"categoryId":"english.summary","label":"要約"},
+    {"categoryId":"english.academic-reading","label":"説明文読解"},
+    {"categoryId":"english.argument-reading","label":"意見・論証読解"},
+    {"categoryId":"english.chart-reading","label":"図表読解"}
+  ],
+  "groupProfiles": {
+    "common-2026-r-s01":["english.practical-reading","english.information-location"],
+    "common-2026-r-s02":["english.practical-reading","english.information-location","english.inference"],
+    "common-2026-r-s03":["english.narrative-reading","english.sequence","english.inference"],
+    "common-2026-r-s04":["english.editing","english.logical-reading","english.information-integration"],
+    "common-2026-r-s05":["english.practical-reading","english.multiple-documents","english.information-integration"],
+    "common-2026-r-s06":["english.narrative-reading","english.summary","english.sequence","english.inference"],
+    "common-2026-r-s07":["english.academic-reading","english.summary","english.information-integration","english.inference"],
+    "common-2026-r-s08":["english.argument-reading","english.multiple-documents","english.chart-reading","english.information-integration"]
+  }
+}

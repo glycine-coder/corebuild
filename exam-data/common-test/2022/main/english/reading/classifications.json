@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2022-main-english-reading",
+  "classificationVersion": "1.0.0",
+  "groups": {
+    "common-2022-r-s01": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-s02": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-s03": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-s04": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-s05": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-s06": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    }
+  },
+  "questions": {
+    "common-2022-r-q-s1a-common-dessert": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-q-s1a-sour-cake": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-q-s1b-entry-period": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-q-s1b-entry-requirement": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-q-s1b-finalist-prize": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    "common-2022-r-q-s2a-library-actions": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2a-orientation-route": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2a-near-entrance": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2a-overdue-return": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2a-student-fact": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2b-country-ranking": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2b-pet-advantage": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2b-survey-finding": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2b-japan-opinion": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s2b-article-title": {
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s3a-blog-detail": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s3a-rakugo-reaction": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s3b-event-order": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s3b-delay-reason": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s3b-story-learning": {
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    "common-2022-r-q-s4-len-reason": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-q-s4-cindy-recommendation": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-q-s4-shared-recommendation": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-q-s4-best-price-method": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-q-s4-shopping-decisions": {
+      "categoryIds": [
+        "english.information-integration",
+        "english.comparison",
+        "english.practical-reading"
+      ]
+    },
+    "common-2022-r-q-s5-subtitle": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-q-s5-early-days": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-q-s5-event-order": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-q-s5-outcome": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-q-s5-achievement": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.sequence"
+      ]
+    },
+    "common-2022-r-q-s6a-diurnal": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6a-main-point": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6a-cultural-example": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6a-detail-pair": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6b-symbol-definition": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6b-types-two-three": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    },
+    "common-2022-r-q-s6b-common-properties": {
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.information-integration"
+      ]
+    }
+  }
+}

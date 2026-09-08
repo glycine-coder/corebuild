@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <title>英語学習サイト</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -13,109 +14,226 @@
         .word-button { transition: all 0.2s; }
         .word-button:hover { transform: translateY(-2px); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); }
         .selected { opacity: 0.5; pointer-events: none; }
-        .card-enter-active, .card-leave-active { transition: opacity 0.3s ease; }
-        .card-enter-from, .card-leave-to { opacity: 0; }
+        /* 音声先行モード用の強いぼかし */
+        .blur-strong { filter: blur(8px); }
+        
+        /* 文法問題の選択肢のホバー効果 */
+        .choice-button:not(:disabled):hover { 
+            background-color: #f3f4f6; /* gray-100 */
+            border-color: #4f46e5; /* primary-600 */
+        }
+
+        /* 英文先行・音声先行モードの和訳カード */
+        #translation-card { 
+            display: flex;
+            flex-direction: column; 
+            padding: 16px; /* p-4 */
+            min-height: 100px; /* 最小の高さを確保 */
+            position: relative; /* ラベルの絶対配置用 */
+        }
+        #translation-card .flex-content-center { 
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            flex-grow: 1;
+            width: 100%;
+            height: 100%; /* 親要素全体を使用 */
+        }
+        #translation-card .translation-label {
+            position: absolute; /* 絶対配置でスペースを占有しないように */
+            top: 16px;
+            left: 16px;
+            margin-bottom: 0;
+        }
+        #translation-card #japanese-text {
+            min-height: 1.5rem;
+        }
+
+        /* 文法問題モードの和訳カードのスタイル調整 */
+        #grammar-translation-card { 
+            display: flex;
+            flex-direction: column; 
+            padding: 16px; /* p-4 */
+            position: relative; /* ラベルの絶対配置用 */
+            min-height: 100px; /* 最小高さを確保 */
+        }
+        #grammar-translation-card .flex-content-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            width: 100%;
+            height: 100%; /* 親要素全体を使用 */
+        }
+        #grammar-translation-card .translation-label {
+            position: absolute; /* 絶対配置でスペースを占有しないように */
+            top: 16px;
+            left: 16px;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+        #grammar-translation-card #grammar-japanese-text {
+            min-height: 1.5rem;
+        }
+        
+        /* 英文表示カードと文法問題カードの高さを統一 */
+        #english-display-card,
+        #grammar-sentence-card {
+            min-height: 100px;
+            padding-bottom: 32px; /* 出典表示用の余白 */
+        }
+
+        /* 文法問題モードの回答後のレイアウト調整 */
+        .grammar-layout-answered {
+            display: flex;
+            flex-direction: column;
+            gap: 12px; /* 12px */
+            overflow-y: auto; 
+            height: 100%; 
+        }
+
+        /* 選択肢を横一列に強制的に並べるためのスタイル調整 */
+        .choice-button {
+            flex: 1 1 0%; 
+            min-width: 0;
+        }
+        
+        /* 出典表示用のスタイル */
+        .source-citation {
+            position: absolute;
+            bottom: 5px; /* 16pxから5pxに変更（余白を近くに） */
+            right: 12px;
+            font-size: 0.75rem;
+            color: #9ca3af;
+            font-weight: 500;
+        }
     </style>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'primary': '#4f46e5',
-                        'secondary': '#10b981',
+                        // スタイリッシュテーマのカラー定義
+                        'primary': '#4f46e5', // Indigo-600
+                        'secondary': '#10b981', // Emerald-500
                         'danger': '#ef4444',
                     }
                 }
             }
         }
     </script>
+    <link rel="stylesheet" href="assets/exam-platform/rights.css?v=20260822a">
 </head>
 <body class="bg-gray-50 h-screen-no-scroll flex items-center justify-center p-4">
 
     <div id="app" class="w-full max-w-4xl bg-white shadow-2xl rounded-xl flex flex-col h-full md:h-5/6 overflow-hidden">
 
         <header id="app-header" class="p-6 bg-primary text-white rounded-t-xl shadow-lg flex flex-col md:flex-row justify-between items-center hidden">
-            <h1 class="text-2xl font-bold tracking-tight">高頻度単語リスニング学習</h1>
-            <div id="mode-selector" class="flex space-x-2 mt-3 md:mt-0">
+            <h1 class="text-2xl font-bold tracking-tight mb-3 md:mb-0">海外旅行で便利なフレーズ</h1>
+            
+            <div class="flex flex-wrap justify-center items-center space-x-4 mt-3 md:mt-0">
+                
+                <div class="flex items-center space-x-2">
+                    <label for="filter-mode-selector" class="text-sm font-medium">表示:</label>
+                    <select id="filter-mode-selector" onchange="applyAllFilters()" class="text-gray-800 px-3 py-1 rounded-lg font-medium text-sm transition duration-200 focus:ring-primary focus:border-primary">
+                        <option value="ALL">全ての英文</option>
+                        <option value="UNLEARNED">未学習のみ</option>
+                        <option value="LEARNED">学習済のみ</option>
+                    </select>
                 </div>
+
+                <div class="flex items-center space-x-2 mt-2 md:mt-0">
+                    <label for="mode-selector" class="text-sm font-medium">学習モード:</label>
+                    <select id="mode-selector" onchange="changeMode(this.value)" class="text-gray-800 px-3 py-1 rounded-lg font-medium text-sm transition duration-200 focus:ring-primary focus:border-primary">
+                        <option value="1">① 英文先行</option>
+                        <option value="2">② 音声先行</option>
+                        <option value="4">③ 文法問題</option>
+                    </select>
+                </div>
+                
+            </div>
         </header>
 
-        <main class="flex-grow p-6 flex flex-col space-y-4 overflow-y-auto">
+        <main id="main-content" class="flex-grow p-6 flex flex-col space-y-3 overflow-y-auto">
 
-            <div id="selection-screen" class="card-enter-active p-12 flex flex-col items-center justify-center h-full text-center">
-                <h2 class="text-3xl font-extrabold text-gray-800 mb-8">学習コンテンツを選択してください</h2>
+            <div id="selection-screen" class="p-12 flex flex-col items-center justify-center h-full text-center">
+                <h2 id="selection-title" class="text-3xl font-extrabold text-gray-800 mb-8">学習コンテンツを選択してください</h2>
                 
-                <div class="space-y-6 w-full max-w-md">
-                    <button onclick="selectCategory('travel')" class="w-full py-4 bg-yellow-500 text-white text-xl font-bold rounded-xl shadow-lg hover:bg-yellow-600 transition-colors duration-200 transform hover:scale-[1.02]">
-                        ✈️ 旅行用英語
-                    </button>
+<div id="main-category-buttons" class="space-y-6 w-full max-w-md">
+    <!-- 旅行用英語・高校受験用英語は公開準備中。データと学習処理は内部に保持し、公開用導線には出さない。 -->
+    <a href="./exam-index.html" class="block w-full py-4 bg-slate-800 text-white text-xl font-bold rounded-xl shadow-lg hover:bg-slate-900 transition-colors duration-200 transform hover:scale-[1.02]">
+        📝 センター試験・共通テスト
+    </a>
+</div>
 
-                    <button onclick="selectCategory('high_school')" class="w-full py-4 bg-green-500 text-white text-xl font-bold rounded-xl shadow-lg hover:bg-green-600 transition-colors duration-200 transform hover:scale-[1.02]">
-                        📚 高校受験
-                    </button>
-                    
-                    <button onclick="selectCategory('common_test')" class="w-full py-4 bg-primary text-white text-xl font-bold rounded-xl shadow-lg hover:bg-indigo-600 transition-colors duration-200 transform hover:scale-[1.02]">
-                        🎓 共通テスト
-                    </button>
-                </div>
-
-                <div id="common-test-sub" class="mt-8 pt-6 border-t border-gray-200 w-full max-w-md hidden">
-                    <h3 class="text-xl font-semibold text-gray-700 mb-4">共通テスト：学習内容を選択</h3>
-                    <div class="flex space-x-4">
-                        <button onclick="startLearning('common_test_listening')" class="flex-1 py-3 bg-red-500 text-white font-bold rounded-lg shadow hover:bg-red-600 transition-colors duration-200">
-                            リスニング
-                        </button>
-                        <button onclick="startLearning('common_test_reading')" class="flex-1 py-3 bg-blue-500 text-white font-bold rounded-lg shadow hover:bg-blue-600 transition-colors duration-200">
-                            リーディング
-                        </button>
-                    </div>
-                </div>
             </div>
             
-            <div id="learning-screen" class="hidden flex-grow flex flex-col space-y-4">
+            <div id="learning-screen" class="hidden flex-grow flex flex-col space-y-3">
                 
-                <div class="text-center text-sm text-gray-500 mb-4">
-                    <span id="sentence-id" class="font-mono bg-gray-100 px-2 py-1 rounded-md">ID: -</span>
-                    <span id="sentence-year" class="ml-4 px-2 py-1 rounded-md text-primary font-semibold">出題年度: -</span>
-                    <span id="current-category" class="ml-4 px-2 py-1 rounded-md text-gray-600 font-semibold">カテゴリ: -</span>
-                </div>
-    
-                <div id="english-display-card" class="bg-indigo-50 p-6 rounded-xl shadow-inner min-h-[100px] flex items-center justify-center transition-all duration-300">
-                    <p id="english-text" class="text-xl md:text-2xl font-bold text-gray-800 text-center select-none">
-                        学習モードを選択してください
-                    </p>
-                </div>
-    
-                <div id="translation-card" class="bg-white p-4 border border-gray-200 rounded-xl shadow min-h-[60px] transition-all duration-300 hidden">
-                    <p class="text-sm font-semibold text-gray-600 mb-1">和訳</p>
-                    <p id="japanese-text" class="text-lg text-gray-700">
-                        -
-                    </p>
-                </div>
-    
-                <div id="scramble-ui" class="space-y-4 hidden">
-                    <div class="p-4 bg-yellow-100 rounded-xl border-dashed border-2 border-yellow-300 min-h-[80px]">
-                        <p class="text-sm font-semibold text-yellow-700 mb-1">解答構築エリア</p>
-                        <div id="answer-area" class="flex flex-wrap gap-2">
-                            </div>
+                <div class="text-center text-sm text-gray-500 mb-2 flex justify-between items-center">
+                    
+                    <span id="progress-indicator" class="px-2 py-1 rounded-md text-gray-600 font-semibold"></span>
+
+                    <div id="scene-filter-container" class="flex items-center space-x-2">
+                        <label for="scene-filter" class="text-sm font-medium text-gray-600">使用場面:</label>
+                        <select id="scene-filter" onchange="filterScenes(this.value)" class="text-gray-800 px-3 py-1 rounded-lg font-medium text-sm transition duration-200 focus:ring-primary focus:border-primary"></select>
                     </div>
-    
-                    <div class="p-4 bg-white rounded-xl shadow-md border-t border-gray-200">
-                        <p class="text-sm font-semibold text-gray-600 mb-2">単語を選択して正しい英文を完成させよう</p>
-                        <div id="scrambled-words-area" class="flex flex-wrap gap-2">
-                            </div>
+
+                    <div id="grammar-type-filter-container" class="flex items-center space-x-2 hidden">
+                        <label for="grammar-type-selector" class="text-sm font-medium text-gray-600">文法類型:</label>
+                        <select id="grammar-type-selector" onchange="filterByType(this.value)" class="text-gray-800 px-3 py-1 rounded-lg font-medium text-sm transition duration-200 focus:ring-primary focus:border-primary">
+                        </select>
                     </div>
+
+                </div>
     
-                    <div class="flex justify-center space-x-4 pt-2">
-                        <button id="check-answer-btn" onclick="checkScrambledAnswer()" class="px-6 py-2 bg-secondary text-white font-bold rounded-lg hover:bg-green-600 transition-colors shadow-md hidden">
-                            解答チェック
-                        </button>
-                        <button id="reset-scramble-btn" onclick="resetScramble()" class="px-6 py-2 bg-gray-500 text-white font-bold rounded-lg hover:bg-gray-600 transition-colors shadow-md hidden">
-                            リセット
-                        </button>
+                <div id="english-display-card" class="bg-indigo-50 p-6 rounded-xl shadow-inner min-h-[100px] flex items-center justify-center transition-all duration-300 relative">
+                    <p id="english-text" class="text-xl md:text-2xl font-bold text-gray-800 text-center select-none w-full">
+                        </p>
+                    <p id="source-citation" class="source-citation hidden"></p>
+                </div>
+    
+                <div id="translation-card" class="bg-white border border-gray-200 rounded-xl shadow min-h-[60px] transition-all duration-300 hidden">
+                    <p class="translation-label text-sm font-semibold text-gray-600">和訳</p>
+                    <div id="translation-content" class="flex-content-center">
+                        <p id="japanese-text" class="text-lg text-gray-700 text-center w-full">
+                            </p>
                     </div>
                 </div>
-    
+
+                <div id="grammar-question-ui" class="hidden flex-col space-y-3 pt-2 flex-grow">
+
+                    <div id="grammar-sentence-card" class="bg-indigo-50 p-6 rounded-xl shadow-inner min-h-[80px] flex items-center justify-center transition-all duration-300 relative">
+                        <p id="grammar-target-sentence" class="text-xl md:text-2xl font-bold text-gray-800 text-center select-none">
+                            </p>
+                        <p id="grammar-source-citation" class="source-citation hidden"></p>
+                    </div>
+                    
+                    <div id="grammar-translation-card" class="bg-white border border-gray-200 rounded-xl shadow min-h-[60px] transition-all duration-300 hidden">
+                        <p class="translation-label text-sm font-semibold text-gray-600">和訳</p>
+                        <div id="grammar-translation-content" class="flex-content-center">
+                            <p id="grammar-japanese-text" class="text-lg text-gray-700 text-center w-full">
+                                </p>
+                        </div>
+                    </div>
+
+                    <p id="grammar-question-text" class="text-xl font-bold text-gray-800 text-center px-4"></p>
+
+
+                    <div id="grammar-choices" class="flex justify-between gap-2 pt-2 mx-auto w-full"> 
+                        <button id="choice-A" onclick="checkGrammarAnswer('A')" class="choice-button py-2 px-3 rounded-lg text-base text-left bg-gray-100 border border-gray-300 transition duration-150"></button> 
+                        <button id="choice-B" onclick="checkGrammarAnswer('B')" class="choice-button py-2 px-3 rounded-lg text-base text-left bg-gray-100 border border-gray-300 transition duration-150"></button>
+                        <button id="choice-C" onclick="checkGrammarAnswer('C')" class="choice-button py-2 px-3 rounded-lg text-base text-left bg-gray-100 border border-gray-300 transition duration-150"></button>
+                        <button id="choice-D" onclick="checkGrammarAnswer('D')" class="choice-button py-2 px-3 rounded-lg text-base text-left bg-gray-100 border border-gray-300 transition duration-150"></button>
+                    </div>
+
+                    <div id="grammar-answer-explanation" class="hidden mt-4 p-3 rounded-xl shadow-xl bg-white border-2 border-green-500 max-w-xl mx-auto w-full flex-shrink-0">
+                        <p class="font-bold text-green-700 mb-1 border-b border-green-200 pb-1">【正解】<span id="grammar-correct-answer" class="font-extrabold"></span></p>
+                        <p class="font-bold text-gray-700 mt-2 mb-1">【解説】</p>
+                        <p id="grammar-explanation-text" class="text-gray-600 text-sm"></p>
+                    </div>
+                </div>
+
                 <div id="message-box" class="text-center py-2 text-lg font-semibold hidden rounded-lg"></div>
             </div>
 
@@ -131,18 +249,23 @@
                 </button>
             </div>
             
-            <button onclick="showSelectionScreen()" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400 transition-colors font-medium">
-                カテゴリ変更
+            <button onclick="showSelectionScreen()" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400 transition-colors font-medium mt-4 md:mt-0">
+                TOP画面
             </button>
 
             <div class="flex space-x-3 mt-4 md:mt-0">
-                <button id="toggle-translation-btn" onclick="toggleTranslation()" class="px-6 py-2 bg-indigo-500 text-white font-bold rounded-lg hover:bg-indigo-600 transition-colors shadow-md hidden">
+                
+                <button id="toggle-learned-btn" onclick="toggleLearnedStatus()" class="px-6 py-2 bg-secondary text-white font-bold rounded-lg hover:bg-emerald-600 transition-colors shadow-md flex items-center">
+                    ✓ 覚えた
+                </button>
+                
+                <button id="toggle-translation-btn" onclick="toggleTranslation()" class="px-6 py-2 bg-primary text-white font-bold rounded-lg hover:bg-indigo-700 transition-colors shadow-md">
                     和訳を表示
                 </button>
 
                 <button id="play-audio-btn" onclick="playAudio()" class="px-6 py-2 bg-red-500 text-white font-bold rounded-lg hover:bg-red-600 transition-colors shadow-md flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 108 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
                     </svg>
                     音声再生
                 </button>
@@ -153,490 +276,930 @@
 
 <script>
     // --- グローバル変数と定数 ---
-    let DB = []; 
-    let currentMode = 1;
-    let currentSentenceIndex = 0;
-    let isTranslationVisible = false;
-    let correctWords = []; 
-    let scrambledWords = []; 
-    let answerSequence = []; 
-    let currentCategory = ''; // 新しいグローバル変数: 現在のカテゴリを保持
+let ALL_DB = []; 
+let DB = []; 
+let currentMode = 1; 
+let currentSentenceIndex = 0;
+let currentAudio = null; // 音声再生管理用に追加
+let isTranslationVisible = false; 
+let currentCategoryKey = ''; 
+const LEARNED_STATUS_KEY = 'learning_app_learned_status';
+let messageTimeoutId = null;
+let currentGrammarType = 'ALL';
+let currentSceneFilter = 'ALL';
+let lastDisplayedId = '';
+let translationVisibilityState = false;  // **新規追加：和訳表示状態を保持**
 
-    const JSON_MAP = {
-        'travel': { path: './data/travel_sentences.json', name: '旅行用英語' },
-        'high_school': { path: './data/high_school_entrance_sentences.json', name: '高校受験' },
-        'common_test_listening': { path: './data/common_test_listening_sentences.json', name: '共通テスト (リスニング)' },
-        'common_test_reading': { path: './data/common_test_reading_sentences.json', name: '共通テスト (リーディング)' },
-    };
+    // JSONパスと対応する音声フォルダを定義
+    const CATEGORY_MAP = {
+    'travel': {
+        jsonPath: './data/travel_sentences.json',
+        audioFolder: 'travel',
+        name: '旅行用英語',
+        hasSceneFilter: true,
+    },
+    'highschool_listening': {
+        jsonPath: './data/high_school_listening_sentences.json',
+        audioFolder: 'high_school/listening',
+        name: '高校受験用英語 - リスニング',
+        hasSceneFilter: false,
+    },
+    'highschool_reading': {
+        jsonPath: './data/high_school_reading_sentences.json',
+        audioFolder: 'high_school/reading',
+        name: '高校受験用英語 - リーディング',
+        hasSceneFilter: false,
+    },
+};
 
     // --- DOM要素の参照 ---
+    const appHeaderEl = document.getElementById('app-header');
+    const appFooterEl = document.getElementById('app-footer');
+    const selectionScreenEl = document.getElementById('selection-screen');
+    const learningScreenEl = document.getElementById('learning-screen');
+    const mainContentEl = document.getElementById('main-content');
+    const filterModeSelectorEl = document.getElementById('filter-mode-selector');
+    const toggleLearnedBtn = document.getElementById('toggle-learned-btn');
+    const toggleTranslationBtn = document.getElementById('toggle-translation-btn');
     const englishTextEl = document.getElementById('english-text');
     const japaneseTextEl = document.getElementById('japanese-text');
-    const translationCardEl = document.getElementById('translation-card');
-    const toggleTranslationBtn = document.getElementById('toggle-translation-btn');
-    const englishDisplayCardEl = document.getElementById('english-display-card');
-    const scrambledWordsAreaEl = document.getElementById('scrambled-words-area');
-    const answerAreaEl = document.getElementById('answer-area');
-    const scrambleUiEl = document.getElementById('scramble-ui');
-    const playAudioBtn = document.getElementById('play-audio-btn');
+    const translationCardEl = document.getElementById('translation-card'); // 通常モードの和訳カード
+    const progressIndicatorEl = document.getElementById('progress-indicator');
+    const sceneFilterEl = document.getElementById('scene-filter');
+    const modeSelectorEl = document.getElementById('mode-selector');
+    const englishDisplayCard = document.getElementById('english-display-card');
+    const grammarQuestionUiEl = document.getElementById('grammar-question-ui');
+    const grammarTargetSentenceEl = document.getElementById('grammar-target-sentence');
+    const grammarQuestionTextEl = document.getElementById('grammar-question-text');
+    const grammarChoicesEl = document.getElementById('grammar-choices');
+    const grammarAnswerExplanationEl = document.getElementById('grammar-answer-explanation');
+    const grammarCorrectAnswerEl = document.getElementById('grammar-correct-answer');
+    const grammarExplanationTextEl = document.getElementById('grammar-explanation-text');
     const messageBoxEl = document.getElementById('message-box');
-    const checkAnswerBtn = document.getElementById('check-answer-btn');
-    const resetScrambleBtn = document.getElementById('reset-scramble-btn');
-    const selectionScreenEl = document.getElementById('selection-screen'); // 新規
-    const learningScreenEl = document.getElementById('learning-screen'); // 新規
-    const commonTestSubEl = document.getElementById('common-test-sub'); // 新規
-    const appHeaderEl = document.getElementById('app-header'); // 新規
-    const appFooterEl = document.getElementById('app-footer'); // 新規
-    const currentCategoryEl = document.getElementById('current-category'); // 新規
+    const grammarTypeSelectorEl = document.getElementById('grammar-type-selector');
+    const grammarTranslationCardEl = document.getElementById('grammar-translation-card'); // 文法問題モードの和訳カード
+    const grammarJapaneseTextEl = document.getElementById('grammar-japanese-text');
+    const sceneFilterContainerEl = document.getElementById('scene-filter-container');
+    const grammarTypeFilterContainerEl = document.getElementById('grammar-type-filter-container');
+    const playAudioBtn = document.getElementById('play-audio-btn');
+    const sourceCitationEl = document.getElementById('source-citation');
+    const grammarSourceCitationEl = document.getElementById('grammar-source-citation');
 
-    // --- アプリ初期化 ---
-    window.onload = function() {
-        showSelectionScreen(); // 起動時はカテゴリ選択画面から
-    };
-    
+    // --- 初期化処理 ---
+
+    document.addEventListener('DOMContentLoaded', () => {
+        clearMessage(); 
+
+        // 公開用TOPでは、過去に開いた非公開カテゴリを自動復元しない。
+        // 学習履歴そのものは削除せず、将来の再公開に備えて保持する。
+        sessionStorage.removeItem('isReload');
+        showSelectionScreen();
+    });
     /**
-     * カテゴリ選択画面を表示し、学習画面を非表示にする
+     * カテゴリ選択画面を表示する
      */
     function showSelectionScreen() {
-        selectionScreenEl.classList.remove('hidden');
-        learningScreenEl.classList.add('hidden');
         appHeaderEl.classList.add('hidden');
         appFooterEl.classList.add('hidden');
-        commonTestSubEl.classList.add('hidden'); // サブカテゴリも一旦非表示
-        englishTextEl.textContent = '学習モードを選択してください'; // メッセージリセット
+        learningScreenEl.classList.add('hidden');
+        selectionScreenEl.classList.remove('hidden');
+        mainContentEl.classList.remove('grammar-layout-answered');
+        mainContentEl.classList.add('overflow-y-auto'); 
         
-        // 既存の要素を参照してモードボタンを再配置する
-        const modeSelector = document.getElementById('mode-selector');
-        modeSelector.innerHTML = `
-            <button onclick="changeMode(1)" id="mode-1" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
-                ① 英文先行
-            </button>
-            <button onclick="changeMode(2)" id="mode-2" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
-                ② 音声先行
-            </button>
-            <button onclick="changeMode(3)" id="mode-3" class="mode-tab bg-primary border-2 border-white text-white px-4 py-2 rounded-lg font-medium text-sm transition duration-200 hover:bg-white hover:text-primary">
-                ③ 並べ替え
-            </button>
-        `;
+        // 公開中のメインカテゴリ画面を表示
+        document.getElementById('main-category-buttons').classList.remove('hidden');
+        document.getElementById('selection-title').textContent = '学習コンテンツを選択してください';
+        
+        currentCategoryKey = '';
+        currentSceneFilter = 'ALL'; 
+        currentGrammarType = 'ALL'; 
+        translationCardEl.classList.add('hidden'); 
+        
+        sessionStorage.removeItem('isReload');
+        
+        clearMessage();
+    }
+
+
+
+    /**
+     * カテゴリに応じてモードセレクターの選択肢を更新
+     */
+    function updateModeSelector(categoryKey) {
+        const config = CATEGORY_MAP[categoryKey];
+        
+        modeSelectorEl.innerHTML = '';
+        
+        // 共通の選択肢
+        const option1 = document.createElement('option');
+        option1.value = '1';
+        option1.textContent = '① 英文先行';
+        modeSelectorEl.appendChild(option1);
+        
+        const option2 = document.createElement('option');
+        option2.value = '2';
+        option2.textContent = '② 音声先行';
+        modeSelectorEl.appendChild(option2);
+        
+        // 高校受験のみ文法問題を追加
+        if (categoryKey.startsWith('highschool_')) {
+            const option4 = document.createElement('option');
+            option4.value = '4';
+            option4.textContent = '③ 文法問題';
+            modeSelectorEl.appendChild(option4);
+        }
+        
+        // 現在のモードが利用不可になった場合はモード1にリセット
+        if (currentMode === 4 && !categoryKey.startsWith('highschool_')) {
+            changeMode(1);
+        } else {
+            modeSelectorEl.value = currentMode;
+        }
+    }
+
+
+    // ↓↓↓ ここから新規関数を追加 ↓↓↓
+    
+    /**
+     * 高校受験のサブカテゴリ選択画面を表示する
+     */
+    function showHighSchoolSubcategories() {
+        document.getElementById('main-category-buttons').classList.add('hidden');
+        document.getElementById('highschool-subcategory-buttons').classList.remove('hidden');
+        document.getElementById('selection-title').textContent = '学習する分野を選択してください';
     }
 
     /**
-     * カテゴリボタンが押されたときの処理
-     * @param {string} category - 選択されたカテゴリキー
+     * メインカテゴリ選択画面に戻る
      */
-    function selectCategory(category) {
-        if (category === 'common_test') {
-            // 共通テストの場合はサブカテゴリを表示
-            commonTestSubEl.classList.remove('hidden');
-        } else {
-            // それ以外の場合は即座に学習開始
-            startLearning(category);
-        }
+    function backToMainCategories() {
+        document.getElementById('highschool-subcategory-buttons').classList.add('hidden');
+        document.getElementById('main-category-buttons').classList.remove('hidden');
+        document.getElementById('selection-title').textContent = '学習コンテンツを選択してください';
     }
     
+    // ↑↑↑ ここまで新規関数を追加 ↑↑↑
+
+
     /**
-     * 学習を開始し、DBをロードする
-     * @param {string} key - JSON_MAPのキー（e.g., 'travel', 'common_test_listening'）
+     * カテゴリを選択し、データを読み込む
      */
-    async function startLearning(key) {
-        const config = JSON_MAP[key];
-        if (!config) {
-            showMessage('エラー: 不正なカテゴリが選択されました。', 'danger');
+    async function selectCategory(key, saveHistory = true) {
+        if (!CATEGORY_MAP[key]) {
+            showMessage('選択されたカテゴリが見つかりません。', 'danger');
             return;
         }
 
-        // UIの切り替え
-        selectionScreenEl.classList.add('hidden');
-        learningScreenEl.classList.remove('hidden');
-        appHeaderEl.classList.remove('hidden');
-        appFooterEl.classList.remove('hidden');
-        commonTestSubEl.classList.add('hidden'); // サブカテゴリは非表示に戻す
-        
-        currentCategory = config.name;
-        currentCategoryEl.textContent = `カテゴリ: ${config.name}`;
-        
+        clearMessage();
+
+        currentCategoryKey = key;
+        const config = CATEGORY_MAP[key];
+
+        if (saveHistory) {
+            localStorage.setItem('lastLearningCategory', key);
+            localStorage.setItem('lastLearningMode', currentMode);
+        }
+
+        document.getElementById('selection-title').textContent = `${config.name}を読み込み中...`;
+
         try {
-            englishTextEl.textContent = `${config.name}のデータを読み込み中です...`;
-
-            const response = await fetch(config.path); 
+            const response = await fetch(config.jsonPath);
             if (!response.ok) {
-                // ファイルが存在しない、またはHTTPエラーの場合
-                throw new Error(`ファイルが見つからない、またはエラーが発生しました。パス: ${config.path}`);
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
-            
-            DB = await response.json(); 
+            ALL_DB = await response.json();
 
-            if (DB.length === 0) {
-                englishTextEl.textContent = `${config.name} のデータがありません。`;
-                return;
+            // 学習済みのステータスを付与
+            let learnedStatusMap = loadLearnedStatus();
+            ALL_DB.forEach(item => {
+                item.isLearned = !!learnedStatusMap[item.id];
+            });
+
+            // 画面切り替え
+            selectionScreenEl.classList.add('hidden');
+            learningScreenEl.classList.remove('hidden');
+            appHeaderEl.classList.remove('hidden');
+            appFooterEl.classList.remove('hidden');
+            
+            // ヘッダータイトルの更新
+            document.querySelector('#app-header h1').textContent = config.name;
+
+            // モードセレクターの選択肢を動的に変更
+            updateModeSelector(key);
+
+            // フィルターを初期化
+            setupSceneFilter(ALL_DB);
+            setupGrammarTypeFilter(ALL_DB);
+            
+            // 高校受験用の場合は使用場面フィルターをリセット
+            if (!config.hasSceneFilter) {
+                currentSceneFilter = 'ALL';
             }
             
-            // データがロードされたら、初期モードで学習開始
-            currentSentenceIndex = 0; // インデックスをリセット
-            changeMode(1); // 初期モード（英文先行）で開始
+            // 【修正②】データ読み込み成功時はメッセージをクリア
+            clearMessage();
+            
+            // モードを適用
+            applyAllFilters(); 
+
+            if (currentMode === 4) {
+                mainContentEl.classList.remove('grammar-layout-answered');
+                mainContentEl.classList.add('overflow-y-auto');
+            }
+
         } catch (error) {
-            console.error("データの読み込み中にエラーが発生しました:", error);
-            englishTextEl.textContent = `データの読み込みに失敗しました。\n${error.message}`;
-            // エラー時はカテゴリ選択画面に戻ることを促す
-            showMessage('データの読み込みに失敗しました。カテゴリを変更するか、ファイルを確認してください。', 'danger');
+            console.error("データの読み込みまたは初期化に失敗しました:", error);
+            englishTextEl.textContent = `エラーが発生しました: ${config.jsonPath} の読み込みまたはデータ初期化に失敗しました。詳細をブラウザのコンソールで確認してください。`;
+            showMessage('データファイルの読み込みまたは初期化エラー。', 'danger');
+            return;
         }
     }
 
-
     /**
-     * 単語並べ替えのために英文を整形し、単語配列を生成する
-     * @param {string} sentence - 処理する英文
-     * @returns {string[]} 単語（句読点を含む）の配列
+     * 場面フィルターをセットアップする
      */
-    function tokenizeSentence(sentence) {
-        // スペースで分割した後、句読点を分離する処理は複雑になるため、
-        // 今回はシンプルに、スペース区切りで単語を抽出し、句読点は単語に含めたまま扱います。
-        // （例: 'rainy.' は一つの要素として扱う）
-        const words = sentence.trim().replace(/\n/g, ' ').split(/\s+/).filter(w => w.length > 0);
-        return words;
+function setupSceneFilter(data) {
+    const config = CATEGORY_MAP[currentCategoryKey];
+    
+    // 高校受験用の場合はフィルターを完全に非表示
+    if (config && !config.hasSceneFilter) {
+        sceneFilterContainerEl.style.display = 'none';
+        currentSceneFilter = 'ALL'; // フィルター値もリセット
+        return;
     }
+    
+    // 旅行用の場合のみ表示
+    sceneFilterContainerEl.style.display = 'flex';
+    
+    const categoryCounts = {};
+    data.forEach(item => {
+        const scene = item.category_main || 'その他';
+        categoryCounts[scene] = (categoryCounts[scene] || 0) + 1;
+    });
+
+    const scenes = new Set(data.map(item => item.category_main).filter(c => c && c.trim() !== ''));
+    const sortedScenes = Array.from(scenes).sort((a, b) => a.localeCompare(b, 'ja', { sensitivity: 'base' }));
+
+    sceneFilterEl.innerHTML = '';
+    const allOption = document.createElement('option');
+    allOption.value = 'ALL';
+    allOption.textContent = `全ての使用場面 (${data.length}件)`;
+    sceneFilterEl.appendChild(allOption);
+
+    sortedScenes.forEach(scene => {
+        const option = document.createElement('option');
+        option.value = scene;
+        option.textContent = `${scene} (${categoryCounts[scene] || 0}件)`;
+        sceneFilterEl.appendChild(option);
+    });
+    sceneFilterEl.value = currentSceneFilter; 
+}
 
     /**
-     * モードを切り替える
-     * @param {number} mode - 1, 2, or 3
+     * 文法類型フィルターをセットアップする
      */
-    function changeMode(mode) {
-        // DBがまだロードされていない場合は処理をスキップ
-        if (DB.length === 0) return;
-
-        currentMode = mode;
-        isTranslationVisible = false;
-
-        // 共通要素の表示/非表示リセット
-        translationCardEl.classList.add('hidden');
-        toggleTranslationBtn.classList.add('hidden');
-        scrambleUiEl.classList.add('hidden');
-        checkAnswerBtn.classList.add('hidden');
-        resetScrambleBtn.classList.add('hidden');
-        messageBoxEl.classList.add('hidden');
-        
-        // タブのアクティブ状態を更新
-        document.querySelectorAll('.mode-tab').forEach(btn => {
-            btn.classList.remove('bg-white', 'text-primary');
-            btn.classList.add('bg-primary', 'text-white');
+    function setupGrammarTypeFilter(data) {
+        const grammarTypeCounts = {};
+        data.filter(item => item.grammar_question).forEach(item => {
+            const type = item.grammar_type || 'その他';
+            grammarTypeCounts[type] = (grammarTypeCounts[type] || 0) + 1;
         });
-        document.getElementById(`mode-${mode}`).classList.remove('bg-primary', 'text-white');
-        document.getElementById(`mode-${mode}`).classList.add('bg-white', 'text-primary');
+
+        const grammarTypes = new Set(data.map(item => item.grammar_type).filter(c => c && c.trim() !== ''));
+        const sortedTypes = Array.from(grammarTypes).sort((a, b) => a.localeCompare(b, 'ja', { sensitivity: 'base' }));
+
+        grammarTypeSelectorEl.innerHTML = '';
+        const allOption = document.createElement('option');
+        allOption.value = 'ALL';
+        allOption.textContent = `全ての文法類型`;
+        grammarTypeSelectorEl.appendChild(allOption);
+
+        sortedTypes.forEach(type => {
+            const option = document.createElement('option');
+            option.value = type;
+            option.textContent = `${type} (${grammarTypeCounts[type] || 0}件)`;
+            grammarTypeSelectorEl.appendChild(option);
+        });
+        grammarTypeSelectorEl.value = currentGrammarType; 
+    }
 
 
-        // モード固有のUI設定
-        if (mode === 1) {
-            // モード1: 英文先行
-            englishTextEl.classList.remove('blur-sm');
-            toggleTranslationBtn.textContent = '和訳を表示';
-            toggleTranslationBtn.classList.remove('hidden');
-        } else if (mode === 2) {
-            // モード2: 音声先行
-            englishTextEl.classList.add('blur-sm'); // 英文をぼかして隠す
-            toggleTranslationBtn.textContent = '英文・和訳を表示';
-            toggleTranslationBtn.classList.remove('hidden');
-        } else if (mode === 3) {
-            // モード3: 並べ替え
-            scrambleUiEl.classList.remove('hidden');
-            checkAnswerBtn.classList.remove('hidden');
-            resetScrambleBtn.classList.remove('hidden');
-            setupScrambleMode();
+    /**
+     * 現在のフィルター設定に基づきデータを絞り込む
+     */
+    function applyAllFilters() {
+    const filterMode = filterModeSelectorEl.value;
+    const isGrammarMode = currentMode === 4;
+    const config = CATEGORY_MAP[currentCategoryKey];
+
+    DB = ALL_DB.filter(item => {
+        // 学習済み/未学習フィルター
+        if (filterMode === 'UNLEARNED' && item.isLearned) return false;
+        if (filterMode === 'LEARNED' && !item.isLearned) return false;
+
+        // 使用場面フィルター（旅行用のみ）
+        if (config && config.hasSceneFilter) {
+            if (currentSceneFilter !== 'ALL' && item.category_main !== currentSceneFilter) return false;
         }
 
+        // 文法モード固有のフィルター
+        if (isGrammarMode) {
+            if (!item.grammar_question || item.grammar_question.trim() === '') return false;
+            if (currentGrammarType !== 'ALL' && item.grammar_type !== currentGrammarType) return false;
+        } 
+        
+        return true;
+    });
+
+        // 文法モードの場合は、メインコンテンツにスタイルを適用
+        mainContentEl.classList.toggle('overflow-y-auto', !isGrammarMode);
+
+        // UIの表示/非表示を切り替え
+        englishDisplayCard.classList.toggle('hidden', isGrammarMode);
+        
+        // 和訳カードの表示制御
+        translationCardEl.classList.add('hidden');
+        if (isGrammarMode) {
+            translationCardEl.style.display = 'none'; 
+        } else {
+            translationCardEl.style.display = ''; 
+        }
+        
+        grammarQuestionUiEl.classList.toggle('hidden', !isGrammarMode);
+        // 文法問題モードでも、「覚えた」ボタンを表示するように変更
+        toggleLearnedBtn.classList.remove('hidden'); // 常に表示
+        // 全モードで和訳表示ボタンを表示
+        toggleTranslationBtn.classList.remove('hidden');
+        
+        // 【修正②③④】モードに応じてフィルターと音声ボタンの表示を切り替え
+        if (isGrammarMode) {
+            // 文法問題モード: 使用場面フィルターを非表示、文法類型フィルターを同じ位置に表示
+            sceneFilterContainerEl.style.display = 'none';
+            grammarTypeFilterContainerEl.style.display = 'flex';
+            playAudioBtn.classList.add('hidden');
+        } else {
+            // 通常モード: カテゴリに応じて使用場面フィルターの表示を制御
+            if (config && config.hasSceneFilter) {
+                sceneFilterContainerEl.style.display = 'flex';
+            } else {
+                sceneFilterContainerEl.style.display = 'none';
+            }
+            grammarTypeFilterContainerEl.style.display = 'none';
+            playAudioBtn.classList.remove('hidden');
+        }
+
+        if (DB.length === 0) {
+            englishTextEl.textContent = '選択された条件に該当するデータがありません。';
+            // 【修正②】データが0件の時のみメッセージを表示
+            if (ALL_DB.length > 0) {
+                showMessage('選択された条件に該当するデータがありません。', 'danger');
+            } else {
+                showMessage('データが見つかりませんでした。', 'danger');
+            }
+            progressIndicatorEl.textContent = '0/0';
+            toggleLearnedBtn.classList.add('hidden');
+            englishTextEl.classList.remove('italic', 'text-gray-400', 'blur-strong');
+            translationCardEl.classList.add('hidden');
+            return;
+        }
+
+        currentSentenceIndex = 0;
         loadSentence(currentSentenceIndex);
     }
 
     /**
-     * 現在の文のデータをUIに読み込む
-     * @param {number} index - DB配列のインデックス
+     * モードを切り替える
      */
-    function loadSentence(index) {
-        if (DB.length === 0) return; // データがない場合は何もしない
-        
-        currentSentenceIndex = (index + DB.length) % DB.length;
-        const data = DB[currentSentenceIndex];
-
-        document.getElementById('sentence-id').textContent = `ID: ${data.id}`;
-        document.getElementById('sentence-year').textContent = `出題年度: ${data.year || 'N/A'}`; // yearがない場合を考慮
-
-        // 共通表示の更新
-        englishTextEl.innerHTML = data.en.replace(/\n/g, '<br>');
-        japaneseTextEl.innerHTML = data.ja.replace(/\n/g, '<br>');
-
-        // 和訳の表示をリセット (モード1, 2)
-        if (currentMode === 1 || currentMode === 2) {
-            isTranslationVisible = false;
-            updateTranslationVisibility();
-        }
-
-        // モード3のセットアップ
-        if (currentMode === 3) {
-            setupScrambleMode();
-        } else {
-            // モード1と2では英文を初期状態に戻す
-            englishTextEl.classList.remove('italic', 'text-gray-400');
-            if (currentMode === 1) {
-                englishTextEl.classList.remove('blur-sm');
-            } else if (currentMode === 2) {
-                englishTextEl.classList.add('blur-sm');
-            }
-        }
-        
-        hideMessage();
-    }
-
-    /**
-     * 和訳の表示/非表示を切り替える (モード 1, 2)
-     */
-    function toggleTranslation() {
-        isTranslationVisible = !isTranslationVisible;
-        updateTranslationVisibility();
-
-        if (currentMode === 2 && isTranslationVisible) {
-            // モード2で表示されたら、英文のぼかしを解除
-            englishTextEl.classList.remove('blur-sm');
-        }
-    }
+    function changeMode(mode) {
+    currentMode = parseInt(mode, 10);
+    localStorage.setItem('lastLearningMode', currentMode);
+    modeSelectorEl.value = currentMode;
     
-    /**
-     * 和訳の表示状態を更新し、トグルボタンのテキストを変更する
-     */
-    function updateTranslationVisibility() {
+    // Genzai hyouji-chuu no ID wo hozon
+    const currentId = (DB.length > 0 && DB[currentSentenceIndex]) ? DB[currentSentenceIndex].id : lastDisplayedId;
+    
+    // Mode wo kirikaetoki no WayakuHyoujiJoutai wo Risetto
+    isTranslationVisible = translationVisibilityState;
+    
+    if (currentMode !== 4) {
+        // Tuuyou mode (Mode 1, 2)
+        translationCardEl.classList.add('hidden');
+        translationCardEl.style.display = 'none';
+        japaneseTextEl.textContent = '';
+        grammarTranslationCardEl.classList.add('hidden');
+        grammarTranslationCardEl.style.display = 'none';
+        grammarJapaneseTextEl.textContent = '';
+        englishTextEl.classList.remove('blur-strong', 'italic', 'text-gray-400');
+        
+        // 和訳カードの表示状態を保存状態に基づいて設定
         if (isTranslationVisible) {
             translationCardEl.classList.remove('hidden');
-            if (currentMode === 2) {
-                 toggleTranslationBtn.textContent = '英文・和訳を非表示';
-            } else {
-                toggleTranslationBtn.textContent = '和訳を非表示';
-            }
+            translationCardEl.style.display = 'flex';
+            japaneseTextEl.textContent = DB[currentSentenceIndex] ? DB[currentSentenceIndex].ja : '';
+            toggleTranslationBtn.textContent = currentMode === 1 ? '和訳を非表示' : '英文・和訳を非表示';
         } else {
-            translationCardEl.classList.add('hidden');
-            if (currentMode === 2) {
-                 toggleTranslationBtn.textContent = '英文・和訳を表示';
-            } else {
-                toggleTranslationBtn.textContent = '和訳を表示';
+            toggleTranslationBtn.textContent = currentMode === 1 ? '和訳を表示' : '英文・和訳を表示';
+        }
+        
+        if (currentMode === 1) { 
+            toggleTranslationBtn.textContent = isTranslationVisible ? '和訳を非表示' : '和訳を表示';
+        } else if (currentMode === 2) { 
+            toggleTranslationBtn.textContent = isTranslationVisible ? '英文・和訳を非表示' : '英文・和訳を表示';
+        }
+    } else {
+        // Bunpou mondai mode (Mode 4)
+        translationCardEl.classList.add('hidden');
+        translationCardEl.style.display = 'none';
+        japaneseTextEl.textContent = '';
+        
+        // 和訳カードの表示状態を保存状態に基づいて設定
+        if (isTranslationVisible) {
+            grammarTranslationCardEl.classList.remove('hidden');
+            grammarTranslationCardEl.style.display = 'flex';
+            grammarJapaneseTextEl.textContent = DB[currentSentenceIndex] ? DB[currentSentenceIndex].ja : '';
+            toggleTranslationBtn.textContent = '和訳を非表示';
+        } else {
+            grammarTranslationCardEl.classList.add('hidden');
+            grammarTranslationCardEl.style.display = 'none';
+            grammarJapaneseTextEl.textContent = '';
+            toggleTranslationBtn.textContent = '和訳を表示';
+        }
+    }
+
+    mainContentEl.classList.remove('grammar-layout-answered');
+    applyAllFilters();
+    
+    // Mode wo kirikaetoki ni onaji ID no bun wo sagasu
+    if (currentId !== '') {
+        const foundIndex = DB.findIndex(item => item.id === currentId);
+        if (foundIndex !== -1) {
+            currentSentenceIndex = foundIndex;
+            loadSentence(currentSentenceIndex);
+        } else {
+            // Mitsukara-nakattara saisho no bun wo hyouji
+            if (DB.length > 0) {
+                currentSentenceIndex = 0;
+                loadSentence(currentSentenceIndex);
             }
         }
+    } else if (DB.length > 0) {
+        // ID ga nai baai wa saisho no bun wo hyouji
+        currentSentenceIndex = 0;
+        loadSentence(currentSentenceIndex);
     }
+}
 
-
-    /**
-     * 音声ファイルを再生する
-     */
-    function playAudio() {
-        if (DB.length === 0) return;
-        const data = DB[currentSentenceIndex];
-        // 音声ファイルは `audio/sentence0003.mp3` の形式で格納されていると仮定します。
-        const audioPath = `./audio/${data.id}.mp3`;
-        
-        const audio = new Audio(audioPath);
-        audio.play().catch(e => {
-            console.error("音声ファイルの再生に失敗しました。ファイルパスを確認してください: ", audioPath, e);
-            showMessage("音声ファイルの読み込みまたは再生に失敗しました。", 'danger');
-        });
-
-        // モード2の場合、音声再生後に英文のぼかしを解除しない（トグルボタンで操作するため）
-        if (currentMode === 2 && !isTranslationVisible) {
-            // 音声が流れたことを示すメッセージを出す（任意）
-             showMessage("音声が再生されました。英文の構成を考えましょう。", 'secondary');
-        } else if (currentMode === 3) {
-            // モード3の場合、音声再生後に単語並べ替えを開始
-             showMessage("音声が再生されました。単語を並べ替えてください。", 'secondary');
+    mainContentEl.classList.remove('grammar-layout-answered');
+    applyAllFilters();
+    
+    // ModōKirie kaeToki ni MaeyoreTsukaHyoujiShiteItaTakuChouseiwoSagasu
+    if (lastDisplayedId !== '') {
+        const foundIndex = DB.findIndex(item => item.id === lastDisplayedId);
+        if (foundIndex !== -1) {
+            currentSentenceIndex = foundIndex;
+            loadSentence(currentSentenceIndex);
         }
     }
 
+
     /**
-     * 次または前の文へ移動する
-     * @param {number} direction - 1 for next, -1 for previous
+     * 現在の文のデータをUIに読み込む
+     */
+    function loadSentence(index) {
+    // 音声を停止
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+        currentAudio = null;
+    }
+    
+    if (DB.length === 0) {
+        progressIndicatorEl.textContent = '0/0';
+        return;
+    }
+
+    currentSentenceIndex = (index + DB.length) % DB.length;
+    const data = DB[currentSentenceIndex];
+
+        // 進捗状態を更新
+        progressIndicatorEl.textContent = `${currentSentenceIndex + 1}/${DB.length}`;
+        
+        // 現在表示中の英文IDを記録
+        lastDisplayedId = data.id;
+
+        // 英文/和訳表示エリアの切り替えとデータ設定
+        if (currentMode === 4) { // 文法問題モード
+            mainContentEl.classList.remove('grammar-layout-answered');
+            grammarTargetSentenceEl.textContent = data.grammar_question; // 空欄あり英文
+            // 文法問題のUIリセット
+            resetGrammarUI(data);
+            
+            // 通常の和訳カードを非表示
+            translationCardEl.classList.add('hidden');
+            translationCardEl.style.display = 'none'; // CSSでも確実に非表示
+            japaneseTextEl.textContent = '';
+            
+            // 文法UIを表示し、通常英文UIを非表示
+            englishDisplayCard.classList.add('hidden');
+            grammarQuestionUiEl.classList.remove('hidden');
+
+        } else { // 英文先行(1) または 音声先行(2)
+            // 英文表示のセット
+            englishTextEl.textContent = data.en;
+
+            // モードに応じた英文表示の調整 (ぼかし)
+            if (currentMode === 1) { 
+                englishTextEl.classList.remove('blur-strong', 'italic', 'text-gray-400');
+                toggleTranslationBtn.textContent = '和訳を表示';
+            } else if (currentMode === 2) { 
+                englishTextEl.classList.add('blur-strong'); 
+                englishTextEl.classList.remove('italic', 'text-gray-400');
+                toggleTranslationBtn.textContent = '英文・和訳を表示';
+            }
+
+            // 通常モードでは和訳を非表示
+            translationCardEl.classList.add('hidden');
+            translationCardEl.style.display = 'none';
+            grammarTranslationCardEl.classList.add('hidden'); 
+            isTranslationVisible = false;
+            japaneseTextEl.textContent = '';
+            
+            // 文法UIは非表示に
+            englishDisplayCard.classList.remove('hidden');
+            grammarQuestionUiEl.classList.add('hidden');
+        }
+
+        // 学習済みステータスを更新
+        updateLearnedStatusUI(data.isLearned);
+        
+        // 出典情報を更新
+        updateSourceCitation(data);
+    }
+
+    /**
+     * 前後へ移動する
      */
     function navigate(direction) {
-        if (DB.length === 0) return;
-        let newIndex = currentSentenceIndex + direction;
-        loadSentence(newIndex);
+    // 音声を停止
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+        currentAudio = null;
     }
     
-    // --- モード 3 (並べ替え) のロジック ---
-
-    /**
-     * モード3の初期設定と単語シャッフルを行う
-     */
-    function setupScrambleMode() {
-        const data = DB[currentSentenceIndex];
+    loadSentence(currentSentenceIndex + direction);
         
-        // 英文表示エリアには初期メッセージ
-        englishTextEl.textContent = '並べ替えモード：以下の単語を正しい順番に組み替えてください。';
-        englishTextEl.classList.remove('blur-sm'); // 英文は常に非表示
-
-        // 正しい単語配列を生成
-        correctWords = tokenizeSentence(data.en);
-        
-        // シャッフルされた単語配列を生成
-        scrambledWords = [...correctWords];
-        shuffleArray(scrambledWords);
-        
-        answerSequence = []; // ユーザー解答をリセット
-        
-        renderScrambledWords();
-        renderAnswerArea();
-        hideMessage();
-    }
-    
-    /**
-     * 配列をシャッフルする（Fisher-Yatesアルゴリズム）
-     * @param {Array} array - シャッフルする配列
-     */
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
-
-    /**
-     * シャッフルされた単語ボタンをレンダリングする
-     */
-    function renderScrambledWords() {
-        scrambledWordsAreaEl.innerHTML = '';
-        scrambledWords.forEach((word, index) => {
-            const button = document.createElement('button');
-            button.className = 'word-button bg-primary text-white text-sm md:text-base font-medium px-3 py-1 rounded-full shadow-md hover:bg-indigo-600 transition-colors duration-200';
-            button.textContent = word;
-            button.dataset.index = index;
-            button.onclick = () => selectWord(word, index);
-            scrambledWordsAreaEl.appendChild(button);
-        });
-    }
-
-    /**
-     * ユーザー解答エリアをレンダリングする
-     */
-    function renderAnswerArea() {
-        answerAreaEl.innerHTML = '';
-        answerSequence.forEach((item, index) => {
-            const span = document.createElement('span');
-            // 回答エリアに表示する単語は、クリックで戻せるようにする
-            span.className = 'answer-word bg-white text-gray-800 text-sm md:text-base px-3 py-1 rounded-full shadow border border-gray-300 cursor-pointer';
-            span.textContent = item.word;
-            // どの元のボタンに対応していたかを示すインデックスを保持
-            span.dataset.originalIndex = item.originalIndex; 
-            span.onclick = () => deselectWord(index);
-            answerAreaEl.appendChild(span);
-        });
-        
-        // 正しい順番の英文を表示するEnglish Display Cardは空にしておく
-        englishTextEl.classList.add('italic', 'text-gray-400');
-        if (answerSequence.length === 0) {
-            englishTextEl.textContent = '並べ替えモード：単語を選択してください';
+        // 通常モード時は和訳をリセット
+        if (currentMode !== 4) {
+            isTranslationVisible = false;
+            translationCardEl.classList.add('hidden');
+            translationCardEl.style.display = 'none';
+            japaneseTextEl.textContent = '';
+            toggleTranslationBtn.textContent = currentMode === 1 ? '和訳を表示' : '英文・和訳を表示';
         } else {
-            englishTextEl.textContent = answerSequence.map(item => item.word).join(' ');
-        }
-    }
-
-    /**
-     * シャッフル単語を選択して解答エリアに追加する
-     * @param {string} word - 選択された単語
-     * @param {number} originalIndex - シャッフル配列内の元のインデックス
-     */
-    function selectWord(word, originalIndex) {
-        const button = scrambledWordsAreaEl.querySelector(`[data-index="${originalIndex}"]`);
-        if (button) {
-            // ボタンを非表示にし、クリック不能にする
-            button.classList.add('selected');
+            // 文法モード時は和訳をリセット
+            isTranslationVisible = false;
+            grammarTranslationCardEl.classList.add('hidden');
+            grammarTranslationCardEl.style.display = 'none';
+            grammarJapaneseTextEl.textContent = '';
+            toggleTranslationBtn.textContent = '和訳を表示';
+            resetGrammarUI(DB[currentSentenceIndex]);
         }
 
-        answerSequence.push({ word, originalIndex });
-        renderAnswerArea();
-        hideMessage();
-    }
-    
-    /**
-     * 解答エリアの単語を削除し、シャッフルエリアに戻す
-     * @param {number} answerIndex - 解答配列内のインデックス
-     */
-    function deselectWord(answerIndex) {
-        const [removedItem] = answerSequence.splice(answerIndex, 1);
-        
-        // 元のボタンを再有効化
-        const button = scrambledWordsAreaEl.querySelector(`[data-index="${removedItem.originalIndex}"]`);
-        if (button) {
-            button.classList.remove('selected');
+        // モードに応じた英文表示の調整（loadSentenceで既に設定されているので不要かもしれませんが保持）
+        if (currentMode === 1) { 
+            englishTextEl.classList.remove('blur-strong', 'italic', 'text-gray-400');
+        } else if (currentMode === 2) { 
+            englishTextEl.classList.add('blur-strong'); 
+            englishTextEl.classList.remove('italic', 'text-gray-400');
         }
         
-        renderAnswerArea();
-        hideMessage();
+        // 現在表示中の英文IDを記録
+        lastDisplayedId = DB[currentSentenceIndex].id;
     }
-    
-    /**
-     * 並べ替えをリセットする
-     */
-    function resetScramble() {
-        setupScrambleMode(); // 再度シャッフルしてリセット
-        showMessage("並べ替えがリセットされました。", 'gray');
+
+
+    // --- 学習済みステータス管理 (省略) ---
+    function loadLearnedStatus() {
+        const json = localStorage.getItem(LEARNED_STATUS_KEY);
+        return json ? JSON.parse(json) : {};
+    }
+
+    function saveLearnedStatus(statusMap) {
+        localStorage.setItem(LEARNED_STATUS_KEY, JSON.stringify(statusMap));
+    }
+
+    function toggleLearnedStatus() {
+        if (DB.length === 0) return;
+
+        const currentId = DB[currentSentenceIndex].id;
+        let learnedStatusMap = loadLearnedStatus();
+        const isCurrentlyLearned = !!learnedStatusMap[currentId];
+
+        if (isCurrentlyLearned) {
+            delete learnedStatusMap[currentId];
+            DB[currentSentenceIndex].isLearned = false;
+            showMessage('未学習に戻しました。', 'gray');
+        } else {
+            learnedStatusMap[currentId] = true;
+            DB[currentSentenceIndex].isLearned = true;
+            showMessage('「覚えた」としてマークしました！', 'secondary');
+        }
+        saveLearnedStatus(learnedStatusMap);
+        updateLearnedStatusUI(DB[currentSentenceIndex].isLearned);
+        
+        if (filterModeSelectorEl.value !== 'ALL') {
+            applyAllFilters();
+        }
+    }
+
+    function updateLearnedStatusUI(isLearned) {
+        if (isLearned) {
+            toggleLearnedBtn.classList.remove('bg-secondary', 'hover:bg-emerald-600');
+            toggleLearnedBtn.classList.add('bg-red-500', 'hover:bg-red-600');
+            toggleLearnedBtn.textContent = '未学習に戻す';
+        } else {
+            toggleLearnedBtn.classList.add('bg-secondary', 'hover:bg-emerald-600');
+            toggleLearnedBtn.classList.remove('bg-red-500', 'hover:bg-red-600');
+            toggleLearnedBtn.textContent = '✓ 覚えた';
+        }
     }
 
     /**
-     * ユーザーの並べ替え結果をチェックし、フィードバックを表示する
+     * 出典情報を表示する
      */
-    function checkScrambledAnswer() {
-        if (answerSequence.length === 0) {
-            showMessage("単語を選択して英文を構築してください。", 'danger');
+    function updateSourceCitation(data) {
+        // 高校受験カテゴリ以外では非表示
+        if (!currentCategoryKey.startsWith('highschool_')) {
+            sourceCitationEl.classList.add('hidden');
+            grammarSourceCitationEl.classList.add('hidden');
             return;
         }
-
-        // ユーザーの回答を文字列として結合
-        const userSentence = answerSequence.map(item => item.word).join(' ');
-        const correctSentence = correctWords.join(' ');
         
-        // 比較のために正規化（スペースを一つにし、前後の空白を削除）
-        const normalizedUser = userSentence.replace(/\s+/g, ' ').trim();
-        const normalizedCorrect = correctSentence.replace(/\s+/g, ' ').trim();
-
-        if (normalizedUser === normalizedCorrect) {
-            showMessage("正解です！よくできました！", 'secondary');
-            
-            // 正解の場合、英文表示エリアに正しい英文をしっかりと表示
-            englishTextEl.textContent = correctSentence;
-            englishTextEl.classList.remove('italic', 'text-gray-400');
-            
-            // 和訳を表示する
-            translationCardEl.classList.remove('hidden');
-
+        // 年度と都道府県の情報を取得
+        const year = data.year || '';
+        const prefecture = data.prefecture || '';
+        
+        if (!year && !prefecture) {
+            sourceCitationEl.classList.add('hidden');
+            grammarSourceCitationEl.classList.add('hidden');
+            return;
+        }
+        
+        // 都道府県名の後に適切な接尾辞を付ける
+        let prefectureSuffix = '';
+        if (prefecture) {
+            // 「都」「道」「府」「県」が既に含まれているか確認
+            if (!prefecture.match(/[都道府県]$/)) {
+                // 東京、北海道、大阪、京都の特殊ケース
+                if (prefecture === '東京') {
+                    prefectureSuffix = '都';
+                } else if (prefecture === '北海道') {
+                    prefectureSuffix = '';
+                } else if (prefecture === '大阪' || prefecture === '京都') {
+                    prefectureSuffix = '府';
+                } else {
+                    prefectureSuffix = '県';
+                }
+            }
+        }
+        
+        // 出典テキストを構築
+        const citationText = `出典：${year}年${prefecture}${prefectureSuffix}高校英語入試問題`;
+        
+        // 通常モードと文法問題モードで表示を切り替え
+        if (currentMode === 4) {
+            grammarSourceCitationEl.textContent = citationText;
+            grammarSourceCitationEl.classList.remove('hidden');
+            sourceCitationEl.classList.add('hidden');
         } else {
-            // 不正解の場合、どこが間違っているかを比較してヒントを出すことも可能だが、シンプルに不正解表示
-            showMessage("残念！まだ間違っています。もう一度音声を聴いて考えてみましょう。", 'danger');
+            sourceCitationEl.textContent = citationText;
+            sourceCitationEl.classList.remove('hidden');
+            grammarSourceCitationEl.classList.add('hidden');
         }
     }
 
 
+    // --- 和訳・音声再生 (省略) ---
+
+    function toggleTranslation() {
+    // 文法問題モード
+    if (currentMode === 4) {
+        isTranslationVisible = !isTranslationVisible;
+        translationVisibilityState = isTranslationVisible;
+        
+        if (isTranslationVisible) {
+            grammarTranslationCardEl.classList.remove('hidden');
+            grammarTranslationCardEl.style.display = 'flex';
+            grammarJapaneseTextEl.textContent = DB[currentSentenceIndex].ja;
+            toggleTranslationBtn.textContent = '和訳を非表示';
+        } else {
+            grammarTranslationCardEl.classList.add('hidden');
+            grammarTranslationCardEl.style.display = 'none';
+            grammarJapaneseTextEl.textContent = '';
+            toggleTranslationBtn.textContent = '和訳を表示';
+        }
+        return; 
+    }
+
+    // 通常モード (Mode 1, 2)
+    isTranslationVisible = !isTranslationVisible;
+    translationVisibilityState = isTranslationVisible;
+    
+    if (isTranslationVisible) {
+        translationCardEl.classList.remove('hidden');
+        translationCardEl.style.display = 'flex';
+        japaneseTextEl.textContent = DB[currentSentenceIndex].ja;
+        toggleTranslationBtn.textContent = currentMode === 1 ? '和訳を非表示' : '英文・和訳を非表示';
+        
+        if (currentMode === 2) {
+            englishTextEl.classList.remove('blur-strong');
+            englishTextEl.classList.remove('italic', 'text-gray-400');
+        }
+
+    } else {
+        translationCardEl.classList.add('hidden');
+        translationCardEl.style.display = 'none';
+        japaneseTextEl.textContent = ''; 
+        toggleTranslationBtn.textContent = currentMode === 1 ? '和訳を表示' : '英文・和訳を表示';
+        
+        if (currentMode === 2) {
+            englishTextEl.classList.add('blur-strong');
+        }
+    }
+}
+
+    function playAudio() {
+    const data = DB[currentSentenceIndex];
+    const config = CATEGORY_MAP[currentCategoryKey];
+    if (!data || !config) return;
+
+    // 再生中の音声を停止
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+    }
+
+    const audioFileName = data.id + '.mp3';
+    const audioPath = `./audio/${config.audioFolder}/${audioFileName}`;
+    
+    currentAudio = new Audio(audioPath);
+    currentAudio.play().catch(error => {
+        console.error("音声再生エラー:", error, audioPath);
+        showMessage('音声ファイルの再生に失敗しました。ファイルが存在しないか、ブラウザの制限です。', 'danger');
+    });
+    
+    // 再生終了時にcurrentAudioをリセット
+    currentAudio.addEventListener('ended', () => {
+        currentAudio = null;
+    });
+}
+
+
+    // --- 文法問題モード関連 ---
+
     /**
-     * メッセージボックスを表示する
-     * @param {string} text - 表示するメッセージ
-     * @param {string} type - 'secondary', 'danger', 'primary', 'gray' など
+     * 文法問題のUIをリセットする
      */
+    function resetGrammarUI(data) {
+        grammarQuestionTextEl.textContent = '(空欄に当てはまる単語を選んでください)'; 
+        grammarAnswerExplanationEl.classList.add('hidden');
+        mainContentEl.classList.remove('grammar-layout-answered');
+        mainContentEl.classList.add('overflow-y-auto');
+        
+        // 両方の和訳カードを非表示に統一（ボタンで表示させるまで表示しない）
+        translationCardEl.classList.add('hidden');
+        translationCardEl.style.display = 'none'; // CSSでも非表示
+        grammarTranslationCardEl.classList.add('hidden'); 
+        grammarTranslationCardEl.style.display = 'none'; // CSSでも非表示
+        japaneseTextEl.textContent = '';
+        grammarJapaneseTextEl.textContent = ''; 
+        isTranslationVisible = false;
+
+        const allLetters = ['A', 'B', 'C', 'D'];
+        
+        // 選択肢のテキスト設定とUIリセット
+        allLetters.forEach(letter => {
+            const buttonEl = document.getElementById(`choice-${letter}`);
+            const choiceKey = 'grammar_choice_' + letter.toLowerCase();
+            const choiceTextWithLetter = data[choiceKey];
+
+            if (choiceTextWithLetter) {
+                buttonEl.textContent = choiceTextWithLetter;
+                buttonEl.disabled = false;
+                buttonEl.classList.remove('bg-green-100', 'bg-red-100', 'border-green-500', 'border-red-500', 'selected', 'opacity-50', 'hidden');
+                buttonEl.classList.add('bg-gray-100', 'border-gray-300');
+            } else {
+                buttonEl.classList.add('hidden');
+            }
+        });
+    }
+
+
+    /**
+     * 文法問題の回答をチェックする
+     */
+    function checkGrammarAnswer(selectedLetter) {
+        const data = DB[currentSentenceIndex];
+        const correctChoiceWithLetter = data.grammar_answer; 
+        const correctLetter = correctChoiceWithLetter.substring(0, 1); 
+        
+        const isCorrect = selectedLetter === correctLetter;
+
+        grammarQuestionTextEl.textContent = '';
+
+        // 回答選択肢のUIを更新
+        const selectedButton = document.getElementById(`choice-${selectedLetter}`);
+        const correctButton = document.getElementById(`choice-${correctLetter}`);
+
+        // 全てのボタンを無効化
+        document.querySelectorAll('#grammar-choices button').forEach(btn => {
+            btn.disabled = true;
+            btn.classList.add('opacity-50');
+        });
+
+        if (isCorrect) {
+            // 正解の場合
+            selectedButton.classList.remove('bg-gray-100', 'border-gray-300', 'bg-red-100', 'border-red-500');
+            selectedButton.classList.add('bg-green-100', 'border-green-500');
+        } else {
+            // 不正解の場合
+            selectedButton.classList.remove('bg-gray-100', 'border-gray-300');
+            selectedButton.classList.add('bg-red-100', 'border-red-500');
+
+            // 正解のボタンを緑色で表示
+            if (correctButton) {
+                correctButton.classList.remove('bg-gray-100', 'border-gray-300', 'opacity-50');
+                correctButton.classList.add('bg-green-100', 'border-green-500');
+                correctButton.disabled = true; 
+            }
+        }
+
+        // 解説を表示
+        grammarCorrectAnswerEl.textContent = correctChoiceWithLetter;
+        grammarExplanationTextEl.textContent = data.grammar_explanation || '解説はありません。';
+        grammarAnswerExplanationEl.classList.remove('hidden');
+
+        // 和訳カードを常に表示（回答後は必ず和訳を見せる）
+        grammarJapaneseTextEl.textContent = data.ja;
+        grammarTranslationCardEl.classList.remove('hidden');
+        grammarTranslationCardEl.style.display = 'flex'; // フレックス表示に
+        isTranslationVisible = true;
+
+        // レイアウトを回答後スタイルに切り替え
+        mainContentEl.classList.remove('overflow-y-auto');
+        mainContentEl.classList.add('grammar-layout-answered');
+    }
+    
+    /**
+     * 文法類型でフィルタリングする
+     */
+    function filterByType(type) {
+        currentGrammarType = type;
+        applyAllFilters();
+    }
+    
+    /**
+     * 使用場面でフィルタリングする
+     */
+    function filterScenes(scene) {
+        currentSceneFilter = scene;
+        applyAllFilters();
+    }
+
+
+    // --- メッセージ表示 (省略) ---
+
+    function clearMessage() {
+        if (messageTimeoutId) {
+            clearTimeout(messageTimeoutId);
+        }
+        messageBoxEl.classList.add('hidden');
+        messageBoxEl.textContent = '';
+    }
+
     function showMessage(text, type) {
+        clearMessage();
+        
         messageBoxEl.textContent = text;
         messageBoxEl.className = `text-center py-2 px-4 text-lg font-semibold rounded-lg shadow-sm mt-4`;
         
-        // カラークラスの設定
         let bgColor, textColor;
         switch (type) {
-            case 'secondary': bgColor = 'bg-green-200'; textColor = 'text-green-800'; break;
+            case 'secondary': bgColor = 'bg-emerald-200'; textColor = 'text-emerald-800'; break; 
             case 'danger': bgColor = 'bg-red-200'; textColor = 'text-red-800'; break;
-            case 'primary': bgColor = 'bg-blue-200'; textColor = 'text-blue-800'; break;
+            case 'primary': bgColor = 'bg-indigo-200'; textColor = 'text-indigo-800'; break; 
             case 'gray': bgColor = 'bg-gray-200'; textColor = 'text-gray-800'; break;
-            default: bgColor = 'bg-yellow-200'; textColor = 'text-yellow-800'; break;
+            default: bgColor = 'bg-gray-200'; textColor = 'text-gray-800'; break;
         }
         messageBoxEl.classList.add(bgColor, textColor);
         messageBoxEl.classList.remove('hidden');
-    }
 
-    /**
-     * メッセージボックスを非表示にする
-     */
-    function hideMessage() {
-        messageBoxEl.classList.add('hidden');
+        messageTimeoutId = setTimeout(() => {
+            messageBoxEl.classList.add('hidden');
+        }, 3000);
     }
-
 </script>
+<a class="site-rights-corner" href="rights.html">掲載許諾・権利方針</a>
 </body>
 </html>

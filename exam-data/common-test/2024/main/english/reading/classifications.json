@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2024-main-english-reading",
+  "version": "1.0.0",
+  "groups": [
+    {
+      "groupId": "common-2024-r-s01",
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ]
+    },
+    {
+      "groupId": "common-2024-r-s02",
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ]
+    },
+    {
+      "groupId": "common-2024-r-s03",
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    {
+      "groupId": "common-2024-r-s04",
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ]
+    },
+    {
+      "groupId": "common-2024-r-s05",
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ]
+    },
+    {
+      "groupId": "common-2024-r-s06",
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ]
+    }
+  ],
+  "questions": {
+    "common-2024-r-q001": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2024-r-q002": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2024-r-q003": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2024-r-q004": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2024-r-q005": [
+      "english.practical-reading",
+      "english.information-location"
+    ],
+    "common-2024-r-q006": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q007": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q008": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q009": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q010": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q011": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q012": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q013": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q014": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q015": [
+      "english.practical-reading",
+      "english.information-location",
+      "english.inference"
+    ],
+    "common-2024-r-q016": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q017": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q018-021": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q022": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q023": [
+      "english.narrative-reading",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q024": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q025": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q026": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q027": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q028": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q029": [
+      "english.information-integration",
+      "english.chart-reading",
+      "english.logical-reading"
+    ],
+    "common-2024-r-q030-033": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q034": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q035-036": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q037": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q038": [
+      "english.narrative-reading",
+      "english.summary",
+      "english.sequence",
+      "english.inference"
+    ],
+    "common-2024-r-q039-040": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q041": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q042": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q043": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q044": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q045": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q046-047": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q048": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ],
+    "common-2024-r-q049": [
+      "english.academic-reading",
+      "english.summary",
+      "english.inference",
+      "english.information-integration"
+    ]
+  }
+}

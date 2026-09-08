@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "center-1993-main-english-reading",
+  "answerSlotCount": 59,
+  "maxScore": 200,
+  "responses": {
+    "1": {
+      "responseKey": "1",
+      "type": "single-choice",
+      "answerNumbers": [
+        1
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    "2": {
+      "responseKey": "2",
+      "type": "single-choice",
+      "answerNumbers": [
+        2
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    "3": {
+      "responseKey": "3",
+      "type": "single-choice",
+      "answerNumbers": [
+        3
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    "4": {
+      "responseKey": "4",
+      "type": "single-choice",
+      "answerNumbers": [
+        4
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    "5": {
+      "responseKey": "5",
+      "type": "single-choice",
+      "answerNumbers": [
+        5
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    "6": {
+      "responseKey": "6",
+      "type": "single-choice",
+      "answerNumbers": [
+        6
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    "7": {
+      "responseKey": "7",
+      "type": "single-choice",
+      "answerNumbers": [
+        7
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    "8": {
+      "responseKey": "8",
+      "type": "single-choice",
+      "answerNumbers": [
+        8
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    "9": {
+      "responseKey": "9",
+      "type": "single-choice",
+      "answerNumbers": [
+        9
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.sentence-stress"
+      ]
+    },
+    "10": {
+      "responseKey": "10",
+      "type": "single-choice",
+      "answerNumbers": [
+        10
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.sentence-stress"
+      ]
+    },
+    "11": {
+      "responseKey": "11",
+      "type": "single-choice",
+      "answerNumbers": [
+        11
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "12": {
+      "responseKey": "12",
+      "type": "single-choice",
+      "answerNumbers": [
+        12
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "13": {
+      "responseKey": "13",
+      "type": "single-choice",
+      "answerNumbers": [
+        13
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "14": {
+      "responseKey": "14",
+      "type": "single-choice",
+      "answerNumbers": [
+        14
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "15": {
+      "responseKey": "15",
+      "type": "single-choice",
+      "answerNumbers": [
+        15
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "16": {
+      "responseKey": "16",
+      "type": "single-choice",
+      "answerNumbers": [
+        16
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "17": {
+      "responseKey": "17",
+      "type": "single-choice",
+      "answerNumbers": [
+        17
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "18": {
+      "responseKey": "18",
+      "type": "single-choice",
+      "answerNumbers": [
+        18
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "19": {
+      "responseKey": "19",
+      "type": "single-choice",
+      "answerNumbers": [
+        19
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "20": {
+      "responseKey": "20",
+      "type": "single-choice",
+      "answerNumbers": [
+        20
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "21": {
+      "responseKey": "21",
+      "type": "single-choice",
+      "answerNumbers": [
+        21
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "22": {
+      "responseKey": "22",
+      "type": "single-choice",
+      "answerNumbers": [
+        22
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "23": {
+      "responseKey": "23",
+      "type": "single-choice",
+      "answerNumbers": [
+        23
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "24": {
+      "responseKey": "24",
+      "type": "single-choice",
+      "answerNumbers": [
+        24
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "25": {
+      "responseKey": "25",
+      "type": "single-choice",
+      "answerNumbers": [
+        25
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "26": {
+      "responseKey": "26",
+      "type": "single-choice",
+      "answerNumbers": [
+        26
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "27": {
+      "responseKey": "27",
+      "type": "single-choice",
+      "answerNumbers": [
+        27
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    "28": {
+      "responseKey": "28",
+      "type": "single-choice",
+      "answerNumbers": [
+        28
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "29": {
+      "responseKey": "29",
+      "type": "single-choice",
+      "answerNumbers": [
+        29
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "30": {
+      "responseKey": "30",
+      "type": "single-choice",
+      "answerNumbers": [
+        30
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "31": {
+      "responseKey": "31",
+      "type": "single-choice",
+      "answerNumbers": [
+        31
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "32": {
+      "responseKey": "32",
+      "type": "single-choice",
+      "answerNumbers": [
+        32
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "33": {
+      "responseKey": "33",
+      "type": "single-choice",
+      "answerNumbers": [
+        33
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    "34": {
+      "responseKey": "34",
+      "type": "single-choice",
+      "answerNumbers": [
+        34
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "35": {
+      "responseKey": "35",
+      "type": "single-choice",
+      "answerNumbers": [
+        35
+      ],
+      "correct": 5,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "36": {
+      "responseKey": "36",
+      "type": "single-choice",
+      "answerNumbers": [
+        36
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "37": {
+      "responseKey": "37",
+      "type": "single-choice",
+      "answerNumbers": [
+        37
+      ],
+      "correct": 5,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "38": {
+      "responseKey": "38",
+      "type": "single-choice",
+      "answerNumbers": [
+        38
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "39": {
+      "responseKey": "39",
+      "type": "single-choice",
+      "answerNumbers": [
+        39
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    "40": {
+      "responseKey": "40",
+      "type": "single-choice",
+      "answerNumbers": [
+        40
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.sentence-order"
+      ]
+    },
+    "41": {
+      "responseKey": "41",
+      "type": "single-choice",
+      "answerNumbers": [
+        41
+      ],
+      "correct": 4,
+      "categoryIds": [
+        "english.sentence-order"
+      ]
+    },
+    "42": {
+      "responseKey": "42",
+      "type": "single-choice",
+      "answerNumbers": [
+        42
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    "43": {
+      "responseKey": "43",
+      "type": "single-choice",
+      "answerNumbers": [
+        43
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    "44": {
+      "responseKey": "44",
+      "type": "single-choice",
+      "answerNumbers": [
+        44
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    "45": {
+      "responseKey": "45",
+      "type": "single-choice",
+      "answerNumbers": [
+        45
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.graph-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "46": {
+      "responseKey": "46",
+      "type": "single-choice",
+      "answerNumbers": [
+        46
+      ],
+      "correct": 4,
+      "categoryIds": []
+    },
+    "47": {
+      "responseKey": "47",
+      "type": "single-choice",
+      "answerNumbers": [
+        47
+      ],
+      "correct": 3,
+      "categoryIds": []
+    },
+    "48": {
+      "responseKey": "48",
+      "type": "single-choice",
+      "answerNumbers": [
+        48
+      ],
+      "correct": 4,
+      "categoryIds": []
+    },
+    "49": {
+      "responseKey": "49",
+      "type": "single-choice",
+      "answerNumbers": [
+        49
+      ],
+      "correct": 3,
+      "categoryIds": []
+    },
+    "50": {
+      "responseKey": "50",
+      "type": "single-choice",
+      "answerNumbers": [
+        50
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "51": {
+      "responseKey": "51",
+      "type": "single-choice",
+      "answerNumbers": [
+        51
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "52": {
+      "responseKey": "52",
+      "type": "single-choice",
+      "answerNumbers": [
+        52
+      ],
+      "correct": 1,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "53": {
+      "responseKey": "53",
+      "type": "single-choice",
+      "answerNumbers": [
+        53
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "54": {
+      "responseKey": "54",
+      "type": "single-choice",
+      "answerNumbers": [
+        54
+      ],
+      "correct": 2,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "55": {
+      "responseKey": "55",
+      "type": "single-choice",
+      "answerNumbers": [
+        55
+      ],
+      "correct": 3,
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    "56-59": {
+      "responseKey": "56-59",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "correct": [
+        3,
+        5,
+        9,
+        10
+      ],
+      "slotScoring": "per-correct-choice",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension",
+        "english.multiple-select"
+      ]
+    }
+  },
+  "scoringUnits": [
+    {
+      "unitId": "center-1993-main-english-reading-su-001",
+      "responseKeys": [
+        "1"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-002",
+      "responseKeys": [
+        "2"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-003",
+      "responseKeys": [
+        "3"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-004",
+      "responseKeys": [
+        "4"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-005",
+      "responseKeys": [
+        "5"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.pronunciation"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-006",
+      "responseKeys": [
+        "6"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-007",
+      "responseKeys": [
+        "7"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-008",
+      "responseKeys": [
+        "8"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.accent"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-009",
+      "responseKeys": [
+        "9"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.sentence-stress"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-010",
+      "responseKeys": [
+        "10"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.sentence-stress"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-011",
+      "responseKeys": [
+        "11"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-012",
+      "responseKeys": [
+        "12"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-013",
+      "responseKeys": [
+        "13"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-014",
+      "responseKeys": [
+        "14"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-015",
+      "responseKeys": [
+        "15"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-016",
+      "responseKeys": [
+        "16"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-017",
+      "responseKeys": [
+        "17"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-018",
+      "responseKeys": [
+        "18"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-019",
+      "responseKeys": [
+        "19"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-020",
+      "responseKeys": [
+        "20"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-021",
+      "responseKeys": [
+        "21"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-022",
+      "responseKeys": [
+        "22"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-023",
+      "responseKeys": [
+        "23"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-024",
+      "responseKeys": [
+        "24"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-025",
+      "responseKeys": [
+        "25"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-026",
+      "responseKeys": [
+        "26"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-027",
+      "responseKeys": [
+        "27"
+      ],
+      "points": 2,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.grammar-vocabulary"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-028",
+      "responseKeys": [
+        "28"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-029",
+      "responseKeys": [
+        "29"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-030",
+      "responseKeys": [
+        "30"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-031",
+      "responseKeys": [
+        "31"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-032",
+      "responseKeys": [
+        "32"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-033",
+      "responseKeys": [
+        "33"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.dialogue"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-034",
+      "responseKeys": [
+        "34"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-035",
+      "responseKeys": [
+        "35"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-036",
+      "responseKeys": [
+        "36"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-037",
+      "responseKeys": [
+        "37"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-038",
+      "responseKeys": [
+        "38"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-039",
+      "responseKeys": [
+        "39"
+      ],
+      "points": 3,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.word-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-040",
+      "responseKeys": [
+        "40"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.sentence-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-041",
+      "responseKeys": [
+        "41"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.sentence-order"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-042",
+      "responseKeys": [
+        "42"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-043",
+      "responseKeys": [
+        "43"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-044",
+      "responseKeys": [
+        "44"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.graph-reading"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-045",
+      "responseKeys": [
+        "45"
+      ],
+      "points": 4,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.graph-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-046",
+      "responseKeys": [
+        "46"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": []
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-047",
+      "responseKeys": [
+        "47"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": []
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-048",
+      "responseKeys": [
+        "48"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": []
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-049",
+      "responseKeys": [
+        "49"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": []
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-050",
+      "responseKeys": [
+        "50"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-051",
+      "responseKeys": [
+        "51"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-052",
+      "responseKeys": [
+        "52"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-053",
+      "responseKeys": [
+        "53"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-054",
+      "responseKeys": [
+        "54"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-055",
+      "responseKeys": [
+        "55"
+      ],
+      "points": 6,
+      "rule": "all-correct",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension"
+      ]
+    },
+    {
+      "unitId": "center-1993-main-english-reading-su-056-059",
+      "responseKeys": [
+        "56-59"
+      ],
+      "points": 16,
+      "pointsPerCorrectChoice": 4,
+      "rule": "per-correct-choice",
+      "categoryIds": [
+        "english.long-reading",
+        "english.content-comprehension",
+        "english.multiple-select"
+      ]
+    }
+  ]
+}

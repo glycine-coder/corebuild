@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "subjects": [
+    { "subjectId": "english", "label": "英語", "profileId": "english", "order": 10 },
+    { "subjectId": "mathematics", "label": "数学", "profileId": "mathematics", "order": 20 },
+    { "subjectId": "japanese", "label": "国語", "profileId": "japanese", "order": 30 },
+    { "subjectId": "physics", "label": "物理", "profileId": "science", "order": 40 },
+    { "subjectId": "chemistry", "label": "化学", "profileId": "science", "order": 50 },
+    { "subjectId": "biology", "label": "生物", "profileId": "science", "order": 60 },
+    { "subjectId": "earth-science", "label": "地学", "profileId": "science", "order": 70 },
+    { "subjectId": "geography", "label": "地理", "profileId": "social-studies", "order": 80 },
+    { "subjectId": "japanese-history", "label": "日本史", "profileId": "social-studies", "order": 90 },
+    { "subjectId": "world-history", "label": "世界史", "profileId": "social-studies", "order": 100 },
+    { "subjectId": "civics", "label": "公民", "profileId": "social-studies", "order": 110 },
+    { "subjectId": "information", "label": "情報", "profileId": "information", "order": 120 }
+  ]
+}

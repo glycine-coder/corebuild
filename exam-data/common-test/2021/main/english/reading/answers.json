@@ -1,0 +1,658 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2021-main-english-reading",
+  "answerSlotCount": 47,
+  "maxScore": 100,
+  "responses": {
+    "s1a-request": {
+      "responseKey": "s1a-request",
+      "type": "single-choice",
+      "answerNumbers": [
+        1
+      ],
+      "correct": 1
+    },
+    "s1a-reply": {
+      "responseKey": "s1a-reply",
+      "type": "single-choice",
+      "answerNumbers": [
+        2
+      ],
+      "correct": 2
+    },
+    "s1b-pack": {
+      "responseKey": "s1b-pack",
+      "type": "single-choice",
+      "answerNumbers": [
+        3
+      ],
+      "correct": 4
+    },
+    "s1b-pacer": {
+      "responseKey": "s1b-pacer",
+      "type": "single-choice",
+      "answerNumbers": [
+        4
+      ],
+      "correct": 4
+    },
+    "s1b-renew": {
+      "responseKey": "s1b-renew",
+      "type": "single-choice",
+      "answerNumbers": [
+        5
+      ],
+      "correct": 3
+    },
+    "s2a-best-singing": {
+      "responseKey": "s2a-best-singing",
+      "type": "single-choice",
+      "answerNumbers": [
+        6
+      ],
+      "correct": 2
+    },
+    "s2a-balanced-judge": {
+      "responseKey": "s2a-balanced-judge",
+      "type": "single-choice",
+      "answerNumbers": [
+        7
+      ],
+      "correct": 2
+    },
+    "s2a-fact": {
+      "responseKey": "s2a-fact",
+      "type": "single-choice",
+      "answerNumbers": [
+        8
+      ],
+      "correct": 1
+    },
+    "s2a-opinion": {
+      "responseKey": "s2a-opinion",
+      "type": "single-choice",
+      "answerNumbers": [
+        9
+      ],
+      "correct": 3
+    },
+    "s2a-ranking": {
+      "responseKey": "s2a-ranking",
+      "type": "single-choice",
+      "answerNumbers": [
+        10
+      ],
+      "correct": 5
+    },
+    "s2b-policy-effect": {
+      "responseKey": "s2b-policy-effect",
+      "type": "single-choice",
+      "answerNumbers": [
+        11
+      ],
+      "correct": 4
+    },
+    "s2b-fact": {
+      "responseKey": "s2b-fact",
+      "type": "single-choice",
+      "answerNumbers": [
+        12
+      ],
+      "correct": 4
+    },
+    "s2b-energy": {
+      "responseKey": "s2b-energy",
+      "type": "single-choice",
+      "answerNumbers": [
+        13
+      ],
+      "correct": 2
+    },
+    "s2b-basis": {
+      "responseKey": "s2b-basis",
+      "type": "single-choice",
+      "answerNumbers": [
+        14
+      ],
+      "correct": 2
+    },
+    "s2b-research": {
+      "responseKey": "s2b-research",
+      "type": "single-choice",
+      "answerNumbers": [
+        15
+      ],
+      "correct": 1
+    },
+    "s3a-value": {
+      "responseKey": "s3a-value",
+      "type": "single-choice",
+      "answerNumbers": [
+        16
+      ],
+      "correct": 3
+    },
+    "s3a-route": {
+      "responseKey": "s3a-route",
+      "type": "single-choice",
+      "answerNumbers": [
+        17
+      ],
+      "correct": 2
+    },
+    "s3b-order": {
+      "responseKey": "s3b-order",
+      "type": "ordering",
+      "answerNumbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "correct": [
+        4,
+        2,
+        1,
+        3
+      ]
+    },
+    "s3b-centre": {
+      "responseKey": "s3b-centre",
+      "type": "single-choice",
+      "answerNumbers": [
+        22
+      ],
+      "correct": 2
+    },
+    "s3b-action": {
+      "responseKey": "s3b-action",
+      "type": "single-choice",
+      "answerNumbers": [
+        23
+      ],
+      "correct": 2
+    },
+    "s4-arrival-train": {
+      "responseKey": "s4-arrival-train",
+      "type": "single-choice",
+      "answerNumbers": [
+        24
+      ],
+      "correct": 1
+    },
+    "s4-return-train": {
+      "responseKey": "s4-return-train",
+      "type": "single-choice",
+      "answerNumbers": [
+        25
+      ],
+      "correct": 2
+    },
+    "s4-schedule": {
+      "responseKey": "s4-schedule",
+      "type": "single-choice",
+      "answerNumbers": [
+        26
+      ],
+      "correct": 2
+    },
+    "s4-lunch": {
+      "responseKey": "s4-lunch",
+      "type": "single-choice",
+      "answerNumbers": [
+        27
+      ],
+      "correct": 2
+    },
+    "s4-transport": {
+      "responseKey": "s4-transport",
+      "type": "single-choice",
+      "answerNumbers": [
+        28
+      ],
+      "correct": 2
+    },
+    "s4-third-option": {
+      "responseKey": "s4-third-option",
+      "type": "single-choice",
+      "answerNumbers": [
+        29
+      ],
+      "correct": 4
+    },
+    "s5-title": {
+      "responseKey": "s5-title",
+      "type": "single-choice",
+      "answerNumbers": [
+        30
+      ],
+      "correct": 3
+    },
+    "s5-who": {
+      "responseKey": "s5-who",
+      "type": "single-choice",
+      "answerNumbers": [
+        31
+      ],
+      "correct": 4
+    },
+    "s5-order": {
+      "responseKey": "s5-order",
+      "type": "ordering",
+      "answerNumbers": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "correct": [
+        4,
+        3,
+        5,
+        1
+      ]
+    },
+    "s5-abilities": {
+      "responseKey": "s5-abilities",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        36,
+        37
+      ],
+      "correct": [
+        1,
+        3
+      ]
+    },
+    "s5-now": {
+      "responseKey": "s5-now",
+      "type": "single-choice",
+      "answerNumbers": [
+        38
+      ],
+      "correct": 1
+    },
+    "s6a-short": {
+      "responseKey": "s6a-short",
+      "type": "single-choice",
+      "answerNumbers": [
+        39
+      ],
+      "correct": 4
+    },
+    "s6a-long": {
+      "responseKey": "s6a-long",
+      "type": "single-choice",
+      "answerNumbers": [
+        40
+      ],
+      "correct": 3
+    },
+    "s6a-spotters": {
+      "responseKey": "s6a-spotters",
+      "type": "single-choice",
+      "answerNumbers": [
+        41
+      ],
+      "correct": 4
+    },
+    "s6a-summary": {
+      "responseKey": "s6a-summary",
+      "type": "single-choice",
+      "answerNumbers": [
+        42
+      ],
+      "correct": 2
+    },
+    "s6b-science": {
+      "responseKey": "s6b-science",
+      "type": "single-choice",
+      "answerNumbers": [
+        43
+      ],
+      "correct": 3
+    },
+    "s6b-ranking": {
+      "responseKey": "s6b-ranking",
+      "type": "single-choice",
+      "answerNumbers": [
+        44
+      ],
+      "correct": 3
+    },
+    "s6b-true": {
+      "responseKey": "s6b-true",
+      "type": "multi-select-unordered",
+      "answerNumbers": [
+        45,
+        46
+      ],
+      "correct": [
+        3,
+        5
+      ]
+    },
+    "s6b-position": {
+      "responseKey": "s6b-position",
+      "type": "single-choice",
+      "answerNumbers": [
+        47
+      ],
+      "correct": 4
+    }
+  },
+  "scoringUnits": [
+    {
+      "unitId": "common-2021-score-01",
+      "responseKeys": [
+        "s1a-request"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-02",
+      "responseKeys": [
+        "s1a-reply"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-03",
+      "responseKeys": [
+        "s1b-pack"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-04",
+      "responseKeys": [
+        "s1b-pacer"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-05",
+      "responseKeys": [
+        "s1b-renew"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-06",
+      "responseKeys": [
+        "s2a-best-singing"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-07",
+      "responseKeys": [
+        "s2a-balanced-judge"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-08",
+      "responseKeys": [
+        "s2a-fact"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-09",
+      "responseKeys": [
+        "s2a-opinion"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-10",
+      "responseKeys": [
+        "s2a-ranking"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-11",
+      "responseKeys": [
+        "s2b-policy-effect"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-12",
+      "responseKeys": [
+        "s2b-fact"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-13",
+      "responseKeys": [
+        "s2b-energy"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-14",
+      "responseKeys": [
+        "s2b-basis"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-15",
+      "responseKeys": [
+        "s2b-research"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-16",
+      "responseKeys": [
+        "s3a-value"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-17",
+      "responseKeys": [
+        "s3a-route"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-18",
+      "responseKeys": [
+        "s3b-order"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-19",
+      "responseKeys": [
+        "s3b-centre"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-20",
+      "responseKeys": [
+        "s3b-action"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-21",
+      "responseKeys": [
+        "s4-arrival-train"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-22",
+      "responseKeys": [
+        "s4-return-train"
+      ],
+      "points": 2,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-23",
+      "responseKeys": [
+        "s4-schedule"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-24",
+      "responseKeys": [
+        "s4-lunch"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-25",
+      "responseKeys": [
+        "s4-transport"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-26",
+      "responseKeys": [
+        "s4-third-option"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-27",
+      "responseKeys": [
+        "s5-title"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-28",
+      "responseKeys": [
+        "s5-who"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-29",
+      "responseKeys": [
+        "s5-order"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-30",
+      "responseKeys": [
+        "s5-abilities"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-31",
+      "responseKeys": [
+        "s5-now"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-32",
+      "responseKeys": [
+        "s6a-short"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-33",
+      "responseKeys": [
+        "s6a-long"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-34",
+      "responseKeys": [
+        "s6a-spotters"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-35",
+      "responseKeys": [
+        "s6a-summary"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-36",
+      "responseKeys": [
+        "s6b-science"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-37",
+      "responseKeys": [
+        "s6b-ranking"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-38",
+      "responseKeys": [
+        "s6b-true"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    },
+    {
+      "unitId": "common-2021-score-39",
+      "responseKeys": [
+        "s6b-position"
+      ],
+      "points": 3,
+      "rule": "all-correct"
+    }
+  ]
+}

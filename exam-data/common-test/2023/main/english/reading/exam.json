@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": "1.0.0",
+  "examId": "common-test-dnc-2023-main-english-reading",
+  "title": "2023年度 大学入学共通テスト 英語（リーディング）本試験",
+  "metaLine": "大学入学共通テスト　2023年度　本試験",
+  "instruction": "各大問の英文や図表を読み、解答番号1～49にあてはまるものとして最も適当な選択肢を選びなさい。",
+  "sections": [
+    {
+      "sectionId": "common-2023-r-s01",
+      "number": "第1問",
+      "score": 10,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location"
+      ],
+      "lead": "You are studying in the US, and as an afternoon activity you need to choose one of two performances to go and see. Your teacher gives you this handout.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s1a",
+          "type": "leaflet",
+          "title": "Performances for Friday",
+          "paragraphs": [],
+          "noticeTitle": "",
+          "noticeStyle": "columns",
+          "noticeItems": [
+            "{{u|Palace Theater}}\n{{i|Together Wherever}}\nA romantic play that will make you laugh and cry\n▶ From 2:00 p.m. (no breaks and a running time of one hour and 45 minutes)\n▶ Actors available to talk in the lobby after the performance\n▶ No food or drinks available\n▶ Free T-shirts for five lucky people",
+            "{{u|Grand Theater}}\n{{i|The Guitar Queen}}\nA rock musical featuring colorful costumes\n▶ Starts at 1:00 p.m. (three hours long including two 15-minute breaks)\n▶ Opportunity to greet the cast in their costumes before the show starts\n▶ Light refreshments (snacks & drinks), original T-shirts, and other goods sold in the lobby"
+          ],
+          "footerHeading": "",
+          "footerLines": [
+            "{{b|Instructions:}} Which performance would you like to attend? Fill in the form below and hand it in to your teacher today.",
+            "Choose (✓) one: Together Wherever □　The Guitar Queen □",
+            "Name:"
+          ],
+          "stimulusId": "s1a"
+        },
+        {
+          "blockId": "s1introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are a senior high school student interested in improving your English during the summer vacation. You find a website for an intensive English summer camp run by an international school.",
+          "stimulusId": "s1introb"
+        },
+        {
+          "blockId": "s1b",
+          "type": "leaflet",
+          "title": "GIS Intensive English Summer Camp",
+          "subtitle": "Galley International School (GIS) has provided intensive English summer camps for senior high school students in Japan since 1989. Spend two weeks in an all-English environment!",
+          "metaLines": [
+            "Dates: August 1-14, 2023",
+            "Location: Lake Kawaguchi Youth Lodge, Yamanashi Prefecture",
+            "Cost: 120,000 yen, including food and accommodation (additional fees for optional activities such as kayaking and canoeing)"
+          ],
+          "paragraphs": [],
+          "noticeTitle": "Courses Offered",
+          "noticeItems": [
+            "{{b|FOREST:}} You’ll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips. Your instructors have taught English for over 20 years in several countries. On the final day of the camp, you’ll take part in a speech contest while all the other campers listen.",
+            "{{b|MOUNTAIN:}} You’ll work in a group to write and perform a skit in English. Instructors for this course have worked at theater schools in New York City, London, and Sydney. You’ll perform your skit for all the campers to enjoy on August 14.",
+            "{{b|SKY:}} You’ll learn debating skills and critical thinking in this course. Your instructors have been to many countries to coach debate teams and some have published best-selling textbooks on the subject. You’ll do a short debate in front of all the other campers on the last day. (Note: Only those with an advanced level of English will be accepted.)"
+          ],
+          "footerHeading": "Application",
+          "footerLines": [
+            "Step 1: Fill in the online application {{u|HERE}} by May 20, 2023.",
+            "Step 2: We’ll contact you to set up an interview to assess your English ability and ask about your course preference.",
+            "Step 3: You’ll be assigned to a course."
+          ],
+          "stimulusId": "s1b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q001",
+          "number": "問1",
+          "prompt": "What are you told to do after reading the handout? [[1]]",
+          "promptRich": "What are you told to do after reading the handout? [[1]]",
+          "responseKey": "1",
+          "choices": [
+            "Complete and hand in the bottom part.",
+            "Find out more about the performances.",
+            "Talk to your teacher about your decision.",
+            "Write your name and explain your choice."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q002",
+          "number": "問2",
+          "prompt": "Which is true about both performances? [[2]]",
+          "promptRich": "Which is true about both performances? [[2]]",
+          "responseKey": "2",
+          "choices": [
+            "No drinks can be purchased before the show.",
+            "Some T-shirts will be given as gifts.",
+            "They will finish at the same time.",
+            "You can meet performers at the theaters."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q003",
+          "number": "問1",
+          "prompt": "All GIS instructors have [[3]].",
+          "promptRich": "All GIS instructors have [[3]].",
+          "responseKey": "3",
+          "choices": [
+            "been in Japan since 1989",
+            "won international competitions",
+            "worked in other countries",
+            "written some popular books"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q004",
+          "number": "問2",
+          "prompt": "On the last day of the camp, campers will [[4]].",
+          "promptRich": "On the last day of the camp, campers will [[4]].",
+          "responseKey": "4",
+          "choices": [
+            "assess each other’s performances",
+            "compete to receive the best prize",
+            "make presentations about the future",
+            "show what they learned at the camp"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q005",
+          "number": "問3",
+          "prompt": "What will happen after submitting your camp application? [[5]]",
+          "promptRich": "What will happen after submitting your camp application? [[5]]",
+          "responseKey": "5",
+          "choices": [
+            "You will call the English instructors.",
+            "You will take a written English test.",
+            "Your English level will be checked.",
+            "Your English speech topic will be sent."
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s1introb",
+            "s1b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s1a"
+        },
+        {
+          "question": "common-2023-r-q001"
+        },
+        {
+          "question": "common-2023-r-q002"
+        },
+        {
+          "block": "s1introb"
+        },
+        {
+          "block": "s1b"
+        },
+        {
+          "question": "common-2023-r-q003"
+        },
+        {
+          "question": "common-2023-r-q004"
+        },
+        {
+          "question": "common-2023-r-q005"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2023-r-s02",
+      "number": "第2問",
+      "score": 20,
+      "sourcePages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "categoryIds": [
+        "english.practical-reading",
+        "english.information-location",
+        "english.inference"
+      ],
+      "lead": "You want to buy a good pair of shoes as you walk a long way to school and often get sore feet. You are searching on a UK website and find this advertisement.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s2a",
+          "type": "leaflet",
+          "title": "Navi55 presents the new Smart Support shoe line",
+          "subtitle": "Smart Support shoes are strong, long-lasting, and reasonably priced. They are available in three colours and styles.",
+          "paragraphs": [
+            "{{b|Special Features}}\n{{i|Smart Support}} shoes have a nano-chip which analyses the shape of your feet when connected to the {{i|iSupport}} application. Download the app onto your smartphone, PC, tablet, and/or smartwatch. Then, while wearing the shoes, let the chip collect the data about your feet. The inside of the shoe will automatically adjust to give correct, personalised foot support. As with other Navi55 products, the shoes have our popular Route Memory function."
+          ],
+          "noticeTitle": "Advantages",
+          "noticeItems": [
+            "{{b|Better Balance:}} Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+            "{{b|Promotes Exercise:}} As they are so comfortable, you will be willing to walk regularly.",
+            "{{b|Route Memory:}} The chip records your daily route, distance, and pace as you walk.",
+            "{{b|Route Options:}} View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions."
+          ],
+          "footerHeading": "Customers’ Comments",
+          "footerLines": [
+            "I like the choices for getting directions, and prefer using audio guidance to visual guidance.",
+            "I lost 2 kg in a month!",
+            "I love my pair now, but it took me several days to get used to them.",
+            "As they don’t slip in the rain, I wear mine all year round.",
+            "They are so light and comfortable I even wear them when cycling.",
+            "Easy to get around! I don’t need to worry about getting lost.",
+            "They look great. The app’s basic features are easy to use, but I wouldn’t pay for the optional advanced ones."
+          ],
+          "stimulusId": "s2a"
+        },
+        {
+          "blockId": "s2introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are a member of the student council. The members have been discussing a student project helping students to use their time efficiently. To get ideas, you are reading a report about a school challenge. It was written by an exchange student who studied in another school in Japan.",
+          "stimulusId": "s2introb"
+        },
+        {
+          "blockId": "s2b",
+          "type": "passage",
+          "title": "Commuting Challenge",
+          "paragraphs": [
+            "Most students come to my school by bus or train. I often see a lot of students playing games on their phones or chatting. However, they could also use this time for reading or doing homework. We started this activity to help students use their commuting time more effectively. Students had to complete a commuting activity chart from January 17th to February 17th. A total of 300 students participated: More than two thirds of them were second-years; about a quarter were third-years; only 15 first-years participated. How come so few first-years participated? Based on the feedback (given below), there seems to be an answer to this question:",
+            "{{u|Feedback from participants}}",
+            "{{b|HS:}} Thanks to this project, I got the highest score ever in an English vocabulary test. It was easy to set small goals to complete on my way.",
+            "{{b|KF:}} My friend was sad because she couldn’t participate. She lives nearby and walks to school. There should have been other ways to take part.",
+            "{{b|SS:}} My train is always crowded and I have to stand, so there is no space to open a book or a tablet. I only used audio materials, but there were not nearly enough.",
+            "{{b|JH:}} I kept a study log, which made me realise how I used my time. For some reason most of my first-year classmates didn’t seem to know about this challenge.",
+            "{{b|MN:}} I spent most of the time on the bus watching videos, and it helped me to understand classes better. I felt the time went very fast."
+          ],
+          "indentParagraphs": false,
+          "stimulusId": "s2b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q006",
+          "number": "問1",
+          "prompt": "According to the maker’s statements, which best describes the new shoes? [[6]]",
+          "promptRich": "According to the maker’s statements, which best describes the new shoes? [[6]]",
+          "responseKey": "6",
+          "choices": [
+            "Cheap summer shoes",
+            "High-tech everyday shoes",
+            "Light comfortable sports shoes",
+            "Stylish colourful cycling shoes"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q007",
+          "number": "問2",
+          "prompt": "Which benefit offered by the shoes is most likely to appeal to you? [[7]]",
+          "promptRich": "Which benefit offered by the shoes is most likely to appeal to you? [[7]]",
+          "responseKey": "7",
+          "choices": [
+            "Getting more regular exercise",
+            "Having personalised foot support",
+            "Knowing how fast you walk",
+            "Looking cool wearing them"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q008",
+          "number": "問3",
+          "prompt": "One {{u|opinion}} stated by a customer is that [[8]].",
+          "promptRich": "One {{u|opinion}} stated by a customer is that [[8]].",
+          "responseKey": "8",
+          "choices": [
+            "the app encourages fast walking",
+            "the app’s free functions are user-friendly",
+            "the shoes are good value for money",
+            "the shoes increase your cycling speed"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q009",
+          "number": "問4",
+          "prompt": "One customer’s comment mentions using audio devices. Which benefit is this comment based on? [[9]]",
+          "promptRich": "One customer’s comment mentions using audio devices. Which benefit is this comment based on? [[9]]",
+          "responseKey": "9",
+          "choices": [
+            "Better Balance",
+            "Promotes Exercise",
+            "Route Memory",
+            "Route Options"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q010",
+          "number": "問5",
+          "prompt": "According to one customer’s opinion, [[10]] is recommended.",
+          "promptRich": "According to one customer’s opinion, [[10]] is recommended.",
+          "responseKey": "10",
+          "choices": [
+            "allowing time to get accustomed to wearing the shoes",
+            "buying a watch to help you lose weight",
+            "connecting to the app before putting the shoes on",
+            "paying for the iSupport advanced features"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q011",
+          "number": "問1",
+          "prompt": "The aim of the Commuting Challenge was to help students to [[11]].",
+          "promptRich": "The aim of the Commuting Challenge was to help students to [[11]].",
+          "responseKey": "11",
+          "choices": [
+            "commute more quickly",
+            "improve their test scores",
+            "manage English classes better",
+            "use their time better"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q012",
+          "number": "問2",
+          "prompt": "One {{u|fact}} about the Commuting Challenge is that [[12]].",
+          "promptRich": "One {{u|fact}} about the Commuting Challenge is that [[12]].",
+          "responseKey": "12",
+          "choices": [
+            "fewer than 10% of the participants were first-years",
+            "it was held for two months during the winter",
+            "students had to use portable devices on buses",
+            "the majority of participants travelled by train"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q013",
+          "number": "問3",
+          "prompt": "From the feedback, [[13]] were activities reported by participants.",
+          "promptRich": "From the feedback, [[13]] were activities reported by participants.",
+          "responseKey": "13",
+          "choices": [
+            "A and B",
+            "A and C",
+            "A and D",
+            "B and C",
+            "B and D",
+            "C and D"
+          ],
+          "answerBoxPlacement": "none",
+          "contextLines": [
+            "A: keeping study records",
+            "B: learning language",
+            "C: making notes on tablets",
+            "D: reading lesson notes on mobile phones"
+          ],
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q014",
+          "number": "問4",
+          "prompt": "One of the participants’ opinions about the Commuting Challenge is that [[14]].",
+          "promptRich": "One of the participants’ opinions about the Commuting Challenge is that [[14]].",
+          "responseKey": "14",
+          "choices": [
+            "it could have included students who walk to school",
+            "the train was a good place to read books",
+            "there were plenty of audio materials for studying",
+            "watching videos for fun helped time pass quickly"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q015",
+          "number": "問5",
+          "prompt": "The author’s question is answered by [[15]].",
+          "promptRich": "The author’s question is answered by [[15]].",
+          "responseKey": "15",
+          "choices": [
+            "HS",
+            "JH",
+            "KF",
+            "MN",
+            "SS"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s2introb",
+            "s2b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s2a"
+        },
+        {
+          "question": "common-2023-r-q006"
+        },
+        {
+          "question": "common-2023-r-q007"
+        },
+        {
+          "question": "common-2023-r-q008"
+        },
+        {
+          "question": "common-2023-r-q009"
+        },
+        {
+          "question": "common-2023-r-q010"
+        },
+        {
+          "block": "s2introb"
+        },
+        {
+          "block": "s2b"
+        },
+        {
+          "question": "common-2023-r-q011"
+        },
+        {
+          "question": "common-2023-r-q012"
+        },
+        {
+          "question": "common-2023-r-q013"
+        },
+        {
+          "question": "common-2023-r-q014"
+        },
+        {
+          "question": "common-2023-r-q015"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2023-r-s03",
+      "number": "第3問",
+      "score": 15,
+      "sourcePages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "You are studying at Camberford University, Sydney. You are going on a class camping trip and are reading the camping club’s newsletter to prepare.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s3a",
+          "type": "passage",
+          "title": "Going camping? Read me!!!",
+          "paragraphs": [
+            "Hi, I’m Kaitlyn. I want to share two practical camping lessons from my recent club trip. The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack. Next, more frequently used daily necessities should be placed in the top section. That means putting your sleeping bag at the bottom; food, cookware and tent in the middle; and your clothes at the top. Most good backpacks come with a “brain” (an additional pouch) for small easy-to-reach items.",
+            {
+              "type": "figure",
+              "src": "assets/exams/common-2023/s03-backpack-parts.png?v=20260827c",
+              "alt": "Backpack divided into a brain, top section, middle section, and bottom section."
+            },
+            "Last year, in the evening, we had fun cooking and eating outdoors. I had been sitting close to our campfire, but by the time I got back to the tent I was freezing. Although I put on extra layers of clothes before going to sleep, I was still cold. Then, my friend told me to take off my outer layers and stuff them into my sleeping bag to fill up some of the empty space. This stuffing method was new to me, and surprisingly kept me warm all night!",
+            "I hope my advice helps you stay warm and comfortable. Enjoy your camping trip!"
+          ],
+          "stimulusId": "s3a"
+        },
+        {
+          "blockId": "s3introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "Your English club will make an “adventure room” for the school festival. To get some ideas, you are reading a blog about a room a British man created.",
+          "stimulusId": "s3introb"
+        },
+        {
+          "blockId": "s3b",
+          "type": "passage",
+          "title": "Create Your Own “Home Adventure”",
+          "paragraphs": [
+            "Last year, I took part in an “adventure room” experience. I really enjoyed it, so I created one for my children. Here are some tips on making your own.",
+            {
+              "type": "figure",
+              "src": "assets/exams/common-2023/s03-adventure-steps.png",
+              "alt": "Key steps in creating an adventure: theme, storyline, puzzles, and costumes."
+            },
+            "First, pick a theme. My sons are huge Sherlock Holmes fans, so I decided on a detective mystery. I rearranged the furniture in our family room, and added some old paintings and lamps I had to set the scene.",
+            "Next, create a storyline. Ours was {{i|The Case of the Missing Chocolates}}. My children would be “detectives” searching for clues to locate the missing sweets.",
+            "The third step is to design puzzles and challenges. A useful idea is to work backwards from the solution. If the task is to open a box locked with a three-digit padlock, think of ways to hide a three-digit code. Old books are fantastic for hiding messages in. I had tremendous fun underlining words on different pages to form mystery sentences. Remember that the puzzles should get progressively more difficult near the final goal. To get into the spirit, I then had the children wear costumes. My eldest son was excited when I handed him a magnifying glass, and immediately began acting like Sherlock Holmes. After that, the children started to search for the first clue.",
+            "This “adventure room” was designed specifically for my family, so I made some of the challenges personal. For the final task, I took a couple of small cups and put a plastic sticker in each one, then filled them with yogurt. The “detectives” had to eat their way to the bottom to reveal the clues. Neither of my kids would eat yogurt, so this truly was tough for them. During the adventure, my children were totally focused, and they enjoyed themselves so much that we will have another one next month."
+          ],
+          "stimulusId": "s3b"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q016",
+          "number": "問1",
+          "prompt": "If you take Kaitlyn’s advice, how should you fill your backpack? [[16]]",
+          "promptRich": "If you take Kaitlyn’s advice, how should you fill your backpack? [[16]]",
+          "responseKey": "16",
+          "choices": [
+            {
+              "image": "assets/exams/common-2023/s03-q16-1.png",
+              "alt": "First aid kit and map at the top; food, plates, cups, and tent in the middle; jackets, shirts, and trousers below; sleeping bag at the bottom.",
+              "displayWidth": 360
+            },
+            {
+              "image": "assets/exams/common-2023/s03-q16-2.png",
+              "alt": "First aid kit and map at the top; jackets, shirts, and trousers in the upper middle; food, plates, cups, and tent in the lower middle; sleeping bag at the bottom.",
+              "displayWidth": 360
+            },
+            {
+              "image": "assets/exams/common-2023/s03-q16-3.png",
+              "alt": "Food, plates, cups, and tent at the top; first aid kit and map in the upper middle; jackets, shirts, and trousers below; sleeping bag at the bottom.",
+              "displayWidth": 360
+            },
+            {
+              "image": "assets/exams/common-2023/s03-q16-4.png",
+              "alt": "Jackets, shirts, and trousers at the top; first aid kit and map in the upper middle; food, plates, cups, and tent below; sleeping bag at the bottom.",
+              "displayWidth": 360
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "image",
+          "stimulusIds": [
+            "s3a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q017",
+          "number": "問2",
+          "prompt": "According to Kaitlyn, [[17]] is the best method to stay warm all night.",
+          "promptRich": "According to Kaitlyn, [[17]] is the best method to stay warm all night.",
+          "responseKey": "17",
+          "choices": [
+            "avoiding going out of your tent",
+            "eating hot meals beside your campfire",
+            "filling the gaps in your sleeping bag",
+            "wearing all of your extra clothes"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3a"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q1821",
+          "number": "問1",
+          "prompt": "Put the following events (①～④) into the order in which they happened.",
+          "promptRich": "Put the following events (①～④) into the order in which they happened.",
+          "components": [
+            {
+              "responseKey": "18-21",
+              "label": "",
+              "choices": [
+                "The children ate food they are not fond of.",
+                "The children started the search for the sweets.",
+                "The father decorated the living room in the house.",
+                "The father gave his sons some clothes to wear."
+              ]
+            }
+          ],
+          "supplement": "[[18]] → [[19]] → [[20]] → [[21]]",
+          "supplementStyle": "answer-sequence",
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q022",
+          "number": "問2",
+          "prompt": "If you follow the father’s advice to create your own “adventure room,” you should [[22]].",
+          "promptRich": "If you follow the father’s advice to create your own “adventure room,” you should [[22]].",
+          "responseKey": "22",
+          "choices": [
+            "concentrate on three-letter words",
+            "leave secret messages under the lamps",
+            "make the challenges gradually harder",
+            "practise acting like Sherlock Holmes"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q023",
+          "number": "問3",
+          "prompt": "From this story, you understand that the father [[23]].",
+          "promptRich": "From this story, you understand that the father [[23]].",
+          "responseKey": "23",
+          "choices": [
+            "became focused on searching for the sweets",
+            "created an experience especially for his children",
+            "had some trouble preparing the adventure game",
+            "spent a lot of money decorating the room"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s3introb",
+            "s3b"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s3a"
+        },
+        {
+          "question": "common-2023-r-q016"
+        },
+        {
+          "question": "common-2023-r-q017"
+        },
+        {
+          "block": "s3introb"
+        },
+        {
+          "block": "s3b"
+        },
+        {
+          "question": "common-2023-r-q1821"
+        },
+        {
+          "question": "common-2023-r-q022"
+        },
+        {
+          "question": "common-2023-r-q023"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2023-r-s04",
+      "number": "第4問",
+      "score": 16,
+      "sourcePages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "categoryIds": [
+        "english.information-integration",
+        "english.chart-reading",
+        "english.logical-reading"
+      ],
+      "lead": "Your teacher has asked you to read two articles about effective ways to study. You will discuss what you learned in your next class.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s4a",
+          "type": "passage",
+          "title": "How to Study Effectively: Contextual Learning!",
+          "paragraphs": [
+            "Tim Oxford\n{{i|Science Teacher, Stone City Junior High School}}",
+            "As a science teacher, I am always concerned about how to help students who struggle to learn. Recently, I found that their main way of learning was to study new information repeatedly until they could recall it all. For example, when they studied for a test, they would use a workbook like the example below and repeatedly say the terms that go in the blanks: “Obsidian is igneous, dark, and glassy. Obsidian is igneous, dark, and glassy....” These students would feel as if they had learned the information, but would quickly forget it and get low scores on the test. Also, this sort of repetitive learning is dull and demotivating.",
+            "To help them learn, I tried applying “contextual learning.” In this kind of learning, new knowledge is constructed through students’ own experiences. For my science class, students learned the properties of different kinds of rocks. Rather than having them memorize the terms from a workbook, I brought a big box of various rocks to the class. Students examined the rocks and identified their names based on the characteristics they observed.",
+            "Thanks to this experience, I think these students will always be able to describe the properties of the rocks they studied. One issue, however, is that we don’t always have the time to do contextual learning, so students will still study by doing drills. I don’t think this is the best way. I’m still searching for ways to improve their learning."
+          ],
+          "stimulusId": "s4a"
+        },
+        {
+          "blockId": "s4rock",
+          "type": "figure",
+          "src": "assets/exams/common-2023/s04-rock-workbook.png",
+          "alt": "Workbook example showing obsidian: rock type igneous, coloring dark, texture glassy, and a picture.",
+          "stimulusId": "s4rock"
+        },
+        {
+          "blockId": "s4b",
+          "type": "passage",
+          "title": "How to Make Repetitive Learning Effective",
+          "paragraphs": [
+            "Cheng Lee\n{{i|Professor, Stone City University}}",
+            "Mr. Oxford’s thoughts on contextual learning were insightful. I agree that it can be beneficial. Repetition, though, can also work well. However, the repetitive learning strategy he discussed, which is called “massed learning,” is not effective. There is another kind of repetitive learning called “spaced learning,” in which students memorize new information and then review it over longer intervals.",
+            "The interval between studying is the key difference. In Mr. Oxford’s example, his students probably used their workbooks to study over a short period of time. In this case, they might have paid less attention to the content as they continued to review it. The reason for this is that the content was no longer new and could easily be ignored. In contrast, when the intervals are longer, the students’ memory of the content is weaker. Therefore, they pay more attention because they have to make a greater effort to recall what they had learned before. For example, if students study with their workbooks, wait three days, and then study again, they are likely to learn the material better.",
+            "Previous research has provided evidence for the advantages of spaced learning. In one experiment, students in Groups A and B tried to memorize the names of 50 animals. Both groups studied four times, but Group A studied at one-day intervals while Group B studied at one-week intervals. As the figure shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+            "I understand that students often need to learn a lot of information in a short period of time, and long intervals between studying might not be practical. You should understand, though, that massed learning might not be good for long-term recall."
+          ],
+          "stimulusId": "s4b"
+        },
+        {
+          "blockId": "s4chart",
+          "type": "figure",
+          "src": "assets/exams/common-2023/s04-recalled-names-chart.png",
+          "alt": "Bar chart titled The Average Ratio of Recalled Names. Group A is about 55 percent and Group B about 95 percent.",
+          "caption": "The Average Ratio of Recalled Names",
+          "stimulusId": "s4chart"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q024",
+          "number": "問1",
+          "prompt": "Oxford believes that [[24]].",
+          "promptRich": "Oxford believes that [[24]].",
+          "responseKey": "24",
+          "choices": [
+            "continuous drilling is boring",
+            "reading an explanation of terms is helpful",
+            "students are not interested in science",
+            "studying with a workbook leads to success"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4a",
+            "s4rock",
+            "s4b",
+            "s4chart"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q025",
+          "number": "問2",
+          "prompt": "In the study discussed by Lee, students took a test [[25]] after their final session.",
+          "promptRich": "In the study discussed by Lee, students took a test [[25]] after their final session.",
+          "responseKey": "25",
+          "choices": [
+            "four weeks",
+            "immediately",
+            "one day",
+            "one week"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4a",
+            "s4rock",
+            "s4b",
+            "s4chart"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q026",
+          "number": "問3",
+          "prompt": "Lee introduces spaced learning, which involves studying at [[26]] intervals, in order to overcome the disadvantages of [[27]] learning that Oxford discussed. (Choose the best one for each box from options ①～⑥.)",
+          "promptRich": "Lee introduces spaced learning, which involves studying at [[26]] intervals, in order to overcome the disadvantages of [[27]] learning that Oxford discussed. (Choose the best one for each box from options ①～⑥.)",
+          "components": [
+            {
+              "responseKey": "26",
+              "label": "解答欄 [26]",
+              "choices": [
+                "contextual",
+                "extended",
+                "fixed",
+                "irregular",
+                "massed",
+                "practical"
+              ]
+            },
+            {
+              "responseKey": "27",
+              "label": "解答欄 [27]",
+              "choices": [
+                "contextual",
+                "extended",
+                "fixed",
+                "irregular",
+                "massed",
+                "practical"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s4a",
+            "s4rock",
+            "s4b",
+            "s4chart"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q028",
+          "number": "問4",
+          "prompt": "Both writers agree that [[28]] is helpful for remembering new information.",
+          "promptRich": "Both writers agree that [[28]] is helpful for remembering new information.",
+          "responseKey": "28",
+          "choices": [
+            "experiential learning",
+            "having proper rest",
+            "long-term attention",
+            "studying with workbooks"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s4a",
+            "s4rock",
+            "s4b",
+            "s4chart"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q029",
+          "number": "問5",
+          "prompt": "Which additional information would be the best to further support Lee’s argument for spaced learning? [[29]]",
+          "promptRich": "Which additional information would be the best to further support Lee’s argument for spaced learning? [[29]]",
+          "responseKey": "29",
+          "choices": [
+            "The main factor that makes a science class attractive",
+            "The most effective length of intervals for spaced learning",
+            "Whether students’ workbooks include visuals or not",
+            "Why Oxford’s students could not memorize information well"
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s4a",
+            "s4rock",
+            "s4b",
+            "s4chart"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s4a"
+        },
+        {
+          "block": "s4rock"
+        },
+        {
+          "block": "s4b"
+        },
+        {
+          "block": "s4chart"
+        },
+        {
+          "question": "common-2023-r-q024"
+        },
+        {
+          "question": "common-2023-r-q025"
+        },
+        {
+          "question": "common-2023-r-q026"
+        },
+        {
+          "question": "common-2023-r-q028"
+        },
+        {
+          "question": "common-2023-r-q029"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2023-r-s05",
+      "number": "第5問",
+      "score": 15,
+      "sourcePages": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "categoryIds": [
+        "english.narrative-reading",
+        "english.summary",
+        "english.sequence",
+        "english.inference"
+      ],
+      "lead": "Your English teacher has told everyone in your class to find an inspirational story and present it to a discussion group, using notes. You have found a story written by a high school student in the UK.",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s5story",
+          "type": "passage",
+          "title": "Lessons from Table Tennis",
+          "paragraphs": [
+            "{{b|Ben Carter}}",
+            "The ball flew at lightning speed to my backhand. It was completely unexpected and I had no time to react. I lost the point and the match. Defeat... Again! This is how it was in the first few months when I started playing table tennis. It was frustrating, but I now know that the sport taught me more than simply how to be a better athlete.",
+            "In middle school, I loved football. I was one of the top scorers, but I didn’t get along with my teammates. The coach often said that I should be more of a team player. I knew I should work on the problem, but communication was just not my strong point.",
+            "I had to leave the football club when my family moved to a new town. I wasn’t upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+            "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, “You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?” “I don’t know,” I replied, “focus on the ball more?” “Yes,” Mr Trent continued, “but you also need to study your opponent’s moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.” This made a deep impression on me.",
+            "I deliberately modified my style of play, paying closer attention to my opponent’s moves. It was not easy, and took a lot of concentration. My efforts paid off, however, and my play improved. My confidence grew and I started staying behind more after practice. I was turning into a star player and my classmates tried to talk to me more than before. I thought that I was becoming popular, but our conversations seemed to end before they really got started. Although my play might have improved, my communication skills obviously hadn’t.",
+            "My older brother Patrick was one of the few people I could communicate with well. One day, I tried to explain my problems with communication to him, but couldn’t make him understand. We switched to talking about table tennis. “What do you actually enjoy about it?” he asked me curiously. I said I loved analysing my opponent’s movements and making instant decisions about the next move. Patrick looked thoughtful. “That sounds like the kind of skill we use when we communicate,” he said.",
+            "At that time, I didn’t understand, but soon after our conversation, I won a silver medal in a table tennis tournament. My classmates seemed really pleased. One of them, George, came running over. “Hey, Ben!” he said, “Let’s have a party to celebrate!” Without thinking, I replied, “I can’t. I’ve got practice.” He looked a bit hurt and walked off without saying anything else.",
+            "Why was he upset? I thought about this incident for a long time. Why did he suggest a party? Should I have said something different? A lot of questions came to my mind, but then I realised that he was just being kind. If I’d said, “Great idea. Thank you! Let me talk to Mr Trent and see if I can get some time off practice,” then maybe the outcome would have been better. At that moment Patrick’s words made sense. Without attempting to grasp someone’s intention, I wouldn’t know how to respond.",
+            "I’m still not the best communicator in the world, but I definitely feel more confident in my communication skills now than before. Next year, my friends and I are going to co-ordinate the table tennis league with other schools."
+          ],
+          "stimulusId": "s5story"
+        },
+        {
+          "blockId": "s5notes",
+          "type": "outline",
+          "title": "Lessons from Table Tennis",
+          "label": "Your notes:",
+          "groups": [
+            {
+              "title": "{{u|About the author (Ben Carter)}}",
+              "items": [
+                "Played football at middle school.",
+                "Started playing table tennis at his new school because he [[30]]."
+              ]
+            },
+            {
+              "title": "{{u|Other important people}}",
+              "items": [
+                "Mr Trent: Ben’s table tennis coach, who helped him improve his play.",
+                "Patrick: Ben’s brother, who [[31]].",
+                "George: Ben’s classmate, who wanted to celebrate his victory."
+              ]
+            },
+            {
+              "title": "{{u|Influential events in Ben’s journey to becoming a better communicator}}",
+              "items": [
+                "Began playing table tennis　→ [[32]] → [[33]] → [[34]] → [[35]]"
+              ]
+            },
+            {
+              "title": "{{u|What Ben realised after the conversation with George}}",
+              "items": [
+                "He should have [[36]]."
+              ]
+            },
+            {
+              "title": "{{u|What we can learn from this story}}",
+              "items": [
+                "[[37]]",
+                "[[38]]"
+              ]
+            }
+          ],
+          "stimulusId": "s5notes"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q030",
+          "number": "問1",
+          "prompt": "Choose the best option for [[30]].",
+          "promptRich": "Choose the best option for [[30]].",
+          "responseKey": "30",
+          "choices": [
+            "believed it would help him communicate",
+            "hoped to become popular at school",
+            "thought he could win games easily",
+            "wanted to avoid playing a team sport"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q031",
+          "number": "問2",
+          "prompt": "Choose the best option for [[31]].",
+          "promptRich": "Choose the best option for [[31]].",
+          "responseKey": "31",
+          "choices": [
+            "asked him what he enjoyed about communication",
+            "encouraged him to be more confident",
+            "helped him learn the social skills he needed",
+            "told him what he should have said to his school friends"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q3235",
+          "number": "問3",
+          "prompt": "Choose {{u|four}} out of the five options (①～⑤) and rearrange them in the order they happened.",
+          "promptRich": "Choose {{u|four}} out of the five options (①～⑤) and rearrange them in the order they happened.",
+          "components": [
+            {
+              "responseKey": "32-35",
+              "label": "",
+              "choices": [
+                "Became a table tennis champion",
+                "Discussed with his teacher how to play well",
+                "Refused a party in his honour",
+                "Started to study his opponents",
+                "Talked to his brother about table tennis"
+              ]
+            }
+          ],
+          "supplement": "[[32]] → [[33]] → [[34]] → [[35]]",
+          "supplementStyle": "answer-sequence",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q036",
+          "number": "問4",
+          "prompt": "Choose the best option for [[36]].",
+          "promptRich": "Choose the best option for [[36]].",
+          "responseKey": "36",
+          "choices": [
+            "asked his friend questions to find out more about his motivation",
+            "invited Mr Trent and other classmates to the party to show appreciation",
+            "tried to understand his friend’s point of view to act appropriately",
+            "worked hard to be a better team player for successful communication"
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q3738",
+          "number": "問5",
+          "prompt": "Choose the best two options for [[37]] and [[38]]. (The order does not matter.)",
+          "promptRich": "Choose the best two options for [[37]] and [[38]]. (The order does not matter.)",
+          "components": [
+            {
+              "responseKey": "37-38",
+              "label": "",
+              "choices": [
+                "Advice from people around us can help us change.",
+                "Confidence is important for being a good communicator.",
+                "It is important to make our intentions clear to our friends.",
+                "The support that teammates provide one another is helpful.",
+                "We can apply what we learn from one thing to another."
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s5story",
+            "s5notes"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s5story"
+        },
+        {
+          "block": "s5notes"
+        },
+        {
+          "question": "common-2023-r-q030"
+        },
+        {
+          "question": "common-2023-r-q031"
+        },
+        {
+          "question": "common-2023-r-q3235"
+        },
+        {
+          "question": "common-2023-r-q036"
+        },
+        {
+          "question": "common-2023-r-q3738"
+        }
+      ]
+    },
+    {
+      "sectionId": "common-2023-r-s06",
+      "number": "第6問",
+      "score": 24,
+      "sourcePages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "categoryIds": [
+        "english.academic-reading",
+        "english.summary",
+        "english.inference",
+        "english.information-integration"
+      ],
+      "lead": "You are in a discussion group in school. You have been asked to summarize the following article. You will speak about it, using only notes.",
+      "leadLabel": "A",
+      "leadPlacement": "body",
+      "blocks": [
+        {
+          "blockId": "s6a",
+          "type": "passage",
+          "title": "Collecting",
+          "paragraphs": [
+            "Collecting has existed at all levels of society, across cultures and age groups since early times. Museums are proof that things have been collected, saved, and passed down for future generations. There are various reasons for starting a collection. For example, Ms. A enjoys going to yard sales every Saturday morning with her children. At yard sales, people sell unwanted things in front of their houses. One day, while looking for antique dishes, an unusual painting caught her eye and she bought it for only a few dollars. Over time, she found similar pieces that left an impression on her, and she now has a modest collection of artwork, some of which may be worth more than she paid. One person’s trash can be another person’s treasure. Regardless of how someone’s collection was started, it is human nature to collect things.",
+            "In 1988, researchers Brenda Danet and Tamar Katriel analyzed 80 years of studies on children under the age of 10, and found that about 90% collected something. This shows us that people like to gather things from an early age. Even after becoming adults, people continue collecting stuff. Researchers in the field generally agree that approximately one third of adults maintain this behavior. Why is this? The primary explanation is related to emotions. Some save greeting cards from friends and family, dried flowers from special events, seashells from a day at the beach, old photos, and so on. For others, their collection is a connection to their youth. They may have baseball cards, comic books, dolls, or miniature cars that they have kept since they were small. Others have an attachment to history; they seek and hold onto historical documents, signed letters and autographs from famous people, and so forth.",
+            "For some individuals there is a social reason. People collect things such as pins to share, show, and even trade, making new friends this way. Others, like some holders of Guinness World Records, appreciate the fame they achieve for their unique collection. Cards, stickers, stamps, coins, and toys have topped the “usual” collection list, but some collectors lean toward the more unexpected. In September 2014, Guinness World Records recognized Harry Sperl, of Germany, for having the largest hamburger-related collection in the world, with 3,724 items; from T-shirts to pillows to dog toys, Sperl’s room is filled with all things “hamburger.” Similarly, Liu Fuchang, of China, is a collector of playing cards. He has 11,087 different sets.",
+            "Perhaps the easiest motivation to understand is pleasure. Some people start collections for pure enjoyment. They may purchase and put up paintings just to gaze at frequently, or they may collect audio recordings and old-fashioned vinyl records to enjoy listening to their favorite music. This type of collector is unlikely to be very interested in the monetary value of their treasured music, while others collect objects specifically as an investment. While it is possible to download certain classic games for free, having the same game unopened in its original packaging, in “mint condition,” can make the game worth a lot. Owning various valuable “collector’s items” could ensure some financial security.",
+            "This behavior of collecting things will definitely continue into the distant future. Although the reasons why people keep things will likely remain the same, advances in technology will have an influence on collections. As technology can remove physical constraints, it is now possible for an individual to have vast digital libraries of music and art that would have been unimaginable 30 years ago. It is unclear, though, what other impacts technology will have on collections. Can you even imagine the form and scale that the next generation’s collections will take?"
+          ],
+          "stimulusId": "s6a"
+        },
+        {
+          "blockId": "s6notes",
+          "type": "outline",
+          "title": "Collecting",
+          "label": "Your notes:",
+          "groups": [
+            {
+              "title": "Introduction",
+              "items": [
+                "Collecting has long been part of the human experience.",
+                "The yard sale story tells us that [[39]]."
+              ]
+            },
+            {
+              "title": "Facts",
+              "items": [
+                "[[40]]",
+                "Guinness World Records\n◇ Sperl: 3,724 hamburger-related items\n◇ Liu: 11,087 sets of playing cards"
+              ]
+            },
+            {
+              "title": "Reasons for collecting",
+              "items": [
+                "Motivation for collecting can be emotional or social.",
+                "Various reasons mentioned: [[41]], [[42]], interest in history, childhood excitement, becoming famous, sharing, etc."
+              ]
+            },
+            {
+              "title": "Collections in the future",
+              "items": [
+                "[[43]]"
+              ]
+            }
+          ],
+          "stimulusId": "s6notes"
+        },
+        {
+          "blockId": "s6introb",
+          "type": "sourceIntro",
+          "label": "B",
+          "text": "You are in a student group preparing for an international science presentation contest. You are using the following passage to create your part of the presentation on extraordinary creatures.",
+          "stimulusId": "s6introb"
+        },
+        {
+          "blockId": "s6b",
+          "type": "passage",
+          "title": "",
+          "paragraphs": [
+            "Ask someone to name the world’s toughest animal, and they might say the Bactrian camel as it can survive in temperatures as high as 50°C, or the Arctic fox which can survive in temperatures lower than −58°C. However, both answers would be wrong as it is widely believed that the tardigrade is the toughest creature on earth.",
+            "Tardigrades, also known as water bears, are microscopic creatures, which are between 0.1 mm to 1.5 mm in length. They live almost everywhere, from 6,000-meter-high mountains to 4,600 meters below the ocean’s surface. They can even be found under thick ice and in hot springs. Most live in water, but some tardigrades can be found in some of the driest places on earth. One researcher reported finding tardigrades living under rocks in a desert without any recorded rainfall for 25 years. All they need are a few drops or a thin layer of water to live in. When the water dries up, so do they. They lose all but three percent of their body’s water and their metabolism slows down to 0.01% of its normal speed. The dried-out tardigrade is now in a state called “tun,” a kind of deep sleep. It will continue in this state until it is once again soaked in water. Then, like a sponge, it absorbs the water and springs back to life again as if nothing had happened. Whether the tardigrade is in tun for 1 week or 10 years does not really matter. The moment it is surrounded by water, it comes alive again. When tardigrades are in a state of tun, they are so tough that they can survive in temperatures as low as −272°C and as high as 151°C. Exactly how they achieve this is still not fully understood.",
+            "Perhaps even more amazing than their ability to survive on earth — they have been on earth for some 540 million years — is their ability to survive in space. In 2007, a team of European researchers sent a number of living tardigrades into space on the outside of a rocket for 10 days. On their return to earth, the researchers were surprised to see that 68% were still alive. This means that for 10 days most were able to survive X-rays and ultraviolet radiation 1,000 times more intense than here on earth. Later, in 2019, an Israeli spacecraft crashed onto the moon and thousands of tardigrades in a state of tun were spilled onto its surface. Whether these are still alive or not is unknown as no one has gone to collect them — which is a pity.",
+            "Tardigrades are shaped like a short cucumber. They have four short legs on each side of their bodies. Some species have sticky pads at the end of each leg, while others have claws. There are 16 known claw variations, which help identify those species with claws. All tardigrades have a place for eyes, but not all species have eyes. Their eyes are primitive, only having five cells in total — just one of which is light sensitive.",
+            "Basically, tardigrades can be divided into those that eat plant matter, and those that eat other creatures. Those that eat vegetation have a ventral mouth — a mouth located in the lower part of the head, like a shark. The type that eats other creatures has a terminal mouth, which means the mouth is at the very front of the head, like a tuna. The mouths of tardigrades do not have teeth. They do, however, have two sharp needles, called stylets, that they use to pierce plant cells or the bodies of smaller creatures so the contents can be sucked out.",
+            "Both types of tardigrade have rather simple digestive systems. The mouth leads to the pharynx (throat), where digestive juices and food are mixed. Located above the pharynx is a salivary gland. This produces the juices that flow into the mouth and help with digestion. After the pharynx, there is a tube which transports food toward the gut. This tube is called the esophagus. The middle gut, a simple stomach/intestine type of organ, digests the food and absorbs the nutrients. The leftovers then eventually move through to the anus."
+          ],
+          "stimulusId": "s6b"
+        },
+        {
+          "blockId": "s6slides",
+          "type": "slides",
+          "title": "Your presentation slides:",
+          "slides": [
+            {
+              "number": null,
+              "title": "Tardigrades:",
+              "subtitle": "Earth’s Ultimate Survivors",
+              "titleOnly": true
+            },
+            {
+              "number": 1,
+              "title": "Basic Information",
+              "items": [
+                "0.1 mm to 1.5 mm in length",
+                "shaped like a short cucumber",
+                "[[44]]"
+              ]
+            },
+            {
+              "number": 2,
+              "title": "Habitats",
+              "items": [
+                "live almost everywhere",
+                "extreme environments such as...\n✓ 6 km above sea level\n✓ 4.6 km below sea level\n✓ in deserts\n✓ −272°C to 151°C\n✓ in space (possibly)"
+              ]
+            },
+            {
+              "number": 3,
+              "title": "Secrets to Survival",
+              "lead": "“tun” ⇄ active",
+              "items": [
+                "[[45]]",
+                "[[46]]"
+              ]
+            },
+            {
+              "number": 4,
+              "title": "Digestive Systems [[47]]",
+              "image": "assets/exams/common-2023/s06-digestive-system.png?v=20260827b",
+              "imageAlt": "Digestive system of a tardigrade, with labels A to E, Mouth, and Anus."
+            },
+            {
+              "number": 5,
+              "title": "Final Statement",
+              "answer": "[[48]]"
+            }
+          ],
+          "stimulusId": "s6slides"
+        }
+      ],
+      "questions": [
+        {
+          "questionId": "common-2023-r-q039",
+          "number": "問1",
+          "prompt": "Choose the best option for [[39]].",
+          "promptRich": "Choose the best option for [[39]].",
+          "responseKey": "39",
+          "choices": [
+            "a great place for people to sell things to collectors at a high price is a yard sale",
+            "people can evaluate items incorrectly and end up paying too much money for junk",
+            "something not important to one person may be of value to someone else",
+            "things once collected and thrown in another person’s yard may be valuable to others"
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q040",
+          "number": "問2",
+          "prompt": "Choose the best option for [[40]].",
+          "promptRich": "Choose the best option for [[40]].",
+          "responseKey": "40",
+          "choices": [
+            "About two thirds of children do not collect ordinary things.",
+            "Almost one third of adults start collecting things for pleasure.",
+            "Approximately 10% of kids have collections similar to their friends.",
+            "Roughly 30% of people keep collecting into adulthood."
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q4142",
+          "number": "問3",
+          "prompt": "Choose the best options for [[41]] and [[42]]. (The order does not matter.)",
+          "promptRich": "Choose the best options for [[41]] and [[42]]. (The order does not matter.)",
+          "components": [
+            {
+              "responseKey": "41-42",
+              "label": "",
+              "choices": [
+                "desire to advance technology",
+                "fear of missing unexpected opportunities",
+                "filling a sense of emptiness",
+                "reminder of precious events",
+                "reusing objects for the future",
+                "seeking some sort of profit"
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q043",
+          "number": "問4",
+          "prompt": "Choose the best option for [[43]].",
+          "promptRich": "Choose the best option for [[43]].",
+          "responseKey": "43",
+          "choices": [
+            "Collections will likely continue to change in size and shape.",
+            "Collectors of mint-condition games will have more digital copies of them.",
+            "People who have lost their passion for collecting will start again.",
+            "Reasons for collecting will change because of advances in technology."
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6a",
+            "s6notes"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q044",
+          "number": "問1",
+          "prompt": "Which of the following should you {{u|not}} include for [[44]]?",
+          "promptRich": "Which of the following should you {{u|not}} include for [[44]]?",
+          "responseKey": "44",
+          "choices": [
+            "eight short legs",
+            "either blind or sighted",
+            "plant-eating or creature-eating",
+            "sixteen different types of feet",
+            "two stylets rather than teeth"
+          ],
+          "answerBoxPlacement": "none",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q4546",
+          "number": "問2",
+          "prompt": "For the {{b|Secrets to Survival}} slide, select two features of the tardigrade which best help it survive. (The order does not matter.) [[45]]・[[46]]",
+          "promptRich": "For the {{b|Secrets to Survival}} slide, select two features of the tardigrade which best help it survive. (The order does not matter.) [[45]]・[[46]]",
+          "components": [
+            {
+              "responseKey": "45-46",
+              "label": "",
+              "choices": [
+                "In dry conditions, their metabolism drops to less than one percent of normal.",
+                "Tardigrades in a state of tun are able to survive in temperatures exceeding 151°C.",
+                "The state of tun will cease when the water in a tardigrade’s body is above 0.01%.",
+                "Their shark-like mouths allow them to more easily eat other creatures.",
+                "They have an ability to withstand extreme levels of radiation."
+              ]
+            }
+          ],
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q047",
+          "number": "問3",
+          "prompt": "Complete the missing labels on the illustration of a tardigrade for the {{b|Digestive Systems}} slide. [[47]]",
+          "promptRich": "Complete the missing labels on the illustration of a tardigrade for the {{b|Digestive Systems}} slide. [[47]]",
+          "responseKey": "47",
+          "choices": [
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Esophagus"
+                ],
+                [
+                  "B",
+                  "Pharynx"
+                ],
+                [
+                  "C",
+                  "Middle gut"
+                ],
+                [
+                  "D",
+                  "Stylets"
+                ],
+                [
+                  "E",
+                  "Salivary gland"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Pharynx"
+                ],
+                [
+                  "B",
+                  "Stylets"
+                ],
+                [
+                  "C",
+                  "Salivary gland"
+                ],
+                [
+                  "D",
+                  "Esophagus"
+                ],
+                [
+                  "E",
+                  "Middle gut"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Salivary gland"
+                ],
+                [
+                  "B",
+                  "Esophagus"
+                ],
+                [
+                  "C",
+                  "Middle gut"
+                ],
+                [
+                  "D",
+                  "Stylets"
+                ],
+                [
+                  "E",
+                  "Pharynx"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Salivary gland"
+                ],
+                [
+                  "B",
+                  "Middle gut"
+                ],
+                [
+                  "C",
+                  "Stylets"
+                ],
+                [
+                  "D",
+                  "Esophagus"
+                ],
+                [
+                  "E",
+                  "Pharynx"
+                ]
+              ]
+            },
+            {
+              "mappings": [
+                [
+                  "A",
+                  "Stylets"
+                ],
+                [
+                  "B",
+                  "Salivary gland"
+                ],
+                [
+                  "C",
+                  "Pharynx"
+                ],
+                [
+                  "D",
+                  "Middle gut"
+                ],
+                [
+                  "E",
+                  "Esophagus"
+                ]
+              ]
+            }
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q048",
+          "number": "問4",
+          "prompt": "Which is the best statement for the final slide? [[48]]",
+          "promptRich": "Which is the best statement for the final slide? [[48]]",
+          "responseKey": "48",
+          "choices": [
+            "For thousands of years, tardigrades have survived some of the harshest conditions on earth and in space. They will live longer than humankind.",
+            "Tardigrades are from space and can live in temperatures exceeding the limits of the Arctic fox and Bactrian camel, so they are surely stronger than human beings.",
+            "Tardigrades are, without a doubt, the toughest creatures on earth. They can survive on the top of mountains; at the bottom of the sea; in the waters of hot springs; and they can also thrive on the moon.",
+            "Tardigrades have survived some of the harshest conditions on earth, and at least one trip into space. This remarkable creature might outlive the human species."
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        },
+        {
+          "questionId": "common-2023-r-q049",
+          "number": "問5",
+          "prompt": "What can be inferred about sending tardigrades into space? [[49]]",
+          "promptRich": "What can be inferred about sending tardigrades into space? [[49]]",
+          "responseKey": "49",
+          "choices": [
+            "Finding out whether the tardigrades can survive in space was never thought to be important.",
+            "Tardigrades, along with other creatures that have been on earth for millions of years, can withstand X-rays and ultraviolet radiation.",
+            "The Israeli researchers did not expect so many tardigrades to survive the harsh environment of space.",
+            "The reason why no one has been to see if tardigrades can survive on the moon’s surface attracted the author’s attention."
+          ],
+          "answerBoxPlacement": "none",
+          "choiceLayout": "single",
+          "stimulusIds": [
+            "s6introb",
+            "s6b",
+            "s6slides"
+          ]
+        }
+      ],
+      "flow": [
+        {
+          "block": "s6a"
+        },
+        {
+          "block": "s6notes"
+        },
+        {
+          "question": "common-2023-r-q039"
+        },
+        {
+          "question": "common-2023-r-q040"
+        },
+        {
+          "question": "common-2023-r-q4142"
+        },
+        {
+          "question": "common-2023-r-q043"
+        },
+        {
+          "block": "s6introb"
+        },
+        {
+          "block": "s6b"
+        },
+        {
+          "block": "s6slides"
+        },
+        {
+          "question": "common-2023-r-q044"
+        },
+        {
+          "question": "common-2023-r-q4546"
+        },
+        {
+          "question": "common-2023-r-q047"
+        },
+        {
+          "question": "common-2023-r-q048"
+        },
+        {
+          "question": "common-2023-r-q049"
+        }
+      ]
+    }
+  ]
+}
