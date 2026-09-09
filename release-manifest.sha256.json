@@ -1,6 +1,6 @@
 {
-  "releaseCandidate": "public-release-candidate-20260909-production3",
-  "generatedAtUtc": "2026-09-09T05:35:46.5598692Z",
+  "releaseCandidate": "public-release-candidate-20260909-production4",
+  "generatedAtUtc": "2026-09-09T09:17:29.8511365Z",
   "publicCollectionEnabled": true,
   "publishedExamIds": [
     "center-1993-main-english-reading",
@@ -454,8 +454,8 @@
     },
     {
       "path": "privacy.html",
-      "bytes": 2401,
-      "sha256": "afa96f1eeafcaba734b2c15eb8b439a58e8eb25c3e2fc5508c4763f9733c2837"
+      "bytes": 2381,
+      "sha256": "223c03f823c5727b4a6097b0dce16172c173086ff97f845d28ba79879f2f73da"
     },
     {
       "path": "rights.html",
