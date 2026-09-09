@@ -7,7 +7,7 @@
   <title>共通テスト問題ビューアー</title>
   <link rel="stylesheet" href="assets/exam-viewer/exam-viewer.css?v=20260901b">
   <link rel="stylesheet" href="assets/exam-viewer/exam-viewer-revisions.css?v=20260904b">
-  <link rel="stylesheet" href="assets/exam-platform/exam-shell.css?v=20260829g">
+  <link rel="stylesheet" href="assets/exam-platform/exam-shell.css?v=20260909a">
   <link rel="stylesheet" href="assets/exam-platform/rights.css?v=20260822a">
   <link rel="stylesheet" href="assets/exam-platform/answer-sync-consent.css?v=20260904a">
 </head>
@@ -18,19 +18,11 @@
   </header>
   <nav class="section-nav" id="sectionNav" aria-label="大問移動"></nav>
   <main id="examMain" tabindex="-1"></main>
-  <aside class="prototype-tools" id="prototypeTools" hidden>
-    <div><strong>試作版・採点確認</strong><span>現在の回答を置き換えて、すぐに採点結果を表示します。</span></div>
-    <div><button id="randomScoreButton" type="button">ランダム回答で採点</button><button id="perfectScoreButton" type="button">全問正解で採点</button></div>
-  </aside>
-  <aside class="shared-answer-key" id="answerKey" hidden>
-    <div class="shared-answer-key-heading"><p>試作版・確認用</p><h2>正答一覧</h2></div>
-    <ol class="shared-answer-key-list" id="answerKeyList"></ol>
-  </aside>
   <footer class="control-bar shared-control-bar">
     <div class="progress"><strong id="answeredCount">0</strong> / <span id="answerTotal">—</span> 解答済み</div>
     <div class="exam-timer" id="examTimer" hidden><span id="timerModeLabel">本番時間</span><strong id="timerText">--:--</strong></div>
     <div class="section-controls"><button id="prevButton" type="button">前へ</button><span id="positionText"></span><button id="nextButton" type="button">次へ</button></div>
-    <div class="actions"><button class="answer-preview-button" id="answerKeyButton" type="button">正答を表示（試作版）</button><button id="resetButton" type="button">回答をリセット</button><button id="skipRandomButton" type="button" hidden>この問題を飛ばす</button><button class="abandon-attempt-button" id="abandonAttemptButton" type="button" hidden>途中で諦める</button><button class="primary" id="scoreButton" type="button" disabled>採点する</button></div>
+    <div class="actions"><button id="resetButton" type="button">回答をリセット</button><button id="skipRandomButton" type="button" hidden>この問題を飛ばす</button><button class="abandon-attempt-button" id="abandonAttemptButton" type="button" hidden>途中で諦める</button><button class="primary" id="scoreButton" type="button" disabled>採点する</button></div>
   </footer>
   <section class="result" id="result" hidden aria-live="polite"></section>
   <div class="timer-start-overlay" id="timerStartOverlay" hidden role="status" aria-live="assertive">
@@ -39,11 +31,12 @@
   <footer class="site-rights-footer">
     <p id="examRightsFooterText">本サイトの試験問題・図表・関連素材は、必要な掲載・利用の許諾を確認したものです。</p>
     <a href="rights.html">掲載許諾・出典・権利に関する方針</a>
+    <a href="privacy.html">回答データの取扱方針</a>
   </footer>
   <script src="assets/exam-platform/scoring-engine.js?v=20260829b"></script>
-  <script src="assets/exam-platform/answer-collection-config.js?v=20260904c"></script>
-  <script src="assets/exam-platform/answer-sync-client.js?v=20260904c"></script>
+  <script src="assets/exam-platform/answer-collection-config.js?v=20260909a"></script>
+  <script src="assets/exam-platform/answer-sync-client.js?v=20260909a"></script>
   <script src="assets/exam-platform/exam-platform.js?v=20260904c"></script>
-<script src="assets/exam-viewer/exam-viewer.js?v=20260904d"></script>
+<script src="assets/exam-viewer/exam-viewer.js?v=20260909a"></script>
 </body>
 </html>

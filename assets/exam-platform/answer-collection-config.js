@@ -1,8 +1,10 @@
 (function(root){
   'use strict';
   root.AnswerCollectionConfig=Object.freeze({
-    schemaVersion:'1.1.0',
-    publicCollectionEnabled:false,
+    schemaVersion:'2.0.0',
+    publicCollectionEnabled:true,
+    allowedPublicHosts:['edu.gly-cine.co.jp'],
+    publicEndpointDefault:'https://exam-answer-public.glycine1031.workers.dev',
     managementQueryValue:'management',
     publicStagingQueryValue:'public-staging',
     allowedManagementHosts:['127.0.0.1','localhost'],
@@ -15,6 +17,8 @@
     publicStagingIngestKeySessionKey:'answer-collection:public-staging-ingest-key',
     publicStagingManagementKeySessionKey:'answer-collection:public-staging-management-key',
     consentPolicyVersion:'public-staging-2026-09-04',
-    consentSessionKey:'answer-collection:public-staging-consent'
+    consentSessionKey:'answer-collection:public-staging-consent',
+    publicConsentPolicyVersion:'public-answer-collection-2026-09-09',
+    publicConsentStorageKey:'answer-collection:public-consent'
   });
 })(window);

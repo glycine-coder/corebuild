@@ -1,7 +1,7 @@
 {
-  "releaseCandidate": "public-release-candidate-20260907-final7",
-  "generatedAtUtc": "2026-09-07T02:59:36.0335973Z",
-  "publicCollectionEnabled": false,
+  "releaseCandidate": "public-release-candidate-20260909-production3",
+  "generatedAtUtc": "2026-09-09T05:35:46.5598692Z",
+  "publicCollectionEnabled": true,
   "publishedExamIds": [
     "center-1993-main-english-reading",
     "common-test-dnc-2021-main-english-reading",
@@ -14,13 +14,13 @@
   "files": [
     {
       "path": "assets/exam-platform/answer-collection-config.js",
-      "bytes": 1035,
-      "sha256": "c8dbca2fffe80b16d626dbfbf39ccd9d552bd809698f7874339ea53176e6280d"
+      "bytes": 1295,
+      "sha256": "5c284455962ca4bf8d7e712d7ab00fbf473bb5dabf4e4f7bf3d3d77d1ff0970f"
     },
     {
       "path": "assets/exam-platform/answer-sync-client.js",
-      "bytes": 8463,
-      "sha256": "2ee1ad7b90e4e80f3909e9153eb08cf61b096df0202e0b2857976ca6da9e75fe"
+      "bytes": 10353,
+      "sha256": "c44b95fc6f4b2da8c37608167f664ac04def377a87f309d7495dff3c07ed4e5c"
     },
     {
       "path": "assets/exam-platform/answer-sync-consent.css",
@@ -34,8 +34,8 @@
     },
     {
       "path": "assets/exam-platform/exam-shell.css",
-      "bytes": 11554,
-      "sha256": "eca64d61310eef90b551f0b7d24811d9ea6df6b7112719363492e7138ea0df2c"
+      "bytes": 9663,
+      "sha256": "2ad22ce7068933db6c4959f8324bb0514d1ef6c3999520df2a3fefc788d28b6f"
     },
     {
       "path": "assets/exam-platform/rights.css",
@@ -59,8 +59,8 @@
     },
     {
       "path": "assets/exam-viewer/exam-viewer.js",
-      "bytes": 68205,
-      "sha256": "021394debb8b480d544cccc37affc7f2337db3bd5966c81eab9a8a23c2cbb502"
+      "bytes": 66084,
+      "sha256": "0805b19bc2893c48a73d3d9ca1dc03706ffae5a1a5a7ca60a99bfe0a4d8a4f23"
     },
     {
       "path": "assets/exams/common-2022/s03-three-peaks-original.svg",
@@ -434,18 +434,18 @@
     },
     {
       "path": "exam-index.html",
-      "bytes": 21902,
-      "sha256": "59e2dd30103480e9741b34ce3b15702d2ea4f287e8b93fcdf107d9bb77ba189d"
+      "bytes": 21959,
+      "sha256": "859e6517f95f92c0cd6a8bb31ae1dd74d81c53d4fa11fa55bfb1d10cbd1029ac"
     },
     {
       "path": "exam.html",
-      "bytes": 3709,
-      "sha256": "05ff0bc434da0fa42885d13916476be76f3534ac3b89a0791dd7358b2384f045"
+      "bytes": 3034,
+      "sha256": "f5d00d11017da21812cde76c837bd7f6a0cb0d6fe5a7175eb541400e56fecd23"
     },
     {
       "path": "index.html",
-      "bytes": 53776,
-      "sha256": "5757e809dab9be899b2b605c8cb241cea705873a5c7c3ca89f826eb99a1ad46d"
+      "bytes": 53880,
+      "sha256": "cc5f946f78ebb83d729531c7820ab876a0cfad369f9acab7f3c27ec01a68d50c"
     },
     {
       "path": "output/images/common-2022-reading/common-2022-r-p12.png",
@@ -453,9 +453,14 @@
       "sha256": "e5fdb8972bd0d975969fda092fd4058fe10752c4a039477d16ae642e101d6bb9"
     },
     {
+      "path": "privacy.html",
+      "bytes": 2401,
+      "sha256": "afa96f1eeafcaba734b2c15eb8b439a58e8eb25c3e2fc5508c4763f9733c2837"
+    },
+    {
       "path": "rights.html",
-      "bytes": 4085,
-      "sha256": "707d16949a00ac8f8e01b3628657887f7288d0310232f9de76248e7f95cc9a88"
+      "bytes": 4154,
+      "sha256": "eea7ed9fc7371f6e48e048560624fe0760a68aa9bf95ffae42462b25cf61b7a8"
     }
   ]
 }

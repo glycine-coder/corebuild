@@ -18,24 +18,6 @@ body,body *{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
 .shared-control-bar button{padding:11px 16px;border:1px solid #9fb1c3;border-radius:8px;background:#fff;color:var(--exam-ink);font-weight:700;cursor:pointer}
 .shared-control-bar button.primary{background:var(--exam-navy);color:#fff}
 .shared-control-bar button:disabled{opacity:.45;cursor:not-allowed}
-.prototype-tools{max-width:1180px;margin:0 auto 14px;padding:12px 18px;border:1px solid #d8b56b;border-radius:10px;background:#fff8e9;color:var(--exam-ink);font-family:sans-serif;display:flex;justify-content:space-between;align-items:center;gap:16px}
-.prototype-tools[hidden]{display:none}
-.prototype-tools>div{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.prototype-tools span{color:#637083;font-size:.9rem}
-.prototype-tools button{padding:9px 14px;border:1px solid #b78a34;border-radius:8px;background:#fff;color:#6d4b0c;font-weight:700;cursor:pointer}
-.shared-answer-key{max-width:1180px;margin:14px auto;padding:24px 26px;border:2px solid var(--exam-gold);border-radius:14px;background:#fffbf1;color:var(--exam-ink);font-family:Georgia,"Yu Mincho",serif}
-.shared-answer-key[hidden]{display:none}
-.shared-answer-key-heading{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
-.shared-answer-key-heading p{margin:0;color:#8a641d;font:900 .78rem/1 sans-serif;letter-spacing:.08em}
-.shared-answer-key-heading h2{margin:0;font-size:1.35rem}
-.shared-answer-key-list{display:grid;grid-template-columns:repeat(8,minmax(70px,1fr));gap:8px;margin:0;padding:0;list-style:none}
-.shared-answer-key-list li{display:grid;grid-template-columns:1fr auto;align-items:center;gap:7px;min-height:40px;padding:7px 9px;border:1px solid #dfc993;border-radius:6px;background:#fff}
-.shared-answer-key-list li span{color:#637083;font-weight:700}
-.shared-answer-key-list li strong{color:var(--exam-green);font-size:1.12rem}
-.shared-answer-key-list li.answer-key-multiple{grid-column:span 2;grid-template-columns:auto 1fr auto}
-.shared-answer-key-list small{color:#637083}
-.answer-preview-button{border-color:#b78a34!important;background:#fff8e9!important;color:#6d4b0c!important}
-.answer-preview-label{position:absolute;top:3px;right:7px;color:var(--exam-green);font:900 .68rem/1 sans-serif}
 .choice.correct{outline:none!important;border:2px solid var(--exam-green)!important;background:#e8f6ef!important}
 .result-page,.result-panel.result-page{display:block;max-width:1180px;margin:20px auto 28px;padding:32px 40px;border:1px solid var(--exam-line);border-radius:14px;background:#fff;color:var(--exam-ink);box-sizing:border-box;font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif}
 .result-page header{padding-bottom:18px;border-bottom:2px solid var(--exam-navy)}
