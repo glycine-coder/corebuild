@@ -18,7 +18,7 @@
     publicStagingManagementKeySessionKey:'answer-collection:public-staging-management-key',
     consentPolicyVersion:'public-staging-2026-09-04',
     consentSessionKey:'answer-collection:public-staging-consent',
-    publicConsentPolicyVersion:'public-answer-collection-2026-09-09',
+    publicConsentPolicyVersion:'public-answer-collection-2026-09-12',
     publicConsentStorageKey:'answer-collection:public-consent'
   });
 })(window);

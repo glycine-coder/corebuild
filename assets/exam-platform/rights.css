@@ -1,7 +1,11 @@
 :root{--rights-navy:#183f6d;--rights-ink:#173451;--rights-line:#cbd6e2;--rights-soft:#f4f8fb;--rights-green:#176b4d}
+.rights-page,.rights-page *{box-sizing:border-box}
 .site-rights-footer a,.site-rights-corner{color:#16548c;text-decoration:underline;text-underline-offset:3px}
 .site-rights-footer{max-width:1180px;margin:22px auto;padding:20px 24px;border-top:1px solid var(--rights-line);color:#526579;background:transparent;font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;font-size:13px;line-height:1.8;text-align:center}
-.site-rights-footer p{margin:0 auto 6px;max-width:900px}
+.site-rights-footer p{margin:0 auto 12px;max-width:900px}
+.site-policy-links{display:flex;justify-content:center;align-items:stretch;flex-wrap:wrap;gap:10px}
+.site-policy-links a{display:flex;align-items:center;justify-content:center;min-height:38px;padding:7px 14px;border:1px solid var(--rights-line);border-radius:7px;background:rgba(255,255,255,.72);text-decoration:none}
+.site-policy-links a:hover{border-color:#8ca8c0;background:#fff;text-decoration:underline}
 .site-rights-corner{position:fixed;right:14px;bottom:10px;z-index:20;padding:7px 10px;border:1px solid #cbd6e2;border-radius:7px;background:rgba(255,255,255,.94);box-shadow:0 2px 8px #1e385020;font:12px/1.4 "Yu Gothic",Meiryo,sans-serif}
 .rights-page{margin:0;background:#eef3f6;color:var(--rights-ink);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;line-height:1.85}
 .rights-page main{max-width:920px;margin:28px auto;padding:38px 46px;border:1px solid #d5dfe7;border-radius:12px;background:#fff;box-shadow:0 5px 18px #1e38500d}
@@ -14,4 +18,4 @@
 .rights-page .rights-record dt{font-weight:700}.rights-page .rights-record dd{margin:0}
 .rights-page .rights-note{color:#526579;font-size:13px}
 .rights-page .back-link{display:inline-block;margin-top:28px;color:#16548c}
-@media(max-width:760px){.site-rights-footer{margin-top:16px;padding:18px 16px}.rights-page main{margin:0;padding:26px 18px;border-radius:0}.rights-page h1{font-size:24px}.rights-page .rights-record dl{grid-template-columns:1fr;gap:2px}.rights-page .rights-record dd{margin-bottom:10px}.site-rights-corner{right:8px;bottom:6px}}
+@media(max-width:760px){.site-rights-footer{margin-top:16px;padding:18px 16px}.site-policy-links{display:grid}.rights-page main{margin:0;padding:26px 18px;border-radius:0}.rights-page h1{font-size:24px}.rights-page .rights-record dl{grid-template-columns:1fr;gap:2px}.rights-page .rights-record dd{margin-bottom:10px}.site-rights-corner{right:8px;bottom:6px}}

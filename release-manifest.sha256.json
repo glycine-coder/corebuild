@@ -1,6 +1,6 @@
 {
-  "releaseCandidate": "public-release-candidate-20260909-production4",
-  "generatedAtUtc": "2026-09-09T09:17:29.8511365Z",
+  "releaseCandidate": "public-release-candidate-20260912-review3",
+  "generatedAtUtc": "2026-09-12T10:32:20.6756341Z",
   "publicCollectionEnabled": true,
   "publishedExamIds": [
     "center-1993-main-english-reading",
@@ -15,12 +15,12 @@
     {
       "path": "assets/exam-platform/answer-collection-config.js",
       "bytes": 1295,
-      "sha256": "5c284455962ca4bf8d7e712d7ab00fbf473bb5dabf4e4f7bf3d3d77d1ff0970f"
+      "sha256": "25bf9fb4e8857a6edb3b0384a74df94b8051d86ac866199e006bf43d874fd420"
     },
     {
       "path": "assets/exam-platform/answer-sync-client.js",
-      "bytes": 10353,
-      "sha256": "c44b95fc6f4b2da8c37608167f664ac04def377a87f309d7495dff3c07ed4e5c"
+      "bytes": 10188,
+      "sha256": "121038cbcf9048a88df4b74ab42d3e3bb128c1a9050255519d6b0f8f5709696e"
     },
     {
       "path": "assets/exam-platform/answer-sync-consent.css",
@@ -39,8 +39,8 @@
     },
     {
       "path": "assets/exam-platform/rights.css",
-      "bytes": 2191,
-      "sha256": "9f9a7d984604360ac68788fe85338cf82c0d02b35d456a39477de5e751f1488e"
+      "bytes": 2684,
+      "sha256": "d0526bfa129762a4168394777b716b9f10faec96ae27310e5b61bf96c4737b69"
     },
     {
       "path": "assets/exam-platform/scoring-engine.js",
@@ -434,18 +434,18 @@
     },
     {
       "path": "exam-index.html",
-      "bytes": 21959,
-      "sha256": "859e6517f95f92c0cd6a8bb31ae1dd74d81c53d4fa11fa55bfb1d10cbd1029ac"
+      "bytes": 22244,
+      "sha256": "a809445024700c3e3d62d52a7c31e19ae2d8cbd206dcb1eb887c8094e2c7f10e"
     },
     {
       "path": "exam.html",
-      "bytes": 3034,
-      "sha256": "f5d00d11017da21812cde76c837bd7f6a0cb0d6fe5a7175eb541400e56fecd23"
+      "bytes": 3114,
+      "sha256": "1154ccb42a0a0db3808820788ee82487e17b0a5fa27d3334bf5669f7cb81f062"
     },
     {
       "path": "index.html",
       "bytes": 53880,
-      "sha256": "cc5f946f78ebb83d729531c7820ab876a0cfad369f9acab7f3c27ec01a68d50c"
+      "sha256": "21d835c41c505c6d86fa7e549ab2d8c1064f14f1759e151f2a91d872a665481d"
     },
     {
       "path": "output/images/common-2022-reading/common-2022-r-p12.png",
@@ -454,13 +454,13 @@
     },
     {
       "path": "privacy.html",
-      "bytes": 2381,
-      "sha256": "223c03f823c5727b4a6097b0dce16172c173086ff97f845d28ba79879f2f73da"
+      "bytes": 2183,
+      "sha256": "38a277c49c8ea650d4501fa01da10ebbafe05e0ed98336e254b3211dddc5cd81"
     },
     {
       "path": "rights.html",
       "bytes": 4154,
-      "sha256": "eea7ed9fc7371f6e48e048560624fe0760a68aa9bf95ffae42462b25cf61b7a8"
+      "sha256": "a0f87ceba1c82e1b77d917225ae573d6253eee7b1dbc12560a53ef10d051587c"
     }
   ]
 }
